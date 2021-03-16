@@ -1,0 +1,19 @@
+- statblock class
+ - add method
+
+parts:
+- base stats as from dex
+- nature
+- other base stat modifiers (array)
+/
+- level up points
+- other stat modifiers (array)
+(- mega stat modifiers)
+/
+- combat stages
+- default combat stages
+
+in pokemon class:
+- totalStats~ method(s)
+- base relation methods
+ - with corrections from trainer classes and poke edges
