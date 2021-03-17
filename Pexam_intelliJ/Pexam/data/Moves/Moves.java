@@ -6,6 +6,7 @@ import Pexam.data.utility.Damage.DamageBase;
 import Pexam.data.utility.Damage.DamageClass;
 import Pexam.data.utility.Enums.Frequency;
 import Pexam.data.utility.Enums.Type;
+import Pexam.data.utility.Misc.EnumHandler;
 
 import java.util.List;
 
@@ -78,25 +79,33 @@ public class Moves{
     }
 
     public Moves(String[] input){
+        //System.out.println(input.length);
         String[] mem = input;
-        this.name_ = mem[0];
-        this.type_ = Type.valueOf(mem[1]);
-        this.frequency_ = new Frequency(mem[2]);
-        this.AC_ =  Integer.valueOf(mem[3]);
-        if(mem[4].equals("Status")){
-            this.DB_ = DamageBase.NON;
-            this.damageClass_ = DamageClass.valueOf(mem[4]);
-            this.Range_ = mem[5];
-            this.Effect_ = mem[6];
-            this.ContestType_ = mem[7];
-            this.ContestEffect_ = mem[8];
-        }else {
-            this.DB_ = DamageBase.valueOf(mem[4]);
-            this.damageClass_ = DamageClass.valueOf(mem[5]);
-            this.Range_ = mem[6];
-            this.Effect_ = mem[7];
-            this.ContestType_ = mem[8];
-            this.ContestEffect_ = mem[9];
+        if(mem.length > 0) {
+            this.name_ = mem[1];
+            this.type_ = EnumHandler.TypeHandler(mem[2]);
+            //System.out.println(mem[2]);
+            //System.out.println(EnumHandler.TypeHandler(mem[2]));
+            this.frequency_ = new Frequency(mem[3].split(" "));
+            //System.out.printf(Arrays.toString(mem));
+            this.AC_ = EnumHandler.AcHandler(mem[4]);
+            if (mem.length < 11) {
+                this.DB_ = DamageBase.NON;
+                this.damageClass_ = EnumHandler.DamageClassHandler(mem[5].trim());
+                this.Range_ = mem[6];
+                this.Effect_ = mem[7];
+                this.ContestType_ = mem[8];
+                this.ContestEffect_ = mem[9];
+            } else {
+
+
+                this.DB_ = EnumHandler.DamageBaseHandler(mem[5].split(":")[0].trim());
+                this.damageClass_ = EnumHandler.DamageClassHandler(mem[6].trim());
+                this.Range_ = mem[7];
+                this.Effect_ = mem[8];
+                this.ContestType_ = mem[9];
+                this.ContestEffect_ = mem[10];
+            }
         }
     }
 

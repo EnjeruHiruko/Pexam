@@ -1,4 +1,5 @@
- Attack Order
+HOMELESS 
+Attack Order
  Bug
  EOT
  2
@@ -316,6 +317,8 @@ HOMELESS
  Beat Up
  Dark
  EOT
+ None
+ 4: 2dyikes
  Physical
  Melee, 1 Target
  The user and up to two allies adjacent to the target may each make a Struggle Attack against the target. These Struggle Attacks hit for Dark-Type Damage instead of their usual Type. Beat Up may trigger Pack Hunt only once, no matter the number of attacks.
@@ -431,7 +434,7 @@ HOMELESS
  Dark
  Scene x2
  2
- X: See Effect
+ None
  Physical
  6, 1 Target, Fling
  The user throws a held item, determining the effect of Fling.
@@ -1610,7 +1613,7 @@ HOMELESS
  Fighting
  EOT
  2
-: See Effect
+ None
  Physical
  Melee, 1 Target, Weight Class
  Low Kick’s 
@@ -1796,7 +1799,7 @@ HOMELESS
  Fighting
  At-Will
  3
- X: See Effect
+ None
  Physical
  Melee, 1 Target
  Make three attacks with Triple Kick. If you hit once, Triple Kick has a DB of 1. If you hit two times, Triple Kick has a DB of 3. If you hit three times, Triple Kick has a DB of 6.
@@ -2832,7 +2835,7 @@ HOMELESS
  Grass
  EOT
  2
-: See Effect
+ None
  Special
  5, 1 Target, Weight Class
  Grass Knot’s 
@@ -3300,7 +3303,7 @@ HOMELESS
  Ground
  EOT
  2
-: See Effect
+ None
  Physical
  Burst 2, Groundsource
  When you use Magnitude, roll 1d6. Magnitude’s 
@@ -3797,8 +3800,10 @@ HOMELESS
 HOMELESS
  Bind
  Normal
- Static
- Static
+ None
+ None
+ Status
+ self
  The user gains a +1 Bonus to Accuracy Rolls made to initiate Grapple Maneuvers, and +2 to Skill Checks made to initiate Grapple Maneuvers or gain Dominance. Whenever the user gains Dominance in a Grapple, the target of the Grapple loses a Tick of Hit Points.
  Tough
  Safe Option
@@ -4080,7 +4085,7 @@ HOMELESS
  Normal
  Scene
  2
-: See Effect
+ None
  Physical
  Melee, 1 Target, Dash
  The target loses a Tick of Hit Points for each Injury the user has.
@@ -4229,11 +4234,10 @@ HOMELESS
  Normal
  EOT
  2
-: See Effect
+ None
  Physical
  Melee, 1 Target
- Frustration’s 
- is equal to 6 plus two times the number of times this Pokémon has been hit since the end of this Pokémon’s last turn (to a maximum of DB 12).
+ Frustration’s Damage-Base is equal to 6 plus two times the number of times this Pokémon has been hit since the end of this Pokémon’s last turn (to a maximum of DB 12).
  Cute
  Desperation
 HOMELESS
@@ -4632,7 +4636,7 @@ HOMELESS
  Normal
  Scene
  2
-: See Effect
+None 
  Physical
  6, 1 Target, Berry
  Refer to the Move Keywords Berry list. Natural Gift deals damage according to the Berry list and Natural Gift’s Type is also defined there. The Berry’s Digestion Buff is nullified and is not used.
@@ -4642,8 +4646,8 @@ HOMELESS
  Nature Power
  Normal
  EOT
- See Effect
-: See Effect
+ None
+ None
  Status
  See Effect, Environ
  Nature Power uses a Move defined by the Environ keyword.
@@ -4726,7 +4730,7 @@ HOMELESS
  Normal
  EOT
  3
-: See Effect
+ None
  Physical
  4, 1 Target
  Roll 1d6; Present has a 
@@ -4867,7 +4871,7 @@ HOMELESS
  Normal
  EOT
  2
-: See Effect
+ None
  Physical
  Melee, 1 Target
  Return’s 
@@ -4911,7 +4915,7 @@ HOMELESS
  Normal
  EOT
  2
- X: See Effect
+ None
  Special
  Burst 1, Sonic
  Round’s 
@@ -5155,7 +5159,7 @@ HOMELESS
  Normal
  Scene
  2
- X: See Effect
+ None 
  Special
  4, 1 Target
  For each Stockpiled Count the user has, Spit Up’s 
@@ -5493,8 +5497,10 @@ HOMELESS
 HOMELESS
  Wrap
  Normal
- Static
- Static
+ None
+ None
+ Status
+ Self
  The user gains a +1 Bonus to Accuracy Rolls made to initiate Grapple Maneuvers, and +2 to Skill Checks made to initiate Grapple Maneuvers or gain Dominance. Whenever the user gains Dominance in a Grapple, the target of the Grapple loses a Tick of Hit Points.
  Tough
  Safe Option
@@ -6674,6 +6680,7 @@ HOMELESS
  Gear Up
  Steel
  Scene x2
+ None
  Status
  Burst 4
  All targets with the Plus or Minus Abilities receive +1 Attack and Special Attack Combat Stages
@@ -6760,7 +6767,7 @@ HOMELESS
  Steel
  Scene
  None
-: See Effect
+ None
  Physical
  Burst 1
  Metal Burst causes all targets in the burst to lose Hit Points equal to the total amount of direct Damage the user has taken since the beginning of this Round. Metal Burst cannot miss.
@@ -6920,8 +6927,10 @@ HOMELESS
 HOMELESS
  Clamp
  Water
- Static
- Static
+ None
+ None
+ Status
+ Self
  The user gains a +1 Bonus to Accuracy Rolls made to initiate Grapple Maneuvers, and +2 to Skill Checks made to initiate Grapple Maneuvers or gain Dominance. Whenever the user gains Dominance in a Grapple, the target of the Grapple loses a Tick of Hit Points.
  Tough
  Steady Performance

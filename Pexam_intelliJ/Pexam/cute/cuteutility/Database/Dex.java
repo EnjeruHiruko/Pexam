@@ -43,7 +43,7 @@ public class Dex {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            System.out.printf(moveList_.toString());
+            printMoveDex();
         }
 
         if(param.equals("Abilities") || param.equals("all")){
@@ -76,7 +76,8 @@ public class Dex {
     }
 
     private Moves createMove(String in){
-        String[] mem = in.split("\\n+");
+        String[] mem = in.split("\\R");
+        //System.out.println(Arrays.toString(mem));
         return new Moves(mem);
     }
 
@@ -88,6 +89,12 @@ public class Dex {
 
     private Species createPokemon(String in){
         return new Species(in);
+    }
+
+    private void printMoveDex(){
+        for (Moves moves : this.moveList_) {
+            System.out.println(moves);
+        }
     }
 
 }

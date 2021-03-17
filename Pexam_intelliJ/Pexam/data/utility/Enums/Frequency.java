@@ -1,5 +1,7 @@
 package Pexam.data.utility.Enums;
 
+import Pexam.data.utility.Misc.EnumHandler;
+
 public class Frequency{
 
     Freq freq_;
@@ -27,9 +29,15 @@ public class Frequency{
     }
 
     public Frequency(String[] in){
-        this.freq_ = switchHelperFreq(in[0]);
+        //System.out.println(Arrays.toString(in));
         if(in.length > 1) {
-            this.value_ = switchHelperInt(in[1]);
+            this.freq_ = EnumHandler.FreqHandler(in[1]);
+            if (in.length > 2) {
+                this.value_ = switchHelperInt(in[2]);
+            }
+        }else{
+            this.freq_ = Freq.NON;
+            this.value_ = 0;
         }
     }
 
@@ -51,18 +59,6 @@ public class Frequency{
             this.freq_ = freq;
             this.value_ = 1 * value;
         }
-    }
-
-    private Freq switchHelperFreq(String in){
-        switch (in){
-            case "At-Will": return Freq.AW;
-            case "Scene": return Freq.SCENE;
-            case "Static": return Freq.STATIC;
-            case "Daily": return Freq.DAILY;
-            case "EOT": return Freq.EOT;
-            case "": return Freq.NON;
-        }
-        return Freq.NON;
     }
 
     private int switchHelperInt(String in){

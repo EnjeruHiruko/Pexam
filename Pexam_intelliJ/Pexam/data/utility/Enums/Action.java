@@ -13,4 +13,8 @@ public enum Action{
     Action(String name){
         this.name_ = name;
     }
+
+    public String getName(){
+        return this.name_;
+    }
 }
