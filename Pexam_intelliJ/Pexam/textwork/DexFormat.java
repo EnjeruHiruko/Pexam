@@ -2,26 +2,51 @@ package Pexam.textwork;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.Locale;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
+// manual changes:
+// needed to remove forward slash at capability list of stoutland
+// rotom appliance formes, darmanitan zen mode, pumpkaboo, gourgeist will need to be implemented manually later and were moved to the end of dex2
+// added space and tm num of thief in tmlist of hoopa confined
+// completed tmlist name on both urshifu formes (deprecated)
+
+
 class DexFormat {
 
     static private final String dex2loc = "Pexam/textwork/PTU_dex2_errata_sumo_galar.txt";
-    static private final String dex3loc = "Pexam/textwork/PTU_dex3.txt";
+    static private final String dex3loc = "Pexam/textwork/PTU_dex3.txt"; // pokedex log location
+    static private final String dex3loc2 = "Pexam/cute/cuteutility/ver105_5/PokeDex.txt"; // pokedex location for use
     static private final String DELIMITER = "\nHOMELESS\n";
 
     static private StringBuilder dex3;
     static private Scanner dex2;
+    static private boolean done = false;
 
     static private Scanner scanLine;
 
-    static String writeDex3() throws FileNotFoundException {
+
+    /**
+     * Generates a formatted pokedex from the sorted dex2, if not already done.
+     * @return The formatted dex.
+     */
+    static private StringBuilder writeDex3() {
+
+        if(done) {
+            assert dex3 != null;
+            return dex3;
+        }
 
         //initialize
-        dex2 = new Scanner(new File(dex2loc)).useLocale(Locale.US);
         dex3 = new StringBuilder();
+        try {
+            dex2 = new Scanner(new File(dex2loc)).useLocale(Locale.US);
+        } catch(FileNotFoundException e) {
+            System.out.println( String.format("Dex2 file at %s to scan from could not be found.", dex2loc) );
+            return dex3;
+        }
 
         double dexNum = 0;
         Scanner entry;
@@ -84,8 +109,6 @@ class DexFormat {
                     entry.useDelimiter(insideDelim);
                     mega = "";
                 }
-
-                //TODO fix magmar
 
 
                 // get basestats:
@@ -160,7 +183,7 @@ class DexFormat {
                     dex3.append(" ");
                     dex3.append(scanLine.next()); // write evo species
 
-                    if( scanLine.hasNext("Mime|Jr\\.|M|F") ) {
+                    if(scanLine.hasNext("Mime|Jr\\.|M|F|\\(A\\)|\\(G\\)|\\(S\\)|\\(R\\)" )) { // special case for multi-word species
                         dex3.append("$");
                         dex3.append(scanLine.next());
                     }
@@ -210,13 +233,13 @@ class DexFormat {
                 scanBreed.nextLine(); // skip empty line
 
                 // get male ratio
-                dex3.append(scanBreed.nextLine().split(brdDelim)[1]);
+                dex3.append(scanBreed.nextLine().split(brdDelim)[1].replace(' ', '$'));
                 dex3.append(" ");
 
                 // get egg group
                 parts = scanBreed.nextLine().split(brdDelim);
                 for (int i = 1; i < parts.length; i++) {
-                    dex3.append(parts[i].replace(" ", "$"));
+                    dex3.append(parts[i].replace(' ', '$'));
                     if(i == parts.length-1) {
                         break;
                     }
@@ -303,20 +326,20 @@ class DexFormat {
                 scanSkills.close();
 
                 //get moves
-                String moveDelim = "\\v*Level Up Move List\\v*|\\v*TM/HM Move List\\v*|\\v*Egg Move List\\v*|\\v*Tutor Move List\\v*";
+                String moveDelim = "\\v*Level Up Move List\\v*|\\v*TM(/HM)? Move List\\v*|\\v*Egg Move List\\v*|\\v*Tutor Move List\\v*";
                 Scanner scanMoves = new Scanner(moves).useDelimiter(moveDelim);
 
                     //get level-up moves
                 writeMoveList(
                         "ml",
-                        scanMoves.next(),
+                        scanMoves.next().replace("§ ", ""), // paragraph was used to denote stab in some dexes
                         " - .*\\v*",
                         true
                 );
 
                     //get tm/hm moves
                 scanMoves.useDelimiter("\\v+");
-                if ( !scanMoves.hasNext("TM/HM Move List") ) {
+                if ( !scanMoves.hasNext("TM(/HM)? Move List") ) {
                     scanMoves.useDelimiter(moveDelim);
                     dex3.append("tml\n");
                 } else {
@@ -441,6 +464,8 @@ class DexFormat {
 
             }
 
+            cutLast(dex3);
+
         } catch(NoSuchElementException e) {
             //debugging
             System.out.println(dexNum);
@@ -448,7 +473,8 @@ class DexFormat {
         }
 
         dex2.close();
-        return dex3.toString();
+        done = true;
+        return dex3;
 
     }
 
@@ -468,12 +494,21 @@ class DexFormat {
 
             dex3.append(" ");
 
+            String tmp = "";
+
             if(hasPrefix) {
-                dex3.append(scanLine.next().replace("A", "-"));
+                tmp = scanLine.next();
+                dex3.append(tmp.replace("A", "-"));
                 dex3.append("#");
             }
 
-            dex3.append(scanLine.next());
+            try {
+                dex3.append(scanLine.next());
+            } catch(NoSuchElementException e) {
+                e.printStackTrace();
+                System.out.println(tmp);
+            }
+
             while(scanLine.hasNext()) {
                 dex3.append("$");
                 dex3.append(scanLine.next());
@@ -499,13 +534,62 @@ class DexFormat {
 
     }
 
-    static public void main(String[] args) throws FileNotFoundException {
 
-        String dex3 = writeDex3();
-        if(args.length > 0 && args[0].equals("print") ) {
-            System.out.print(dex3);
+
+    /**
+     * Saves dex3 at the specified file.
+     * @param loc The location of the file to write to.
+     */
+    static private void writeToFile(String loc) {
+
+        writeDex3();
+
+        try {
+            PrintWriter dex3Writer = new PrintWriter(loc);
+            dex3Writer.write(dex3.toString());
+            dex3Writer.close();
+
+        } catch(FileNotFoundException e) {
+            System.out.println( String.format("Dex3 file at %s to write to could not be found.", loc) );
         }
 
     }
+
+    /**
+     * Outputs the formatted dex.
+     */
+    static private void printDex() { System.out.println( writeDex3().toString() ); }
+
+    /**
+     * Logs dex3 at dex3loc.
+     */
+    static private void logDex() { writeToFile(dex3loc); }
+
+    /**
+     * Updates the pokedex file at dex3loc2, the primary use location, also logs the data.
+     */
+    static public void updateDex() {
+        logDex();
+        writeToFile(dex3loc2);
+    }
+
+    static public void main(String[] args) {
+
+        java.util.List<String> Args = java.util.Arrays.asList(args);
+
+        if( Args.contains("print") ) {
+            printDex();
+        }
+
+        if( Args.contains("update") ) {
+            updateDex();
+        } else if( Args.contains("log") ) {
+            logDex();
+        } else {
+            writeDex3();
+        }
+
+    }
+
 
 }

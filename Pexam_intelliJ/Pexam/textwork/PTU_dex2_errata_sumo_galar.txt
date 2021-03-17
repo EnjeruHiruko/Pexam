@@ -15895,8 +15895,7 @@ Egg Group : None
 Average Hatch Rate: 75 Days
 Diet : Phototroph
 Habitat : Forest, Rainforest
-C
-apability List
+Capability List
 Overland 7, Swim 4, Sky 6, Jump 2/2, Power 2, Aura Reader, Glow, Naturewalk (Grassland, Forest), Sprouter, Telekinetic, Telepath
 Skill List
 Athl 2d6, Acro 3d6, Combat 3d6, Stealth 4d6+2, Percep 6d6+2, Focus 4d6
@@ -28590,53 +28589,6 @@ TM/HM Move List
 Tutor Move List
 Charge (N), Dark Pulse, Discharge (N), Electroweb, Mud-Slap, Ominous Wind, Pain Split, Signal Beam, Sleep Talk, Snatch, Snore, Spite, Sucker Punch, Swift, Telekinesis, Trick (N), Uproar
 479.0
-479.1
-ROTOM Appliance Forms
-Base Stats:
-HP: 5
-Attack: 7
-Defense: 11
-Special Attack: 11
-Special Defense: 11
-Speed: 9
-Rotoms in their Appliance Forms retain most of the same Basic Information as their Normal Form.
-However, their Types, Size Information, Capabilities, Skill List, and even Move List will change upon changing forms. We’ve provided the standard set of Appliance Forms here and what changes to apply for them, but GMs should feel free to make up new forms of their own.
-Type Information
-Heat Rotom: Electric/Fire
-Wash Rotom: Electric/Water
-Frost Rotom: Electric/Ice
-Fan Rotom: Electric/Flying
-Mow Rotom: Electric/Grass
-Size Information:
-All Appliance Form Rotoms are Medium size and have Weight Class 3.
-Capability Information:
-Heat Rotom
-Overland 2, Levitate 4, Jump 1/2, Power 3,
-Glow, Invisibility, Phasing, Wired, Zapper, Firestarter
-Wash Rotom
-Overland 1, Levitate 4, Swim 6, Jump 1/1, Power 3,
-Glow, Invisibility, Phasing, Wired, Zapper, Fountain
-Frost Rotom
-Overland 2, Levitate 4, Jump 1/1, Power 3,
-Glow, Invisibility, Phasing, Wired, Zapper, Freezer, Naturewalk (Tundra)
-Fan Rotom
-Overland 2, Levitate 4, Sky 6, Jump 1/1, Power 2,
-Glow, Invisibility, Phasing, Wired, Zapper, Guster
-Mow Rotom
-Overland 7, Levitate 4, Jump 1/1, Power 2,
-Glow, Invisibility, Phasing, Wired, Zapper, Naturewalk (Grassland, Forest)
-Skill Information:
-Heat Rotom
-Athl 4d6, Acro 2d6, Combat 3d6, Stealth 2d6, Percep 2d6+2, Focus 2d6, Edu: Tech 4d6+4
-Wash Rotom
-Athl 4d6, Acro 2d6, Combat 3d6, Stealth 1d6, Percep 2d6+2, Focus 2d6, Edu: Tech 4d6+4
-Frost Rotom
-Athl 4d6, Acro 2d6, Combat 3d6, Stealth 1d6, Percep 2d6+2, Focus 2d6, Edu: Tech 4d6+4
-Fan Rotom
-Athl 2d6, Acro 5d6, Combat 3d6, Stealth 3d6-1, Percep 2d6+2, Focus 2d6, Edu: Tech 4d6+4
-Mow Rotom
-Athl 4d6, Acro 3d6, Combat 3d6, Stealth 1d6+2, Percep 2d6+2, Focus 2d6, Edu: Tech 4d6+4
-479.1
 480.0
 UXIE
 Base Stats:
@@ -30251,7 +30203,7 @@ Gender Ratio : 50% M / 50% F
 Egg Group : Field
 Diet : Omnivore
 Habitat : Grassland, Urban
-\ Capability List
+Capability List
 Overland 7, Swim 5, Jump 1/2, Power 5, Tracker, Naturewalk (Grassland, Urban)
 Skill List
 Athl 5d6+1, Acro 2d6+2, Combat 4d6, Stealth 2d6, Percep 4d6, Focus 4d6
@@ -32889,19 +32841,6 @@ A4 Strength, 05 Roar, 06 Toxic, 08 Bulk Up, 10 Hidden Power, 11 Sunny Day, 12 Ta
 Tutor Move List
 Endeavor, fire Punch, Heat Wave, Sleep Talk, Snore, Superpower, Uproar, Work Up, Zen Headbutt
 555.0
-555.1
-DARMANITAN Zen Mode
-Base Stats:
-HP: 11
-Attack: 3
-Defense: 11
-Special Attack: 14
-Special Defense: 11
-Speed: 6
-Type : Fire / Psychic
-Capability List
-Overland 4, Levitate 6, Swim 2, Jump 1/1, Power 2, Telekinetic, Telepath, Firestarter
-555.1
 555.2
 DARMANITAN Galar, Standard Mode
 Base Stats:
@@ -41878,163 +41817,6 @@ A1 Cut, A4 Strength, 06 Toxic, 10 Hidden Power, 11 Sunny Day, 15 Hyper Beam, 17 
 Tutor Move List
 Block, Drain Punch, Foul Play, Giga Drain, Horn Leech (N), Magic Coat, Pain Split, Role Play, Seed Bomb, Skill Swap, Snore, Spite, Trick, Worry Seed
 709.0
-710.0
-PUMPKABOO
-Base Stats:
-Basic Information
-Type : Ghost / Grass
-Basic Ability 1: Pickup
-Basic Ability 2: Frisk
-Adv Ability 1: Insomnia
-Adv Ability 2: Life Force
-High Ability: Flash Fire
-Evolution:
-1 - Pumpkaboo
-2 - Gourgeist Minimum 25
-Size Information
-Height : 1’ 00’’ to 2’ 07” / 0.3m to .8m (Small)
-Weight : 7.7 lbs. to 33.1 lbs / 3.5 kg (1) to 15 kg (2)
-Breeding Information
-Gender Ratio : 50% M / 50% F
-Egg Group : Amorphous
-Average Hatch Rate: 13 Days
-Diet : Nullivore
-Habitat : Forest, Grassland
-Capability List
-Overland 2, Swim 2, Levitate 5, Jump 0/1, Power 1, Naturewalk (Grassland, Forest), Phasing, Invisibility, Dead Silent, Underdog
-Skill List
-Athl 2d6, Acro 2d6, Combat 2d6, Stealth 3d6+1, Percep 3d6+2, Focus 3d6
-Move List
-Level Up Move List
-1 Astonish - Ghost
-1 Trick - Psychic
-1 Confuse Ray - Ghost
-4 Scary Face - Normal
-6 Trick-or-Treat - Ghost
-11 Worry Seed - Grass
-16 Razor Leaf - Grass
-20 Leech Seed - Grass
-23 Trick-or-Treat - Ghost
-26 Bullet Seed - Grass
-30 Shadow Sneak - Ghost
-36 Shadow Ball - Ghost
-40 Trick-or-Treat - Ghost
-42 Pain Split - Normal
-48 Seed Bomb - Grass
-TM/HM Move List
-06 Toxic, 10 Hidden Power, 11 Sunny Day, 16 Light Screen, 17 Protect, 20 Safeguard, 21 Frustration, 22 Solar Beam, 27 Return, 29 Psychic, 30 Shadow Ball, 32 Double Team, 35 Flamethrower, 36 Sludge Bomb, 38 Fire Blast, 42 Facade, 43 Flame charge, 44 Rest, 45 Attract, 46 Thief, 48 Round, 53 Energy Ball, 57 Charge Beam, 59 Incinerate, 61 Will-o-Wisp, 64 Explosion, 70 Flash, 74 Gyro Ball, 80 Rock Slide, 85 Dream Eater, 86 Grass Knot, 87 Swagger, 88 Sleep Talk, 90 Substitute, 92 Trick Room, 94 Rock Smash, 96 Nature Power, 97 Dark Pulse, 100 Confide
-Egg Move List
-Bestow, Destiny Bond, Disable
-Tutor Move List
-Foul Play, Giga Drain, Magic Coat, Pain Split, Role Play, Seed Bomb, Skill Swap, Spite, Synthesis, Trick, Worry Seed
-Small
-HP: 4
-Attack: 7
-Defense: 7
-Special Attack: 4
-Special Defense: 6
-Speed: 6
-Average
-HP: 5
-Attack: 7
-Defense: 7
-Special Attack: 4
-Special Defense: 5
-Speed: 5
-Large
-HP: 5
-Attack: 7
-Defense: 7
-Special Attack: 4
-Special Defense: 6
-Speed: 5
-Super Size
-HP: 6
-Attack: 7
-Defense: 7
-Special Attack: 4
-Special Defense: 6
-Speed: 4
-710.0
-711.0
-GOURGEIST
-Base Stats:
-Basic Information
-Type : Ghost / Grass
-Basic Ability 1: Regenerator
-Basic Ability 2: Frisk
-Adv Ability 1: Insomnia
-Adv Ability 2: Pumpkingrab
-High Ability: Flash Fire
-Evolution:
-1 - Pumpkaboo
-2 - Gourgeist Minimum 25
-Size Information
-Height : 2’ 04’’ to 5’ 07” / 0.7m (S) to 1.7m (L)
-Weight : 20.9 lbs. to 86 lbs / 9.5 kg (1) to 39 kg (3)
-Breeding Information
-Gender Ratio : 50% M / 50% F
-Egg Group : Amorphous
-Diet : Nullivore
-Habitat : Forest, Grassland
-Capability List
-Overland 3, Swim 3, Levitate 6, Jump 2/2, Power 3, Naturewalk (Grassland, Forest), Phasing, Invisibility, Dead Silent
-Skill List
-Athl 4d6, Acro 2d6, Combat 3d6, Stealth 2d6, Percep 5d6+2, Focus 3d6
-Move List
-Level Up Move List
-1 Astonish - Ghost
-1 Trick - Psychic
-1 Confuse Ray - Ghost
-4 Scary Face - Normal
-6 Trick-or-Treat - Ghost
-11 Worry Seed - Grass
-16 Razor Leaf - Grass
-20 Leech Seed - Grass
-23 Trick-or-Treat - Ghost
-26 Bullet Seed - Grass
-30 Shadow Sneak - Ghost
-36 Shadow Ball - Ghost
-40 Trick-or-Treat - Ghost
-42 Pain Split - Normal
-48 Seed Bomb - Grass
-57 Phantom Force - Ghost
-63 Trick-or-Treat - Ghost
-70 Shadow Ball - Ghost
-75 Explosion - Normal
-TM/HM Move List
-06 Toxic, 10 Hidden Power, 11 Sunny Day, 15 Hyper Beam, 16 Light Screen, 17 Protect, 20 Safeguard, 21 Frustration, 22 Solar Beam, 27 Return, 29 Psychic, 30 Shadow Ball, 32 Double Team, 35 Flamethrower, 36 Sludge Bomb, 38 Fire Blast, 42 Facade, 43 Flame charge, 44 Rest, 45 Attract, 46 Thief, 48 Round, 53 Energy Ball, 57 Charge Beam, 59 Incinerate, 61 Will-o-Wisp, 64 Explosion, 68 Giga Impact, 70 Flash, 74 Gyro Ball, 80 Rock Slide, 85 Dream Eater, 86 Grass Knot, 87 Swagger, 88 Sleep Talk, 90 Substitute, 92 Trick Room, 94 Rock Smash, 96 Nature Power, 97 Dark Pulse, 100 Confide
-Tutor Move List
-Explosion (N), Foul Play, Giga Drain, Magic Coat, Pain Split, Phantom Force (N), Role Play, Seed Bomb, Skill Swap, Spite, Synthesis, Trick, Worry Seed
-Small
-HP: 6
-Attack: 9
-Defense: 12
-Special Attack: 6
-Special Defense: 8
-Speed: 10
-Average
-HP: 7
-Attack: 9
-Defense: 12
-Special Attack: 6
-Special Defense: 8
-Speed: 8
-Large
-HP: 8
-Attack: 10
-Defense: 12
-Special Attack: 6
-Special Defense: 8
-Speed: 7
-Super Size
-HP: 9
-Attack: 10
-Defense: 12
-Special Attack: 6
-Special Defense: 8
-Speed: 5
-711.0
 712.0
 BERGMITE
 Base Stats:
@@ -42755,51 +42537,11 @@ Level Up Move List
 75 Psychic
 85 Hyperspace Hole
 TM/HM Move List
-03 Psyshock, 04 Calm Mind, 06 Toxic, 10 Hidden Power,11 Sunny Day, 12 Taunt, 15 Hyper Beam, 16 Light Screen, 17 Protect, 18 Rain Dance, 20 Safeguard, 21 Frustration, 24 Thunderbolt, 27 Return, 29 Psychic, 30 Shadow Ball, 31 Brick Break, 32 Double Team, 33 Reflect, 41 Torment, 42 Facade, 44 Rest, Thief, 48 Round, 52 Focus Blast, 53 Energy Ball, 56 Fling, 57 Charge Beam, 60 Quash, 63 Embargo, 68 Giga Impact, 70 Flash, 73 Thunder Wave, 77 Psych Up, 85 Dream Eater, 86 Grass Knot, 87 Swagger, 88 Sleep Talk, 90 Substitute, 92 Trick Room, 98 Power-Up Punch, 100 Confide
+03 Psyshock, 04 Calm Mind, 06 Toxic, 10 Hidden Power, 11 Sunny Day, 12 Taunt, 15 Hyper Beam, 16 Light Screen, 17 Protect, 18 Rain Dance, 20 Safeguard, 21 Frustration, 24 Thunderbolt, 27 Return, 29 Psychic, 30 Shadow Ball, 31 Brick Break, 32 Double Team, 33 Reflect, 41 Torment, 42 Facade, 44 Rest, 46 Thief, 48 Round, 52 Focus Blast, 53 Energy Ball, 56 Fling, 57 Charge Beam, 60 Quash, 63 Embargo, 68 Giga Impact, 70 Flash, 73 Thunder Wave, 77 Psych Up, 85 Dream Eater, 86 Grass Knot, 87 Swagger, 88 Sleep Talk, 90 Substitute, 92 Trick Room, 98 Power-Up Punch, 100 Confide
 Tutor Move List
 Hyperspace Hole (N), Block, Covet, Drain Punch, Dual Chop, Fire Punch, Focus Punch, Foul Play, Gravity, Gunk Shot, Ice Punch, Knock Off , Last Resort, Magic Coat, Magic Room, Recycle, Role Play, Shock Wave, Signal Beam, Snatch, Snore, Thunder Punch, Trick, Uproar, Wonder Room,
 Zen Headbutt (N)
 720.0
-720.1
-HOOPA Unbound
-Base Stats:
-HP: 8
-Attack: 16
-Defense: 6
-Special Attack: 17
-Special Defense: 13
-Speed: 8
-Basic Information
-Type : Psychic / Dark
-Basic Ability 1: Magician
-Adv Ability 1: Enduring Rage
-Adv Ability 2: Cruelty
-Adv Ability 3: Bully
-High Ability: Weird Power
-Evolution:
-1 - Hoopa
-Size Information
-Height : 21’ 05” / 5m (Gigantic)
-Weight : 1080.3 lbs. / 490 kg (6)
-Breeding Information
-Gender Ratio : Genderless
-Egg Group : None
-Average Hatch Rate: 75 Days
-Diet : Nullivore
-Habitat : ???
-Capability List
-Overland 10, Swim 5, Teleporter 8, Jump 4/4, Power 9, Darkvision
-Skill List
-Athl 5d6+2, Acro 4d6, Combat 5d6+2, Stealth 1d6,
-Percep 2d6, Focus 2d6
-Confined: If Hoopa’s Confined Form is exposed to
-the Prison Bottle and the bottle is uncorked, the dark spirit within the bottle will change Hoopa to its
-Unbound Forme for three full days. After that, the Prison Bottle cannot be activated again for three days. If the Prison Bottle is destroyed, Hoopa becomes permanently Unbound until a new Prison Bottle is created and used to seal the dark power controlling Hoopa.
-While Unbound, Hoopa is always Enraged and cannot be cured of this condition. Additionally some of its Ghost-Typed Moves are changed to different Dark Type Moves.
--> Hyperspace Hole becomes Hyperspace Fury.
--> Shadow Ball becomes Dark Pulse
--> Phantom Force becomes Knock Off
-720.1
 721.0
 VOLCANION
 Base Stats:
@@ -53839,7 +53581,7 @@ Evo Wicked Blow - Dark
 44 Counter - Fighting
 48 Close Combat - Fighting
 52 Focus Punch - Fighting
-TM Move List
+TM/HM Move List
 01 Work Up, 06 Toxic, 08 Bulk Up, 10 Hidden Power, 12 Taunt, 17 Protect, 21 Frustration, 27 Return, 31 Brick Break, 32 Double Team, 39 Rock Tomb, 40 Aerial Ace, 42 Facade, 44 Rest, 45 Attract, 47 Low Sweep, 48 Round, 52 Focus Blast, 54 False Swipe, 56 Fling, 62 Acrobatics, 66 Payback, 68 Giga Impact, 71 Stone Edge, 80 Rock Slide, 84 Poison Jab, 87 Swagger, 88 Sleep Talk, 89 U-Turn, 90 Substitute, 95 Snarl, 97 Dark Pulse, 100 Confide
 Tutor Move List
 Body Press, Body Slam, Coaching, Counter, Drain Punch, Dynamic Punch, Endure, Fire Punch, Focus Punch, Foul Play, Helping Hand, Ice Punch, Iron Defense, Iron Head, Lash Out, Low Kick, Mega Kick, Mega Punch, Snore, Sucker Punch (N), Superpower, Swift, Throat Chop, Thunder Punch, Zen Headbutt
@@ -53891,7 +53633,7 @@ Evo Surging Strikes - Water
 44 Counter - Fighting
 48 Close Combat - Fighting
 52 Focus Punch - Fighting
-TM Move List
+TM/HM Move List
 01 Work Up, 06 Toxic, 08 Bulk Up, 10 Hidden Power, 12 Taunt, 17 Protect, 18 Rain Dance, 21 Frustration, 27 Return, 31 Brick Break, 32 Double Team, 39 Rock Tomb, 40 Aerial Ace, 42 Facade, 44 Rest, 45 Attract, 47 Low Sweep, 48 Round, 52 Focus Blast, 54 False Swipe, 55 Scald, 62 Acrobatics, 68 Giga Impact, 71 Stone Edge, 80 Rock Slide, 84 Poison Jab, 87 Swagger, 88 Sleep Talk, 89 U-Turn, 90 Substitute, 98 Waterfall, 100 Confide
 Tutor Move List
 Aqua Jet (N), Body Press, Body Slam, Brine, Coaching, Counter, Dive, Drain Punch, Dynamic Punch, Endure, Fire Punch, Focus Punch, Helping Hand, Ice Punch, Iron Defense, Iron Head, Liquidation, Low Kick, Mega Kick, Mega Punch, Snore, Superpower, Swift, Thunder Punch, Whirlpool, Zen Headbutt
@@ -54319,3 +54061,264 @@ TM Move List
 03 Psyshock, 04 Calm Mind, 06 Toxic, 10 Hidden Power, 11 Sunny Day, 15 Hyper Beam, 16 Light Screen, 17 Protect, 20 Safeguard, 21 Frustration, 22 Solar Beam, 27 Return, 29 Psychic, 32 Double Team, 33 Reflect, 42 Facade, 44 Rest, 48 Round, 53 Energy Ball, 67 Smart Strike, 68 Giga Impact, 86 Grass Knot, 87 Swagger, 88 Sleep Talk, 90 Substitute, 92 Trick Room, 100 Confide
 Tutor Move List
 Ally Switch, Bullet Seed, Endure, Expanding Force, Giga Drain, Grassy Terrain (N), Helping Hand, Magic Room, Metronome, Psychic Terrain (N), Seed Bomb, Skill Swap, Snore, Stomping Tantrum, Swift, Trick, Wonder Room, Zen Headbutt
+898.2
+
+// mons to do manually after this
+
+479.1
+ROTOM Appliance Forms
+Base Stats:
+HP: 5
+Attack: 7
+Defense: 11
+Special Attack: 11
+Special Defense: 11
+Speed: 9
+Rotoms in their Appliance Forms retain most of the same Basic Information as their Normal Form.
+However, their Types, Size Information, Capabilities, Skill List, and even Move List will change upon changing forms. We’ve provided the standard set of Appliance Forms here and what changes to apply for them, but GMs should feel free to make up new forms of their own.
+Type Information
+Heat Rotom: Electric/Fire
+Wash Rotom: Electric/Water
+Frost Rotom: Electric/Ice
+Fan Rotom: Electric/Flying
+Mow Rotom: Electric/Grass
+Size Information:
+All Appliance Form Rotoms are Medium size and have Weight Class 3.
+Capability Information:
+Heat Rotom
+Overland 2, Levitate 4, Jump 1/2, Power 3,
+Glow, Invisibility, Phasing, Wired, Zapper, Firestarter
+Wash Rotom
+Overland 1, Levitate 4, Swim 6, Jump 1/1, Power 3,
+Glow, Invisibility, Phasing, Wired, Zapper, Fountain
+Frost Rotom
+Overland 2, Levitate 4, Jump 1/1, Power 3,
+Glow, Invisibility, Phasing, Wired, Zapper, Freezer, Naturewalk (Tundra)
+Fan Rotom
+Overland 2, Levitate 4, Sky 6, Jump 1/1, Power 2,
+Glow, Invisibility, Phasing, Wired, Zapper, Guster
+Mow Rotom
+Overland 7, Levitate 4, Jump 1/1, Power 2,
+Glow, Invisibility, Phasing, Wired, Zapper, Naturewalk (Grassland, Forest)
+Skill Information:
+Heat Rotom
+Athl 4d6, Acro 2d6, Combat 3d6, Stealth 2d6, Percep 2d6+2, Focus 2d6, Edu: Tech 4d6+4
+Wash Rotom
+Athl 4d6, Acro 2d6, Combat 3d6, Stealth 1d6, Percep 2d6+2, Focus 2d6, Edu: Tech 4d6+4
+Frost Rotom
+Athl 4d6, Acro 2d6, Combat 3d6, Stealth 1d6, Percep 2d6+2, Focus 2d6, Edu: Tech 4d6+4
+Fan Rotom
+Athl 2d6, Acro 5d6, Combat 3d6, Stealth 3d6-1, Percep 2d6+2, Focus 2d6, Edu: Tech 4d6+4
+Mow Rotom
+Athl 4d6, Acro 3d6, Combat 3d6, Stealth 1d6+2, Percep 2d6+2, Focus 2d6, Edu: Tech 4d6+4
+479.1
+555.1
+DARMANITAN Zen Mode
+Base Stats:
+HP: 11
+Attack: 3
+Defense: 11
+Special Attack: 14
+Special Defense: 11
+Speed: 6
+Type : Fire / Psychic
+Capability List
+Overland 4, Levitate 6, Swim 2, Jump 1/1, Power 2, Telekinetic, Telepath, Firestarter
+555.1
+710.0
+PUMPKABOO
+Base Stats:
+Basic Information
+Type : Ghost / Grass
+Basic Ability 1: Pickup
+Basic Ability 2: Frisk
+Adv Ability 1: Insomnia
+Adv Ability 2: Life Force
+High Ability: Flash Fire
+Evolution:
+1 - Pumpkaboo
+2 - Gourgeist Minimum 25
+Size Information
+Height : 1’ 00’’ to 2’ 07” / 0.3m to .8m (Small)
+Weight : 7.7 lbs. to 33.1 lbs / 3.5 kg (1) to 15 kg (2)
+Breeding Information
+Gender Ratio : 50% M / 50% F
+Egg Group : Amorphous
+Average Hatch Rate: 13 Days
+Diet : Nullivore
+Habitat : Forest, Grassland
+Capability List
+Overland 2, Swim 2, Levitate 5, Jump 0/1, Power 1, Naturewalk (Grassland, Forest), Phasing, Invisibility, Dead Silent, Underdog
+Skill List
+Athl 2d6, Acro 2d6, Combat 2d6, Stealth 3d6+1, Percep 3d6+2, Focus 3d6
+Move List
+Level Up Move List
+1 Astonish - Ghost
+1 Trick - Psychic
+1 Confuse Ray - Ghost
+4 Scary Face - Normal
+6 Trick-or-Treat - Ghost
+11 Worry Seed - Grass
+16 Razor Leaf - Grass
+20 Leech Seed - Grass
+23 Trick-or-Treat - Ghost
+26 Bullet Seed - Grass
+30 Shadow Sneak - Ghost
+36 Shadow Ball - Ghost
+40 Trick-or-Treat - Ghost
+42 Pain Split - Normal
+48 Seed Bomb - Grass
+TM/HM Move List
+06 Toxic, 10 Hidden Power, 11 Sunny Day, 16 Light Screen, 17 Protect, 20 Safeguard, 21 Frustration, 22 Solar Beam, 27 Return, 29 Psychic, 30 Shadow Ball, 32 Double Team, 35 Flamethrower, 36 Sludge Bomb, 38 Fire Blast, 42 Facade, 43 Flame charge, 44 Rest, 45 Attract, 46 Thief, 48 Round, 53 Energy Ball, 57 Charge Beam, 59 Incinerate, 61 Will-o-Wisp, 64 Explosion, 70 Flash, 74 Gyro Ball, 80 Rock Slide, 85 Dream Eater, 86 Grass Knot, 87 Swagger, 88 Sleep Talk, 90 Substitute, 92 Trick Room, 94 Rock Smash, 96 Nature Power, 97 Dark Pulse, 100 Confide
+Egg Move List
+Bestow, Destiny Bond, Disable
+Tutor Move List
+Foul Play, Giga Drain, Magic Coat, Pain Split, Role Play, Seed Bomb, Skill Swap, Spite, Synthesis, Trick, Worry Seed
+Small
+HP: 4
+Attack: 7
+Defense: 7
+Special Attack: 4
+Special Defense: 6
+Speed: 6
+Average
+HP: 5
+Attack: 7
+Defense: 7
+Special Attack: 4
+Special Defense: 5
+Speed: 5
+Large
+HP: 5
+Attack: 7
+Defense: 7
+Special Attack: 4
+Special Defense: 6
+Speed: 5
+Super Size
+HP: 6
+Attack: 7
+Defense: 7
+Special Attack: 4
+Special Defense: 6
+Speed: 4
+710.0
+711.0
+GOURGEIST
+Base Stats:
+Basic Information
+Type : Ghost / Grass
+Basic Ability 1: Regenerator
+Basic Ability 2: Frisk
+Adv Ability 1: Insomnia
+Adv Ability 2: Pumpkingrab
+High Ability: Flash Fire
+Evolution:
+1 - Pumpkaboo
+2 - Gourgeist Minimum 25
+Size Information
+Height : 2’ 04’’ to 5’ 07” / 0.7m (S) to 1.7m (L)
+Weight : 20.9 lbs. to 86 lbs / 9.5 kg (1) to 39 kg (3)
+Breeding Information
+Gender Ratio : 50% M / 50% F
+Egg Group : Amorphous
+Diet : Nullivore
+Habitat : Forest, Grassland
+Capability List
+Overland 3, Swim 3, Levitate 6, Jump 2/2, Power 3, Naturewalk (Grassland, Forest), Phasing, Invisibility, Dead Silent
+Skill List
+Athl 4d6, Acro 2d6, Combat 3d6, Stealth 2d6, Percep 5d6+2, Focus 3d6
+Move List
+Level Up Move List
+1 Astonish - Ghost
+1 Trick - Psychic
+1 Confuse Ray - Ghost
+4 Scary Face - Normal
+6 Trick-or-Treat - Ghost
+11 Worry Seed - Grass
+16 Razor Leaf - Grass
+20 Leech Seed - Grass
+23 Trick-or-Treat - Ghost
+26 Bullet Seed - Grass
+30 Shadow Sneak - Ghost
+36 Shadow Ball - Ghost
+40 Trick-or-Treat - Ghost
+42 Pain Split - Normal
+48 Seed Bomb - Grass
+57 Phantom Force - Ghost
+63 Trick-or-Treat - Ghost
+70 Shadow Ball - Ghost
+75 Explosion - Normal
+TM/HM Move List
+06 Toxic, 10 Hidden Power, 11 Sunny Day, 15 Hyper Beam, 16 Light Screen, 17 Protect, 20 Safeguard, 21 Frustration, 22 Solar Beam, 27 Return, 29 Psychic, 30 Shadow Ball, 32 Double Team, 35 Flamethrower, 36 Sludge Bomb, 38 Fire Blast, 42 Facade, 43 Flame charge, 44 Rest, 45 Attract, 46 Thief, 48 Round, 53 Energy Ball, 57 Charge Beam, 59 Incinerate, 61 Will-o-Wisp, 64 Explosion, 68 Giga Impact, 70 Flash, 74 Gyro Ball, 80 Rock Slide, 85 Dream Eater, 86 Grass Knot, 87 Swagger, 88 Sleep Talk, 90 Substitute, 92 Trick Room, 94 Rock Smash, 96 Nature Power, 97 Dark Pulse, 100 Confide
+Tutor Move List
+Explosion (N), Foul Play, Giga Drain, Magic Coat, Pain Split, Phantom Force (N), Role Play, Seed Bomb, Skill Swap, Spite, Synthesis, Trick, Worry Seed
+Small
+HP: 6
+Attack: 9
+Defense: 12
+Special Attack: 6
+Special Defense: 8
+Speed: 10
+Average
+HP: 7
+Attack: 9
+Defense: 12
+Special Attack: 6
+Special Defense: 8
+Speed: 8
+Large
+HP: 8
+Attack: 10
+Defense: 12
+Special Attack: 6
+Special Defense: 8
+Speed: 7
+Super Size
+HP: 9
+Attack: 10
+Defense: 12
+Special Attack: 6
+Special Defense: 8
+Speed: 5
+711.0
+720.1
+HOOPA Unbound
+Base Stats:
+HP: 8
+Attack: 16
+Defense: 6
+Special Attack: 17
+Special Defense: 13
+Speed: 8
+Basic Information
+Type : Psychic / Dark
+Basic Ability 1: Magician
+Adv Ability 1: Enduring Rage
+Adv Ability 2: Cruelty
+Adv Ability 3: Bully
+High Ability: Weird Power
+Evolution:
+1 - Hoopa
+Size Information
+Height : 21’ 05” / 5m (Gigantic)
+Weight : 1080.3 lbs. / 490 kg (6)
+Breeding Information
+Gender Ratio : Genderless
+Egg Group : None
+Average Hatch Rate: 75 Days
+Diet : Nullivore
+Habitat : ???
+Capability List
+Overland 10, Swim 5, Teleporter 8, Jump 4/4, Power 9, Darkvision
+Skill List
+Athl 5d6+2, Acro 4d6, Combat 5d6+2, Stealth 1d6,
+Percep 2d6, Focus 2d6
+Confined: If Hoopa’s Confined Form is exposed to
+the Prison Bottle and the bottle is uncorked, the dark spirit within the bottle will change Hoopa to its
+Unbound Forme for three full days. After that, the Prison Bottle cannot be activated again for three days. If the Prison Bottle is destroyed, Hoopa becomes permanently Unbound until a new Prison Bottle is created and used to seal the dark power controlling Hoopa.
+While Unbound, Hoopa is always Enraged and cannot be cured of this condition. Additionally some of its Ghost-Typed Moves are changed to different Dark Type Moves.
+-> Hyperspace Hole becomes Hyperspace Fury.
+-> Shadow Ball becomes Dark Pulse
+-> Phantom Force becomes Knock Off
+720.1
