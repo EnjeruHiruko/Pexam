@@ -10,6 +10,8 @@ public class MoveForList {
 
     private boolean vm_;
 
+    private boolean onEvo_;
+
     //Constructor and Creation block
 
     public MoveForList(){
@@ -21,17 +23,23 @@ public class MoveForList {
         String ayaya = input.replaceFirst("#", "---" );
         String[] mem = ayaya.split("---");
 
-        if(Integer.valueOf(mem[0]) != 1337){
-            this.reqLevel_ = Integer.valueOf(mem[0]);
+        if(mem[0].trim().equalsIgnoreCase("Evo")){
             this.move_ = new Moves(mem[1]);
-            this.vm_ = false;
+            this.reqLevel_ = 0;
+            this.onEvo_ = true;
         }else{
-            String temp = mem[1].replaceFirst("#", "---");
-            String[] test = temp.split("---");
-            this.reqLevel_ = Integer.valueOf(test[0]);
-            this.move_ = new Moves(test[1]);
-            this.vm_ = true;
+            if(Integer.parseInt(mem[0]) > 0 ){
+                this.reqLevel_ = Integer.parseInt(mem[0].trim());
+                this.move_ = new Moves(mem[1]);
+            }
+            if(Integer.parseInt(mem[0]) < 0){
+                this.vm_ = true;
+                this.reqLevel_ = Integer.parseInt(mem[0].trim());
+                this.move_ = new Moves(mem[1]);
+            }
+
         }
+
     }
 
     public MoveForList(int level, Moves move){

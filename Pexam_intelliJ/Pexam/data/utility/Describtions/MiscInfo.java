@@ -30,11 +30,21 @@ public class MiscInfo{
     }
 
     public MiscInfo(String[] input){
-        this.height_ = Double.valueOf(input[0]);
-        this.weight_ = Double.valueOf(input[1]);
-        this.genderratio_ = Double.valueOf(input[2]);
+        this.height_ = Double.parseDouble(input[0]);
+        this.weight_ = Double.parseDouble(input[1]);
+        String temp = input[2].replace("$", " ");
+        String[] mem = temp.split(" ");
+        if(mem.length > 1){
+            this.genderratio_ = 200.2;
+        }else {
+            try {
+                this.genderratio_ = Double.parseDouble(input[2]);
+            }catch(Exception e){
+                this.genderratio_ = 300.3;
+            }
+        }
         this.egggroup_ = input[3];
-        this.avhatchrate_ = Integer.valueOf(input[4]);
+        this.avhatchrate_ = Integer.parseInt(input[4]);
         this.diet_ = input[5];
         this.habitat_ = input[6];
     }

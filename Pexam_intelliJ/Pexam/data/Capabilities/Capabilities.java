@@ -1,9 +1,5 @@
 package Pexam.data.Capabilities;
-import Pexam.data.utility.*;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
-import java.util.ArrayList;
 
 public class Capabilities{
 
@@ -11,7 +7,13 @@ public class Capabilities{
 
     private String description_;
 
+    private String[] zones_;
+
+    private String condition_;
+
     private int value_;
+
+    private int value2_;
 
     //Constructor and creation block
 
@@ -26,8 +28,34 @@ public class Capabilities{
         if(temp.length == 1){
             this.name_ = temp[0];
         }else if(temp.length == 2){
-            this.name_ = temp[0];
-            this.value_ = Integer.parseInt(temp[1]);
+            if(temp[0].trim().equalsIgnoreCase("jump")){
+                this.name_ = temp[0];
+                String[] mem = temp[1].split("/");
+                this.value_ = Integer.parseInt(mem[0]);
+                this.value2_ = Integer.parseInt(mem[1]);
+            }else if(temp[0].trim().equalsIgnoreCase("Naturewalk")) {
+                this.name_ = temp[0];
+                this.zones_ = temp[1].split("/");
+
+
+            }else if(temp[0].trim().equalsIgnoreCase("Underdog")){
+                this.name_ = temp[0].trim();
+                this.value_ = 0;
+            }else if(temp[1].replace("$", "----").split("----")[0].equalsIgnoreCase("while")){
+                this.name_ = temp[0];
+                this.condition_ = temp[1].replace("$"," ");
+                //System.out.println(condition_);
+                this.value_ = 0;
+            }else{
+                this.name_ = temp[0];
+                try {
+                    this.value_ = Integer.parseInt(temp[1]);
+                }catch(Exception e){
+                    //this.value_ = 0;
+                    e.printStackTrace();
+                }
+            }
+
         }
 
         //todo check if everything works

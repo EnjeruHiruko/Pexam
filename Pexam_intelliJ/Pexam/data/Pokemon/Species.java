@@ -36,7 +36,7 @@ public class Species {
 
     private List<Capabilities> capabilities_;
 
-    private Skill[] skills_;
+    private List<Skill> skills_;
 
     private List<MoveForList> moveList_;
 
@@ -59,7 +59,7 @@ public class Species {
         this.capabilities_ = new ArrayList<Capabilities>();
         this.evolutions_ = new ArrayList<Evolution>();
         this.miscInfo_ = new MiscInfo();
-        this.skills_ = new Skill[6];
+        this.skills_ = new ArrayList<Skill>();
         this.moveList_ = new ArrayList<MoveForList>();
         this.tmList_ = new ArrayList<MoveForList>();
         this.eggList_ = new ArrayList<Moves>();
@@ -74,7 +74,7 @@ public class Species {
     }
 
     public void createDexEntry(String input){
-        String[] mem = input.split("\n");
+        String[] mem = input.split("\\n+");
         this.DexNumber_ = Integer.valueOf(mem[1].trim());
         this.species_ = mem[2];
         this.assignBasestats(mem[3]);
@@ -108,7 +108,7 @@ public class Species {
 
         this.DexNumber_ = Integer.valueOf(in.next().trim());
         this.species_ = in.next();
-
+        System.out.println(this.species_);
         this.assignBasestats(in.next());
         this.assignTypes(in.next());
 
@@ -186,7 +186,6 @@ public class Species {
                 this.advAbilities_.add(new Abilities(tempo));
             }
         }
-
     }
 
 
@@ -216,8 +215,8 @@ public class Species {
         String[] temp = input.split("\\s+");
         String[] mem;
         for(int c = 1; c < temp.length; c++){
-            mem = temp[c].split("#");
-            this.evolutions_.add(new Evolution(mem[0], Integer.valueOf(mem[1])));
+            //mem = temp[c].split("#");
+            this.evolutions_.add(new Evolution(temp[c].split("#")));
         }
     }
 
@@ -239,10 +238,11 @@ public class Species {
     private void assignSkills(String input){
         String[] temp = input.split("\\s+");
         Skill[] mem = new Skill[6];
-        for(int c = 0; c < temp.length; c++){
-            mem[c] = new Skill(temp[c].split("#"));
+        for(int c = 1; c < temp.length; c++){
+            if(!temp[c].trim().equalsIgnoreCase("sl")){
+                skills_.add(new Skill(temp[c].split("#")));
+            }
         }
-        this.skills_ = mem;
     }
 
     private void assignMovelist(String input){
@@ -323,7 +323,7 @@ public class Species {
         return this.capabilities_;
     }
 
-    public Skill[] getSkills() {
+    public List<Skill> getSkills() {
         return this.skills_;
     }
 
@@ -385,7 +385,7 @@ public class Species {
         this.capabilities_ = capabilities;
     }
 
-    public void setSkills(Skill[] skills) {
+    public void setSkills(List<Skill> skills) {
         this.skills_ = skills;
     }
 
@@ -473,7 +473,7 @@ public class Species {
                 ", evolutions_=" + evolutions_ +
                 ", miscinfo_=" + miscInfo_ +
                 ", capabilities_=" + capabilities_ +
-                ", skills_=" + Arrays.toString(skills_) +
+                ", skills_=" + skills_ +
                 ", movelist_=" + moveList_ +
                 ", tmlist_=" + tmList_ +
                 ", egglist_=" + eggList_ +

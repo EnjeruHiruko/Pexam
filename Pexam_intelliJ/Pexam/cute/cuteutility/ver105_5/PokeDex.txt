@@ -407,7 +407,7 @@ AA Hustle Pickup
 HA Nimble$Strikes
 EV Rattata$(A)#0 Raticate$(A)#20
 0.7 25.5 50 Field 0 Omnivore Cave/Grassland/Urban
-cl Overland#7 Swim#6 Jump#2/2 Power#3 Darkvision Naturewalk#Grassland/Urban Stealth Tracker#Underdog
+cl Overland#7 Swim#6 Jump#2/2 Power#3 Darkvision Naturewalk#Grassland/Urban Stealth Tracker Underdog
 sl #Athl#3 Acro#3#0 Combat#3#2 Stealth#4#0 Percep#5#0 Focus#5#0
 ml Evo#Scary$Face 4#Quick$Attack 7#Focus$Energy 10#Bite 13#Pursuit 16#Hyper$Fang 19#Assurance 24#Crunch 29#Sucker$Punch 34#Super$Fang 39#Double-Edge 44#Endeavor
 tml 05#Roar 06#Toxic 08#Bulk$Up 09#Venoshock 10#Hidden$Power 11#Sunny$Day 12#Taunt 13#Ice$Beam 14#Blizzard 15#Hyper$Beam 17#Protect 18#Rain$Dance 21#Frustration 27#Return 30#Shadow$Ball 32#Double$Team 34#Sludge$Wave 36#Sludge$Bomb 41#Torment 42#Facade 44#Rest 45#Attract 46#Thief 48#Round 60#Quash 63#Embargo 65#Shadow$Claw 68#Giga$Impact 75#Swords$Dance 86#Grass$Knot 87#Swagger 88#Sleep$Talk 89#U-Turn 90#Substitute 95#Snarl 97#Dark$Pulse 100#Confide
@@ -519,7 +519,7 @@ ELECTRIC
 BA Static Motor$Drive
 AA Lightning$Rod Sprint
 HA Sequence
-EV Pichu#0 Pikachu#10 Raichu#Thunderstone
+EV Pichu#0 Pikachu#10 Raichu#Thunderstone$20
 0.8 30 50 Field/Fairy 0 Herbivore Forest
 cl Overland#6 Swim#3 Jump#2/2 Power#4 Naturewalk#Forest/Urban Zapper
 sl #Athl#4 Acro#2#1 Combat#4#0 Stealth#3#0 Percep#2#1 Focus#4#3
@@ -538,7 +538,7 @@ ELECTRIC PSYCHIC
 BA Static Motor$Drive
 AA Lightning$Rod Surge$Surfer
 HA Levitate
-EV Pichu#0 Pikachu#10 Raichu$(A)#Thunderstone
+EV Pichu#0 Pikachu#10 Raichu$(A)#Thunderstone$20
 0.7 21 50 Field/Fairy 0 Herbivore Urban
 cl Overland#6 Swim#3 Levitate#6 Jump#2/2 Power#4 Naturewalk#Grassland/Urban Telekinetic
 sl #Athl#3 Acro#3#1 Combat#4#2 Stealth#3#0 Percep#2#1 Focus#4#3
@@ -576,7 +576,7 @@ ICE STEEL
 BA Pickup Quick$Curl
 AA Slush$Rush Snow$Cloak
 HA Dig$Away
-EV Sandshrew$(A)#0 Sandslash$(A)#Ice$Stone$20
+EV Sandshrew$(A)#0 Sandslash$(A)#Ice-Stone$20
 0.7 40 50 Field 10 Herbivore Mountain/Tundra
 cl Overland#5 Swim#3 Burrow#5 Jump#1/1 Power#3 Chilled Naturewalk#Tundra Tremorsense Underdog
 sl #Athl#3 Acro#2#0 Combat#2#0 Stealth#3#1 Percep#2#1 Focus#2#1
@@ -614,7 +614,7 @@ ICE STEEL
 BA Pickup Quick$Curl
 AA Slush$Rush Snow$Cloak
 HA Dig$Away
-EV Sandshrew$(A)#0 Sandslash$(A)#Ice$Stone$20
+EV Sandshrew$(A)#0 Sandslash$(A)#Ice-Stone$20
 1.2 55 50 Field 0 Herbivore Mountain/Tundra
 cl Overland#6 Swim#3 Burrow#6 Jump#1/2 Power#4 Chilled Naturewalk#Tundra Tremorsense
 sl #Athl#4 Acro#3#0 Combat#4#1 Stealth#4#1 Percep#3#1 Focus#3#1
@@ -3087,7 +3087,7 @@ HA Targeting$System
 EV Porygon#0 Porygon2#Holding$UpGrade$10 Porygon-Z#Holding$Dubious$Disc$25
 0.8 36.5 No$Gender None 0 Nullivore Urban
 cl Overland#2 Swim#1 Levitate#4 Jump#1/1 Power#2 Wired Underdog
-sl #Athl#1 Acro#2#0 Combat#2#0 Stealth#2#0 Percep#3#0 Focus#3#0 Edu:#Tech#3
+sl #Athl#1 Acro#2#0 Combat#2#0 Stealth#2#0 Percep#3#0 Focus#3#0 Tech#3#0
 ml 1#Conversion 1#Conversion2 1#Sharpen 1#Tackle 7#Psybeam 12#Agility 18#Recover 23#Magnet$Rise 29#Signal$Beam 34#Recycle 40#Discharge 45#Lock-On 51#Tri$Attack 56#Magic$Coat 62#Zap$Cannon
 tml 03#Psyshock 06#Toxic 10#Hidden$Power 11#Sunny$Day 13#Ice$Beam 14#Blizzard 15#Hyper$Beam 17#Protect 18#Rain$Dance 21#Frustration 22#Solar$Beam 24#Thunderbolt 25#Thunder 27#Return 29#Psychic 30#Shadow$Ball 32#Double$Team 40#Aerial$Ace 42#Facade 44#Rest 46#Thief 48#Round 57#Charge$Beam 68#Giga$Impact 70#Flash 73#Thunder$Wave 77#Psych$Up 85#Dream$Eater 87#Swagger 88#Sleep$Talk 90#Substitute 92#Trick$Room 100#Confide
 el

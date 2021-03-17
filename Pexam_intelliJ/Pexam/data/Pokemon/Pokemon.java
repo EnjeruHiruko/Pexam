@@ -16,7 +16,6 @@ import Pexam.data.utility.Describtions.Tutor;
 import Pexam.data.utility.Enums.Type;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Pokemon {
@@ -41,7 +40,7 @@ public class Pokemon {
 
     private List<Capabilities> capabilities_;
 
-    private Skill[] skills_;
+    private List<Skill> skills_;
 
     // StatBlock
 
@@ -90,7 +89,7 @@ public class Pokemon {
         this.nature_ = Nature.NON;
         this.abilities_ = new ArrayList<Abilities>();
         this.capabilities_ = new ArrayList<Capabilities>();
-        this.skills_ = new Skill[6];
+        this.skills_ = new ArrayList<Skill>();
         this.statBlock_ = new StatBlock(true, false, false, false,1 , new boolean[6], new int[6], new int[6], new int[6], new int[6], new int[6]);
         this.injuries_ = 0;
         this.mTTp_ = 0;
@@ -457,7 +456,7 @@ public class Pokemon {
                 ", nature_=" + nature_ +
                 ", abilities_=" + abilities_ +
                 ", capabilities_=" + capabilities_ +
-                ", skills_=" + Arrays.toString(skills_) +
+                ", skills_=" + skills_ +
                 ", statBlock_=" + statBlock_ +
                 ", injuries_=" + injuries_ +
                 ", mTTp_=" + mTTp_ +

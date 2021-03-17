@@ -49,7 +49,7 @@ public class Moves{
     }
 
     public Moves(String input){
-        this.name_ = input.replaceAll("#", " ");
+        this.name_ = input.replace("$", " ");
         this.type_ = Type.UKN;
         this.frequency_ = new Frequency();
         this.AC_ = 0;

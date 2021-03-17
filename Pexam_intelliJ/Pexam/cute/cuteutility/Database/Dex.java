@@ -34,16 +34,19 @@ public class Dex {
         if(param.equals("Moves") || param.equals("all")) {
 
             Path file = Paths.get("Pexam/cute/cuteutility/"+worldpath+"/MoveDex.txt");
+            int counter = 1;
             try {
                 Scanner in = new Scanner(file).useDelimiter("HOMELESS");
                 while (in.hasNext()) {
+                    System.out.println(counter);
                     moveList_.add(createMove(in.next()));
+                    counter++;
                 }
                 in.close();
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            printMoveDex();
+            //printMoveDex();
         }
 
         if(param.equals("Abilities") || param.equals("all")){
@@ -57,7 +60,7 @@ public class Dex {
             }catch (Exception e){
                 e.printStackTrace();
             }
-            //System.out.println(abilityList_.toString());
+            //printAbilityDex();
         }
 
         if(param.equals("Pokemon") || param.equals("all")){
@@ -71,7 +74,7 @@ public class Dex {
             }catch(Exception e){
                 e.printStackTrace();
             }
-            System.out.printf(pokeDex_.toString());
+            printPokeDex();
         }
     }
 
@@ -97,4 +100,15 @@ public class Dex {
         }
     }
 
+    private void printAbilityDex(){
+        for(Abilities abilities : this.abilityList_){
+            System.out.println(abilities);
+        }
+    }
+
+    private void printPokeDex(){
+        for(Species pokemon : this.pokeDex_){
+            System.out.println(pokemon);
+        }
+    }
 }
