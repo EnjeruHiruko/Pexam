@@ -1,0 +1,68 @@
+Syntax:
+| - Seperator between effect discribing lines
+; - end of effect
+
+Targets:
+Tar - Targets the same as another effect
+user - Targets User
+Tra - Targets Trainer
+Poke - Targets another Pokemon
+same - same as other effect
+
+Stat Usage:
+stat - added stats
+bstat - base stats
+CS - Combatstages (1-5)
++X - + X amount (x e N)
+-X - - X amount (x e N)
+Tick - Tickvalue (amount)
+EVs - general Evasion
+EV - (Evasion Type) Evasion (amount)
+
+Status:
+Feint - Target is at 0 HP
+
+Types: (all Types)
+
+Ranges:
+m - Range in meter (amount)
+c - Cone Range (amount)
+l - Line Range (amount)
+b - burst Range (amount)
+m b - Range (amount) blast (amount)
+
+Occurence:
+every - 
+once - 
+before - 
+after - 
+
+Discribing:
+not - Something does not apply
+use - use Something ($Name)
+if - 
+DC - Difficulty Check for Something (amount)
+or - 
+
+Actions:
+Stand - 
+Free -
+Swift - 
+Shift -
+Fturn - 
+
+Afflictions:
+Burn - Tar CS2 -2 | Tar Tick1 every Stand;
+Froz - 
+Para - Tar CS5 -4 | DC5 before Fturn
+Pois - Tar CS4 -2 | Tar Tick1 every Stand;
+bPois - 
+Sleep - 
+bSleep
+Conf
+Curs - Tick2 every Stand;
+Disab
+Rage
+Flnch
+Infat
+Suppr

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cac3348b-e0fc-4836-b1a6-e650de944cc3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1emFnibngPCP2P2cXfiOv6m6sfW" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LeonK\Google Drive\PTU_Pexam\Pexam_intelliJ\Pexam\cute\cuteutility" />
+      <recent name="D:\Google Drive\PTU_Pexam\Pexam_intelliJ\cute\cuteutility\aList" />
+      <recent name="D:\Google Drive\PTU_Pexam\Pexam_intelliJ\cute\cuteutility\mList" />
+      <recent name="D:\Google Drive\PTU_Pexam\Pexam_intelliJ\cute\cuteutility\Dex" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Pexam.data.Moves" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="DexFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pexam.textwork.DexFormat" />
+      <module name="Pexam_intelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pexam.textwork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pexam.Main" />
+      <module name="Pexam_intelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pexam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DexFormat" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cac3348b-e0fc-4836-b1a6-e650de944cc3" name="Default Changelist" comment="" />
+      <created>1594919030157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594919030157</updated>
+      <workItem from="1595082083581" duration="172000" />
+      <workItem from="1595087101739" duration="11956000" />
+      <workItem from="1596046013416" duration="78000" />
+      <workItem from="1596046183449" duration="10048000" />
+      <workItem from="1596215542618" duration="1697000" />
+      <workItem from="1596288255350" duration="13979000" />
+      <workItem from="1596366002209" duration="333000" />
+      <workItem from="1596553158097" duration="7155000" />
+      <workItem from="1596642265526" duration="1227000" />
+      <workItem from="1597417121507" duration="1237000" />
+      <workItem from="1597679071883" duration="5886000" />
+      <workItem from="1599354772429" duration="14328000" />
+      <workItem from="1599400624253" duration="8253000" />
+      <workItem from="1599479895684" duration="23381000" />
+      <workItem from="1599531693467" duration="7106000" />
+      <workItem from="1599720333774" duration="417000" />
+      <workItem from="1599722730083" duration="953000" />
+      <workItem from="1599817245239" duration="96000" />
+      <workItem from="1599817658912" duration="7048000" />
+      <workItem from="1599914633078" duration="2610000" />
+      <workItem from="1600703969868" duration="3620000" />
+      <workItem from="1602571337613" duration="12272000" />
+      <workItem from="1603031236419" duration="622000" />
+      <workItem from="1603193268847" duration="5289000" />
+      <workItem from="1603265342490" duration="325000" />
+      <workItem from="1603265695818" duration="1812000" />
+      <workItem from="1603896604311" duration="466000" />
+      <workItem from="1610981672964" duration="75000" />
+      <workItem from="1610982016483" duration="214000" />
+      <workItem from="1610983047273" duration="12049000" />
+      <workItem from="1612188076991" duration="6258000" />
+      <workItem from="1612195190626" duration="780000" />
+      <workItem from="1612211911895" duration="27493000" />
+      <workItem from="1613572332686" duration="8587000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
