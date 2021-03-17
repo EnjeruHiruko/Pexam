@@ -8,7 +8,7 @@ public class values{
 
     public values (String[] in){
         this.name_ = in[0];
-        this.value_ = Integer.parseInt(in[1].trim());
+        this.value_ = Double.parseDouble(in[1].trim());
     }
 
     @Override

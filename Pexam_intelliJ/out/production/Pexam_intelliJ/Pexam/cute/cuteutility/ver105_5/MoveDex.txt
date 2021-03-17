@@ -6923,4 +6923,236 @@ HOMELESS
  Static
  Static
  The user gains a +1 Bonus to Accuracy Rolls made to initiate Grapple Maneuvers, and +2 to Skill Checks made to initiate Grapple Maneuvers or gain Dominance. Whenever the user gains Dominance in a Grapple, the target of the Grapple loses a Tick of Hit Points.
- To
+ Tough
+ Steady Performance
+HOMELESS
+ Crabhammer
+ Water
+ EOT
+ 4
+ 10: 3d8+10 / 24
+ Physical
+ Melee, 1 Target
+ Crabhammer is a Critical Hit on 18+.
+ Tough
+ Exhausting Act
+HOMELESS
+ Dive
+ Water
+ Scene x2
+ 2
+ 8: 3d6+10 / 21
+ Physical
+ Burst 1, Set-Up, Full Action
+Set-Up 
+ The user moves underwater and their turn ends. The user must be in water at least 10 meters deep to use Dive. While underwater, the user may not be targeted by Moves.
+Resolution 
+ The user may shift horizontally using their Swim speed, and then may shift straight up until reaching a target. The user then attacks with Dive, creating a Burst 1.
+ Beauty
+ Special Attention
+ Grants Swim +3
+HOMELESS
+ Hydro Cannon
+ Water
+ Daily x2
+ 4
+ 15: 4d10+20 / 45
+ Special
+ Line 9, Smite, Exhaust
+ Beauty
+ Seen Nothing Yet
+HOMELESS
+ Hydro Pump
+ Water
+ Scene x2
+ 4
+ 11: 3d10+10 / 27
+ Special
+ 6, 1 Target, Push
+ The target is pushed away from the user 3 meters.
+ Beauty
+ Exhausting Act
+HOMELESS
+ Liquidation
+ Water
+ EOT
+ 2
+ 9: 2d10+10 / 21
+ Physical
+ Melee, 1 Target
+ The target’s Defense is lowered by 1 Combat Stage on a 17+.
+ Beauty
+ Steady Performance
+HOMELESS
+ Muddy Water
+ Water
+ EOT
+ 2
+ 9: 2d10+10 / 21
+ Special
+ Close Blast 2
+ As a Shift Action, the user may Move to any open square in Muddy Water’s area of effect without provoking any Attacks of Opportunity. On 16+, the Accuracy of all targets is lowered by 1.
+ Tough
+ Desperation
+HOMELESS
+ Octazooka
+ Water
+ At-Will
+ 3
+ 7: 2d6+10 / 17
+ Special
+ 6, 1 Target
+ On an Even-Numbered Roll, the target’s Accuracy is Lowered by 1.
+ Tough
+ Incentives
+HOMELESS
+ Origin Pulse
+ Water
+ Scene x2
+ 5
+ 12: 3d12+10 / 30
+ Special
+ Close Blast 3, Smite
+ Beauty
+ Desperation
+HOMELESS
+ Rain Dance
+ Water
+ Daily x2
+ None
+ Status
+ Field, Weather
+ The weather becomes Rainy for 5 rounds. While Rainy, Water-Type Attacks gain a +5 bonus to Damage Rolls, and Fire-Type Attacks suffer a -5 Damage penalty.
+ Tough
+ Sabotage
+HOMELESS
+ Razor Shell
+ Water
+ EOT
+ 3
+ 8: 3d6+10 / 21
+ Physical
+ Melee, 1 Target, Dash
+ Razor Shell lowers the Target’s Defense 1 Combat Stage on an Even-Numbered Roll.
+ Cool
+ Steady Performance
+HOMELESS
+ Scald
+ Water
+ Scene x2
+ 2
+ 8: 3d6+10 / 21
+ Special
+ 5, 1 Target
+ Scald Burns the target on 15+.
+ Smart
+ Steady Performance
+HOMELESS
+ Soak
+ Water
+ Daily
+ 2
+ Status
+ 5, 1 Target
+ The target gains the Water Type in addition to its other Types for 5 turns.
+ Beauty
+ Safe Option
+HOMELESS
+ Sparkling Aria
+ Water
+ EOT
+ 2
+ 9: 2d10+10 / 21
+ Special
+ Cone 2, Sonic
+ When you hit a target with Sparkling Aria, the user may choose to deal no damage and instead cure that target of Burn, Confusion, Infatuation, or Rage.
+ Beauty
+ Attention Grabber
+HOMELESS
+ Steam Eruption
+ Water
+ Scene
+ 3
+ 11: 3d10+10 / 27
+ Special
+ Close Blast 3, Smite
+ Steam Eruption burns all legal targets on a 15+.
+ Cool
+ Seen Nothing Yet
+HOMELESS
+ Surf
+ Water
+ EOT
+ 2
+ 9: 2d10+10 / 21
+ Special
+ Line 6
+ As a Shift Action, the user may Move to any open square in Surf’s area of effect without provoking any Attacks of Opportunity.
+ Beauty
+ Exhausting Act
+HOMELESS
+ Water Gun
+ Water
+ At-Will
+ 2
+ 4: 1d8+6 / 11
+ Special
+ 4, 1 Target
+ Cute
+ Steady Performance
+ Grants Fountain
+HOMELESS
+ Water Pledge
+ Water
+ Scene x2
+ 2
+ 8: 3d6+10 / 21
+ Special
+ 6, 1 Target, Pledge
+ If an ally uses Fire Pledge or Grass Pledge, you may use Water Pledge as Priority (Advanced) immediately after their turn to target the same foe. If used in conjunction with Fire Pledge, a Rainbow is created that lasts for 5 rounds. If used in conjunction with Grass Pledge, the target and all foes adjacent to the target are slowed and have their Speed reduced by 2 Combat Stages. Consult the Pledge keyword for additional details.
+ Beauty
+ Safe Option
+HOMELESS
+ Water Pulse
+ Water
+ At-Will
+ 2
+ 6: 2d6+8 / 15
+ Special
+ 8, 1 Target, Aura
+ Water Pulse Confuses the target on 17+.
+ Beauty
+ Exhausting Act
+HOMELESS
+ Water Shuriken
+ Water
+ EOT
+ 2
+ 2: 1d6+3 / 7
+ Special
+ 6, 1 Target, Five Strike, Priority
+ Cool
+ Reliable
+HOMELESS
+ Water Sport
+ Water
+ EOT
+ None
+ Status
+ Burst 2, Coat
+ All targets in the burst, including the user, gain a Coat which grants them 1 Step of Resistance to Fire Type Moves. After a target has been hit by a damaging Fire Type Move, the coat is removed.
+ Cute
+ Sabotage
+ Grants Fountain
+HOMELESS
+ Water Spout
+ Water
+ Daily
+ 4
+ 15: 4d10+20 / 45
+ Special
+ Burst 1*
+ For each 10% of HP the user is missing, Water Spout’s 
+ is reduced by 1. Water Spout creates a 1 meter burst, but also affects an area 10 meters tall straight up.
+ Beauty
+ Seen Nothing YetHOMELESS

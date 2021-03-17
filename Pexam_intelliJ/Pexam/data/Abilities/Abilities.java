@@ -17,6 +17,8 @@ public class Abilities{
 
     private String effect_; // TODO: 18/07/2020 rename and reimplement as own abstract class
 
+    private String bonus_;
+
     //Constructor and creation block
 
     public Abilities(){
@@ -31,17 +33,70 @@ public class Abilities{
         this.target_ = "";
         this.trigger_ = "";
         this.effect_ = "";
+        this.bonus_ = "";
     }
 
     public Abilities(String[] input){
         String[] mem = input;
-        this.name_ = mem[0];
-        this.frequency_ = new Frequency(mem[1]);
-        this.action_ = Action.valueOf(mem[2]);
-        this.target_ = mem[3];
-        this.trigger_ = mem[4];
-        this.effect_ = mem[5];
+        if(mem.length > 0) {
+            //System.out.println(mem.length);
+            this.name_ = mem[1];
+            String[] temp = mem[2].split(" - ");
+            /*
+            try{
+                Scanner mehh = new Scanner(mem[2]).useDelimiter(" - ");
+                System.out.println(mehh.next());
+
+                this.frequency_ = new Frequency(mehh.next().split(" "));
+
+                if(mehh.hasNext()){
+                    this.action_ = Action.valueOf(mehh.next());
+                }
+
+                mehh.close();
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+            */
+
+
+
+
+
+
+            this.frequency_ = new Frequency(temp[0].split(" "));
+            if (temp.length > 1) {
+                //System.out.println(temp[1]);
+                this.action_ = Action.valueOf(temp[1]);
+            } else {
+                this.action_ = Action.NON;
+            }
+
+
+
+            this.target_ = "";
+            this.trigger_ = "";
+            this.effect_ = "";
+            this.bonus_ = "";
+            for (int c = 3; c < mem.length; c++) {
+                String[] emp = mem[c].split(":");
+                if (emp[0].equals("Trigger")) {
+                    this.trigger_ = emp[1];
+                }
+                if (emp[0].equals("Target")) {
+                    this.target_ = emp[1];
+                }
+                if (emp[0].equals("Effect")) {
+                    this.effect_ = emp[1];
+                }
+                if (emp[0].equals("Bonus")) {
+                    this.bonus_ = emp[1];
+                }
+            }
+        }
     }
+
+
 
     //Getter block
 
@@ -107,7 +162,7 @@ public class Abilities{
     }
 
     public String toString(){
-        return "Ability: " + name_ + " | " + frequency_ + " | " + action_ + " | " + target_ + " | " + trigger_ + " | " + effect_ + " |%n";
+        return "Ability: " + this.name_ + " | " + this.frequency_ + " | " + action_ + " | " + target_ + " | " + trigger_ + " | " + effect_ + " "+ this.bonus_ +" |%n";
     }
 
 }

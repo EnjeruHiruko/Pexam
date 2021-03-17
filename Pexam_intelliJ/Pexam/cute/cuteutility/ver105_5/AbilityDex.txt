@@ -1,4 +1,5 @@
- Abominable
+HOMELESS 
+Abominable
 Static
 Effect: The user ignores the Recoil Keyword when attacking.
 Bonus: The user’s Base HP is increased by +5. Innate.

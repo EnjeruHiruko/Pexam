@@ -41,7 +41,7 @@ public class Dex {
                 }
                 in.close();
             } catch (Exception e) {
-                System.out.println(e);
+                e.printStackTrace();
             }
             System.out.printf(moveList_.toString());
         }
@@ -50,25 +50,44 @@ public class Dex {
             Path file = Paths.get("Pexam/cute/cuteutility/"+worldpath+"/AbilityDex.txt");
             try{
                 Scanner in = new Scanner(file).useDelimiter("HOMELESS");
+                while(in.hasNext()){
+                    abilityList_.add(createAbility(in.next()));
+                }
+                in.close();
             }catch (Exception e){
                 e.printStackTrace();
             }
+            //System.out.println(abilityList_.toString());
         }
 
         if(param.equals("Pokemon") || param.equals("all")){
             Path file = Paths.get("Pexam/cute/cuteutility/"+worldpath+"/PokeDex.txt");
-
-
+            try{
+                Scanner in = new Scanner(file).useDelimiter("HOMELESS");
+                while(in.hasNext()){
+                    pokeDex_.add(createPokemon(in.next()));
+                }
+                in.close();
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+            System.out.printf(pokeDex_.toString());
         }
     }
 
     private Moves createMove(String in){
-        String[] mem = in.split("\n");
+        String[] mem = in.split("\\n+");
         return new Moves(mem);
     }
 
-    public List<Moves> getMoveDex(){
-        return this.moveList_;
+    private Abilities createAbility(String in){
+        String[] mem = in.split("\\R");
+        //System.out.println(Arrays.toString(mem));
+        return new Abilities(mem);
+    }
+
+    private Species createPokemon(String in){
+        return new Species(in);
     }
 
 }

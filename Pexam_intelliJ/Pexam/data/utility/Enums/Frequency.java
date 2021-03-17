@@ -26,6 +26,13 @@ public class Frequency{
         }
     }
 
+    public Frequency(String[] in){
+        this.freq_ = switchHelperFreq(in[0]);
+        if(in.length > 1) {
+            this.value_ = switchHelperInt(in[1]);
+        }
+    }
+
     public Frequency(Freq freq, int value){
         if(freq == Freq.STATIC || freq == Freq.AW || freq == Freq.EOT){
             this.freq_ = freq;
@@ -44,6 +51,27 @@ public class Frequency{
             this.freq_ = freq;
             this.value_ = 1 * value;
         }
+    }
+
+    private Freq switchHelperFreq(String in){
+        switch (in){
+            case "At-Will": return Freq.AW;
+            case "Scene": return Freq.SCENE;
+            case "Static": return Freq.STATIC;
+            case "Daily": return Freq.DAILY;
+            case "EOT": return Freq.EOT;
+            case "": return Freq.NON;
+        }
+        return Freq.NON;
+    }
+
+    private int switchHelperInt(String in){
+        switch (in){
+            case "": return 1;
+            case "x2": return 2;
+            case "x3": return 3;
+        }
+        return 1;
     }
 
     public Freq getFreq() {

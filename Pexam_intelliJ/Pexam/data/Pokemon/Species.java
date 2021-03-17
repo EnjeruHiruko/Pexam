@@ -73,7 +73,6 @@ public class Species {
         //createDexEntry(input);
     }
 
-
     public void createDexEntry(String input){
         String[] mem = input.split("\n");
         this.DexNumber_ = Integer.valueOf(mem[1].trim());
@@ -443,14 +442,6 @@ public class Species {
         if(other instanceof  Capabilities){
 
         }
-        /*
-        if(other instanceof ArrayList){
-            ArrayList temp = (Arraylist) other;
-            if(other.get(0) instanceof Moves){
-
-            }
-        }
-        */
     }
 
     @Override

@@ -32,7 +32,7 @@ class AbilityFormat{
                 e.printStackTrace();
             }
             System.out.println(printer);
-            //temp.close();
+            temp.close();
 
         }catch(Exception e){
             e.printStackTrace();
@@ -45,11 +45,12 @@ class AbilityFormat{
         Scanner in = new Scanner(input).useDelimiter(regex);
         while(in.hasNext()){
             temp += in.next();
+            System.out.println(temp);
             if(in.hasNext()){
                 temp +="\n";
             }
         }
-        //in.close();
+        in.close();
         return temp;
     }
 

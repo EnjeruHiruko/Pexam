@@ -43,4 +43,6 @@ public enum Type{
     public int getRank() {
         return rank_;
     }
+
+
 }
