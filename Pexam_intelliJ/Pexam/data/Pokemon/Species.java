@@ -221,7 +221,7 @@ public class Species {
     }
 
     private void assignMiscInfo(String input){
-        String[] temp = input.split(" ");
+        String[] temp = input.split("\\s+");
         this.miscInfo_ = new MiscInfo(temp);
     }
 

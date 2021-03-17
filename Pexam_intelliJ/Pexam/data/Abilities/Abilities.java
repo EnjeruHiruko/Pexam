@@ -2,6 +2,8 @@ package Pexam.data.Abilities;
 import Pexam.data.utility.Enums.Action;
 import Pexam.data.utility.Enums.Frequency;
 
+import java.util.Arrays;
+
 
 public class Abilities{
 
@@ -41,37 +43,19 @@ public class Abilities{
         if(mem.length > 0) {
             //System.out.println(mem.length);
             this.name_ = mem[1];
-            String[] temp = mem[2].split(" - ");
-            /*
-            try{
-                Scanner mehh = new Scanner(mem[2]).useDelimiter(" - ");
-                System.out.println(mehh.next());
+            String[] temp = mem[2].split(" ");
+            System.out.println(Arrays.toString(temp));
 
-                this.frequency_ = new Frequency(mehh.next().split(" "));
+            if(temp.length == 1){
+                String[] yikes = new String[1];
+                yikes[0] = temp[0];
+                this.frequency_ = new Frequency(yikes);
+            }else{
 
-                if(mehh.hasNext()){
-                    this.action_ = Action.valueOf(mehh.next());
+                for(int c = 0; c < temp.length; c++){
+
                 }
-
-                mehh.close();
-            }catch(Exception e){
-                e.printStackTrace();
             }
-            */
-
-
-
-
-
-
-            this.frequency_ = new Frequency(temp[0].split(" "));
-            if (temp.length > 1) {
-                //System.out.println(temp[1]);
-                this.action_ = Action.valueOf(temp[1]);
-            } else {
-                this.action_ = Action.NON;
-            }
-
 
 
             this.target_ = "";

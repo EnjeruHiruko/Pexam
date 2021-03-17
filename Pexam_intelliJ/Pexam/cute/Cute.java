@@ -12,7 +12,7 @@ public class Cute{
 
     public Cute(){
         this.standardWorld = "ver105_5";
-        this.database_ = new Dex(standardWorld, "all");
+        this.database_ = new Dex(standardWorld, "All");
     }
 
 

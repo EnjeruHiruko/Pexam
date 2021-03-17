@@ -2,6 +2,8 @@ package Pexam.data.utility.Enums;
 
 import Pexam.data.utility.Misc.EnumHandler;
 
+import java.util.Arrays;
+
 public class Frequency{
 
     Freq freq_;
@@ -29,7 +31,7 @@ public class Frequency{
     }
 
     public Frequency(String[] in){
-        //System.out.println(Arrays.toString(in));
+        System.out.println(Arrays.toString(in) + "   "+ in.length);
         if(in.length > 1) {
             this.freq_ = EnumHandler.FreqHandler(in[1]);
             if (in.length > 2) {

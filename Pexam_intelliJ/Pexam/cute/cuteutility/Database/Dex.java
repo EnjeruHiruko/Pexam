@@ -31,7 +31,7 @@ public class Dex {
 
     public void createDex(String worldpath , String param){
 
-        if(param.equals("Moves") || param.equals("all")) {
+        if(param.equalsIgnoreCase("Moves") || param.equalsIgnoreCase("all")) {
 
             Path file = Paths.get("Pexam/cute/cuteutility/"+worldpath+"/MoveDex.txt");
             int counter = 1;
@@ -46,10 +46,10 @@ public class Dex {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            //printMoveDex();
+            printMoveDex();
         }
 
-        if(param.equals("Abilities") || param.equals("all")){
+        if(param.equalsIgnoreCase("Abilities") || param.equalsIgnoreCase("all")){
             Path file = Paths.get("Pexam/cute/cuteutility/"+worldpath+"/AbilityDex.txt");
             try{
                 Scanner in = new Scanner(file).useDelimiter("HOMELESS");
@@ -60,10 +60,10 @@ public class Dex {
             }catch (Exception e){
                 e.printStackTrace();
             }
-            //printAbilityDex();
+            printAbilityDex();
         }
 
-        if(param.equals("Pokemon") || param.equals("all")){
+        if(param.equalsIgnoreCase("Pokemon") || param.equalsIgnoreCase("all")){
             Path file = Paths.get("Pexam/cute/cuteutility/"+worldpath+"/PokeDex.txt");
             try{
                 Scanner in = new Scanner(file).useDelimiter("HOMELESS");
