@@ -29,11 +29,12 @@ public class Frequency{
     }
 
     public Frequency(String[] in){
-        //System.out.println(Arrays.toString(in));
-        if(in.length > 1) {
-            this.freq_ = EnumHandler.FreqHandler(in[1]);
-            if (in.length > 2) {
-                this.value_ = switchHelperInt(in[2]);
+        //System.out.println(Arrays.toString(in) + "   "+ in.length);
+        if(in.length > 0) {
+            this.freq_ = EnumHandler.FreqHandler(in[0]);
+            if (in.length > 1) {
+                String temp = in[1].replace("x", " ");
+                this.value_ = switchHelperInt(in[1]);
             }
         }else{
             this.freq_ = Freq.NON;

@@ -1,6 +1,7 @@
 package Pexam.data.Abilities;
 import Pexam.data.utility.Enums.Action;
 import Pexam.data.utility.Enums.Frequency;
+import Pexam.data.utility.Misc.EnumHandler;
 
 
 public class Abilities{
@@ -27,7 +28,7 @@ public class Abilities{
     }
 
     public Abilities(String input){
-        this.name_ = input;
+        this.name_ = input.replace("$", " ");
         this.frequency_ = new Frequency();
         this.action_ = Action.NON;
         this.target_ = "";
@@ -40,38 +41,35 @@ public class Abilities{
         String[] mem = input;
         if(mem.length > 0) {
             //System.out.println(mem.length);
-            this.name_ = mem[1];
-            String[] temp = mem[2].split(" - ");
-            /*
-            try{
-                Scanner mehh = new Scanner(mem[2]).useDelimiter(" - ");
-                System.out.println(mehh.next());
+            this.name_ = mem[1].replace("$", " ");
+            String[] temp = mem[2].split(" ");
+            //System.out.println(Arrays.toString(temp));
 
-                this.frequency_ = new Frequency(mehh.next().split(" "));
-
-                if(mehh.hasNext()){
-                    this.action_ = Action.valueOf(mehh.next());
+            if(temp.length == 1){
+                //System.out.println("AYAYAYAYAYAYAYAYAYAYYAA");
+                String[] yikes = new String[1];
+                yikes[0] = temp[0];
+                this.frequency_ = new Frequency(yikes);
+            }else{
+                int ayaya = 0;
+                for(int c = 0; c < temp.length; c++){
+                    if(temp[c].length() < 2){
+                        ayaya = c;
+                        break;
+                    }
                 }
-
-                mehh.close();
-            }catch(Exception e){
-                e.printStackTrace();
+                //System.out.println(ayaya);
+                String[] monka = new String[ayaya];
+                for(int c = 0; c < ayaya; c++){
+                    monka[c] = temp[c];
+                }
+                this.frequency_ = new Frequency(monka);
+                String kekw = "";
+                for(int c = 1+ayaya; c < temp.length; c++){
+                    kekw += temp[c] + " ";
+                }
+                this.action_ = EnumHandler.ActionHandler(kekw);
             }
-            */
-
-
-
-
-
-
-            this.frequency_ = new Frequency(temp[0].split(" "));
-            if (temp.length > 1) {
-                //System.out.println(temp[1]);
-                this.action_ = Action.valueOf(temp[1]);
-            } else {
-                this.action_ = Action.NON;
-            }
-
 
 
             this.target_ = "";

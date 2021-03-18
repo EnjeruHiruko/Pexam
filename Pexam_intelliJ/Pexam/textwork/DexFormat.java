@@ -3,15 +3,21 @@ package Pexam.textwork;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import java.util.Arrays;
 import java.util.Locale;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 // manual changes:
 // needed to remove forward slash at capability list of stoutland
-// rotom appliance formes, darmanitan zen mode, pumpkaboo, gourgeist will need to be implemented manually later and were moved to the end of dex2
+// rotom appliance formes, darmanitan zen mode, pumpkaboo, gourgeist, hoopa unbound, meowstic and oricorio will need to be implemented manually later and were moved to the end of dex2
 // added space and tm num of thief in tmlist of hoopa confined
 // completed tmlist name on both urshifu formes (deprecated)
+// corrected shiinotic's height to medium
+// rewrote tmlist of mew
+// corrected spacing on steel wing in tmlist of drakloak
+
+// TODO apastrophe ??
 
 
 class DexFormat {
@@ -25,6 +31,8 @@ class DexFormat {
     static private Scanner dex2;
     static private boolean done = false;
 
+    static private String line;
+    static private String[] parts;
     static private Scanner scanLine;
 
 
@@ -51,9 +59,6 @@ class DexFormat {
         double dexNum = 0;
         Scanner entry;
 
-        //temp variables
-        String line;
-        String[] parts;
 
         // delimiter between mons and for the first lines of a mon, repeated at the end of the loop
         String stdDelim = "(\\v\\s*)+";
@@ -61,6 +66,10 @@ class DexFormat {
         String dexnumDelim = "\\v*\\d+\\.\\d+\\v+";
         // delimitier for use inside entries
         String insideDelim = "\\nBase Stats:|\\nBasic Information|\\nEvolution:|\\nSize Information|\\nBreeding Information|\\nCapability List|\\nSkill List|\\nMove List|\\nMega Evolution";
+
+
+        //start off with delimiter
+        dex3.append(DELIMITER.substring(1));
 
         dex2.useDelimiter(stdDelim);
         try {
@@ -73,7 +82,7 @@ class DexFormat {
                 dex3.append("\n");
                 dex3.append( Double.valueOf(dexNum).intValue() ); // write dexnum integer
                 dex3.append("\n");
-                dex3.append(dex2.next()); // write species name
+                dex3.append(dex2.next().replace("'","")); // write species name
 
                 dex3.append("\n");
 
@@ -111,6 +120,7 @@ class DexFormat {
                 }
 
 
+
                 // get basestats:
                 Scanner scanStats = new Scanner(stats).useDelimiter("\\n|\\r\\n|: ");
 
@@ -120,7 +130,7 @@ class DexFormat {
                     dex3.append(" ");
                 }
 
-                cutLast(dex3); // remove last space in stat line
+                cutLast(); // remove last space in stat line
                 dex3.append("\n");
                 scanStats.close();
 
@@ -130,13 +140,13 @@ class DexFormat {
 
                 //get type
                 line = scanInfo.nextLine();
-                Scanner types = new Scanner(line).useDelimiter(": | / ");
+                Scanner types = new Scanner(line).useDelimiter(": | */ *");
                 types.next(); // skip "Type "
                 while (types.hasNext()) {
                     dex3.append(types.next().toUpperCase());
                     dex3.append(" ");
                 }
-                cutLast(dex3); // remove last space in types line
+                cutLast(); // remove last space in types line
                 dex3.append("\n");
 
                 //get abilities
@@ -146,14 +156,14 @@ class DexFormat {
                 while (scanInfo.hasNextLine()) {
                     line = scanInfo.nextLine();
 
-                    if( !line.matches("(Basic|Adv|High).*") ) {
+                    if( !line.matches("(Basic|Ad[vb]|High).*") ) {
                         break; // skip other info
                     }
 
                     if (line.startsWith("Basic Ability") && !basic) {
                         basic = true;
                         dex3.append("BA");
-                    } else if (line.startsWith("Adv Ability") && !advanced) {
+                    } else if ( line.matches("Ad[vb] Ability.*") && !advanced) {
                         advanced = true;
                         dex3.append("\nAA");
                     } else if (line.startsWith("High Ability") && !high) {
@@ -181,7 +191,7 @@ class DexFormat {
                     scanLine = new Scanner(line);
 
                     dex3.append(" ");
-                    dex3.append(scanLine.next()); // write evo species
+                    dex3.append(scanLine.next().replace("'","")); // write evo species
 
                     if(scanLine.hasNext("Mime|Jr\\.|M|F|\\(A\\)|\\(G\\)|\\(S\\)|\\(R\\)" )) { // special case for multi-word species
                         dex3.append("$");
@@ -270,7 +280,7 @@ class DexFormat {
                     scanLine.close();
                 }
 
-                cutLast(dex3); // remove last space
+                cutLast(); // remove last space
                 dex3.append("\n");
                 scanBreed.close();
 
@@ -280,7 +290,7 @@ class DexFormat {
 
                 boolean isNaturewalk = false;
                 while (scanCap.hasNext()) {
-                    line = scanCap.next().trim().replaceFirst(" ", "#").replace(" ", "$");
+                    line = scanCap.next().trim().replace(' ', '$');
 
                     if (isNaturewalk) {
                         dex3.append("/");
@@ -294,7 +304,13 @@ class DexFormat {
                         dex3.append(" ");
                     }
 
-                    dex3.append(line.replaceAll("[()]","")); // remove brackets
+                    if(line.startsWith("Jump")) {
+                        parts = line.split("[$/]");
+                        dex3.append( String.format("High$Jump$%s Long$Jump$%s", parts[1], parts[2]) );
+
+                    } else {
+                        dex3.append(line.replaceAll("[()]", "")); // remove brackets
+                    }
 
                 }
 
@@ -306,20 +322,27 @@ class DexFormat {
                 dex3.append("sl");
 
                 while (scanSkills.hasNext()) {
-                    parts = scanSkills.next().split(" +|d6\\+|d6");
+                    scanLine = new Scanner(scanSkills.next()).useDelimiter(" +|d6\\+|d6");
 
                     dex3.append(" ");
-                    dex3.append(parts[0]); // write capability name
 
-                    for (int i = 1; i < 3; i++) { // write capability dice and bonus
+                    if(scanLine.hasNext("Edu:")) {
+                        scanLine.next(); // skip edu tag
+                    }
+
+                    dex3.append(scanLine.next()); // write skill name
+
+                    for (int i = 1; i < 3; i++) { // write skill dice and bonus
                         dex3.append("#");
 
-                        if(i >= parts.length ) {
+                        if(!scanLine.hasNext("\\d+")) {
                             dex3.append(0);
                         } else {
-                            dex3.append(parts[i]);
+                            dex3.append(scanLine.next());
                         }
                     }
+
+                    scanLine.close();
                 }
 
                 dex3.append("\n");
@@ -332,7 +355,7 @@ class DexFormat {
                     //get level-up moves
                 writeMoveList(
                         "ml",
-                        scanMoves.next().replace("§ ", ""), // paragraph was used to denote stab in some dexes
+                        scanMoves.next(), // paragraph was used to denote stab in some dexes
                         " - .*\\v*",
                         true
                 );
@@ -405,12 +428,12 @@ class DexFormat {
 
                     //write mega type
                     dex3.append( scanMega.next().replaceAll("-?\\v","") );
-                    cutLast(dex3); //remove trailing carriage returns
+                    cutLast(); //remove trailing carriage returns
                     dex3.append(" ");
 
                     //write mega ability
                     dex3.append( scanMega.next().replaceAll("( |\\v)+", "\\$") );
-                    cutLast(dex3); //remove trailing carriage returns
+                    cutLast(); //remove trailing carriage returns
                     dex3.append(" ");
 
                     //write mega stats;
@@ -441,7 +464,7 @@ class DexFormat {
                     scanMegaStats.close();
 
                     //remove trailing space
-                    cutLast(dex3);
+                    cutLast();
 
                     if(megas > 1) {
                         mega = entry.next();
@@ -455,7 +478,7 @@ class DexFormat {
                 entry.close();
 
                 //remove trailing vertical space
-                cutLast(dex3);
+                cutLast();
 
                 dex3.append("\n");
                 dex3.append(dexNum);
@@ -464,7 +487,7 @@ class DexFormat {
 
             }
 
-            cutLast(dex3);
+            cutLast();
 
         } catch(NoSuchElementException e) {
             //debugging
@@ -487,14 +510,14 @@ class DexFormat {
             return;
         }
 
-        Scanner subScanMoves = new Scanner(movelist).useDelimiter(delim);
+        Scanner subScanMoves = new Scanner( movelist.replace("\u00a7 ", "") ).useDelimiter(delim); // paragraph character \u00a7 is used to mark some moves for some mons
 
         while(subScanMoves.hasNext()) {
             scanLine = new Scanner(subScanMoves.next());
 
             dex3.append(" ");
 
-            String tmp = "";
+            String tmp;
 
             if(hasPrefix) {
                 tmp = scanLine.next();
@@ -502,12 +525,7 @@ class DexFormat {
                 dex3.append("#");
             }
 
-            try {
-                dex3.append(scanLine.next());
-            } catch(NoSuchElementException e) {
-                e.printStackTrace();
-                System.out.println(tmp);
-            }
+            dex3.append(scanLine.next());
 
             while(scanLine.hasNext()) {
                 dex3.append("$");
@@ -523,13 +541,12 @@ class DexFormat {
 
 
     /**
-     * Removes trailing (vertical) spaces from strb.
-     * @param strb The StringBuilder to be cut.
+     * Removes trailing (vertical) spaces from dex3.
      */
-    static private void cutLast(StringBuilder strb) {
+    static private void cutLast() {
 
-        while( String.valueOf( strb.charAt(strb.length()-1) ).matches("\\v|\\s") ) {
-            strb.deleteCharAt(strb.length() - 1);
+        while( String.valueOf( dex3.charAt(dex3.length()-1) ).matches("\\v|\\s") ) {
+            dex3.deleteCharAt(dex3.length() - 1);
         }
 
     }
@@ -571,6 +588,14 @@ class DexFormat {
     static public void updateDex() {
         logDex();
         writeToFile(dex3loc2);
+    }
+
+    /**
+     * Updates regardless of whether writeDex3 has been executed already.
+     */
+    static public void forceUpdateDex() {
+        done = false;
+        updateDex();
     }
 
     static public void main(String[] args) {

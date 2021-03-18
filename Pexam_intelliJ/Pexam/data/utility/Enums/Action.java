@@ -6,6 +6,7 @@ public enum Action{
     SWIFT("Swift Action"),
     SHIFT("Shift Action"),
     FULL("Full Action"),
+    EXTENDED("Extended Action"),
     NON("");
 
     private final String name_;

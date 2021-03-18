@@ -1,5 +1,7 @@
 package Pexam.data.Pokemon;
 
+import java.util.Arrays;
+
 public class Evolution{
 
     private String name_;
@@ -17,24 +19,19 @@ public class Evolution{
 
     public Evolution(String[] in){
         this.name_ = in[0].replace("$", " ");
-        String temp = in[1].replace("$", "---");
-        String[] well = temp.split("---");
-        try {
-            if (well.length == 1) {
-                this.level_ = Integer.parseInt(well[0]);
-            } else {
-                String mem = "";
-                for (int c = 0; c < well.length; c++) {
-                    if (c != well.length - 1) {
-                        mem += well[c];
-                    }
-                }
-                this.means_ = mem;
-                this.level_ = Integer.parseInt(well[well.length - 1]);
+        String temp = in[1].replace("$", " ");
+        String[] well = temp.split(" ");
+        String nani = "";
+
+        for(int c = 0; c < well.length; c++){
+            try{
+                this.level_ = Integer.parseInt(well[c]);
+            }catch(Exception e){
+                nani += well[c];
             }
-        }catch(Exception e){
-            e.printStackTrace();
         }
+        this.means_ = nani;
+        System.out.println(Arrays.toString(well));
     }
 
     public Evolution(String name, int level){
@@ -66,7 +63,7 @@ public class Evolution{
     //misc block
 
     public String toString(){
-        return "Evolution: " + name_ +" at " + level_ + "%n";
+        return "Evolution: " + name_ +" at " + level_;
     }
 
 }

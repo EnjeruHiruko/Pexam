@@ -1,0 +1,4 @@
+This Document contains the Rules on how to assign the Effect-Coding for
+the Move or Ability Description. It also contains a parameter-list
+with the purpose of having all important things in one Document.
+

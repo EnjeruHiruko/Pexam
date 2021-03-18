@@ -86,8 +86,12 @@ public class Moves{
             this.type_ = EnumHandler.TypeHandler(mem[2]);
             //System.out.println(mem[2]);
             //System.out.println(EnumHandler.TypeHandler(mem[2]));
-            this.frequency_ = new Frequency(mem[3].split(" "));
-            //System.out.printf(Arrays.toString(mem));
+            String[] yep = new String[mem[3].split(" ").length-1];
+            for(int c = 0; c < yep.length; c++){
+                yep[c] = mem[3].split(" ")[c+1];
+            }
+            this.frequency_ = new Frequency(yep);
+            //System.out.printf(Arrays.toString(mem[3].split(" ")));
             this.AC_ = EnumHandler.AcHandler(mem[4]);
             if (mem.length < 11) {
                 this.DB_ = DamageBase.NON;
