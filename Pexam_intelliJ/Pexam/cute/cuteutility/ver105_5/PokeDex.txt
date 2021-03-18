@@ -17929,7 +17929,7 @@ EV Dreepy#0 Drakloak#20 Dragapult#40
 cl Overland$3 Swim$6 Sky$6 High$Jump$2 Long$Jump$2 Power$3 Darkvision Dead$Silent Invisibility Phasing Underdog
 sl Athl#3#0 Acro#5#0 Combat#2#0 Stealth#5#0 Percep#3#0 Focus#3#0
 ml Evo#Dragon$Pulse 6#Lock-On 12#Assurance 18#Hex 24#Agility 30#Double-Hit 36#U-Turn 42#Dragon$Dance 48#Phantom$Force 54#Take$Down 60#Dragon$Rush 66#Double-Edge 72#Last$Resort
-tml 06#Toxic 10#Hidden$Power 17#Protect 21#Frustration 24#Thunderbolt 25#Thunder 27#Return 30#Shadow$Ball 32#Double$Team 35#Flamethrower 35#Fire$Blast 42#Facade 44#Rest 45#Attract 46#Thief 48#Round 51Steel#Wing 55#Scald 61#Will-O-Wisp 62#Acrobatics 73#Thunder$Wave 82#Dragon$Tail 83#Infestation 87#Swagger 88#Sleep$Talk 89#U-Turn 90#Substitute 94#Surf 100#Confide
+tml 06#Toxic 10#Hidden$Power 17#Protect 21#Frustration 24#Thunderbolt 25#Thunder 27#Return 30#Shadow$Ball 32#Double$Team 35#Flamethrower 35#Fire$Blast 42#Facade 44#Rest 45#Attract 46#Thief 48#Round 51#Steel$Wing 55#Scald 61#Will-O-Wisp 62#Acrobatics 73#Thunder$Wave 82#Dragon$Tail 83#Infestation 87#Swagger 88#Sleep$Talk 89#U-Turn 90#Substitute 94#Surf 100#Confide
 el
 tl Ally$Switch Brine Dive Double-Edge Draco$Meteor Dragon$Pulse$(N) Endure Helping$Hand Last$Resort Outrage Snore Sucker$Punch Swift
 mega

@@ -15,6 +15,7 @@ import java.util.Scanner;
 // completed tmlist name on both urshifu formes (deprecated)
 // corrected shiinotic's height to medium
 // rewrote tmlist of mew
+// corrected spacing on steel wing in tmlist of drakloak
 
 // TODO apastrophe ??
 

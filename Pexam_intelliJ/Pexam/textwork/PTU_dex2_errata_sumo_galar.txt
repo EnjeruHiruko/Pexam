@@ -53032,7 +53032,7 @@ Evo Dragon Pulse - Dragon
 66 Double-Edge - Normal
 72 Last Resort - Normal
 TM Move List
-06 Toxic, 10 Hidden Power, 17 Protect, 21 Frustration, 24 Thunderbolt, 25 Thunder, 27 Return, 30 Shadow Ball, 32 Double Team, 35 Flamethrower, 35 Fire Blast, 42 Facade, 44 Rest, 45 Attract, 46 Thief, 48 Round, 51Steel Wing, 55 Scald, 61 Will-O-Wisp, 62 Acrobatics, 73 Thunder Wave, 82 Dragon Tail, 83 Infestation, 87 Swagger, 88 Sleep Talk, 89 U-Turn, 90 Substitute, 94 Surf, 100 Confide
+06 Toxic, 10 Hidden Power, 17 Protect, 21 Frustration, 24 Thunderbolt, 25 Thunder, 27 Return, 30 Shadow Ball, 32 Double Team, 35 Flamethrower, 35 Fire Blast, 42 Facade, 44 Rest, 45 Attract, 46 Thief, 48 Round, 51 Steel Wing, 55 Scald, 61 Will-O-Wisp, 62 Acrobatics, 73 Thunder Wave, 82 Dragon Tail, 83 Infestation, 87 Swagger, 88 Sleep Talk, 89 U-Turn, 90 Substitute, 94 Surf, 100 Confide
 Tutor Move List
 Ally Switch, Brine, Dive, Double-Edge, Draco Meteor, Dragon Pulse (N), Endure, Helping Hand, Last Resort, Outrage, Snore, Sucker Punch, Swift
 886.0
