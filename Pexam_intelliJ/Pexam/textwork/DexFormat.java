@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 // manual changes:
 // needed to remove forward slash at capability list of stoutland
-// rotom appliance formes, darmanitan zen mode, pumpkaboo, gourgeist, hoopa unbound and meowstic will need to be implemented manually later and were moved to the end of dex2
+// rotom appliance formes, darmanitan zen mode, pumpkaboo, gourgeist, hoopa unbound, meowstic and oricorio will need to be implemented manually later and were moved to the end of dex2
 // added space and tm num of thief in tmlist of hoopa confined
 // completed tmlist name on both urshifu formes (deprecated)
 // corrected shiinotic's height to medium
