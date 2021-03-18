@@ -30,6 +30,8 @@ class DexFormat {
     static private Scanner dex2;
     static private boolean done = false;
 
+    static private String line;
+    static private String[] parts;
     static private Scanner scanLine;
 
 
@@ -56,9 +58,6 @@ class DexFormat {
         double dexNum = 0;
         Scanner entry;
 
-        //temp variables
-        String line;
-        String[] parts;
 
         // delimiter between mons and for the first lines of a mon, repeated at the end of the loop
         String stdDelim = "(\\v\\s*)+";

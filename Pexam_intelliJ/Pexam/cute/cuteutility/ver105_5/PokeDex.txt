@@ -15028,25 +15028,6 @@ tl Block Drain$Punch Dual$Chop Endeavor Focus$Punch Ice$Punch Icy$Wind Iron$Defe
 mega
 740.0
 HOMELESS
-741.0
-741
-ORICORIO
-8 7 7 10 7 9
-SPECIAL FLYING (SEE FORME CHANGE)
-BA Dancer
-AA Adaptability Spinning$Dance Revelation
-HA Competitive
-EV Oricorio#0
-0.6 3.4 25 Flying 13 Herbivore Beach/Grassland
-cl Overland$5 Swim$3 Sky$6 High$Jump$3 Long$Jump$3 Power$2 Forme$Change
-sl Athl#3#0 Acro#4#1 Combat#3#0 Stealth#3#0 Percep#4#0 Focus#4#2
-ml 1#Pound 4#Growl 6#Peck 10#Helping$Hand 13#Air$Cutter 16#Baton$Pass 20#Feather$Dance 23#Double$Slap 26#Teeter$Dance 30#Roost 33#Captivate 36#Air$Slash 40#Revelation$Dance 43#Mirror$Move 46#Agility 50#Hurricane
-tml -2#Fly 04#Calm$Mind 06#Toxic 10#Hidden$Power 12#Taunt 17#Protect 19#Roost 21#Frustration 27#Return 32#Double$Team 37#Sandstorm 40#Aerial$Ace 42#Facade 44#Rest 45#Attract 48#Round 51#Steel$Wing 60#Quash 62#Acrobatics 63#Embargo 75#Swords$Dance 87#Swagger 88#Sleep$Talk 89#U-Turn 90#Substitute 100#Confide
-el Captivate Pluck Safeguard Tailwind
-tl Covet Defog Helping$Hand Icy$Wind Role$Play Sky$Attack Snore Tailwind$Forme$Change:$When$an$Oricorio$hatches it$takes$the$form$of$its$mother or$father$if$the$other$parent$was$a$Ditto.$Oricorio$may$change$forms$by$consuming$Nectar$as$an$Extended$Action.$This$determines$Oricorio's$primary$type:$Red$Nectar:$Baille$(Fire)$Yellow$Nectar:$Pom$Pom$(Electric)$Pink$Nectar:$Pa’u$(Psychic)$Purple$Nectar:$Sensu$(Ghost)
-mega
-741.0
-HOMELESS
 742.0
 742
 CUTIEFLY
