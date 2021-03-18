@@ -116,6 +116,7 @@ class DexFormat {
                 }
 
 
+
                 // get basestats:
                 Scanner scanStats = new Scanner(stats).useDelimiter("\\n|\\r\\n|: ");
 
@@ -299,7 +300,13 @@ class DexFormat {
                         dex3.append(" ");
                     }
 
-                    dex3.append(line.replaceAll("[()]","")); // remove brackets
+                    if(line.startsWith("Jump")) {
+                        parts = line.split("[$/]");
+                        dex3.append( String.format("High$Jump$%s Long$Jump$%s", parts[1], parts[2]) );
+
+                    } else {
+                        dex3.append(line.replaceAll("[()]", "")); // remove brackets
+                    }
 
                 }
 
@@ -330,6 +337,8 @@ class DexFormat {
                             dex3.append(scanLine.next());
                         }
                     }
+
+                    scanLine.close();
                 }
 
                 dex3.append("\n");
@@ -342,7 +351,7 @@ class DexFormat {
                     //get level-up moves
                 writeMoveList(
                         "ml",
-                        scanMoves.next().replace("§ ", ""), // paragraph was used to denote stab in some dexes
+                        scanMoves.next(), // paragraph was used to denote stab in some dexes
                         " - .*\\v*",
                         true
                 );
@@ -497,7 +506,7 @@ class DexFormat {
             return;
         }
 
-        Scanner subScanMoves = new Scanner(movelist).useDelimiter(delim);
+        Scanner subScanMoves = new Scanner( movelist.replace("\u00a7 ", "") ).useDelimiter(delim); // paragraph character \u00a7 is used to mark some moves for some mons
 
         while(subScanMoves.hasNext()) {
             scanLine = new Scanner(subScanMoves.next());
@@ -512,12 +521,7 @@ class DexFormat {
                 dex3.append("#");
             }
 
-            try {
-                dex3.append(scanLine.next());
-            } catch(NoSuchElementException e) {
-                e.printStackTrace();
-                System.out.println(tmp);
-            }
+            dex3.append(scanLine.next());
 
             while(scanLine.hasNext()) {
                 dex3.append("$");
