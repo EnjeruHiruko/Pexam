@@ -1,3 +1,4 @@
+HOMELESS
 1.0
 1
 BULBASAUR
@@ -9749,7 +9750,7 @@ HOMELESS
 476
 PROBOPASS
 6 6 15 8 15 4
-ROCK/STEEL
+ROCK STEEL
 BA Sturdy Magnet$Pull
 AA Sand$Force Mini-Noses
 HA Targeting$System
@@ -13829,25 +13830,6 @@ el Assist Barrier Trick Yawn
 tl Covet Gravity Heal$Bell Helping$Hand Iron$Tail Magic$Coat Magic$Room Recycle Role$Play Shock$Wave Signal$Beam Snatch Snore Trick Wonder$Room Zen$Headbutt
 mega
 677.0
-HOMELESS
-678.0
-678
-MEOWSTIC
-7 5 8 8 8 10
-PSYCHIC
-BA Keen$Eye Infiltrator
-AA Sorcery Prankster Own$Tempo
-HA Competitive Magic$Guard
-EV Espurr#0 Meowstic#25
-0.6 8.5  50 Field 0 Herbivore Grassland/Urban
-cl Overland$7 Swim$4 High$Jump$1 Long$Jump$2 Power$2 Telekinesis Telepath Naturewalk$Grassland
-sl Athl#3#0 Acro#3#1 Combat#3#0 Stealth#4#0 Percep#5#0 Focus#4#2
-ml 1#Scratch 1#Leer 5#Covet 9#Confusion 13#Light$Screen 17#Psybeam 19#Fake$Out 25#Psyshock (M)#28$Charm (F)#28$Charge$Beam (M)#31$Miracle$Eye (F)#31$Shadow$Ball (M)#35$Reflect (F)#35$Extrasensory 40#Psychic 43#Role$Play (M)#45$Imprison (F)#45$Signal$Beam 48#Sucker$Punch (M)#50$Misty$Terrain (F)#50$Future$Sight (M)#55$Quick$Guard (F)#55$Stored$Power
-tml -1#Cut 03#Psyshock 04#Calm$Mind 06#Toxic 10#Hidden$Power 11#Sunny$Day 15#Hyper$Beam 16#Light$Screen 17#Protect 18#Rain$Dance 20#Safeguard 21#Frustration 24#Thunderbolt 27#Return 29#Psychic 32#Double$Team 33#Reflect 41#Torment 42#Facade 44#Rest 45#Attract 48#Round 49#Echoed$Voice 53#Energy$Ball 57#Charge$Beam 66#Payback 68#Giga$Impact 70#Flash 73#Thunder$Wave 77#Psych$Up 85#Dream$Eater 87#Swagger 88#Sleep$Talk 90#Substitute 92#Trick$Room 97#Dark$Pulse 100#Confide
-el
-tl Covet Gravity Heal$Bell Helping$Hand Iron$Tail Magic$Coat Magic$Room Recycle Role$Play Shock$Wave Signal$Beam Snatch Snore Trick Wonder$Room Zen$Headbutt$(M)$Helping$Hand$(N) (M)$Mean$Look$(N) (M)$Quick$Guard$(N) (F)$Magical$Leaf$(N) (F)$Me$First$(N) (F)$Stored$Power$(N)
-mega
-678.0
 HOMELESS
 679.0
 679

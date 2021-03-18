@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 // manual changes:
 // needed to remove forward slash at capability list of stoutland
-// rotom appliance formes, darmanitan zen mode, pumpkaboo, gourgeist will need to be implemented manually later and were moved to the end of dex2
+// rotom appliance formes, darmanitan zen mode, pumpkaboo, gourgeist, hoopa unbound and meowstic will need to be implemented manually later and were moved to the end of dex2
 // added space and tm num of thief in tmlist of hoopa confined
 // completed tmlist name on both urshifu formes (deprecated)
 // corrected shiinotic's height to medium
@@ -66,6 +66,10 @@ class DexFormat {
         String dexnumDelim = "\\v*\\d+\\.\\d+\\v+";
         // delimitier for use inside entries
         String insideDelim = "\\nBase Stats:|\\nBasic Information|\\nEvolution:|\\nSize Information|\\nBreeding Information|\\nCapability List|\\nSkill List|\\nMove List|\\nMega Evolution";
+
+
+        //start off with delimiter
+        dex3.append(DELIMITER.substring(1));
 
         dex2.useDelimiter(stdDelim);
         try {
@@ -136,7 +140,7 @@ class DexFormat {
 
                 //get type
                 line = scanInfo.nextLine();
-                Scanner types = new Scanner(line).useDelimiter(": | / ");
+                Scanner types = new Scanner(line).useDelimiter(": | */ *");
                 types.next(); // skip "Type "
                 while (types.hasNext()) {
                     dex3.append(types.next().toUpperCase());
@@ -513,7 +517,7 @@ class DexFormat {
 
             dex3.append(" ");
 
-            String tmp = "";
+            String tmp;
 
             if(hasPrefix) {
                 tmp = scanLine.next();
