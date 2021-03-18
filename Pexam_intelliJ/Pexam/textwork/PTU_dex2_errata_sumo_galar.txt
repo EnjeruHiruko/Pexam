@@ -1140,7 +1140,7 @@ Diet: Omnivore
 Habitat: Cave, Grassland, Urban
 Capability List
 Overland 7, Swim 6, Jump 2/2, Power 3, Darkvision,
-Naturewalk (Grassland, Urban), Stealth, Tracker
+Naturewalk (Grassland, Urban), Stealth, Tracker,
 Underdog
 Skill List
 Athl 3d6, Acro 3d6, Combat 3d6+2, Stealth 4d6,
@@ -45028,7 +45028,7 @@ Evolution:
 1 - Morelull
 2 - Shiinotic Minimum 20
 Size Information
-Height: 3’ 3” / 1m (Medum)
+Height: 3’ 3” / 1m (Medium)
 Weight: 25.4 lbs / 11.5kg (2)
 Breeding Information
 Gender Ratio: 50% M / 50% F
