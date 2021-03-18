@@ -53084,7 +53084,7 @@ Evo Dragon Darts - Dragon
 70 Double-Edge - Normal
 78 Last Resort - Normal
 TM Move List
-06 Toxic, 10 Hidden Power, 15 Hyper Beam, 16 Light Screen, 17 Protect, 21 Frustration, 22 Solar Beam, 24 Thunderbolt, 25 Thunder, 27 Return, 30 Shadow Ball, 32 Double Team, 33 Reflect, 35 Flamethrower, 35 Fire Blast, 42 Facade, 44 Rest, 45 Attract, 46 Thief, 48 Round, 51Steel Wing, 55 Scald, 61 Will-O-Wisp, 62 Acrobatics, 68 Giga Impact, 73 Thunder Wave, 76 Fly, 82 Dragon Tail, 83 Infestation, 87 Swagger, 88 Sleep Talk, 89 U-Turn, 90 Substitute, 94 Surf, 100 Confide
+06 Toxic, 10 Hidden Power, 15 Hyper Beam, 16 Light Screen, 17 Protect, 21 Frustration, 22 Solar Beam, 24 Thunderbolt, 25 Thunder, 27 Return, 30 Shadow Ball, 32 Double Team, 33 Reflect, 35 Flamethrower, 35 Fire Blast, 42 Facade, 44 Rest, 45 Attract, 46 Thief, 48 Round, 51 Steel Wing, 55 Scald, 61 Will-O-Wisp, 62 Acrobatics, 68 Giga Impact, 73 Thunder Wave, 76 Fly, 82 Dragon Tail, 83 Infestation, 87 Swagger, 88 Sleep Talk, 89 U-Turn, 90 Substitute, 94 Surf, 100 Confide
 Tutor Move List
 Ally Switch, Body Slam, Brine, Dive, Double-Edge, Draco Meteor, Dragon Breath (N), Dragon Pulse (N), Endure, Helping Hand, Last Resort, Outrage, Snore, Sucker Punch (N), Swift
 887.0

@@ -17948,7 +17948,7 @@ EV Dreepy#0 Drakloak#20 Dragapult#40
 cl Overland$3 Swim$8 Sky$8 High$Jump$3 Long$Jump$3 Power$6 Darkvision Dead$Silent Invisibility Mountable$3 Phasing
 sl Athl#4#0 Acro#6#0 Combat#4#0 Stealth#6#0 Percep#4#0 Focus#4#0
 ml Evo#Dragon$Darts 6#Lock-On 12#Assurance 18#Hex 24#Agility 30#Double-Hit 36#U-Turn 42#Dragon$Dance 48#Phantom$Force 54#Take$Down 63#Dragon$Rush 70#Double-Edge 78#Last$Resort
-tml 06#Toxic 10#Hidden$Power 15#Hyper$Beam 16#Light$Screen 17#Protect 21#Frustration 22#Solar$Beam 24#Thunderbolt 25#Thunder 27#Return 30#Shadow$Ball 32#Double$Team 33#Reflect 35#Flamethrower 35#Fire$Blast 42#Facade 44#Rest 45#Attract 46#Thief 48#Round 51Steel#Wing 55#Scald 61#Will-O-Wisp 62#Acrobatics 68#Giga$Impact 73#Thunder$Wave 76#Fly 82#Dragon$Tail 83#Infestation 87#Swagger 88#Sleep$Talk 89#U-Turn 90#Substitute 94#Surf 100#Confide
+tml 06#Toxic 10#Hidden$Power 15#Hyper$Beam 16#Light$Screen 17#Protect 21#Frustration 22#Solar$Beam 24#Thunderbolt 25#Thunder 27#Return 30#Shadow$Ball 32#Double$Team 33#Reflect 35#Flamethrower 35#Fire$Blast 42#Facade 44#Rest 45#Attract 46#Thief 48#Round 51#Steel$Wing 55#Scald 61#Will-O-Wisp 62#Acrobatics 68#Giga$Impact 73#Thunder$Wave 76#Fly 82#Dragon$Tail 83#Infestation 87#Swagger 88#Sleep$Talk 89#U-Turn 90#Substitute 94#Surf 100#Confide
 el
 tl Ally$Switch Body$Slam Brine Dive Double-Edge Draco$Meteor Dragon$Breath$(N) Dragon$Pulse$(N) Endure Helping$Hand Last$Resort Outrage Snore Sucker$Punch$(N) Swift
 mega

@@ -590,6 +590,14 @@ class DexFormat {
         writeToFile(dex3loc2);
     }
 
+    /**
+     * Updates regardless of whether writeDex3 has been executed already.
+     */
+    static public void forceUpdateDex() {
+        done = false;
+        updateDex();
+    }
+
     static public void main(String[] args) {
 
         java.util.List<String> Args = java.util.Arrays.asList(args);
