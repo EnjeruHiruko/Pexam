@@ -1,4 +1,3 @@
-HOMELESS
 1.0
 1
 BULBASAUR
@@ -480,8 +479,8 @@ ARBOK
 6 9 7 7 8 8
 POISON
 BA Shed$Skin Intimidate
-AA Serpentï¿½s$Mark*
-HA Serpentï¿½s$Mark*
+AA Serpent’s$Mark*
+HA Serpent’s$Mark*
 EV Ekans#0 Arbok#20
 3.5 65 50 Field/Dragon 0 Carnviore. Grassland
 cl Overland$6 Swim$4 High$Jump$1 Long$Jump$2 Power$3 Darkvision Stealth Naturewalk$Grassland Underdog
@@ -803,7 +802,7 @@ VULPIX Alola
 4 4 4 5 7 7
 ICE
 BA Cute$Charm Snow$Cloak
-AA Glisten Winterï¿½s$Kiss
+AA Glisten Winter’s$Kiss
 HA Snow$Warning
 EV Vulpix$(A)#0 Ninetales$(A)#Ice$Stone$20
 0.6 9.9 25 Field 10 Herbivore Mountain/Tundra
@@ -841,7 +840,7 @@ NINETALES Alola
 7 7 8 8 10 11
 ICE FAIRY
 BA Cute$Charm Snow$Cloak
-AA Glisten Winterï¿½s$Kiss
+AA Glisten Winter’s$Kiss
 HA Snow$Warning
 EV Vulpix$(A)#0 Ninetales$(A)#Ice$Stone$20
 1.1 19.9 25 Field 0 Herbivore Mountain/Tundra
@@ -1356,7 +1355,7 @@ WATER
 BA Swift$Swim Water$Absorb
 AA Damp Hypnotic
 HA Rain$Dish
-EV Poliwag#0 Poliwhirl#25 Poliwrath#Water$Stone$MInimum$30 Politoed#Holding$Kingï¿½s$Rock$30
+EV Poliwag#0 Poliwhirl#25 Poliwrath#Water$Stone$MInimum$30 Politoed#Holding$King’s$Rock$30
 0.6 12.4 50 Water$1 10 Herbivore Freshwater/Marsh
 cl Overland$3 Swim$4 High$Jump$1 Long$Jump$1 Power$2 Fountain Gilled Naturewalk$Wetlands Underdog
 sl Athl#2#1 Acro#2#0 Combat#1#0 Stealth#2#0 Percep#2#1 Focus#2#0
@@ -1375,7 +1374,7 @@ WATER
 BA Swift$Swim Water$Absorb
 AA Damp Hypnotic
 HA Rain$Dish
-EV Poliwag#0 Poliwhirl#25 Poliwrath#Water$Stone$30 Politoed#Holding$Kingï¿½s$Rock$30
+EV Poliwag#0 Poliwhirl#25 Poliwrath#Water$Stone$30 Politoed#Holding$King’s$Rock$30
 1 20 50 Water$1 0 Herbivore Freshwater/Marsh
 cl Overland$4 Swim$5 High$Jump$1 Long$Jump$2 Power$4 Fountain Gilled Naturewalk$Wetlands Underdog
 sl Athl#3#1 Acro#3#2 Combat#3#0 Stealth#2#1 Percep#2#1 Focus#3#2
@@ -1812,7 +1811,7 @@ WATER PSYCHIC
 BA Oblivious Own$Tempo
 AA Delayed$Reaction Truant
 HA Regenerator
-EV Slowpoke#0 Slowbro#35 Slowking#Holding$Kingï¿½s$Rock$35
+EV Slowpoke#0 Slowbro#35 Slowking#Holding$King’s$Rock$35
 1.2 36 50 Monster/Water$1 10 Herbivore Beach/Freshwater
 cl Overland$1 Swim$2 High$Jump$1 Long$Jump$1 Power$2 Fountain Naturewalk$Wetlands Underdog
 sl Athl#2#0 Acro#1#0 Combat#1#0 Stealth#1#0 Percep#1#0 Focus#4#0
@@ -1920,13 +1919,13 @@ mega
 HOMELESS
 83.0
 83
-FARFETCHï¿½D
+FARFETCH’D
 5 7 6 6 6 6
 NORMAL FLYING
 BA Keen$Eye Inner$Focus
 AA Defiant Super$Luck
 HA Leek$Mastery
-EV Farfetchï¿½d#0
+EV Farfetch’d#0
 0.8 15 50 Flying/Field 10 Herbivore Freshwater/Grassland/Marsh
 cl Overland$3 Swim$2 Sky$7 High$Jump$2 Long$Jump$2 Power$3 Underdog Wielder
 sl Athl#4#1 Acro#4#2 Combat#4#0 Stealth#4#2 Percep#4#2 Focus#3#2
@@ -1939,7 +1938,7 @@ mega
 HOMELESS
 83.1
 83
-FARFETCHï¿½D Galar
+FARFETCH’D Galar
 5 10 6 6 6 6
 FIGHTING
 BA Scrappy Steadfast
@@ -1999,7 +1998,7 @@ HOMELESS
 SEEL
 7 5 6 5 7 5
 WATER
-BA Thick$Fat Winterï¿½s$Kiss
+BA Thick$Fat Winter’s$Kiss
 AA Ice$Body Hydration
 HA Frostbite
 EV Seel#0 Dewgong#30
@@ -2018,7 +2017,7 @@ HOMELESS
 DEWGONG
 9 7 8 7 10 7
 WATER ICE
-BA Thick$Fat Winterï¿½s$Kiss
+BA Thick$Fat Winter’s$Kiss
 AA Ice$Body Hydration
 HA Frostbite
 EV Seel#0 Dewgong#30
@@ -3215,7 +3214,7 @@ HOMELESS
 ARTICUNO
 9 9 10 10 13 9
 ICE FLYING
-BA Pressure Winterï¿½s$Kiss
+BA Pressure Winter’s$Kiss
 AA Snow$Warning Snow$Cloak
 HA Frostbite
 EV Articuno#0
@@ -3413,9 +3412,9 @@ EV Mew#0
 cl Overland$7 Swim$4 Sky$6 High$Jump$2 Long$Jump$2 Power$3 Aura$Reader Glow Invisibility Telekinetic Telepath Shapeshifter
 sl Athl#3#0 Acro#4#2 Combat#4#0 Stealth#5#2 Percep#4#0 Focus#6#0
 ml 1#Pound 1#Reflect$Type 1#Transform 10#Mega$Punch 20#Metronome 30#Psychic 40#Barrier 50#Ancient$Power 60#Amnesia 70#Me$First 80#Baton$Pass 90#Nasty$Plot 100#Aura$Sphere
-tml Mew#can$learn$any$TM/HM
+tml 101#Any
 el
-tl Mew$can$be$Tutored$to$learn$any$Move
+tl Any
 mega
 151.0
 HOMELESS
@@ -4073,7 +4072,7 @@ WATER
 BA Swift$Swim Water$Absorb
 AA Drizzle Hypnotic
 HA Rain$Dish
-EV Poliwag#0 Poliwhirl#25 Politoed#Holding$Kingï¿½s$Rock$30
+EV Poliwag#0 Poliwhirl#25 Politoed#Holding$King’s$Rock$30
 1.1 33.9 50 Water$1 0 Herbivore Freshwater/Marsh
 cl Overland$5 Swim$8 High$Jump$3 Long$Jump$4 Power$4 Fountain Gilled Naturewalk$Wetlands Pack$Mon
 sl Athl#4#2 Acro#5#3 Combat#3#2 Stealth#2#1 Percep#3#1 Focus#4#2
@@ -4320,7 +4319,7 @@ WATER PSYCHIC
 BA Oblivious Own$Tempo
 AA Perception Truant
 HA Regenerator
-EV Slowpoke#0 Slowking#Holding$Kingï¿½s$Rock$35
+EV Slowpoke#0 Slowking#Holding$King’s$Rock$35
 2 79.5 50 Monster/Water$1 0 Herbivore Beach/Freshwater
 cl Overland$4 Swim$3 High$Jump$1 Long$Jump$1 Power$5 Fountain Pack$Mon Telepath Naturewalk$Wetlands
 sl Athl#3#0 Acro#2#0 Combat#3#0 Stealth#2#0 Percep#5#2 Focus#4#0
@@ -4737,7 +4736,7 @@ SWINUB
 ICE GROUND
 BA Thick$Fat Pickup
 AA Oblivious Snow$Cloak
-HA Winterï¿½s$Kiss
+HA Winter’s$Kiss
 EV Swinub#0 Piloswine#30 Mamoswine#Learn$Ancient$Power
 0.4 6.5 50 Field 10 Herbivore Cave/Taiga/Tundra
 cl Overland$3 Swim$1 High$Jump$1 Long$Jump$1 Power$1 Naturewalk$Tundra Underdog
@@ -4756,7 +4755,7 @@ PILOSWINE
 ICE GROUND
 BA Thick$Fat Pickup
 AA Oblivious Snow$Cloak
-HA Winterï¿½s$Kiss
+HA Winter’s$Kiss
 EV Swinub#0 Piloswine#30 Mamoswine#Learn$Ancient$Power
 1.1 55.8 50 Field 0 Herbivore Cave/Taiga/Tundra
 cl Overland$5 Swim$3 High$Jump$1 Long$Jump$1 Power$4 Naturewalk$Tundra Underdog
@@ -5078,7 +5077,8 @@ HITMONTOP
 5 10 10 4 11 7
 FIGHTING
 BA Intimidate Technician
-AA Steadfast
+AA Steadfast Discipline
+HA Whirlwind$Kicks
 EV Tyrogue#0 Hitmontop#Equal$Attack$and$Defense$20
 1.4 48 100 Humanshape 0 Omnivore Mountain/Urban
 cl Overland$5 Swim$3 High$Jump$2 Long$Jump$2 Power$6
@@ -5799,7 +5799,8 @@ SEEDOT
 4 4 5 3 3 3
 GRASS
 BA Sturdy Early$Bird
-AA Pickpocket
+AA Pickpocket Overcoat
+HA Bulletproof
 EV Seedot#0 Nuzleaf#15 Shiftry#Leaf$Stone$25
 0.5 4 50 Field/Plant 7 Herbivore Forest/Rainforest
 cl Overland$3 Swim$1 High$Jump$2 Long$Jump$2 Power$1 Naturewalk$Grassland/Forest Underdog
@@ -7470,7 +7471,7 @@ SNORUNT
 5 5 5 5 5 5
 ICE
 BA Inner$Focus Ice$Body
-AA Winterï¿½s$Kiss Moody
+AA Winter’s$Kiss Moody
 HA Frostbite
 EV Snorunt#0 Glalie#30 Froslass#Dawn$Stone$Female$30
 0.7 16.8 50 Fairy/Mineral 10 Herbivore Taiga/Tundra
@@ -7489,7 +7490,7 @@ GLALIE
 8 8 8 8 8 8
 ICE
 BA Inner$Focus Ice$Body
-AA Winterï¿½s$Kiss Moody
+AA Winter’s$Kiss Moody
 HA Frostbite
 EV Snorunt#0 Glalie#40
 1.5 256.5 50 Fairy/Mineral 0 Carnivore Cave/Taiga/Tundra
@@ -9654,7 +9655,7 @@ HOMELESS
 GLACEON
 7 6 11 13 10 7
 ICE
-BA Snow$Cloak Winterï¿½s$Kiss
+BA Snow$Cloak Winter’s$Kiss
 AA Type$Aura$(Ice) Ice$Body
 HA Frostbite
 EV Eevee#0 Glaceon#Shiny$Stone
@@ -9694,7 +9695,7 @@ MAMOSWINE
 ICE GROUND
 BA Thick$Fat Guts
 AA Oblivious Snow$Cloak
-HA Winterï¿½s$Kiss
+HA Winter’s$Kiss
 EV Swinub#0 Piloswine#30 Mamoswine#Learn$Ancient$Power
 2.5 291 50 Field 0 Herbivore Tundra
 cl Overland$7 Swim$4 High$Jump$1 Long$Jump$2 Power$10 Chilled Freezer Naturewalk$Tundra Mountable$1
@@ -11289,7 +11290,7 @@ DARUMAKA Galar
 7 9 5 2 5 5
 ICE
 BA Hustle Ice$Body
-AA Inner$Focus Winterï¿½s$Kiss
+AA Inner$Focus Winter’s$Kiss
 HA Celebrate
 EV Darumaka$(G)#0 Darmanitan$(G)#30,$Ice$Stone
 0.7 40 50 Field 10 Herbivore Mountain/Tundra
@@ -11327,7 +11328,7 @@ DARMANITAN Galar, Standard Mode
 11 14 6 3 6 10
 ICE
 BA Gorilla$Tactics Ice$Body
-AA Inner$Focus Winterï¿½s$Kiss
+AA Inner$Focus Winter’s$Kiss
 HA Zen$Snowed
 EV Darumaka$(G)#0 Darmanitan$(G)#30,$Ice$Stone
 1.7 120 50 Field 0 Omnivore Mountain/Tundra
@@ -11346,7 +11347,7 @@ DARMANITAN Galar, Zen Mode
 11 16 6 3 6 14
 ICE FIRE
 BA Gorilla$Tactics Ice$Body
-AA Inner$Focus Winterï¿½s$Kiss
+AA Inner$Focus Winter’s$Kiss
 HA Zen$Snowed
 EV Darumaka$(G)#0 Darmanitan$(G)#30,$Ice$Stone
 1.7 120 50 Field 0 Omnivore Mountain/Tundra
@@ -11878,7 +11879,7 @@ VANILLITE
 4 5 5 7 6 5
 ICE
 BA Ice$Body Snow$Cloak
-AA Weak$Armor Winterï¿½s$Kiss
+AA Weak$Armor Winter’s$Kiss
 HA Clear$Body
 EV Vanillite#0 Vanillish#20 Vanilluxe#35
 0.4 5.7 50 Mineral 10 Terravore Cave/Taiga/Tundra
@@ -11897,7 +11898,7 @@ VANILLISH
 5 7 7 8 8 6
 ICE
 BA Ice$Body Snow$Cloak
-AA Weak$Armor Winterï¿½s$Kiss
+AA Weak$Armor Winter’s$Kiss
 HA Clear$Body
 EV Vanillite#0 Vanillish#20 Vanilluxe#35
 1.1 41 50 Mineral 0 Terravore Cave/Taiga/Tundra
@@ -11916,7 +11917,7 @@ VANILLUXE
 7 10 9 11 10 8
 ICE
 BA Ice$Body Snow$Cloak
-AA Weak$Armor Winterï¿½s$Kiss
+AA Weak$Armor Winter’s$Kiss
 HA Clear$Body
 EV Vanillite#0 Vanillish#20 Vanilluxe#35
 1.3 57.5 50 Mineral 0 Terravore Cave/Taiga/Tundra
@@ -12410,7 +12411,8 @@ AXEW
 5 9 6 3 4 6
 DRAGON
 BA Rivalry Mold$Breaker
-AA Unnerve
+AA Unnerve Hyper$Cutter
+HA Frighten
 EV Axew#0 Fraxure#20 Haxorus#40
 0.6 18 50 Monster/Dragon 25 Omnivore Cave/Mountain
 cl Overland$4 Swim$2 High$Jump$1 Long$Jump$1 Power$3 Naturewalk$Cave/Mountain Underdog
@@ -12428,7 +12430,8 @@ FRAXURE
 7 12 7 4 5 7
 DRAGON
 BA Rivalry Mold$Breaker
-AA Unnerve
+AA Unnerve Hyper$Cutter
+HA Frighten
 EV Axew#0 Fraxure#20 Haxorus#40
 1 36 50 Monster/Dragon 0 Omnivore Cave/Mountain
 cl Overland$5 Swim$3 High$Jump$1 Long$Jump$2 Power$4 Naturewalk$Cave/Mountain Underdog
@@ -12446,7 +12449,8 @@ HAXORUS
 8 15 9 6 7 10
 DRAGON
 BA Rivalry Mold$Breaker
-AA Unnerve
+AA Unnerve Hyper$Cutter
+HA Frighten
 EV Axew#0 Fraxure#20 Haxorus#40
 1.8 105.5 50 Monster/Dragon 0 Omnivore Cave/Mountain
 cl Overland$7 Swim$4 High$Jump$2 Long$Jump$2 Power$8 Naturewalk$Cave/Mountain
@@ -12844,7 +12848,8 @@ DURANT
 6 11 11 5 5 11
 BUG STEEL
 BA Hustle Swarm
-AA Truant
+AA Truant Oblivious
+HA Teamwork
 EV Durant#0
 0.3 33 50 Bug 10 Carnivore Cave/Desert/Mountain
 cl Overland$5 Swim$2 High$Jump$1 Long$Jump$1 Power$5 Naturewalk$Grassland/Forest
@@ -13166,7 +13171,7 @@ KYUREM
 13 13 9 13 9 10
 DRAGON ICE
 BA Pressure
-AA Winterï¿½s$Kiss Snow$Cloak Trace
+AA Winter’s$Kiss Snow$Cloak Trace
 HA Inner$Focus
 EV Kyurem#0
 3 325 No$Gender None 75 Omnivore Non Space
@@ -13656,13 +13661,13 @@ mega
 HOMELESS
 669.0
 669
-FLABï¿½Bï¿½
+FLABÉBÉ
 4 4 4 6 8 4
 FAIRY
 BA Flower$Power
 AA Flower$Veil Overgrow Perception
 HA Symbiosis
-EV Flabï¿½bï¿½#0 Floette#15 Florges#Shiny$Stone$30
+EV Flabébé#0 Floette#15 Florges#Shiny$Stone$30
 0.1 .1  0 Fairy 10 Herbivore Forest/Grassland
 cl Overland$2 Swim$2 Levitate$4 High$Jump$0 Long$Jump$1 Power$1 Alluring Naturewalk$Grassland/Forest Underdog
 sl Athl#1#0 Acro#3#0 Combat#1#0 Stealth#3#2 Percep#3#0 Focus#2#2
@@ -13681,7 +13686,7 @@ FAIRY
 BA Flower$Power
 AA Flower$Veil Overgrow Perception
 HA Symbiosis
-EV Flabï¿½bï¿½#0 Floette#15 Florges#Shiny$Stone$30
+EV Flabébé#0 Floette#15 Florges#Shiny$Stone$30
 0.2 .9  0 Fairy 0 Herbivore Forest/Grassland
 cl Overland$2 Swim$2 Levitate$6 High$Jump$0 Long$Jump$1 Power$1 Alluring Naturewalk$Grassland/Forest Underdog
 sl Athl#2#0 Acro#4#1 Combat#1#0 Stealth#3#2 Percep#3#0 Focus#4#2
@@ -13700,7 +13705,7 @@ FAIRY
 BA Flower$Power
 AA Flower$Veil Overgrow Perception
 HA Symbiosis
-EV Flabï¿½bï¿½#0 Floette#15 Florges#Shiny$Stone$30
+EV Flabébé#0 Floette#15 Florges#Shiny$Stone$30
 1.1 10  0 Fairy 0 Herbivore Forest/Grassland
 cl Overland$4 Swim$2 Levitate$6 High$Jump$1 Long$Jump$2 Power$2 Alluring Naturewalk$Grassland/Forest
 sl Athl#3#0 Acro#4#1 Combat#3#0 Stealth#3#0 Percep#4#0 Focus#5#2
@@ -13812,7 +13817,8 @@ ESPURR
 6 5 5 6 6 7
 PSYCHIC
 BA Keen$Eye Infiltrator
-AA Oblivious
+AA Oblivious Own$Tempo
+HA Unaware
 EV Espurr#0 Meowstic#25
 0.3 3.5  50 Field 10 Herbivore Grassland/Urban
 cl Overland$5 Swim$2 High$Jump$1 Long$Jump$1 Power$1 Telekinesis Telepath Naturewalk$Grassland Underdog
@@ -13896,7 +13902,7 @@ sl Athl#2#0 Acro#4#2 Combat#6#2 Stealth#3#2 Percep#4#0 Focus#4#0
 ml 1#Tackle 1#Swords$Dance 5#Fury$Cutter 8#Metal$Sound 13#Pursuit 18#Autotomize 20#Shadow$Sneak 22#Aerial$Ace 26#Retaliate 29#Slash 32#Iron$Defense 36#Night$Slash 41#Power$Trick 45#Iron$Head 51#Sacred$Sword
 tml -1#Cut 06#Toxic 10#Hidden$Power 15#Hyper$Beam 17#Protect 18#Rain$Dance 21#Frustration 27#Return 30#Shadow$Ball 31#Brick$Break 32#Double$Team 33#Reflect 40#Aerial$Ace 42#Facade 44#Rest 45#Attract 54#False$Swipe 65#Shadow$Claw 67#Retaliate 68#Giga$Impact 74#Gyro$Ball 75#Swords$Dance 80#Rock$Slide 87#Swagger 88#Sleep$Talk 90#Substitute 91#Flash$Cannon 94#Rock$Smash 100#Confide
 el
-tl After$You Iron$Defense Iron$Head Kingï¿½s$Shield$(N) Magnet$Rise Shock$Wave Snore Spite Wide$Guard
+tl After$You Iron$Defense Iron$Head King’s$Shield$(N) Magnet$Rise Shock$Wave Snore Spite Wide$Guard
 mega
 681.0
 HOMELESS
@@ -14371,7 +14377,7 @@ sl Athl#5#2 Acro#3#0 Combat#4#0 Stealth#2#0 Percep#4#0 Focus#4#2
 ml 1#Tackle 1#Bubble 5#Absorb 9#Protect 13#Bide 18#Dragon$Breath 25#Rain$Dance 28#Flail 32#Body$Slam 38#Muddy$Water 47#Dragon$Pulse 50#Aqua$Tail 55#Power$Whip 63#Outrage
 tml -4#Strength 06#Toxic 07#Hail 10#Hidden$Power 11#Sunny$Day 13#Ice$Beam 14#Blizzard 15#Hyper$Beam 17#Protect 18#Rain$Dance 21#Frustration 24#Thunderbolt 25#Thunder 26#Earthquake 27#Return 32#Double$Team 34#Sludge$Wave 35#Flamethrower 36#Sludge$Bomb 38#Fire$Blast 42#Facade 44#Rest 45#Attract 48#Round 52#Focus$Blast 59#Incinerate 68#Giga$Impact 78#Bulldoze 80#Rock$Slide 82#Dragon$Tail 83#Infestation 87#Swagger 88#Sleep$Talk 90#Substitute 94#Rock$Smash 100#Confide
 el
-tl Aqua$Tail Draco$Meteor Dragon$Pulse Feint$(N) Fire$Punch Focus$Punch Iron$Tail Outrage$(N) Shock$Wave Snore Superpower Thunder$Punch Water$Pulse$Legendary$Pokï¿½mon$are$incredibly$rare$and$powerful$Pokï¿½mon.$The$difference$in$rarity$may$differ for$example$an$Articuno which$usually$will$have$at$least$one$per$major$body$of$land can$be$found$more$then$once$while$Palkia$and$Dialga the$rulers$of$Time$and$Space are$found$only$once$as$they$are$the$sole$Pokï¿½mon$who$have$majority$dominion$over$Time$and$Space.$It$is$unlikely$that$you$meet$more$then$one$to$three$Legendary$Pokï¿½mon$during$a$campaign$unless$your$campagin$is$specifically$about$them.$The$following$entries$are$merely$suggestions$as$to$the$power$level$of$each$Legendary$Pokï¿½mon$if$they$are$even$able$to$be$captured$in$the$campaign$you$are$playing.$The$default$assumption$here$is$that$Legendary$Pokï¿½mon$are$merely$very$rare$and$powerful$rather$than$divinity and$the$Capabilities$and$Skills$here$reflect$that.$It$is$entirely$possible$that$a$captured$Legendary$Pokï¿½mon$has$completely$different unique-to-your-campaign$Skills Capabilities Abilities$or$Moves.$The$Blessed$and$the$Damned$Legendary$splatbook$provides$some$ideas$and$options$toward$this$end$if$you$wish$to$portray$Legendary$Pokï¿½mon$as$divine$creatures.$(Legendary$Pokï¿½mon$have$signature$Moves.$They$are$marked$with$a$ï¿½ï¿½ï¿½$symbol.$These$Moves$are$not$always$unique$to$the$Legendary but$are$used$often as$a$favorite of$the$Legendary.)$Legendary$Pokï¿½mon
+tl Aqua$Tail Draco$Meteor Dragon$Pulse Feint$(N) Fire$Punch Focus$Punch Iron$Tail Outrage$(N) Shock$Wave Snore Superpower Thunder$Punch Water$Pulse$Legendary$Pokémon$are$incredibly$rare$and$powerful$Pokémon.$The$difference$in$rarity$may$differ for$example$an$Articuno which$usually$will$have$at$least$one$per$major$body$of$land can$be$found$more$then$once$while$Palkia$and$Dialga the$rulers$of$Time$and$Space are$found$only$once$as$they$are$the$sole$Pokémon$who$have$majority$dominion$over$Time$and$Space.$It$is$unlikely$that$you$meet$more$then$one$to$three$Legendary$Pokémon$during$a$campaign$unless$your$campagin$is$specifically$about$them.$The$following$entries$are$merely$suggestions$as$to$the$power$level$of$each$Legendary$Pokémon$if$they$are$even$able$to$be$captured$in$the$campaign$you$are$playing.$The$default$assumption$here$is$that$Legendary$Pokémon$are$merely$very$rare$and$powerful$rather$than$divinity and$the$Capabilities$and$Skills$here$reflect$that.$It$is$entirely$possible$that$a$captured$Legendary$Pokémon$has$completely$different unique-to-your-campaign$Skills Capabilities Abilities$or$Moves.$The$Blessed$and$the$Damned$Legendary$splatbook$provides$some$ideas$and$options$toward$this$end$if$you$wish$to$portray$Legendary$Pokémon$as$divine$creatures.$(Legendary$Pokémon$have$signature$Moves.$They$are$marked$with$a$“§”$symbol.$These$Moves$are$not$always$unique$to$the$Legendary but$are$used$often as$a$favorite of$the$Legendary.)$Legendary$Pokémon
 mega
 706.0
 HOMELESS
@@ -14406,7 +14412,7 @@ EV Phantump#0 Trevenant#25
 0.4 7  50 Grass$and$Amorphous 13 Nullivore Forest
 cl Overland$2 Swim$2 Levitate$5 High$Jump$0 Long$Jump$1 Power$1 Naturewalk$Grassland/Forest Phasing Invisibility Dead$Silent Underdog
 sl Athl#2#0 Acro#3#1 Combat#2#0 Stealth#3#2 Percep#3#0 Focus#2#0
-ml 1#Tackle 1#Confuse$Ray 5#Astonish 8#Growth 13#Ingrain 19#Feint$Attack 23#Leech$Seed 28#Curse 31#Will-O-Wisp 35#Forestï¿½s$Curse 39#Destiny$Bond 45#Phantom$Force 49#Wood$Hammer 54#Horn$Leech
+ml 1#Tackle 1#Confuse$Ray 5#Astonish 8#Growth 13#Ingrain 19#Feint$Attack 23#Leech$Seed 28#Curse 31#Will-O-Wisp 35#Forest’s$Curse 39#Destiny$Bond 45#Phantom$Force 49#Wood$Hammer 54#Horn$Leech
 tml -1#Cut -4#Strength 06#Toxic 10#Hidden$Power 11#Sunny$Day 17#Protect 20#Safeguard 21#Frustration 22#Solar$Beam 27#Return 28#Dig 29#Psychic 30#Shadow$Ball 32#Double$Team 33#Reflect 42#Facade 44#Rest 45#Attract 46#Thief 48#Round 53#Energy$Ball 61#Will-O-Wisp 65#Shadow$Claw 78#Bulldoze 80#Rock$Slide 84#Poison$Jab 85#Dream$Eater 86#Grass$Knot 87#Swagger 88#Sleep$Talk 90#Substitute 92#Trick$Room 94#Rock$Smash 96#Nature$Power 97#Dark$Pulse 100#Confide
 el Bestow Grudge Imprison Venom$Drench
 tl Foul$Play Giga$Drain Magic$Coat Pain$Split Role$Play Seed$Bomb Skill$Swap Snore Spite Trick Worry$Seed
@@ -14425,7 +14431,7 @@ EV Phantump#0 Trevenant#25
 1.5 71  50 Grass$and$Amorphous 0 Nullivore Forest
 cl Overland$6 Swim$3 High$Jump$1 Long$Jump$2 Power$6 Naturewalk$Grassland/Forest Phasing Invisibility
 sl Athl#4#1 Acro#2#0 Combat#4#0 Stealth#4#3 Percep#3#2 Focus#4#2
-ml 1#Tackle 1#Confuse$Ray 5#Astonish 8#Growth 13#Ingrain 19#Feint$Attack 23#Leech$Seed 28#Curse 31#Will-O-Wisp 35#Forestï¿½s$Curse 39#Destiny$Bond 45#Phantom$Force 49#Wood$Hammer 55#Shadow$Claw 62#Horn$Leech
+ml 1#Tackle 1#Confuse$Ray 5#Astonish 8#Growth 13#Ingrain 19#Feint$Attack 23#Leech$Seed 28#Curse 31#Will-O-Wisp 35#Forest’s$Curse 39#Destiny$Bond 45#Phantom$Force 49#Wood$Hammer 55#Shadow$Claw 62#Horn$Leech
 tml -1#Cut -4#Strength 06#Toxic 10#Hidden$Power 11#Sunny$Day 15#Hyper$Beam 17#Protect 20#Safeguard 21#Frustration 22#Solar$Beam 27#Return 28#Dig 29#Psychic 30#Shadow$Ball 32#Double$Team 33#Reflect 42#Facade 44#Rest 45#Attract 46#Thief 48#Round 53#Energy$Ball 61#Will-O-Wisp 65#Shadow$Claw 68#Giga$Impact 78#Bulldoze 80#Rock$Slide 84#Poison$Jab 85#Dream$Eater 86#Grass$Knot 87#Swagger 88#Sleep$Talk 90#Substitute 92#Trick$Room 94#Rock$Smash 96#Nature$Power 97#Dark$Pulse 100#Confide
 el
 tl Block Drain$Punch Foul$Play Giga$Drain Horn$Leech$(N) Magic$Coat Pain$Split Role$Play Seed$Bomb Skill$Swap Snore Spite Trick Worry$Seed
@@ -14439,7 +14445,7 @@ BERGMITE
 ICE
 BA Refrigerate Permafrost
 AA Ice$Body Sturdy
-HA Winterï¿½s$Kiss
+HA Winter’s$Kiss
 EV Bergmite#0 Avalugg#35
 1.0 99.5  50 Monster 10 Terravore Arctic/Mountain/Tundra
 cl Overland$4 Swim$2 High$Jump$1 Long$Jump$1 Power$3 Freezer Naturewalk$Tundra Underdog
@@ -14458,7 +14464,7 @@ AVALUGG
 ICE
 BA Refrigerate Permafrost
 AA Ice$Body Sturdy
-HA Winterï¿½s$Kiss
+HA Winter’s$Kiss
 EV Bergmite#0 Avalugg#35
 2.0 505  50 Monster 10 Terravore Arctic/Mountain/Tundra
 cl Overland$6 Swim$3 High$Jump$0 Long$Jump$1 Power$8 Freezer Naturewalk$Tundra Mountable$3
@@ -14558,7 +14564,7 @@ EV Zygarde#0
 5 305  Genderless None 75 Nullivore Cave
 cl Overland$7 Swim$5 Burrow$9 High$Jump$2 Long$Jump$2 Power$9 Darkvision Groundshaper Tremorsense Mountable$4
 sl Athl#4#2 Acro#3#0 Combat#4#0 Stealth#4#2 Percep#6#2 Focus#5#0
-ml 1#Glare 1#Bulldoze 1#Dragon$Breath 1#Bite 10#Safeguard 15#Dig 22#Bind 28#Landï¿½s$Wrath 36#Sandstorm 43#Haze 51#Crunch 55#Earthquake 59#Camouflage 63#Dragon$Pulse 72#Dragon$Dance 80#Coil 88#Extreme$Speed 93#Outrage
+ml 1#Glare 1#Bulldoze 1#Dragon$Breath 1#Bite 10#Safeguard 15#Dig 22#Bind 28#Land’s$Wrath 36#Sandstorm 43#Haze 51#Crunch 55#Earthquake 59#Camouflage 63#Dragon$Pulse 72#Dragon$Dance 80#Coil 88#Extreme$Speed 93#Outrage
 tml -4#Strength 06#Toxic 10#Hidden$Power 11#Sunny$Day 15#Hyper$Beam 17#Protect 20#Safeguard 21#Frustration 26#Earthquake 27#Return 28#Dig 31#Brick$Break 32#Double$Team 34#Sludge$Wave 37#Sandstorm 42#Facade 44#Rest 48#Round 52#Focus$Blast 68#Giga$Impact 71#Stone$Edge 78#Bulldoze 80#Rock$Slide 82#Dragon$Tail 86#Grass$Knot 87#Swagger 88#Sleep$Talk 90#Substitute 94#Rock$Smash 100#Confide
 el
 tl Bind Block Draco$Meteor Dragon$Pulse Earth$Power Hyper$Voice Iron$Tail Outrage Pain$Split Shock$Wave Snore Spite Superpower Zen$Headbutt
@@ -14577,7 +14583,7 @@ EV Zygarde#0
 1.2 33.5 No$Gender None 75 Nullivore Cave
 cl Overland$9 Swim$6 Burrow$3 High$Jump$3 Long$Jump$3 Power$5 Darkvision Forme$Change Groundshaper Tremorsense Zygarde$Cells
 sl Athl#4#2 Acro#4#0 Combat#3#0 Stealth#5#2 Percep#4#2 Focus#3#0
-ml 1#Glare 1#Bulldoze 1#Dragon$Breath 1#Bite 5#Safeguard 10#Dig 18#Bind 26#Landï¿½s$Wrath 35#Sandstorm 44#Haze 51#Crunch 55#Earthquake 59#Camouflage 63#Dragon$Pulse 72#Coil 80#Outrage
+ml 1#Glare 1#Bulldoze 1#Dragon$Breath 1#Bite 5#Safeguard 10#Dig 18#Bind 26#Land’s$Wrath 35#Sandstorm 44#Haze 51#Crunch 55#Earthquake 59#Camouflage 63#Dragon$Pulse 72#Coil 80#Outrage
 tml -4#Strength 06#Toxic 10#Hidden$Power 11#Sunny$Day 15#Hyper$Beam 17#Protect 20#Safeguard 21#Frustration 26#Earthquake 27#Return 28#Dig 31#Brick$Break 32#Double$Team 34#Sludge$Wave 37#Sandstorm 42#Facade 44#Rest 48#Round 52#Focus$Blast 68#Giga$Impact 71#Stone$Edge 78#Bulldoze 80#Rock$Slide 82#Dragon$Tail 86#Grass$Knot 87#Swagger 88#Sleep$Talk 90#Substitute 94#Rock$Smash 100#Confide
 el
 tl Bind Block Draco$Meteor Dragon$Pulse Earth$Power Hyper$Voice Iron$Tail Outrage Pain$Split Shock$Wave Snore Spite Stomping$Tantrum Superpower Zen$Headbutt$Zygarde$Cube$Move$List$Core$Enforcer Dragon$Dance Extreme$Speed Thousand$Arrows Thousand$Waves
@@ -14596,7 +14602,7 @@ EV Zygarde#0
 5 305 No$Gender None 75 Nullivore Cave
 cl Overland$7 Swim$5 Burrow$9 High$Jump$2 Long$Jump$2 Power$9 Darkvision Forme$Change Groundshaper Mountable$4 Tremorsense Zygarde$Cells
 sl Athl#4#2 Acro#3#0 Combat#4#0 Stealth#4#2 Percep#6#2 Focus#5#0
-ml 1#Glare 1#Bulldoze 1#Dragon$Breath 1#Bite 5#Safeguard 10#Dig 18#Bind 26#Landï¿½s$Wrath 35#Sandstorm 44#Haze 51#Crunch 55#Earthquake 59#Camouflage 63#Dragon$Pulse 72#Coil 80#Outrage
+ml 1#Glare 1#Bulldoze 1#Dragon$Breath 1#Bite 5#Safeguard 10#Dig 18#Bind 26#Land’s$Wrath 35#Sandstorm 44#Haze 51#Crunch 55#Earthquake 59#Camouflage 63#Dragon$Pulse 72#Coil 80#Outrage
 tml -4#Strength 06#Toxic 10#Hidden$Power 11#Sunny$Day 15#Hyper$Beam 17#Protect 20#Safeguard 21#Frustration 26#Earthquake 27#Return 28#Dig 31#Brick$Break 32#Double$Team 34#Sludge$Wave 37#Sandstorm 42#Facade 44#Rest 48#Round 52#Focus$Blast 68#Giga$Impact 71#Stone$Edge 78#Bulldoze 80#Rock$Slide 82#Dragon$Tail 86#Grass$Knot 87#Swagger 88#Sleep$Talk 90#Substitute 94#Rock$Smash 100#Confide
 el
 tl Bind Block Draco$Meteor Dragon$Pulse Earth$Power Hyper$Voice Iron$Tail Outrage Pain$Split Shock$Wave Snore Spite Stomping$Tantrum Superpower Zen$Headbutt$Zygarde$Cube$Move$List$Core$Enforcer Dragon$Dance Extreme$Speed Thousand$Arrows Thousand$Waves
@@ -14615,7 +14621,7 @@ EV Zygarde#0
 4.5 610 No$Gender None 75 Nullivore Cave
 cl Overland$8 Swim$6 Burrow$3 High$Jump$3 Long$Jump$3 Power$16 Darkvision Forme$Change Groundshaper Reach Tremorsense Zygarde$Cells
 sl Athl#6#2 Acro#3#0 Combat#6#0 Stealth#3#2 Percep#6#2 Focus#5#0
-ml 1#Glare 1#Bulldoze 1#Dragon$Breath 1#Bite 5#Safeguard 10#Dig 18#Bind 26#Landï¿½s$Wrath 35#Sandstorm 44#Haze 51#Crunch 55#Earthquake 59#Camouflage 63#Dragon$Pulse 72#Coil 80#Outrage
+ml 1#Glare 1#Bulldoze 1#Dragon$Breath 1#Bite 5#Safeguard 10#Dig 18#Bind 26#Land’s$Wrath 35#Sandstorm 44#Haze 51#Crunch 55#Earthquake 59#Camouflage 63#Dragon$Pulse 72#Coil 80#Outrage
 tml -4#Strength 06#Toxic 10#Hidden$Power 11#Sunny$Day 15#Hyper$Beam 17#Protect 20#Safeguard 21#Frustration 26#Earthquake 27#Return 28#Dig 31#Brick$Break 32#Double$Team 34#Sludge$Wave 37#Sandstorm 42#Facade 44#Rest 48#Round 52#Focus$Blast 68#Giga$Impact 71#Stone$Edge 78#Bulldoze 80#Rock$Slide 82#Dragon$Tail 86#Grass$Knot 87#Swagger 88#Sleep$Talk 90#Substitute 94#Rock$Smash 100#Confide
 el
 tl Bind Block Draco$Meteor Dragon$Pulse Earth$Power Hyper$Voice Iron$Tail Outrage Pain$Split Shock$Wave Snore Spite Stomping$Tantrum Superpower Zen$Headbutt$Zygarde$Cube$Move$List$Core$Enforcer Dragon$Dance Extreme$Speed Thousand$Arrows Thousand$Waves
@@ -15055,7 +15061,7 @@ sl Athl#3#0 Acro#4#1 Combat#3#0 Stealth#3#0 Percep#4#0 Focus#4#2
 ml 1#Pound 4#Growl 6#Peck 10#Helping$Hand 13#Air$Cutter 16#Baton$Pass 20#Feather$Dance 23#Double$Slap 26#Teeter$Dance 30#Roost 33#Captivate 36#Air$Slash 40#Revelation$Dance 43#Mirror$Move 46#Agility 50#Hurricane
 tml -2#Fly 04#Calm$Mind 06#Toxic 10#Hidden$Power 12#Taunt 17#Protect 19#Roost 21#Frustration 27#Return 32#Double$Team 37#Sandstorm 40#Aerial$Ace 42#Facade 44#Rest 45#Attract 48#Round 51#Steel$Wing 60#Quash 62#Acrobatics 63#Embargo 75#Swords$Dance 87#Swagger 88#Sleep$Talk 89#U-Turn 90#Substitute 100#Confide
 el Captivate Pluck Safeguard Tailwind
-tl Covet Defog Helping$Hand Icy$Wind Role$Play Sky$Attack Snore Tailwind$Forme$Change:$When$an$Oricorio$hatches it$takes$the$form$of$its$mother or$father$if$the$other$parent$was$a$Ditto.$Oricorio$may$change$forms$by$consuming$Nectar$as$an$Extended$Action.$This$determines$Oricorio's$primary$type:$Red$Nectar:$Baille$(Fire)$Yellow$Nectar:$Pom$Pom$(Electric)$Pink$Nectar:$Paï¿½u$(Psychic)$Purple$Nectar:$Sensu$(Ghost)
+tl Covet Defog Helping$Hand Icy$Wind Role$Play Sky$Attack Snore Tailwind$Forme$Change:$When$an$Oricorio$hatches it$takes$the$form$of$its$mother or$father$if$the$other$parent$was$a$Ditto.$Oricorio$may$change$forms$by$consuming$Nectar$as$an$Extended$Action.$This$determines$Oricorio's$primary$type:$Red$Nectar:$Baille$(Fire)$Yellow$Nectar:$Pom$Pom$(Electric)$Pink$Nectar:$Pa’u$(Psychic)$Purple$Nectar:$Sensu$(Ghost)
 mega
 741.0
 HOMELESS
@@ -15964,7 +15970,7 @@ EV Tapu#Koko
 1.8 20.5 No$Gender None 75 Omnivore Cave/Mountain
 cl Overland$6 Swim$3 Sky$10 High$Jump$3 Long$Jump$3 Power$6 Aura$Reader Zapper
 sl Athl#4#0 Acro#5#2 Combat#5#1 Stealth#3#0 Percep#4#2 Focus#2#0
-ml 1#Quick$Attack 1#False$Swipe 1#Withdraw 1#Thunder$Shock 8#Spark 14#Shock$Wave 20#Screech 26#Charge 32#Wild$Charge 38#Mirror$Move 43#Natureï¿½s$Madness 48#Discharge 53#Agility 58#Electro$Ball
+ml 1#Quick$Attack 1#False$Swipe 1#Withdraw 1#Thunder$Shock 8#Spark 14#Shock$Wave 20#Screech 26#Charge 32#Wild$Charge 38#Mirror$Move 43#Nature’s$Madness 48#Discharge 53#Agility 58#Electro$Ball
 tml -2#Fly 04#Calm$Mind 05#Roar 06#Toxic 10#Hidden$Power 12#Taunt 15#Hyper$Beam 16#Light$Screen 17#Protect 18#Rain$Dance 19#Roost 20#Safeguard 21#Frustration 24#Thunderbolt 25#Thunder 27#Return 32#Double$Team 33#Reflect 40#Aerial$Ace 41#Torment 42#Facade 46#Thief 48#Round 49#Echoed$Voice 51#Steel$Wing 54#False$Swipe 58#Sky$Drop 62#Acrobatics 68#Giga$Impact 72#Volt$Switch 73#Thunder$Wave 77#Psych$Up 86#Grass$Knot 87#Swagger 88#Sleep$Talk 89#U-Turn 90#Substitute 93#Wild$Charge 96#Nature$Power 99#Dazzling$Gleam 100#Confide
 el
 tl Brave$Bird$(N) Defog Electric$Terrain$(N) Electroweb Hyper$Voice Iron$Defense Iron$Head Mean$Look$(N) Power$Swap$(N) Shock$Wave Sky$Attack Snore Telekinesis Thunder$Punch$TAPU$LELE
@@ -15983,7 +15989,7 @@ EV Tapu#Lele
 1.2 18.6 No$Gender None 75 Omnivore Cave/Grassland
 cl Overland$4 Swim$5 Sky$8 High$Jump$2 Long$Jump$2 Power$4 Aura$Reader Telekinetic
 sl Athl#2#0 Acro#5#2 Combat#3#0 Stealth#4#0 Percep#4#2 Focus#5#1
-ml 1#Draining$Kiss 1#Astonish 1#Withdraw 1#Confusion 8#Psywave 14#Psybeam 20#Sweet$Scent 26#Skill$Swap 32#Psyshock 38#Tickle 43#Natureï¿½s$Madness 48#Extrasensory 53#Flatter 58#Moonblast
+ml 1#Draining$Kiss 1#Astonish 1#Withdraw 1#Confusion 8#Psywave 14#Psybeam 20#Sweet$Scent 26#Skill$Swap 32#Psyshock 38#Tickle 43#Nature’s$Madness 48#Extrasensory 53#Flatter 58#Moonblast
 tml 03#Psyshock 04#Calm$Mind 06#Toxic 10#Hidden$Power 11#Sunny$Day 12#Taunt 15#Hyper$Beam 16#Light$Screen 17#Protect 20#Safeguard 21#Frustration 24#Thunderbolt 25#Thunder 27#Return 29#Psychic 30#Shadow$Ball 32#Double$Team 33#Reflect 41#Torment 42#Facade 46#Thief 48#Round 49#Echoed$Voice 52#Focus$Blast 53#Energy$Ball 56#Fling 57#Charge$Beam 68#Giga$Impact 77#Psych$Up 86#Grass$Knot 87#Swagger 88#Sleep$Talk 90#Substitute 96#Nature$Power 99#Dazzling$Gleam 100#Confide
 el
 tl Aromatherapy$(N) Aromatic$Mist$(N) Ally$Switch Gravity Iron$Defense Magic$Coat Magic$Room Mean$Look$(N) Psychic$Terrain$(N) Skill$Swap Snore Telekinesis Wonder$Room$TAPU$BULU
@@ -16002,7 +16008,7 @@ EV Tapu#Bulu
 1.9 45.5 No$Gender None 75 Omnivore Cave/Desert
 cl Overland$6 Swim$5 Sky$6 High$Jump$1 Long$Jump$1 Power$9 Aura$Reader Gardener Sprouter
 sl Athl#5#2 Acro#2#0 Combat#5#0 Stealth#3#1 Percep#4#2 Focus#4#0
-ml 1#Disable 1#Whirlwind 1#Withdraw 1#Leafage 8#Horn$Attack 14#Giga$Drain 20#Scary$Face 26#Leech$Seed 32#Horn$Leech 38#Rototiller 43#Natureï¿½s$Madness 48#Zen$Headbutt 53#Megahorn 58#Skull$Bash
+ml 1#Disable 1#Whirlwind 1#Withdraw 1#Leafage 8#Horn$Attack 14#Giga$Drain 20#Scary$Face 26#Leech$Seed 32#Horn$Leech 38#Rototiller 43#Nature’s$Madness 48#Zen$Headbutt 53#Megahorn 58#Skull$Bash
 tml 04#Calm$Mind 05#Roar 06#Toxic 08#Bulk$Up 10#Hidden$Power 11#Sunny$Day 12#Taunt 15#Hyper$Beam 16#Light$Screen 17#Protect 20#Safeguard 21#Frustration 22#Solar$Beam 27#Return 31#Brick$Break 32#Double$Team 33#Reflect 39#Rock$Tomb 41#Torment 42#Facade 48#Round 49#Echoed$Voice 52#Focus$Blast 53#Energy$Ball 54#False$Swipe 56#Fling 66#Payback 68#Giga$Impact 71#Stone$Edge 75#Swords$Dance 77#Psych$Up 80#Rock$Slide 86#Grass$Knot 87#Swagger 88#Sleep$Talk 90#Substitute 95#Snarl 96#Nature$Power 99#Dazzling$Gleam 100#Confide
 el
 tl Dual$Chop Focus$Punch Giga$Drain Grassy$Terrain$(N) Iron$Defense Mean$Look$(N) Seed$Bomb Snore Superpower$(N) Synthesis Telekinesis Wood$Hammer$(N) Worry$Seed Zen$Headbutt$TAPU$FINI
@@ -16021,7 +16027,7 @@ EV Tapu#Fini
 1.3 21.2 No$Gender None 75 Omnivore Beach/Cave
 cl Overland$4 Swim$8 Sky$8 High$Jump$1 Long$Jump$1 Power$4 Aura$Reader Fountain
 sl Athl#3#0 Acro#4#1 Combat#2#0 Stealth#5#2 Percep#4#2 Focus#5#0
-ml 1#Haze 1#Mist 1#Withdraw 1#Water$Gun 8#Water$Pulse 14#Whirlpool 20#Soak 26#Refresh 32#Brine 38#Defog 43#Natureï¿½s$Madness 48#Muddy$Water 53#Aqua$Ring 58#Hydro$Pump
+ml 1#Haze 1#Mist 1#Withdraw 1#Water$Gun 8#Water$Pulse 14#Whirlpool 20#Soak 26#Refresh 32#Brine 38#Defog 43#Nature’s$Madness 48#Muddy$Water 53#Aqua$Ring 58#Hydro$Pump
 tml -3#Surf -5#Waterfall 04#Calm$Mind 06#Toxic 10#Hidden$Power 12#Taunt 13#Ice$Beam 14#Blizzard 15#Hyper$Beam 16#Light$Screen 17#Protect 18#Rain$Dance 20#Safeguard 21#Frustration 27#Return 30#Shadow$Ball 32#Double$Team 33#Reflect 41#Torment 42#Facade 48#Round 49#Echoed$Voice 55#Scald 56#Fling 68#Giga$Impact 77#Psych$Up 86#Grass$Knot 87#Swagger 88#Sleep$Talk 90#Substitute 96#Nature$Power 99#Dazzling$Gleam 100#Confide
 el
 tl Defog Gravity Heal$Pulse$(N) Ice$Punch Icy$Wind Iron$Defense Knock$Off Magic$Coat Magic$Room Mean$Look$(N) Misty$Terrain$(N) Moonblast$(N) Snore Telekinesis Trick Water$Pulse Wonder$Room
@@ -17512,7 +17518,7 @@ mega
 HOMELESS
 865.0
 865
-SIRFETCHï¿½D
+SIRFETCH’D
 6 14 10 7 8 7
 FIGHTING
 BA Scrappy Steadfast
@@ -18180,7 +18186,7 @@ HOMELESS
 REGIDRAGO
 20 10 5 10 5 8
 DRAGON
-BA Dragonï¿½s$Maw
+BA Dragon’s$Maw
 AA Strong$Jaw Battle$Armor Pure$Blooded
 HA Unaware
 EV Regidrago#0

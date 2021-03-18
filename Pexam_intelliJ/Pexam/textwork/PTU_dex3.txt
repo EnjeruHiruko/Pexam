@@ -3412,9 +3412,9 @@ EV Mew#0
 cl Overland$7 Swim$4 Sky$6 High$Jump$2 Long$Jump$2 Power$3 Aura$Reader Glow Invisibility Telekinetic Telepath Shapeshifter
 sl Athl#3#0 Acro#4#2 Combat#4#0 Stealth#5#2 Percep#4#0 Focus#6#0
 ml 1#Pound 1#Reflect$Type 1#Transform 10#Mega$Punch 20#Metronome 30#Psychic 40#Barrier 50#Ancient$Power 60#Amnesia 70#Me$First 80#Baton$Pass 90#Nasty$Plot 100#Aura$Sphere
-tml Mew#can$learn$any$TM/HM
+tml 101#Any
 el
-tl Mew$can$be$Tutored$to$learn$any$Move
+tl Any
 mega
 151.0
 HOMELESS
@@ -5077,7 +5077,8 @@ HITMONTOP
 5 10 10 4 11 7
 FIGHTING
 BA Intimidate Technician
-AA Steadfast
+AA Steadfast Discipline
+HA Whirlwind$Kicks
 EV Tyrogue#0 Hitmontop#Equal$Attack$and$Defense$20
 1.4 48 100 Humanshape 0 Omnivore Mountain/Urban
 cl Overland$5 Swim$3 High$Jump$2 Long$Jump$2 Power$6
@@ -5798,7 +5799,8 @@ SEEDOT
 4 4 5 3 3 3
 GRASS
 BA Sturdy Early$Bird
-AA Pickpocket
+AA Pickpocket Overcoat
+HA Bulletproof
 EV Seedot#0 Nuzleaf#15 Shiftry#Leaf$Stone$25
 0.5 4 50 Field/Plant 7 Herbivore Forest/Rainforest
 cl Overland$3 Swim$1 High$Jump$2 Long$Jump$2 Power$1 Naturewalk$Grassland/Forest Underdog
@@ -12409,7 +12411,8 @@ AXEW
 5 9 6 3 4 6
 DRAGON
 BA Rivalry Mold$Breaker
-AA Unnerve
+AA Unnerve Hyper$Cutter
+HA Frighten
 EV Axew#0 Fraxure#20 Haxorus#40
 0.6 18 50 Monster/Dragon 25 Omnivore Cave/Mountain
 cl Overland$4 Swim$2 High$Jump$1 Long$Jump$1 Power$3 Naturewalk$Cave/Mountain Underdog
@@ -12427,7 +12430,8 @@ FRAXURE
 7 12 7 4 5 7
 DRAGON
 BA Rivalry Mold$Breaker
-AA Unnerve
+AA Unnerve Hyper$Cutter
+HA Frighten
 EV Axew#0 Fraxure#20 Haxorus#40
 1 36 50 Monster/Dragon 0 Omnivore Cave/Mountain
 cl Overland$5 Swim$3 High$Jump$1 Long$Jump$2 Power$4 Naturewalk$Cave/Mountain Underdog
@@ -12445,7 +12449,8 @@ HAXORUS
 8 15 9 6 7 10
 DRAGON
 BA Rivalry Mold$Breaker
-AA Unnerve
+AA Unnerve Hyper$Cutter
+HA Frighten
 EV Axew#0 Fraxure#20 Haxorus#40
 1.8 105.5 50 Monster/Dragon 0 Omnivore Cave/Mountain
 cl Overland$7 Swim$4 High$Jump$2 Long$Jump$2 Power$8 Naturewalk$Cave/Mountain
@@ -12843,7 +12848,8 @@ DURANT
 6 11 11 5 5 11
 BUG STEEL
 BA Hustle Swarm
-AA Truant
+AA Truant Oblivious
+HA Teamwork
 EV Durant#0
 0.3 33 50 Bug 10 Carnivore Cave/Desert/Mountain
 cl Overland$5 Swim$2 High$Jump$1 Long$Jump$1 Power$5 Naturewalk$Grassland/Forest
@@ -13811,7 +13817,8 @@ ESPURR
 6 5 5 6 6 7
 PSYCHIC
 BA Keen$Eye Infiltrator
-AA Oblivious
+AA Oblivious Own$Tempo
+HA Unaware
 EV Espurr#0 Meowstic#25
 0.3 3.5  50 Field 10 Herbivore Grassland/Urban
 cl Overland$5 Swim$2 High$Jump$1 Long$Jump$1 Power$1 Telekinesis Telepath Naturewalk$Grassland Underdog

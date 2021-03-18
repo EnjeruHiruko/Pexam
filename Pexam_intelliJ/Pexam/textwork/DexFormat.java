@@ -14,8 +14,8 @@ import java.util.Scanner;
 // added space and tm num of thief in tmlist of hoopa confined
 // completed tmlist name on both urshifu formes (deprecated)
 // corrected shiinotic's height to medium
+// rewrote tmlist of mew
 
-// TODO capabilities
 // TODO apastrophe ??
 
 
@@ -152,14 +152,14 @@ class DexFormat {
                 while (scanInfo.hasNextLine()) {
                     line = scanInfo.nextLine();
 
-                    if( !line.matches("(Basic|Adv|High).*") ) {
+                    if( !line.matches("(Basic|Ad[vb]|High).*") ) {
                         break; // skip other info
                     }
 
                     if (line.startsWith("Basic Ability") && !basic) {
                         basic = true;
                         dex3.append("BA");
-                    } else if (line.startsWith("Adv Ability") && !advanced) {
+                    } else if ( line.matches("Ad[vb] Ability.*") && !advanced) {
                         advanced = true;
                         dex3.append("\nAA");
                     } else if (line.startsWith("High Ability") && !high) {

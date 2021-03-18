@@ -10386,9 +10386,9 @@ Level Up Move List
 90 Nasty Plot - Dark
 § 100 Aura Sphere - Fighting
 TM/HM Move List
-Mew can learn any TM/HM
+101 Any
 Tutor Move List
-Mew can be Tutored to learn any Move
+Any
 151.0
 152.0
 CHIKORITA
