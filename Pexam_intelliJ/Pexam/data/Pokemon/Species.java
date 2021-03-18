@@ -73,6 +73,10 @@ public class Species {
         //createDexEntry(input);
     }
 
+    public Species(String in, String fill){
+        this.species_ = in;
+    }
+
     public void createDexEntry(String input){
         String[] mem = input.split("\\n+");
         this.DexNumber_ = Integer.valueOf(mem[1].trim());
@@ -105,10 +109,12 @@ public class Species {
         }
         */
 
-
-        this.DexNumber_ = Integer.valueOf(in.next().trim());
-        this.species_ = in.next();
-        System.out.println(this.species_);
+        in.next();
+        int temp = Integer.parseInt((in.next().replaceAll("\\R+", "")));
+        this.DexNumber_ = temp;
+        String mem = in.next().replaceAll("\\R+", "");
+        this.species_ = mem;
+        System.out.println(this.species_ + "   " + this.DexNumber_);
         this.assignBasestats(in.next());
         this.assignTypes(in.next());
 
@@ -448,12 +454,17 @@ public class Species {
     public boolean equals(Object other){
 
         if(other instanceof Species){
-            if(this.getSpecies().equals(((Species) other).getSpecies())){
+            if(this.getSpecies().equalsIgnoreCase(((Species) other).getSpecies())){
                 return true;
             }
         }
         if(other instanceof String){
-            if(this.getSpecies().equals((String) other)){
+            if(this.getSpecies().equalsIgnoreCase((String) other)){
+                return true;
+            }
+        }
+        if(other instanceof Integer){
+            if(this.DexNumber_ == (int) other){
                 return true;
             }
         }
@@ -463,8 +474,8 @@ public class Species {
     @Override
     public String toString() {
         return "Species{" +
-                "dexnumber_=" + DexNumber_ +
-                ", species_='" + species_ + '\'' +
+                "dexnumber_=" + this.DexNumber_ +
+                ", species_='" + this.species_  +
                 ", types_=" + types_ +
                 ", basestats_=" + Arrays.toString(baseStats_) +
                 ", basicAbilities_=" + basicAbilities_ +
@@ -479,5 +490,13 @@ public class Species {
                 ", egglist_=" + eggList_ +
                 ", tutorlist_=" + tutorList_ +
                 '}';
+    }
+
+    public String showcase(){
+        String temp = "No°" + this.DexNumber_ +"\t|"+ this.species_ + "\t| " + types_.get(0);
+        if(this.types_.size() > 1) {
+            temp +="/" + types_.get(1);
+        }
+        return temp;
     }
 }

@@ -111,4 +111,45 @@ public class Dex {
             System.out.println(pokemon);
         }
     }
+
+    public void showcasePokeDex(){
+        for(Species pokemon : this.pokeDex_){
+            System.out.println(pokemon.showcase());
+        }
+    }
+
+    public Species searchPokemonString(String in){
+        if(this.pokeDex_.contains(new Species(in,in))){
+            return pokeDex_.get(pokeDex_.indexOf(new Species(in,in)));
+        }else{
+            return new Species();
+        }
+    }
+
+    public Species searchPokemonIndex(int in){
+        if(in < this.pokeDex_.size()){
+            return pokeDex_.get(in);
+        }else{
+            return new Species();
+        }
+    }
+
+    public Species searchPokemonDexNumber(int in){
+        return pokeDex_.get(pokeDex_.indexOf(in));
+    }
+
+    public String DexSize(String in){
+        String temp = "";
+        if(in.equalsIgnoreCase("Moves")|| in.equalsIgnoreCase("all")){
+            temp += "MoveDexSize= "+ this.moveList_.size() +" ";
+        }
+        if(in.equalsIgnoreCase("Abilities")|| in.equalsIgnoreCase("all")){
+            temp += "AbilityDexSize= " + this.abilityList_.size() + " ";
+        }
+        if(in.equalsIgnoreCase("Pokemon")|| in.equalsIgnoreCase("all")){
+            temp += "PokeDexSize= "+ this.pokeDex_.size()+ " ";
+        }
+        return temp;
+    }
+
 }
