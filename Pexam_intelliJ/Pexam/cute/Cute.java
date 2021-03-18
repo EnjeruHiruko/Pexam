@@ -41,8 +41,8 @@ public class Cute{
     public static void main(String[] args){
         Cute test = new Cute();
         System.out.println(test.DexSizes("all"));
-        System.out.println(test.searchPokeDexIndex(0));
-        test.PokeDexshowcase();
+        System.out.println(test.searchPokeDexIndex(763));
+        //test.PokeDexshowcase();
         //System.out.printf(test.toString());
     }
 

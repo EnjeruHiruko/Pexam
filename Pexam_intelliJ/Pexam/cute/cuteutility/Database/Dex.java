@@ -46,7 +46,7 @@ public class Dex {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            printMoveDex();
+            //printMoveDex();
         }
 
         if(param.equalsIgnoreCase("Abilities") || param.equalsIgnoreCase("all")){
@@ -60,7 +60,7 @@ public class Dex {
             }catch (Exception e){
                 e.printStackTrace();
             }
-            printAbilityDex();
+            //printAbilityDex();
         }
 
         if(param.equalsIgnoreCase("Pokemon") || param.equalsIgnoreCase("all")){
@@ -74,7 +74,7 @@ public class Dex {
             }catch(Exception e){
                 e.printStackTrace();
             }
-            printPokeDex();
+            //printPokeDex();
         }
     }
 
