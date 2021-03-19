@@ -2,7 +2,11 @@ package Pexam.cute;
 
 
 import Pexam.cute.cuteutility.Database.Dex;
-import Pexam.data.Pokemon.Species;
+import Pexam.data.Combatant.Pokemon.Pokemon;
+import Pexam.data.Combatant.Pokemon.Species;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Cute{
 
@@ -10,10 +14,24 @@ public class Cute{
 
     private Dex database_;
 
+    private List<Pokemon> pokemon_;
+
 
     public Cute(){
         this.standardWorld = "ver105_5";
         this.database_ = new Dex(standardWorld, "All");
+        this.pokemon_ = new ArrayList<Pokemon>();
+    }
+
+    public Cute(String path){
+        this.standardWorld = "ver105_5";
+        try {
+            this.database_ = new Dex(path, "All");
+        }catch(Exception e){
+            e.printStackTrace();
+            System.out.println("there is no such World saved");
+        }
+        this.pokemon_ = new ArrayList<Pokemon>();
     }
 
     public Species searchPokeDexString(String in){

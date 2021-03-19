@@ -1,9 +1,9 @@
 package Pexam;
 
 import Pexam.data.Moves.Moves;
-import Pexam.data.Pokemon.Nature;
-import Pexam.data.Pokemon.Pokemon;
-import Pexam.data.Pokemon.Species;
+import Pexam.data.Combatant.Pokemon.Nature;
+import Pexam.data.Combatant.Pokemon.Pokemon;
+import Pexam.data.Combatant.Pokemon.Species;
 import Pexam.data.utility.Damage.DamageBase;
 import Pexam.data.utility.Damage.DamageClass;
 import Pexam.data.utility.Describtions.Gender;

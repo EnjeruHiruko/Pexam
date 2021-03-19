@@ -32,6 +32,18 @@ public class Stats {
 
     // Constructor
 
+    public Stats(int in, int index){
+        this.baseStat_ = in;
+        this.natureMod_ = 0;
+        this.vitamins_ = 0;
+        this.trainerClass_ = 0;
+        this.ability_ = 0;
+        this.skillPoints_ = 0;
+        this.fromClass_ = 0;
+        this.index_ = index;
+        this.relations_ = new int[6];
+    }
+
     public Stats(int base, int nat, int vit, int tcl, int Aby, int index){
         this.baseStat_ = base;
         this.natureMod_ = nat;

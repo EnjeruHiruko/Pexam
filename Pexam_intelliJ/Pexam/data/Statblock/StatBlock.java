@@ -65,8 +65,32 @@ public class StatBlock {
 
     // constructor
 
+    public StatBlock(int[] baseStats){
+        this.baseRel_ = false;
+        this.atConf_ = false;
+        this.spatConf_ = false;
+        this.mega_ = false;
+        this.statAce_ = new boolean[6];
+        this.level_ = 1;
+        this.leftPoints_ = 0;
+        this.spendPoints_ = 0;
+        this.combatStages_ = new int[6];
+        this.fromAffliction_ = new int[6];
+        this.standardStages_ = new int[6];
+        this.phEV_ = 0;
+        this.spEV_ = 0;
+        this.speEV_ = 0;
+
+        this.KP_ = new Stats(baseStats[0],0);
+        this.AT_ = new Stats(baseStats[1],1);
+        this.DEF_ = new Stats(baseStats[2],2);
+        this.sAT_ = new Stats(baseStats[3],3);
+        this.sDEF_ = new Stats(baseStats[4],4);
+        this.SPE_ = new Stats(baseStats[5],5);
+    }
+
     /**
-     * Constructor Method for a Statblock of any Type
+     * Constructor Method for a Statblock of any Type but primarily Pokemon
      * @param baseRel True if Baserelation does appear to be enforced
      * @param atConf True if the PokeEdge "Attack Conflict" is bought and set on the Attack Stat
      * @param spatConf True if the PokeEdge "Attack Conflict" is bought and set on the Special Attack

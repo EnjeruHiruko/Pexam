@@ -3,7 +3,7 @@ package Pexam.cute.cuteutility.Database;
 import Pexam.cute.cuteutility.config.WorldConfiguration;
 import Pexam.data.Abilities.Abilities;
 import Pexam.data.Moves.Moves;
-import Pexam.data.Pokemon.Species;
+import Pexam.data.Combatant.Pokemon.Species;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -26,10 +26,10 @@ public class Dex {
         this.moveList_ = new ArrayList<>();
         this.abilityList_ = new ArrayList<>();
         this.pokeDex_ = new ArrayList<>();
-        createDex(worldpath, in);
+        createDex(worldpath, in, false);
     }
 
-    public void createDex(String worldpath , String param){
+    public void createDex(String worldpath , String param, boolean print){
 
         if(param.equalsIgnoreCase("Moves") || param.equalsIgnoreCase("all")) {
 
@@ -46,7 +46,9 @@ public class Dex {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            //printMoveDex();
+            if(print){
+                printMoveDex();
+            }
         }
 
         if(param.equalsIgnoreCase("Abilities") || param.equalsIgnoreCase("all")){
@@ -60,7 +62,9 @@ public class Dex {
             }catch (Exception e){
                 e.printStackTrace();
             }
-            //printAbilityDex();
+            if(print){
+                printAbilityDex();
+            }
         }
 
         if(param.equalsIgnoreCase("Pokemon") || param.equalsIgnoreCase("all")){
@@ -74,7 +78,9 @@ public class Dex {
             }catch(Exception e){
                 e.printStackTrace();
             }
-            //printPokeDex();
+            if(print){
+                printPokeDex();
+            }
         }
     }
 
