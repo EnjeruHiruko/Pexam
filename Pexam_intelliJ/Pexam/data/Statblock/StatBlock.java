@@ -63,6 +63,8 @@ public class StatBlock {
 
     private int curHP_;
 
+    private int injuries_; // TODO: 19.03.2021 update mathods to check injuries and stuff
+
     // constructor
 
     public StatBlock(int[] baseStats){
@@ -204,7 +206,7 @@ public class StatBlock {
         sAT_.redoBase(values[3]);
         sDEF_.redoBase(values[4]);
         SPE_.redoBase(values[5]);
-        calcRelations();
+        update();
     }
 
     public void updateBaseRelationStatus(boolean newStatus){
