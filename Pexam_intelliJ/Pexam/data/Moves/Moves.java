@@ -63,9 +63,11 @@ public class Moves{
 
     public Moves(String input, List<Moves> mList){
         int thrust;
-        if(mList.contains(input)){
-            thrust = mList.indexOf(input);
-            this.name_ = input;
+        String mem = input.replaceAll("\\R+", "");
+        if(mList.contains(new Moves(mem))){
+            //System.out.println(22222);
+            thrust = mList.indexOf(new Moves(mem));
+            this.name_ = mem;
             this.type_ = mList.get(thrust).getType();
             this.frequency_ = mList.get(thrust).getFrequency();
             this.AC_ = mList.get(thrust).getAC();
@@ -113,6 +115,10 @@ public class Moves{
         }
     }
 
+    public Moves(Moves in){
+
+    }
+
     public void createMove(String info){
         String[] mem = info.split("\n");
         this.name_ = mem[0];
@@ -128,7 +134,7 @@ public class Moves{
     }
 
     public void fromMove(Moves reference){
-        this.name_ = reference.getName();
+        this.name_ = reference.getName().replaceAll("\\R+", "");
         this.type_ = reference.getType();
         this.frequency_ = reference.getFrequency();
         this.AC_ = reference.getAC();
@@ -230,7 +236,7 @@ public class Moves{
     public boolean equals(Object other){
         if(other instanceof String){
             String another = (String) other;
-            if(this.name_.equals(another)){
+            if(this.name_.trim().equalsIgnoreCase(another.trim())){
                 return true;
             } else {
                 return false;
@@ -238,7 +244,7 @@ public class Moves{
         }
         if(other instanceof Moves){
             Moves bnother = (Moves) other;
-            if(this.name_.equals(bnother.name_)){
+            if(this.name_.trim().equalsIgnoreCase(bnother.name_.trim())){
                 return true;
             } else {
                 return false;
@@ -246,7 +252,7 @@ public class Moves{
         }
         if(other instanceof MoveForList){
             MoveForList cnother = (MoveForList) other;
-            if(this.equals(cnother.getMove())){
+            if(this.name_.trim().equalsIgnoreCase(cnother.getMove().getName().trim())){
                 return true;
             }else{
                 return false;
@@ -259,18 +265,18 @@ public class Moves{
     public String toString(){
 
         if(this.type_ == Type.UKN){
-            return "Move: " + name_ + "%n";
+            return "Move: " + name_ + "";
         }else {
-            return "Move: " + name_ + " | " + type_ + " | " + frequency_ + " | " + AC_ + " | " + DB_ + " | " + damageClass_ + " | " + Range_  + " | " + Effect_ + " |%n";
+            return "Move: " + name_ + " | " + type_ + " | " + frequency_ + " | " + AC_ + " | " + DB_ + " | " + damageClass_ + " | " + Range_  + " | " + Effect_ + " |";
 
         }
     }
 
     public String toPrint(){
         if(this.type_ == Type.UKN){
-            return "" + name_ + "%n";
+            return "" + name_ + "";
         }else{
-            return "" + name_ + " --- " + type_ + " --- " + frequency_ + " --- " + AC_ + " --- " + DB_ + " --- " + damageClass_ + " --- " + Range_  + " --- " + Effect_ + "---%n";
+            return "" + name_ + " --- " + type_ + " --- " + frequency_ + " --- " + AC_ + " --- " + DB_ + " --- " + damageClass_ + " --- " + Range_  + " --- " + Effect_ + "---";
         }
     }
 

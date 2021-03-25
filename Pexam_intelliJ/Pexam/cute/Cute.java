@@ -21,6 +21,8 @@ public class Cute{
         this.standardWorld = "ver105_5";
         this.database_ = new Dex(standardWorld, "All");
         this.pokemon_ = new ArrayList<Pokemon>();
+        System.out.println(12121212);
+        updateDex();
     }
 
     public Cute(String path){
@@ -32,6 +34,7 @@ public class Cute{
             System.out.println("there is no such World saved");
         }
         this.pokemon_ = new ArrayList<Pokemon>();
+        updateDex();
     }
 
     public Species searchPokeDexString(String in){
@@ -50,12 +53,19 @@ public class Cute{
         database_.showcasePokeDex();
     }
 
+    public void updateDex(){
+        this.database_.updateDex();
+    }
 
+    public void printMoveDex(){
+        database_.printMoveDex();
+    }
 
+    public void controlPrint(){
+        database_.controlPrintMoveDex();
+    }
 
-
-
-
+    /*
     public static void main(String[] args){
         Cute test = new Cute();
         System.out.println(test.DexSizes("all"));
@@ -63,5 +73,5 @@ public class Cute{
         //test.PokeDexshowcase();
         //System.out.printf(test.toString());
     }
-
+    */
 }

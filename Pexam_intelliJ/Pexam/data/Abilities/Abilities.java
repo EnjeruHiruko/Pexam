@@ -3,6 +3,8 @@ import Pexam.data.utility.Enums.Action;
 import Pexam.data.utility.Enums.Frequency;
 import Pexam.data.utility.Misc.EnumHandler;
 
+import java.util.List;
+
 
 public class Abilities{
 
@@ -25,6 +27,21 @@ public class Abilities{
     public Abilities(){
         this.name_ = "";
         this.frequency_ = new Frequency();
+    }
+
+    public Abilities(String name, List<Abilities> dex){
+        int thrust;
+        String temp = name.replaceAll("\\R+", "");
+        if(dex.contains(new Abilities(temp))){
+            thrust = dex.indexOf(new Abilities(temp));
+            this.name_ = temp;
+            this.frequency_ = dex.get(thrust).getFrequency();
+            this.action_ = dex.get(thrust).getAction();
+            this.target_ = dex.get(thrust).getTarget();
+            this.trigger_ = dex.get(thrust).getTrigger();
+            this.effect_ = dex.get(thrust).getEffect();
+            this.bonus_ = dex.get(thrust).getBonus();
+        }
     }
 
     public Abilities(String input){
@@ -120,6 +137,10 @@ public class Abilities{
 
     public String getEffect() {
         return this.effect_;
+    }
+
+    public String getBonus(){
+        return this.bonus_;
     }
 
     //Setter block

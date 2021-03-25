@@ -2,9 +2,11 @@ package Pexam.cute.cuteutility.Database;
 
 import Pexam.cute.cuteutility.config.WorldConfiguration;
 import Pexam.data.Abilities.Abilities;
-import Pexam.data.Moves.Moves;
 import Pexam.data.Combatant.Pokemon.Species;
+import Pexam.data.Moves.Moves;
 
+import java.io.BufferedWriter;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -38,8 +40,10 @@ public class Dex {
             try {
                 Scanner in = new Scanner(file).useDelimiter("HOMELESS");
                 while (in.hasNext()) {
-                    System.out.println(counter);
+                    //System.out.println(counter);
+
                     moveList_.add(createMove(in.next()));
+
                     counter++;
                 }
                 in.close();
@@ -85,13 +89,19 @@ public class Dex {
     }
 
     private Moves createMove(String in){
-        String[] mem = in.split("\\R");
+        String[] mem = in.split("\\R+");
+        /*
+        for (String s : mem) {
+            s.replaceAll("\\R+", "");
+        }
+        */
+
         //System.out.println(Arrays.toString(mem));
         return new Moves(mem);
     }
 
     private Abilities createAbility(String in){
-        String[] mem = in.split("\\R");
+        String[] mem = in.split("\\R+");
         //System.out.println(Arrays.toString(mem));
         return new Abilities(mem);
     }
@@ -100,10 +110,29 @@ public class Dex {
         return new Species(in);
     }
 
-    private void printMoveDex(){
+    public void printMoveDex(){
         for (Moves moves : this.moveList_) {
             System.out.println(moves);
         }
+    }
+
+    public void controlPrintMoveDex(){
+        Path dispatch = Paths.get("Pexam/cute/cuteutility/ver105_5/control_print.txt");
+        String result = "";
+        for(Moves moves : this.moveList_){
+            result += moves.toString();
+            result += "\n";
+        }
+
+        try{
+            BufferedWriter writer = Files.newBufferedWriter(dispatch);
+            writer.write(result);
+            writer.close();
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+
+
     }
 
     private void printAbilityDex(){
@@ -157,5 +186,98 @@ public class Dex {
         }
         return temp;
     }
+
+    public void updateDex(){
+        for(int c = 0; c < 50; c++){
+            Species mem = pokeDex_.get(c);
+            //System.out.println(mem.getMovelist());
+
+            //Moves temp = new Moves(mem.getMovelist().get(0).getMove().getName(), this.moveList_);
+            //System.out.println(temp);
+
+
+
+
+            for(int z = 0; z < mem.getMovelist().size(); z++){
+                try {
+
+                    Moves temp = new Moves(mem.getMovelist().get(z).getMove().getName(), this.moveList_);
+                    mem.getMovelist().get(z).setMove(temp);
+                    //System.out.println(temp);
+                }catch(Exception e){
+                    e.printStackTrace();
+                    System.out.println(c + "   "+ z + "  movelist");
+                    System.out.println(mem.getMovelist());
+                }
+            }
+
+            for(int z = 0; z < this.pokeDex_.get(c).getTmlist().size(); z++){
+                try {
+
+                    Moves temp = new Moves(mem.getTmlist().get(z).getMove().getName(), this.moveList_);
+                    mem.getTmlist().get(z).setMove(temp);
+                    //System.out.println(temp);
+                }catch(Exception e){
+                    e.printStackTrace();
+                    System.out.println(c + "   "+ z+ "  tmlist");
+                    System.out.println(mem.getTmlist());
+                }
+            }
+
+            for(int z = 0; z < this.pokeDex_.get(c).getTutorlist().size(); z++){
+                try {
+
+                    Moves temp = new Moves(mem.getTutorlist().get(z).getName(), this.moveList_);
+                    mem.getTutorlist().set(z, temp);
+                    //System.out.println(temp);
+                }catch(Exception e){
+                    e.printStackTrace();
+                    System.out.println(c + "   "+ z+ "  tutorlist");
+                    System.out.println(mem.getTutorlist());
+                }
+            }
+            for(int z = 0; z < this.pokeDex_.get(c).getEgglist().size(); z++){
+                try {
+
+                    Moves temp = new Moves(mem.getEgglist().get(z).getName(), this.moveList_);
+                    mem.getEgglist().set(z, temp);
+                    //System.out.println(temp);
+                }catch(Exception e){
+                    e.printStackTrace();
+                    System.out.println(c + "   "+ z + "  egglist");
+                    System.out.println(mem.getEgglist());
+                }
+            }
+            /*
+            for(int z = 0; z < this.pokeDex_.get(c).getBasicAbilities().size(); z++){
+                try {
+                    this.pokeDex_.get(c).update_Filler(this.abilityList_.get(this.abilityList_.indexOf(this.pokeDex_.get(c).getBasicAbilities().get(z))));
+                }catch(Exception e){
+                    e.printStackTrace();
+                    System.out.println(c + "   "+ z);
+                }
+            }
+            for(int z = 0; z < this.pokeDex_.get(c).getAdvAbilities().size(); z++){
+                try {
+                    this.pokeDex_.get(c).update_Filler(this.abilityList_.get(this.abilityList_.indexOf(this.pokeDex_.get(c).getAdvAbilities().get(z))));
+                }catch(Exception e){
+                    e.printStackTrace();
+                    System.out.println(c + "   "+ z);
+                }
+            }
+            for(int z = 0; z < this.pokeDex_.get(c).getHighability().size(); z++){
+                try {
+                    this.pokeDex_.get(c).update_Filler(this.abilityList_.get(this.abilityList_.indexOf(this.pokeDex_.get(c).getHighability().get(z))));
+                }catch(Exception e){
+                    e.printStackTrace();
+                    System.out.println(c + "   "+ z);
+                }
+            }
+            */
+            this.pokeDex_.set(c, mem);
+        }
+    }
+
+
 
 }
