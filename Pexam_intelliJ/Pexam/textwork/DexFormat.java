@@ -17,8 +17,6 @@ import java.util.Scanner;
 // rewrote tmlist of mew
 // corrected spacing on steel wing in tmlist of drakloak
 
-// TODO apastrophe ??
-
 
 class DexFormat {
 
