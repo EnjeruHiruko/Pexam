@@ -1,48 +1,42 @@
 package Pexam.data.utility.Enums;
+import java.util.EnumSet;
 
-public enum Type{
-    /*
-    0 = neutral
-    1 = effective
-    9 = resistence
-    -1 = immunity
-     */
-    NORMAL  (new int[]{0,0,0,0,0,0,0,0,0,0,0,0,9,-1,0,0,9,0},0),
-    FIRE    (new int[]{0,9,9,0,1,1,0,0,0,0,0,1,9,0,9,0,1,0},1),
-    WATER   (new int[]{0,1,9,0,9,0,0,0,1,0,0,0,1,0,9,0,0,0},2),
-    ELECTRIC(new int[]{0,0,1,9,9,0,0,0,-1,1,0,0,0,0,9,0,0,0},3),
-    GRASS   (new int[]{0,9,1,0,9,0,0,9,1,9,0,9,1,0,9,0,9,0},4),
-    ICE     (new int[]{0,9,9,0,1,9,0,0,1,1,0,0,0,0,1,0,9,0},5),
-    FIGHTING(new int[]{1,0,0,0,0,1,0,9,0,9,9,9,1,-1,0,1,1,9},6),
-    POISON  (new int[]{0,0,0,0,1,0,0,9,9,0,0,0,0,9,0,0,-1,1},7),
-    GROUND  (new int[]{0,1,0,1,9,0,0,1,0,-1,0,9,1,0,0,0,1,0},8),
-    FLYING  (new int[]{0,0,0,9,1,0,1,0,0,0,0,1,9,0,0,0,9,0},9),
-    PSYCHIC (new int[]{0,0,0,0,0,0,1,1,0,0,9,0,1,0,0,-1,9,0},10),
-    BUG     (new int[]{0,9,0,0,1,0,9,9,0,9,1,0,9,9,0,1,9,9},11),
-    ROCK    (new int[]{0,1,0,0,0,1,9,0,9,1,0,1,0,0,0,0,9,0},12),
-    GHOST   (new int[]{-1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,9,0,0},13),
-    DRAGON  (new int[]{0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,9,-1},14),
-    DARK    (new int[]{0,0,0,0,0,0,9,0,0,0,1,0,0,1,0,9,0,9},15),
-    STEEL   (new int[]{0,9,9,9,0,1,0,0,0,0,0,0,1,0,0,0,9,1},16),
-    FAIRY   (new int[]{0,9,0,0,0,0,1,9,0,0,0,0,0,0,1,1,9,0},17),
-    UKN     (new int[]{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},18);
+public enum Type {
+    
+	NORMAL   (new String[]{"Fighting"}, new String[]{}, new String[]{"Ghost"}),
+	FIRE     (new String[]{"Water", "Ground"}, new String[]{""}, new String[]{}),
+	WATER    (new String[]{""}, new String[]{""}, new String[]{}),
+	ELECTRIC (new String[]{""}, new String[]{""}, new String[]{}),
+	GRASS    (new String[]{""}, new String[]{""}, new String[]{}),
+	ICE      (new String[]{""}, new String[]{""}, new String[]{}),
+	FIGHTING (new String[]{""}, new String[]{""}, new String[]{}),
+	POISON   (new String[]{""}, new String[]{""}, new String[]{}),
+	GROUND   (new String[]{""}, new String[]{""}, new String[]{}),
+	FLYING   (new String[]{""}, new String[]{""}, new String[]{}),
+	PSYCHIC  (new String[]{""}, new String[]{""}, new String[]{}),
+	BUG      (new String[]{""}, new String[]{""}, new String[]{}),
+	ROCK     (new String[]{""}, new String[]{""}, new String[]{}),
+	GHOST    (new String[]{""}, new String[]{""}, new String[]{}),
+	DRAGON   (new String[]{""}, new String[]{""}, new String[]{}),
+	DARK     (new String[]{""}, new String[]{""}, new String[]{}),
+	STEEL    (new String[]{""}, new String[]{""}, new String[]{}),
+	FAIRY    (new String[]{""}, new String[]{""}, new String[]{}),
+	TYPELESS (new String[]{}, new String[]{}, new String[]{});
 
-    private final int[] relation_;
+	private final EnumSet<Type> weaknesses_;
+	private final EnumSet<Type> resistances_;
+	private final EnumSet<Type> immunities_;
 
-    private final int rank_;
+	//public int getEffectiveness(Type attacktype) {}
 
-    Type(int[] relations, int rank){
-        this.relation_ = relations;
-        this.rank_ = rank;
-    }
+	//public static double getMultiplier(int effectiveness) {}
 
-    public int[] getRelation() {
-        return relation_;
-    }
+	private Type(String[] weaknesses, String[] resistances, String[] immunities) {
 
-    public int getRank() {
-        return rank_;
-    }
+		this.weaknesses_ = EnumSet.noneOf(Type.class);
+		this.resistances_ = EnumSet.noneOf(Type.class);
+		this.immunities_ = EnumSet.noneOf(Type.class);
 
+	}
 
 }
