@@ -26,13 +26,13 @@ public enum Type {
 	FAIRY    (new String[]{"Poison", "Steel"},			new String[]{"Fighting", "Bug", "Dark"},			new String[]{"Dragon"}),
 	TYPELESS (new String[]{}, new String[]{}, new String[]{});
 
-	/** The weaknesses of this. */
+	/** The names of the weaknesses of this. */
 	private final HashSet<String> weaknesses_;
 
-	/** The resistances of this. */
+	/** The names of the resistances of this. */
 	private final HashSet<String> resistances_;
 
-	/** The immunities of this. */
+	/** The names of the immunities of this. */
 	private final HashSet<String> immunities_;
 
 
@@ -58,17 +58,17 @@ public enum Type {
 
 
 	/** Determines the Effectiveness another Type has on this and returns it's identifying number.
-	 * @param The other type.
+	 * @param The name of the other type.
 	 */
-	public int getEffectiveness(Type attacktype) {
+	public int getEffectiveness(String attacktype) {
 
-		if( this.immunities_.contains(attacktype.toString()) ) {
+		if(this.immunities_.contains(attacktype)) {
 			return 9;
 
-		} else if( this.weaknesses_.contains(attacktype.toString()) ) {
+		} else if(this.weaknesses_.contains(attacktype)) {
 			return 1;
 
-		} else if( this.resistances_.contains(attacktype.toString()) ) {
+		} else if(this.resistances_.contains(attacktype)) {
 			return -1;
 
 		} else {
@@ -76,6 +76,14 @@ public enum Type {
 
 		}
 
+	}
+
+
+	/** Determines the Effectiveness another Type has on this and returns it's identifying number.
+	 * @param The other type.
+	 */
+	public int getEffectiveness(Type attacktype) {
+		return this.getEffectiveness(attacktype.toString());
 	}
 
 
