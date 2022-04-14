@@ -138,7 +138,7 @@ public class StatBlock {
      * Calls some update Methods to recalculate some stats
      */
     public void update (){
-        System.out.println(this.maxHP_);
+        //System.out.println(this.maxHP_);
 
         calcRelations();
 
@@ -224,7 +224,7 @@ public class StatBlock {
     }
 
     public void update_SkillPoints(){
-        System.out.println(this.maxHP_);
+        //System.out.println(this.maxHP_);
         int temp = level_ +10;
         int mem = KP_.getSkillPoints() + AT_.getSkillPoints() + DEF_.getSkillPoints() + sAT_.getSkillPoints() + sDEF_.getSkillPoints() + SPE_.getSkillPoints();
         this.spendPoints_ = mem;
@@ -648,7 +648,7 @@ public class StatBlock {
                 ", speEV_=" + speEV_ +
                 ", maxHP_=" + maxHP_ +
                 ", curHP_=" + curHP_ +
-                "}\n";
+                "}";
     }
 
     public void addstuff(){

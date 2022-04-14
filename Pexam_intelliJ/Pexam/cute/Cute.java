@@ -21,7 +21,6 @@ public class Cute{
         this.standardWorld = "ver105_5";
         this.database_ = new Dex(standardWorld, "All");
         this.pokemon_ = new ArrayList<Pokemon>();
-        System.out.println(12121212);
         updateDex();
     }
 
@@ -65,13 +64,4 @@ public class Cute{
         database_.controlPrintMoveDex();
     }
 
-    /*
-    public static void main(String[] args){
-        Cute test = new Cute();
-        System.out.println(test.DexSizes("all"));
-        System.out.println(test.searchPokeDexIndex(763));
-        //test.PokeDexshowcase();
-        //System.out.printf(test.toString());
-    }
-    */
 }
