@@ -1,5 +1,8 @@
 package Pexam.data.utility.Enums;
+import java.util.EnumSet;
 import java.util.HashSet;
+import static java.lang.System.out;
+import java.util.Arrays;
 
 public enum Type {
     
@@ -113,11 +116,11 @@ public enum Type {
 
 	}
 
-	/**
+
 	public static void main(String[] test) {
 
 		out.println(NORMAL.getEffectivenessMultiplier(FIGHTING));
 
 	}
-	**/
+
 }

@@ -1,5 +1,7 @@
 package Pexam.data.Statblock;
 
+import java.util.Arrays;
+
 public class Stats {
 
     // base stuff
@@ -109,7 +111,7 @@ public class Stats {
 
             }
         }
-        //System.out.println(Arrays.toString(test)); //print of relations in boolean
+        System.out.println(Arrays.toString(test)); //print of relations in boolean
         for(boolean yes : test){
             if(!yes){
                 return false;

@@ -21,7 +21,7 @@ public class Damage{
 
     public Damage(){
         this.value_ = 0;
-        this.type_ = Type.TYPELESS;
+        this.type_ = Type.UKN;
         this.damage_class_ = DamageClass.NON;
         this.MoveName_ = "Non";
     }

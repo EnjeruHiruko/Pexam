@@ -32,11 +32,8 @@ public class Abilities{
     public Abilities(String name, List<Abilities> dex){
         int thrust;
         String temp = name.replaceAll("\\R+", "");
-        //System.out.println(temp);
-        //System.out.println(dex.contains(new Abilities(temp)));
         if(dex.contains(new Abilities(temp))){
             thrust = dex.indexOf(new Abilities(temp));
-            //System.out.println(dex.get(thrust));
             this.name_ = temp;
             this.frequency_ = dex.get(thrust).getFrequency();
             this.action_ = dex.get(thrust).getAction();
@@ -60,12 +57,8 @@ public class Abilities{
     public Abilities(String[] input){
         String[] mem = input;
         if(mem.length > 0) {
-
-            for(int c = 0; c < mem.length; c++){
-                mem[c] = mem[c].replaceAll("\\R+","");
-            }
             //System.out.println(mem.length);
-            this.name_ = mem[1].trim();
+            this.name_ = mem[1].replace("$", " ");
             String[] temp = mem[2].split(" ");
             //System.out.println(Arrays.toString(temp));
 
@@ -182,14 +175,13 @@ public class Abilities{
     public boolean equals(Object other){
         if(other instanceof Abilities){
             Abilities another = (Abilities) other;
-            return this.name_.equalsIgnoreCase(another.getName());
+            return this.name_.equals(another.name_);
         }
         return false;
     }
 
     public String toString(){
-        return this.name_;
-        //return "Ability: " + this.name_ + " | " + this.frequency_ + " | " + action_ + " | " + target_ + " | " + trigger_ + " | " + effect_ + " | "+ this.bonus_ +" |";
+        return "Ability: " + this.name_ + " | " + this.frequency_ + " | " + action_ + " | " + target_ + " | " + trigger_ + " | " + effect_ + " "+ this.bonus_ +" |%n";
     }
 
 }
