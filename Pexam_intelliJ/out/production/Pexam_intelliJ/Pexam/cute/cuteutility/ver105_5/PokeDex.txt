@@ -788,7 +788,7 @@ AA Fox$Fire Competitive Cute$Charm
 HA Drought
 EV Vulpix#0 Ninetales#Fire$Stone$20
 0.6 9.9 25 Field 10 Herbivore Grassland/Mountain/Urban
-cl Overland$4 Swim$2 High$Jump$1 Long$Jump$2 Power$2$Tracker Naturewalk$Forest/Mountain Underdog
+cl Overland$4 Swim$2 High$Jump$1 Long$Jump$2 Power$2 Tracker Naturewalk$Forest/Mountain Underdog
 sl Athl#3#1 Acro#2#0 Combat#2#0 Stealth#3#2 Percep#2#1 Focus#3#1
 ml 1#Ember 4#Tail$Whip 7#Roar 9#Baby-Doll$Eyes 10#Quick$Attack 12#Confuse$Ray 15#Fire$Spin 18#Payback 20#Will-O-Wisp 23#Feint$Attack 26#Hex 28#Flame$Burst 31#Extrasensory 34#Safeguard 36#Flamethrower 39#Imprison 42#Fire$Blast 44#Grudge 47#Captivate 50#Inferno
 tml 05#Roar 06#Toxic 10#Hidden$Power 11#Sunny$Day 17#Protect 20#Safeguard 21#Frustration 27#Return 28#Dig 32#Double$Team 35#Flamethrower 38#Fire$Blast 42#Facade 43#Flame$Charge 44#Rest 45#Attract 48#Round 50#Overheat 53#Energy$Ball 59#Incinerate 61#Will-O-Wisp 66#Payback 77#Psych$Up 87#Swagger 88#Sleep$Talk 90#Substitute 97#Dark$Pulse
@@ -826,7 +826,7 @@ AA Fox$Fire Competitive Cursed$Body
 HA Drought
 EV Vulpix#0 Ninetales#Fire$Stone$20
 1.1 19.9 25 Field 0 Omnivore Grassland/Mountain
-cl Overland$6 Swim$3 High$Jump$1 Long$Jump$2 Power$4$Firestarter Tracker Naturewalk$Forest/Mountain
+cl Overland$6 Swim$3 High$Jump$1 Long$Jump$2 Power$4 Firestarter Tracker Naturewalk$Forest/Mountain
 sl Athl#4#2 Acro#3#2 Combat#3#2 Stealth#4#3 Percep#4#2 Focus#5#2
 ml 1#Ember 4#Tail$Whip 7#Roar 9#Baby-Doll$Eyes 10#Quick$Attack 12#Confuse$Ray 15#Fire$Spin 18#Payback 20#Will-O-Wisp 23#Feint$Attack 26#Hex 28#Flame$Burst 31#Extrasensory 34#Safeguard 36#Flamethrower 39#Imprison 42#Fire$Blast 44#Grudge 47#Captivate 50#Inferno
 tml 03#Psyshock 04#Calm$Mind 05#Roar 06#Toxic 10#Hidden$Power 11#Sunny$Day 15#Hyper$Beam 17#Protect 20#Safeguard 21#Frustration 22#Solar$Beam 27#Return 28#Dig 32#Double$Team 35#Flamethrower 38#Fire$Blast 42#Facade 43#Flame$Charge 44#Rest 45#Attract 48#Round 50#Overheat 53#Energy$Ball 59#Incinerate 61#Will-O-Wisp 66#Payback 68#Giga$Impact 77#Psych$Up 85#Dream$Eater 87#Swagger 88#Sleep$Talk 90#Substitute 97#Dark$Pulse
@@ -1320,7 +1320,7 @@ AA Justified Bodyguard
 HA Conqueror
 EV Growlithe#0 Arcanine#Fire$Stone$20
 0.7 19 75 Field 10 Carnivore Grassland/Mountain
-cl Overland$5 Swim$2 High$Jump$1 Long$Jump$2 Power$3$Tracker Naturewalk$Grassland/Mountain Underdog
+cl Overland$5 Swim$2 High$Jump$1 Long$Jump$2 Power$3 Tracker Naturewalk$Grassland/Mountain Underdog
 sl Athl#3#2 Acro#2#0 Combat#2#0 Stealth#3#1 Percep#3#1 Focus#2#0
 ml 1#Bite 1#Roar 6#Ember 8#Leer 10#Odor$Sleuth 12#Helping$Hand 17#Flame$Wheel 19#Reversal 21#Fire$Fang 23#Take$Down 28#Flame$Burst 30#Agility 32#Retaliate 34#Flamethrower 39#Crunch 41#Heat$Wave 43#Outrage 45#Flare$Blitz
 tml -4#Strength 05#Roar 06#Toxic 10#Hidden$Power 11#Sunny$Day 17#Protect 20#Safeguard 21#Frustration 27#Return 28#Dig 32#Double$Team 35#Flamethrower 38#Fire$Blast 40#Aerial$Ace 42#Facade 43#Flame$Charge 44#Rest 45#Attract 46#Thief 48#Round 50#Overheat 59#Incinerate 61#Will-O-Wisp 67#Retaliate 87#Swagger 88#Sleep$Talk 90#Substitute 93#Wild$Charge 94#Rock$Smash 95#Snarl
@@ -1339,7 +1339,7 @@ AA Justified Bodyguard
 HA Conqueror
 EV Growlithe#0 Arcanine#Fire$Stone$20
 1.9 155 75 Field 0 Carnivore Grassland/Mountain
-cl Overland$8 Swim$4 High$Jump$2 Long$Jump$3 Power$8$Firestarter Tracker Naturewalk$Grassland/Mountain Mountable$1
+cl Overland$8 Swim$4 High$Jump$2 Long$Jump$3 Power$8 Firestarter Tracker Naturewalk$Grassland/Mountain Mountable$1
 sl Athl#6#3 Acro#3#1 Combat#4#0 Stealth#2#2 Percep#5#2 Focus#3#1
 ml 1#Bite 1#Roar 6#Ember 8#Leer 10#Odor$Sleuth 12#Helping$Hand 17#Flame$Wheel 19#Reversal 21#Fire$Fang 23#Take$Down 28#Flame$Burst 30#Agility 32#Retaliate 34#Flamethrower 34#Extreme$Speed 39#Crunch 41#Heat$Wave 43#Outrage 45#Flare$Blitz
 tml -4#Strength 05#Roar 06#Toxic 10#Hidden$Power 11#Sunny$Day 15#Hyper$Beam 17#Protect 20#Safeguard 21#Frustration 22#Solar$Beam 27#Return 28#Dig 32#Double$Team 35#Flamethrower 38#Fire$Blast 40#Aerial$Ace 42#Facade 43#Flame$Charge 44#Rest 45#Attract 46#Thief 48#Round 50#Overheat 59#Incinerate 61#Will-O-Wisp 67#Retaliate 68#Giga$Impact 78#Bulldoze 87#Swagger 88#Sleep$Talk 90#Substitute 93#Wild$Charge 94#Rock$Smash 95#Snarl

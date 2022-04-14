@@ -3,7 +3,6 @@ package Pexam.textwork;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
-import java.util.Arrays;
 import java.util.Locale;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
@@ -285,7 +284,7 @@ class DexFormat {
                 //get capabilities
                 Scanner scanCap = new Scanner(capab.replaceAll("\\v+", " ").replaceFirst(" ", "")).useDelimiter(", ");
                 dex3.append("cl");
-
+                //todo somewhere is a bug that causes it to not cut after the Power-Capability correctly and appends the following capability. Happend with Vulpix/Ninetales/Akanine
                 boolean isNaturewalk = false;
                 while (scanCap.hasNext()) {
                     line = scanCap.next().trim().replace(' ', '$');

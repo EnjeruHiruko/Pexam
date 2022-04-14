@@ -265,20 +265,23 @@ public class Moves{
 
 
     public String toString(){
-
+        return this.getName();
+        /*
         if(this.type_ == Type.TYPELESS){
             return "Move: " + name_ + "";
         }else {
             return "Move: " + name_ + " | " + type_ + " | " + frequency_ + " | " + AC_ + " | " + DB_ + " | " + damageClass_ + " | " + Range_  + " | " + Effect_ + " |";
 
         }
+        */
     }
 
     public String toPrint(){
         if(this.type_ == Type.TYPELESS){
-            return "" + name_ + "";
-        }else{
-            return "" + name_ + " --- " + type_ + " --- " + frequency_ + " --- " + AC_ + " --- " + DB_ + " --- " + damageClass_ + " --- " + Range_  + " --- " + Effect_ + "---";
+            return "Move: " + name_ + "";
+        }else {
+            return "Move: " + name_ + " | " + type_ + " | " + frequency_ + " | " + AC_ + " | " + DB_ + " | " + damageClass_ + " | " + Range_  + " | " + Effect_ + " |";
+
         }
     }
 

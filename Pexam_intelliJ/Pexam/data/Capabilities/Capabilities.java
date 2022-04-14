@@ -24,39 +24,30 @@ public class Capabilities{
     }
 
     public Capabilities(String input){
-        String[] temp = input.split("#");
-        if(temp.length == 1){
-            this.name_ = temp[0];
-        }else if(temp.length == 2){
-            if(temp[0].trim().equalsIgnoreCase("jump")){
-                this.name_ = temp[0];
-                String[] mem = temp[1].split("/");
-                this.value_ = Integer.parseInt(mem[0]);
-                this.value2_ = Integer.parseInt(mem[1]);
-            }else if(temp[0].trim().equalsIgnoreCase("Naturewalk")) {
-                this.name_ = temp[0];
-                this.zones_ = temp[1].split("/");
 
-
-            }else if(temp[0].trim().equalsIgnoreCase("Underdog")){
-                this.name_ = temp[0].trim();
-                this.value_ = 0;
-            }else if(temp[1].replace("$", "----").split("----")[0].equalsIgnoreCase("while")){
-                this.name_ = temp[0];
-                this.condition_ = temp[1].replace("$"," ");
-                //System.out.println(condition_);
-                this.value_ = 0;
-            }else{
-                this.name_ = temp[0];
+        String in = input.trim();
+        //System.out.println(in);
+        String[] temp = in.split("\\$");
+        StringBuilder pivot = new StringBuilder();
+        for (int c = 0; c < temp.length; c++) {
+            if (c == temp.length - 1) {
                 try {
-                    this.value_ = Integer.parseInt(temp[1]);
-                }catch(Exception e){
-                    //this.value_ = 0;
-                    e.printStackTrace();
+                    this.value_ = Integer.parseInt(temp[c]);
+                } catch (NumberFormatException e) {
+                    if (c != 0) {
+                        pivot.append(" ");
+                    }
+                    pivot.append((temp[c].trim()));
                 }
+            } else {
+                if (c != 0) {
+                    pivot.append(" ");
+                }
+                pivot.append((temp[c].trim()));
             }
-
         }
+        System.out.println(pivot.toString());
+        this.name_ = pivot.toString();
 
         //todo check if everything works
     }
@@ -119,7 +110,12 @@ public class Capabilities{
     //misc block
 
     public String toString(){
-        return name_ + " | " + value_ + " | " + description_ + " |%n";
+        if(value_ != 0){
+            return name_ + ": " + value_;
+        }else{
+            return name_;
+        }
+
     }
 
 }
