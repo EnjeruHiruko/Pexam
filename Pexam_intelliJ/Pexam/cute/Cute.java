@@ -2,7 +2,7 @@ package Pexam.cute;
 
 
 import Pexam.cute.cuteutility.Database.Dex;
-import Pexam.data.Combatant.Pokemon.Pokemon;
+import Pexam.data.Combatant.Pokemon.PokemonBETA;
 import Pexam.data.Combatant.Pokemon.Species;
 
 import java.util.ArrayList;
@@ -14,14 +14,13 @@ public class Cute{
 
     private Dex database_;
 
-    private List<Pokemon> pokemon_;
+    private List<PokemonBETA> pokemon_;
 
 
     public Cute(){
         this.standardWorld = "ver105_5";
         this.database_ = new Dex(standardWorld, "All");
-        this.pokemon_ = new ArrayList<Pokemon>();
-        System.out.println(12121212);
+        this.pokemon_ = new ArrayList<PokemonBETA>();
         updateDex();
     }
 
@@ -33,7 +32,7 @@ public class Cute{
             e.printStackTrace();
             System.out.println("there is no such World saved");
         }
-        this.pokemon_ = new ArrayList<Pokemon>();
+        this.pokemon_ = new ArrayList<PokemonBETA>();
         updateDex();
     }
 
@@ -65,13 +64,11 @@ public class Cute{
         database_.controlPrintMoveDex();
     }
 
-    /*
-    public static void main(String[] args){
-        Cute test = new Cute();
-        System.out.println(test.DexSizes("all"));
-        System.out.println(test.searchPokeDexIndex(763));
-        //test.PokeDexshowcase();
-        //System.out.printf(test.toString());
+    // methods for UI
+
+    public void createTrainerPokemon(String in){
+        Species temp = searchPokeDexString(in);
+        pokemon_.add(new PokemonBETA(temp.getSpecies(), temp));
     }
-    */
+
 }
