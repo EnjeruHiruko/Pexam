@@ -58,7 +58,7 @@ public enum Type {
 
 
 	/** Determines the Effectiveness another Type has on this and returns it's identifying number.
-	 * @param The name of the other type.
+	 * @param attacktype The name of the other type.
 	 */
 	public int getEffectiveness(String attacktype) {
 
@@ -80,7 +80,7 @@ public enum Type {
 
 
 	/** Determines the Effectiveness another Type has on this and returns it's identifying number.
-	 * @param The other type.
+	 * @param attacktype The other type.
 	 */
 	public int getEffectiveness(Type attacktype) {
 		return this.getEffectiveness(attacktype.toString());
@@ -88,7 +88,7 @@ public enum Type {
 
 
 	/** Determines the Effectiveness another Type has on this and returns the corresponding damage multiplier.
-	 * @param The other type.
+	 * @param attacktype The other type.
 	 */
 	public double getEffectivenessMultiplier(Type attacktype) {
 		return getMultiplier(this.getEffectiveness(attacktype));

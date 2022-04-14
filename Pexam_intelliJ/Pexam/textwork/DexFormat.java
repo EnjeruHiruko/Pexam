@@ -16,6 +16,7 @@ import java.util.Scanner;
 // corrected shiinotic's height to medium
 // rewrote tmlist of mew
 // corrected spacing on steel wing in tmlist of drakloak
+// added comma after power capabilities of vulpix, ninetales, growlithe, arcanine, ponyta, rapidash, exeggcute, exeggutor-K, slugma and magcargo
 
 
 class DexFormat {
