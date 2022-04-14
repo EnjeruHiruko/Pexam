@@ -37,7 +37,7 @@ public class Moves{
 
     public Moves(){
         this.name_ = "";
-        this.type_ = Type.UKN;
+        this.type_ = Type.TYPELESS;
         this.frequency_ = new Frequency();
         this.AC_ = 0;
         this.DB_ = DamageBase.NON;
@@ -49,32 +49,26 @@ public class Moves{
     }
 
     public Moves(String input){
+        this();
         this.name_ = input.replace("$", " ");
-        this.type_ = Type.UKN;
-        this.frequency_ = new Frequency();
-        this.AC_ = 0;
-        this.DB_ = DamageBase.NON;
-        this.damageClass_ = DamageClass.NON;
-        this.Range_ = "placeholder move";
-        this.Effect_ = "placeholder move";
-        this.ContestType_ = "placeholder move";
-        this.ContestEffect_ = "placeholder move";
     }
 
     public Moves(String input, List<Moves> mList){
-        int thrust;
-        if(mList.contains(input)){
-            thrust = mList.indexOf(input);
-            this.name_ = input;
-            this.type_ = mList.get(thrust).getType();
-            this.frequency_ = mList.get(thrust).getFrequency();
-            this.AC_ = mList.get(thrust).getAC();
-            this.DB_ = mList.get(thrust).getDB();
-            this.damageClass_ = mList.get(thrust).getDamageClass();
-            this.Range_ = mList.get(thrust).getRange();
-            this.Effect_ = mList.get(thrust).getEffect();
-            this.ContestType_ = mList.get(thrust).getContestType();
-            this.ContestEffect_ = mList.get(thrust).getContestEffect();
+        int counter;
+        String mem = input.replaceAll("\\R+", "");
+        if(mList.contains(new Moves(mem))){
+            //System.out.println(22222);
+            counter = mList.indexOf(new Moves(mem));
+            this.name_ = mem;
+            this.type_ = mList.get(counter).getType();
+            this.frequency_ = mList.get(counter).getFrequency();
+            this.AC_ = mList.get(counter).getAC();
+            this.DB_ = mList.get(counter).getDB();
+            this.damageClass_ = mList.get(counter).getDamageClass();
+            this.Range_ = mList.get(counter).getRange();
+            this.Effect_ = mList.get(counter).getEffect();
+            this.ContestType_ = mList.get(counter).getContestType();
+            this.ContestEffect_ = mList.get(counter).getContestEffect();
         }
     }
 
@@ -113,6 +107,20 @@ public class Moves{
         }
     }
 
+    public Moves(Moves in){
+        this.name_ = in.name_.trim();
+        this.type_ = in.getType();
+        this.frequency_ = in.getFrequency();
+        this.AC_ = in.getAC();
+        this.DB_ = in.getDB();
+        this.damageClass_ = in.getDamageClass();
+        this.Range_ = in.getRange();
+        this.Effect_ = in.getEffect();
+        this.ContestType_ = in.getContestType();
+        this.ContestEffect_ = in.getContestEffect();
+    }
+
+
     public void createMove(String info){
         String[] mem = info.split("\n");
         this.name_ = mem[0];
@@ -128,7 +136,7 @@ public class Moves{
     }
 
     public void fromMove(Moves reference){
-        this.name_ = reference.getName();
+        this.name_ = reference.getName().replaceAll("\\R+", "");
         this.type_ = reference.getType();
         this.frequency_ = reference.getFrequency();
         this.AC_ = reference.getAC();
@@ -230,7 +238,7 @@ public class Moves{
     public boolean equals(Object other){
         if(other instanceof String){
             String another = (String) other;
-            if(this.name_.equals(another)){
+            if(this.name_.trim().equalsIgnoreCase(another.trim())){
                 return true;
             } else {
                 return false;
@@ -238,7 +246,7 @@ public class Moves{
         }
         if(other instanceof Moves){
             Moves bnother = (Moves) other;
-            if(this.name_.equals(bnother.name_)){
+            if(this.name_.trim().equalsIgnoreCase(bnother.name_.trim())){
                 return true;
             } else {
                 return false;
@@ -246,7 +254,7 @@ public class Moves{
         }
         if(other instanceof MoveForList){
             MoveForList cnother = (MoveForList) other;
-            if(this.equals(cnother.getMove())){
+            if(this.name_.trim().equalsIgnoreCase(cnother.getMove().getName().trim())){
                 return true;
             }else{
                 return false;
@@ -258,19 +266,19 @@ public class Moves{
 
     public String toString(){
 
-        if(this.type_ == Type.UKN){
-            return "Move: " + name_ + "%n";
+        if(this.type_ == Type.TYPELESS){
+            return "Move: " + name_ + "";
         }else {
-            return "Move: " + name_ + " | " + type_ + " | " + frequency_ + " | " + AC_ + " | " + DB_ + " | " + damageClass_ + " | " + Range_  + " | " + Effect_ + " |%n";
+            return "Move: " + name_ + " | " + type_ + " | " + frequency_ + " | " + AC_ + " | " + DB_ + " | " + damageClass_ + " | " + Range_  + " | " + Effect_ + " |";
 
         }
     }
 
     public String toPrint(){
-        if(this.type_ == Type.UKN){
-            return "" + name_ + "%n";
+        if(this.type_ == Type.TYPELESS){
+            return "" + name_ + "";
         }else{
-            return "" + name_ + " --- " + type_ + " --- " + frequency_ + " --- " + AC_ + " --- " + DB_ + " --- " + damageClass_ + " --- " + Range_  + " --- " + Effect_ + "---%n";
+            return "" + name_ + " --- " + type_ + " --- " + frequency_ + " --- " + AC_ + " --- " + DB_ + " --- " + damageClass_ + " --- " + Range_  + " --- " + Effect_ + "---";
         }
     }
 

@@ -1,7 +1,5 @@
 package Pexam.data.Statblock;
 
-import java.util.Arrays;
-
 public class Stats {
 
     // base stuff
@@ -31,6 +29,18 @@ public class Stats {
     private int[] relations_;
 
     // Constructor
+
+    public Stats(int in, int index){
+        this.baseStat_ = in;
+        this.natureMod_ = 0;
+        this.vitamins_ = 0;
+        this.trainerClass_ = 0;
+        this.ability_ = 0;
+        this.skillPoints_ = 0;
+        this.fromClass_ = 0;
+        this.index_ = index;
+        this.relations_ = new int[6];
+    }
 
     public Stats(int base, int nat, int vit, int tcl, int Aby, int index){
         this.baseStat_ = base;
@@ -99,7 +109,7 @@ public class Stats {
 
             }
         }
-        System.out.println(Arrays.toString(test)); //print of relations in boolean
+        //System.out.println(Arrays.toString(test)); //print of relations in boolean
         for(boolean yes : test){
             if(!yes){
                 return false;

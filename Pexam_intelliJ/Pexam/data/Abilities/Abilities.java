@@ -3,6 +3,8 @@ import Pexam.data.utility.Enums.Action;
 import Pexam.data.utility.Enums.Frequency;
 import Pexam.data.utility.Misc.EnumHandler;
 
+import java.util.List;
+
 
 public class Abilities{
 
@@ -27,6 +29,24 @@ public class Abilities{
         this.frequency_ = new Frequency();
     }
 
+    public Abilities(String name, List<Abilities> dex){
+        int thrust;
+        String temp = name.replaceAll("\\R+", "");
+        //System.out.println(temp);
+        //System.out.println(dex.contains(new Abilities(temp)));
+        if(dex.contains(new Abilities(temp))){
+            thrust = dex.indexOf(new Abilities(temp));
+            //System.out.println(dex.get(thrust));
+            this.name_ = temp;
+            this.frequency_ = dex.get(thrust).getFrequency();
+            this.action_ = dex.get(thrust).getAction();
+            this.target_ = dex.get(thrust).getTarget();
+            this.trigger_ = dex.get(thrust).getTrigger();
+            this.effect_ = dex.get(thrust).getEffect();
+            this.bonus_ = dex.get(thrust).getBonus();
+        }
+    }
+
     public Abilities(String input){
         this.name_ = input.replace("$", " ");
         this.frequency_ = new Frequency();
@@ -40,8 +60,12 @@ public class Abilities{
     public Abilities(String[] input){
         String[] mem = input;
         if(mem.length > 0) {
+
+            for(int c = 0; c < mem.length; c++){
+                mem[c] = mem[c].replaceAll("\\R+","");
+            }
             //System.out.println(mem.length);
-            this.name_ = mem[1].replace("$", " ");
+            this.name_ = mem[1].trim();
             String[] temp = mem[2].split(" ");
             //System.out.println(Arrays.toString(temp));
 
@@ -122,6 +146,10 @@ public class Abilities{
         return this.effect_;
     }
 
+    public String getBonus(){
+        return this.bonus_;
+    }
+
     //Setter block
 
 
@@ -154,13 +182,13 @@ public class Abilities{
     public boolean equals(Object other){
         if(other instanceof Abilities){
             Abilities another = (Abilities) other;
-            return this.name_.equals(another.name_);
+            return this.name_.equalsIgnoreCase(another.getName());
         }
         return false;
     }
 
     public String toString(){
-        return "Ability: " + this.name_ + " | " + this.frequency_ + " | " + action_ + " | " + target_ + " | " + trigger_ + " | " + effect_ + " "+ this.bonus_ +" |%n";
+        return "Ability: " + this.name_ + " | " + this.frequency_ + " | " + action_ + " | " + target_ + " | " + trigger_ + " | " + effect_ + " | "+ this.bonus_ +" |";
     }
 
 }
