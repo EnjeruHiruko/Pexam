@@ -135,6 +135,15 @@ public class Dex {
 
     }
 
+    public Moves searchMoveDex(String in){
+        int temp = this.moveList_.indexOf(new Moves(in));
+        return this.moveList_.get(temp);
+    }
+
+    public boolean MoveDexContains(String in){
+        return this.moveList_.contains(new Moves(in));
+    }
+
     private void printAbilityDex(){
         for(Abilities abilities : this.abilityList_){
             System.out.println(abilities);
@@ -188,8 +197,9 @@ public class Dex {
     }
 
     public void updateDex(){
-        for(int c = 0; c < 50; c++){
+        for(int c = 0; c < pokeDex_.size(); c++){
             Species mem = pokeDex_.get(c);
+            //printAbilityDex();
             //System.out.println(mem.getMovelist());
 
             //Moves temp = new Moves(mem.getMovelist().get(0).getMove().getName(), this.moveList_);
@@ -248,32 +258,41 @@ public class Dex {
                     System.out.println(mem.getEgglist());
                 }
             }
-            /*
+
             for(int z = 0; z < this.pokeDex_.get(c).getBasicAbilities().size(); z++){
                 try {
-                    this.pokeDex_.get(c).update_Filler(this.abilityList_.get(this.abilityList_.indexOf(this.pokeDex_.get(c).getBasicAbilities().get(z))));
+                    //System.out.println(c+"_" + mem.getBasicAbilities().get(z).getName() + "_"+z);
+                    Abilities temp = new Abilities(mem.getBasicAbilities().get(z).getName(), this.abilityList_);
+                    //System.out.println(temp);
+                    mem.getBasicAbilities().set(z, temp);
                 }catch(Exception e){
                     e.printStackTrace();
-                    System.out.println(c + "   "+ z);
+                    System.out.println(c + "   "+ z + "  BasicAbilities");
+                    System.out.println(mem.getBasicAbilities());
                 }
             }
+
             for(int z = 0; z < this.pokeDex_.get(c).getAdvAbilities().size(); z++){
                 try {
-                    this.pokeDex_.get(c).update_Filler(this.abilityList_.get(this.abilityList_.indexOf(this.pokeDex_.get(c).getAdvAbilities().get(z))));
+                    Abilities temp = new Abilities(mem.getAdvAbilities().get(z).getName(), this.abilityList_);
+                    mem.getAdvAbilities().set(z, temp);
                 }catch(Exception e){
                     e.printStackTrace();
-                    System.out.println(c + "   "+ z);
+                    System.out.println(c + "   "+ z + "  AdvAbilities");
+                    System.out.println(mem.getAdvAbilities());
                 }
             }
             for(int z = 0; z < this.pokeDex_.get(c).getHighability().size(); z++){
                 try {
-                    this.pokeDex_.get(c).update_Filler(this.abilityList_.get(this.abilityList_.indexOf(this.pokeDex_.get(c).getHighability().get(z))));
+                    Abilities temp = new Abilities(mem.getHighability().get(z).getName(), this.abilityList_);
+                    mem.getHighability().set(z, temp);
                 }catch(Exception e){
                     e.printStackTrace();
-                    System.out.println(c + "   "+ z);
+                    System.out.println(c + "   "+ z + "  HighAbilities");
+                    System.out.println(mem.getHighability());
                 }
             }
-            */
+
             this.pokeDex_.set(c, mem);
         }
     }
