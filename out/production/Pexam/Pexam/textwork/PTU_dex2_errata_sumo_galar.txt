@@ -1140,7 +1140,7 @@ Diet: Omnivore
 Habitat: Cave, Grassland, Urban
 Capability List
 Overland 7, Swim 6, Jump 2/2, Power 3, Darkvision,
-Naturewalk (Grassland, Urban), Stealth, Tracker
+Naturewalk (Grassland, Urban), Stealth, Tracker,
 Underdog
 Skill List
 Athl 3d6, Acro 3d6, Combat 3d6+2, Stealth 4d6,
@@ -10386,9 +10386,9 @@ Level Up Move List
 90 Nasty Plot - Dark
 § 100 Aura Sphere - Fighting
 TM/HM Move List
-Mew can learn any TM/HM
+101 Any
 Tutor Move List
-Mew can be Tutored to learn any Move
+Any
 151.0
 152.0
 CHIKORITA
@@ -40034,70 +40034,6 @@ Assist, Barrier, Trick, Yawn
 Tutor Move List
 Covet, Gravity, Heal Bell, Helping Hand, Iron Tail, Magic Coat, Magic Room, Recycle, Role Play, Shock Wave, Signal Beam, Snatch, Snore, Trick, Wonder Room, Zen Headbutt
 677.0
-678.0
-MEOWSTIC
-Base Stats:
-HP: 7
-Attack: 5
-Defense: 8
-Special Attack: 8
-Special Defense: 8
-Speed: 10
-Basic Information
-Type : Psychic
-Basic Ability 1: Keen Eye
-Basic Ability 2: Infiltrator
-Adv Ability 1 (F): Sorcery
-Adv Ability 1 (M): Prankster
-Adv Ability 2: Own Tempo
-High Ability (F): Competitive
-High Ability (M): Magic Guard
-Evolution:
-1 - Espurr
-2 - Meowstic Minimum 25
-Size Information
-Height : 2’ 00” / 0.6m (Small)
-Weight : 18.7 lbs. / 8.5 kg (1)
-Breeding Information
-Gender Ratio : 50% M / 50% F
-Egg Group : Field
-Diet : Herbivore
-Habitat : Grassland, Urban
-Capability List
-Overland 7, Swim 4, Jump 1/2, Power 2, Telekinesis, Telepath, Naturewalk (Grassland)
-Skill List
-Athl 3d6, Acro 3d6+1, Combat 3d6, Stealth 4d6, Percep 5d6, Focus 4d6+2
-Move List
-Level Up Move List
-1 Scratch - Normal
-1 Leer - Normal
-5 Covet - Normal
-9 Confusion - Psychic
-13 Light Screen - Psychic
-17 Psybeam - Psychic
-19 Fake Out - Normal
-25 Psyshock - Psychic
-(M) 28 Charm - Fairy
-(F) 28 Charge Beam - Electric
-(M) 31 Miracle Eye - Psychic
-(F) 31 Shadow Ball - Ghost
-(M) 35 Reflect - Fairy
-(F) 35 Extrasensory - Psychic
-40 Psychic - Psychic
-43 Role Play - Psychic
-(M) 45 Imprison - Psychic
-(F) 45 Signal Beam - Bug
-48 Sucker Punch - Dark
-(M) 50 Misty Terrain - Fairy
-(F) 50 Future Sight - Psychic
-(M) 55 Quick Guard - Fighting
-(F) 55 Stored Power - Psychic
-TM/HM Move List
-A1 Cut, 03 Psyshock, 04 Calm Mind, 06 Toxic, 10 Hidden Power, 11 Sunny Day, 15 Hyper Beam, 16 Light Screen, 17 Protect, 18 Rain Dance, 20 Safeguard, 21 Frustration, 24 Thunderbolt, 27 Return, 29 Psychic, 32 Double Team, 33 Reflect, 41 Torment, 42 Facade, 44 Rest, 45 Attract, 48 Round, 49 Echoed Voice, 53 Energy Ball, 57 Charge Beam, 66 Payback, 68 Giga Impact, 70 Flash, 73 Thunder Wave, 77 Psych Up, 85 Dream Eater, 87 Swagger, 88 Sleep Talk, 90 Substitute, 92 Trick Room, 97 Dark Pulse, 100 Confide
-Tutor Move List
-Covet, Gravity, Heal Bell, Helping Hand, Iron Tail, Magic Coat, Magic Room, Recycle, Role Play, Shock Wave, Signal Beam, Snatch, Snore, Trick, Wonder Room, Zen Headbutt
-(M) Helping Hand (N), (M) Mean Look (N), (M) Quick Guard (N), (F) Magical Leaf (N), (F) Me First (N), (F) Stored Power (N)
-678.0
 679.0
 HONEDGE
 Base Stats:
@@ -43846,80 +43782,6 @@ Block, Drain Punch, Dual Chop, Endeavor, Focus
 Punch, Ice Punch, Icy Wind, Iron Defense, Iron Head,
 Snore, Superpower, Thunder Punch, Zen Headbutt
 740.0
-741.0
-ORICORIO
-Base Stats:
-HP: 8
-Attack: 7
-Defense: 7
-Special Attack: 10
-Special Defense: 7
-Speed: 9
-Basic Information
-Type: Special / Flying (see Forme Change)
-Basic Ability 1: Dancer
-Adv Ability 1: Adaptability
-Adv Ability 2: Spinning Dance
-Adv Ability 3: Revelation
-High Ability: Competitive
-Evolution:
-1 - Oricorio
-Size Information
-Height: 2’ 0” / 0.6m (Small)
-Weight: 7.5 lbs / 3.4kg (1)
-Breeding Information
-Gender Ratio: 25% M / 75% F
-Egg Group: Flying
-Average Hatch Rate: 13 Days
-Diet: Herbivore
-Habitat: Beach, Grassland
-Capability List
-Overland 5, Swim 3, Sky 6, Jump 3/3, Power 2, Forme
-Change
-Skill List
-Athl 3d6, Acro 4d6+1, Combat 3d6, Stealth 3d6,
-Percep 4d6, Focus 4d6+2
-Move List
-Level Up Move List
-1 Pound - Normal
-4 Growl - Normal
-6 Peck - Flying
-10 Helping Hand - Normal
-13 Air Cutter - Flying
-16 Baton Pass - Normal
-20 Feather Dance - Flying
-23 Double Slap - Normal
-26 Teeter Dance - Normal
-30 Roost - Flying
-33 Captivate - Normal
-36 Air Slash - Flying
-40 Revelation Dance - Normal
-43 Mirror Move - Flying
-46 Agility - Psychic
-50 Hurricane - Flying
-TM/HM Move List
-A2 Fly, 04 Calm Mind, 06 Toxic, 10 Hidden Power, 12
-Taunt, 17 Protect, 19 Roost, 21 Frustration, 27
-Return, 32 Double Team, 37 Sandstorm, 40 Aerial
-Ace, 42 Facade, 44 Rest, 45 Attract, 48 Round, 51
-Steel Wing, 60 Quash, 62 Acrobatics, 63 Embargo, 75
-Swords Dance, 87 Swagger, 88 Sleep Talk, 89 U-Turn,
-90 Substitute, 100 Confide
-Egg Move List
-Captivate, Pluck, Safeguard, Tailwind
-Tutor Move List
-Covet, Defog, Helping Hand, Icy Wind, Role Play, Sky
-Attack, Snore, Tailwind
-Forme Change: When an Oricorio hatches, it takes
-the form of its mother, or father if the other parent
-was a Ditto. Oricorio may change forms by
-consuming Nectar as an Extended Action. This
-determines Oricorio's primary type:
-Red Nectar: Baille (Fire)
-Yellow Nectar: Pom Pom (Electric)
-Pink Nectar: Pa’u (Psychic)
-Purple Nectar: Sensu (Ghost)
-741.0
 742.0
 CUTIEFLY
 Base Stats:
@@ -45028,7 +44890,7 @@ Evolution:
 1 - Morelull
 2 - Shiinotic Minimum 20
 Size Information
-Height: 3’ 3” / 1m (Medum)
+Height: 3’ 3” / 1m (Medium)
 Weight: 25.4 lbs / 11.5kg (2)
 Breeding Information
 Gender Ratio: 50% M / 50% F
@@ -53170,7 +53032,7 @@ Evo Dragon Pulse - Dragon
 66 Double-Edge - Normal
 72 Last Resort - Normal
 TM Move List
-06 Toxic, 10 Hidden Power, 17 Protect, 21 Frustration, 24 Thunderbolt, 25 Thunder, 27 Return, 30 Shadow Ball, 32 Double Team, 35 Flamethrower, 35 Fire Blast, 42 Facade, 44 Rest, 45 Attract, 46 Thief, 48 Round, 51Steel Wing, 55 Scald, 61 Will-O-Wisp, 62 Acrobatics, 73 Thunder Wave, 82 Dragon Tail, 83 Infestation, 87 Swagger, 88 Sleep Talk, 89 U-Turn, 90 Substitute, 94 Surf, 100 Confide
+06 Toxic, 10 Hidden Power, 17 Protect, 21 Frustration, 24 Thunderbolt, 25 Thunder, 27 Return, 30 Shadow Ball, 32 Double Team, 35 Flamethrower, 35 Fire Blast, 42 Facade, 44 Rest, 45 Attract, 46 Thief, 48 Round, 51 Steel Wing, 55 Scald, 61 Will-O-Wisp, 62 Acrobatics, 73 Thunder Wave, 82 Dragon Tail, 83 Infestation, 87 Swagger, 88 Sleep Talk, 89 U-Turn, 90 Substitute, 94 Surf, 100 Confide
 Tutor Move List
 Ally Switch, Brine, Dive, Double-Edge, Draco Meteor, Dragon Pulse (N), Endure, Helping Hand, Last Resort, Outrage, Snore, Sucker Punch, Swift
 886.0
@@ -53222,7 +53084,7 @@ Evo Dragon Darts - Dragon
 70 Double-Edge - Normal
 78 Last Resort - Normal
 TM Move List
-06 Toxic, 10 Hidden Power, 15 Hyper Beam, 16 Light Screen, 17 Protect, 21 Frustration, 22 Solar Beam, 24 Thunderbolt, 25 Thunder, 27 Return, 30 Shadow Ball, 32 Double Team, 33 Reflect, 35 Flamethrower, 35 Fire Blast, 42 Facade, 44 Rest, 45 Attract, 46 Thief, 48 Round, 51Steel Wing, 55 Scald, 61 Will-O-Wisp, 62 Acrobatics, 68 Giga Impact, 73 Thunder Wave, 76 Fly, 82 Dragon Tail, 83 Infestation, 87 Swagger, 88 Sleep Talk, 89 U-Turn, 90 Substitute, 94 Surf, 100 Confide
+06 Toxic, 10 Hidden Power, 15 Hyper Beam, 16 Light Screen, 17 Protect, 21 Frustration, 22 Solar Beam, 24 Thunderbolt, 25 Thunder, 27 Return, 30 Shadow Ball, 32 Double Team, 33 Reflect, 35 Flamethrower, 35 Fire Blast, 42 Facade, 44 Rest, 45 Attract, 46 Thief, 48 Round, 51 Steel Wing, 55 Scald, 61 Will-O-Wisp, 62 Acrobatics, 68 Giga Impact, 73 Thunder Wave, 76 Fly, 82 Dragon Tail, 83 Infestation, 87 Swagger, 88 Sleep Talk, 89 U-Turn, 90 Substitute, 94 Surf, 100 Confide
 Tutor Move List
 Ally Switch, Body Slam, Brine, Dive, Double-Edge, Draco Meteor, Dragon Breath (N), Dragon Pulse (N), Endure, Helping Hand, Last Resort, Outrage, Snore, Sucker Punch (N), Swift
 887.0
@@ -54322,3 +54184,141 @@ While Unbound, Hoopa is always Enraged and cannot be cured of this condition. Ad
 -> Shadow Ball becomes Dark Pulse
 -> Phantom Force becomes Knock Off
 720.1
+678.0
+MEOWSTIC
+Base Stats:
+HP: 7
+Attack: 5
+Defense: 8
+Special Attack: 8
+Special Defense: 8
+Speed: 10
+Basic Information
+Type : Psychic
+Basic Ability 1: Keen Eye
+Basic Ability 2: Infiltrator
+Adv Ability 1 (F): Sorcery
+Adv Ability 1 (M): Prankster
+Adv Ability 2: Own Tempo
+High Ability (F): Competitive
+High Ability (M): Magic Guard
+Evolution:
+1 - Espurr
+2 - Meowstic Minimum 25
+Size Information
+Height : 2’ 00” / 0.6m (Small)
+Weight : 18.7 lbs. / 8.5 kg (1)
+Breeding Information
+Gender Ratio : 50% M / 50% F
+Egg Group : Field
+Diet : Herbivore
+Habitat : Grassland, Urban
+Capability List
+Overland 7, Swim 4, Jump 1/2, Power 2, Telekinesis, Telepath, Naturewalk (Grassland)
+Skill List
+Athl 3d6, Acro 3d6+1, Combat 3d6, Stealth 4d6, Percep 5d6, Focus 4d6+2
+Move List
+Level Up Move List
+1 Scratch - Normal
+1 Leer - Normal
+5 Covet - Normal
+9 Confusion - Psychic
+13 Light Screen - Psychic
+17 Psybeam - Psychic
+19 Fake Out - Normal
+25 Psyshock - Psychic
+(M) 28 Charm - Fairy
+(F) 28 Charge Beam - Electric
+(M) 31 Miracle Eye - Psychic
+(F) 31 Shadow Ball - Ghost
+(M) 35 Reflect - Fairy
+(F) 35 Extrasensory - Psychic
+40 Psychic - Psychic
+43 Role Play - Psychic
+(M) 45 Imprison - Psychic
+(F) 45 Signal Beam - Bug
+48 Sucker Punch - Dark
+(M) 50 Misty Terrain - Fairy
+(F) 50 Future Sight - Psychic
+(M) 55 Quick Guard - Fighting
+(F) 55 Stored Power - Psychic
+TM/HM Move List
+A1 Cut, 03 Psyshock, 04 Calm Mind, 06 Toxic, 10 Hidden Power, 11 Sunny Day, 15 Hyper Beam, 16 Light Screen, 17 Protect, 18 Rain Dance, 20 Safeguard, 21 Frustration, 24 Thunderbolt, 27 Return, 29 Psychic, 32 Double Team, 33 Reflect, 41 Torment, 42 Facade, 44 Rest, 45 Attract, 48 Round, 49 Echoed Voice, 53 Energy Ball, 57 Charge Beam, 66 Payback, 68 Giga Impact, 70 Flash, 73 Thunder Wave, 77 Psych Up, 85 Dream Eater, 87 Swagger, 88 Sleep Talk, 90 Substitute, 92 Trick Room, 97 Dark Pulse, 100 Confide
+Tutor Move List
+Covet, Gravity, Heal Bell, Helping Hand, Iron Tail, Magic Coat, Magic Room, Recycle, Role Play, Shock Wave, Signal Beam, Snatch, Snore, Trick, Wonder Room, Zen Headbutt
+(M) Helping Hand (N), (M) Mean Look (N), (M) Quick Guard (N), (F) Magical Leaf (N), (F) Me First (N), (F) Stored Power (N)
+678.0
+741.0
+ORICORIO
+Base Stats:
+HP: 8
+Attack: 7
+Defense: 7
+Special Attack: 10
+Special Defense: 7
+Speed: 9
+Basic Information
+Type: Special / Flying (see Forme Change)
+Basic Ability 1: Dancer
+Adv Ability 1: Adaptability
+Adv Ability 2: Spinning Dance
+Adv Ability 3: Revelation
+High Ability: Competitive
+Evolution:
+1 - Oricorio
+Size Information
+Height: 2’ 0” / 0.6m (Small)
+Weight: 7.5 lbs / 3.4kg (1)
+Breeding Information
+Gender Ratio: 25% M / 75% F
+Egg Group: Flying
+Average Hatch Rate: 13 Days
+Diet: Herbivore
+Habitat: Beach, Grassland
+Capability List
+Overland 5, Swim 3, Sky 6, Jump 3/3, Power 2, Forme
+Change
+Skill List
+Athl 3d6, Acro 4d6+1, Combat 3d6, Stealth 3d6,
+Percep 4d6, Focus 4d6+2
+Move List
+Level Up Move List
+1 Pound - Normal
+4 Growl - Normal
+6 Peck - Flying
+10 Helping Hand - Normal
+13 Air Cutter - Flying
+16 Baton Pass - Normal
+20 Feather Dance - Flying
+23 Double Slap - Normal
+26 Teeter Dance - Normal
+30 Roost - Flying
+33 Captivate - Normal
+36 Air Slash - Flying
+40 Revelation Dance - Normal
+43 Mirror Move - Flying
+46 Agility - Psychic
+50 Hurricane - Flying
+TM/HM Move List
+A2 Fly, 04 Calm Mind, 06 Toxic, 10 Hidden Power, 12
+Taunt, 17 Protect, 19 Roost, 21 Frustration, 27
+Return, 32 Double Team, 37 Sandstorm, 40 Aerial
+Ace, 42 Facade, 44 Rest, 45 Attract, 48 Round, 51
+Steel Wing, 60 Quash, 62 Acrobatics, 63 Embargo, 75
+Swords Dance, 87 Swagger, 88 Sleep Talk, 89 U-Turn,
+90 Substitute, 100 Confide
+Egg Move List
+Captivate, Pluck, Safeguard, Tailwind
+Tutor Move List
+Covet, Defog, Helping Hand, Icy Wind, Role Play, Sky
+Attack, Snore, Tailwind
+Forme Change: When an Oricorio hatches, it takes
+the form of its mother, or father if the other parent
+was a Ditto. Oricorio may change forms by
+consuming Nectar as an Extended Action. This
+determines Oricorio's primary type:
+Red Nectar: Baille (Fire)
+Yellow Nectar: Pom Pom (Electric)
+Pink Nectar: Pa’u (Psychic)
+Purple Nectar: Sensu (Ghost)
+741.0

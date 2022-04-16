@@ -1,0 +1,228 @@
+711.0
+GOURGEIST Small
+Base Stats:
+HP: 6
+Attack: 9
+Defense: 12
+Special Attack: 6
+Special Defense: 8
+Speed: 10
+Basic Information
+Type : Ghost / Grass
+Basic Ability 1: Regenerator
+Basic Ability 2: Frisk
+Adv Ability 1: Insomnia
+Adv Ability 2: Pumpkingrab
+High Ability: Flash Fire
+Evolution:
+1 - Pumpkaboo
+2 - Gourgeist Minimum 25
+Size Information
+Height : 2’ 04’’ to 5’ 07” / 0.7m (S) to 1.7m (L)
+Weight : 20.9 lbs. to 86 lbs / 9.5 kg (1) to 39 kg (3)
+Breeding Information
+Gender Ratio : 50% M / 50% F
+Egg Group : Amorphous
+Diet : Nullivore
+Habitat : Forest, Grassland
+Capability List
+Overland 3, Swim 3, Levitate 6, Jump 2/2, Power 3, Naturewalk (Grassland, Forest), Phasing, Invisibility, Dead Silent
+Skill List
+Athl 4d6, Acro 2d6, Combat 3d6, Stealth 2d6, Percep 5d6+2, Focus 3d6
+Move List
+Level Up Move List
+1 Astonish - Ghost
+1 Trick - Psychic
+1 Confuse Ray - Ghost
+4 Scary Face - Normal
+6 Trick-or-Treat - Ghost
+11 Worry Seed - Grass
+16 Razor Leaf - Grass
+20 Leech Seed - Grass
+23 Trick-or-Treat - Ghost
+26 Bullet Seed - Grass
+30 Shadow Sneak - Ghost
+36 Shadow Ball - Ghost
+40 Trick-or-Treat - Ghost
+42 Pain Split - Normal
+48 Seed Bomb - Grass
+57 Phantom Force - Ghost
+63 Trick-or-Treat - Ghost
+70 Shadow Ball - Ghost
+75 Explosion - Normal
+TM/HM Move List
+06 Toxic, 10 Hidden Power, 11 Sunny Day, 15 Hyper Beam, 16 Light Screen, 17 Protect, 20 Safeguard, 21 Frustration, 22 Solar Beam, 27 Return, 29 Psychic, 30 Shadow Ball, 32 Double Team, 35 Flamethrower, 36 Sludge Bomb, 38 Fire Blast, 42 Facade, 43 Flame charge, 44 Rest, 45 Attract, 46 Thief, 48 Round, 53 Energy Ball, 57 Charge Beam, 59 Incinerate, 61 Will-o-Wisp, 64 Explosion, 68 Giga Impact, 70 Flash, 74 Gyro Ball, 80 Rock Slide, 85 Dream Eater, 86 Grass Knot, 87 Swagger, 88 Sleep Talk, 90 Substitute, 92 Trick Room, 94 Rock Smash, 96 Nature Power, 97 Dark Pulse, 100 Confide
+Tutor Move List
+Explosion (N), Foul Play, Giga Drain, Magic Coat, Pain Split, Phantom Force (N), Role Play, Seed Bomb, Skill Swap, Spite, Synthesis, Trick, Worry Seed
+711.0
+711.1
+GOURGEIST Average
+Base Stats:
+HP: 7
+Attack: 9
+Defense: 12
+Special Attack: 6
+Special Defense: 8
+Speed: 8
+Basic Information
+Type : Ghost / Grass
+Basic Ability 1: Regenerator
+Basic Ability 2: Frisk
+Adv Ability 1: Insomnia
+Adv Ability 2: Pumpkingrab
+High Ability: Flash Fire
+Evolution:
+1 - Pumpkaboo
+2 - Gourgeist Minimum 25
+Size Information
+Height : 2’ 04’’ to 5’ 07” / 0.7m (S) to 1.7m (L)
+Weight : 20.9 lbs. to 86 lbs / 9.5 kg (1) to 39 kg (3)
+Breeding Information
+Gender Ratio : 50% M / 50% F
+Egg Group : Amorphous
+Diet : Nullivore
+Habitat : Forest, Grassland
+Capability List
+Overland 3, Swim 3, Levitate 6, Jump 2/2, Power 3, Naturewalk (Grassland, Forest), Phasing, Invisibility, Dead Silent
+Skill List
+Athl 4d6, Acro 2d6, Combat 3d6, Stealth 2d6, Percep 5d6+2, Focus 3d6
+Move List
+Level Up Move List
+1 Astonish - Ghost
+1 Trick - Psychic
+1 Confuse Ray - Ghost
+4 Scary Face - Normal
+6 Trick-or-Treat - Ghost
+11 Worry Seed - Grass
+16 Razor Leaf - Grass
+20 Leech Seed - Grass
+23 Trick-or-Treat - Ghost
+26 Bullet Seed - Grass
+30 Shadow Sneak - Ghost
+36 Shadow Ball - Ghost
+40 Trick-or-Treat - Ghost
+42 Pain Split - Normal
+48 Seed Bomb - Grass
+57 Phantom Force - Ghost
+63 Trick-or-Treat - Ghost
+70 Shadow Ball - Ghost
+75 Explosion - Normal
+TM/HM Move List
+06 Toxic, 10 Hidden Power, 11 Sunny Day, 15 Hyper Beam, 16 Light Screen, 17 Protect, 20 Safeguard, 21 Frustration, 22 Solar Beam, 27 Return, 29 Psychic, 30 Shadow Ball, 32 Double Team, 35 Flamethrower, 36 Sludge Bomb, 38 Fire Blast, 42 Facade, 43 Flame charge, 44 Rest, 45 Attract, 46 Thief, 48 Round, 53 Energy Ball, 57 Charge Beam, 59 Incinerate, 61 Will-o-Wisp, 64 Explosion, 68 Giga Impact, 70 Flash, 74 Gyro Ball, 80 Rock Slide, 85 Dream Eater, 86 Grass Knot, 87 Swagger, 88 Sleep Talk, 90 Substitute, 92 Trick Room, 94 Rock Smash, 96 Nature Power, 97 Dark Pulse, 100 Confide
+Tutor Move List
+Explosion (N), Foul Play, Giga Drain, Magic Coat, Pain Split, Phantom Force (N), Role Play, Seed Bomb, Skill Swap, Spite, Synthesis, Trick, Worry Seed
+711.1
+711.2
+GOURGEIST Large
+Base Stats:
+HP: 8
+Attack: 10
+Defense: 12
+Special Attack: 6
+Special Defense: 8
+Speed: 7
+Basic Information
+Type : Ghost / Grass
+Basic Ability 1: Regenerator
+Basic Ability 2: Frisk
+Adv Ability 1: Insomnia
+Adv Ability 2: Pumpkingrab
+High Ability: Flash Fire
+Evolution:
+1 - Pumpkaboo
+2 - Gourgeist Minimum 25
+Size Information
+Height : 2’ 04’’ to 5’ 07” / 0.7m (S) to 1.7m (L)
+Weight : 20.9 lbs. to 86 lbs / 9.5 kg (1) to 39 kg (3)
+Breeding Information
+Gender Ratio : 50% M / 50% F
+Egg Group : Amorphous
+Diet : Nullivore
+Habitat : Forest, Grassland
+Capability List
+Overland 3, Swim 3, Levitate 6, Jump 2/2, Power 3, Naturewalk (Grassland, Forest), Phasing, Invisibility, Dead Silent
+Skill List
+Athl 4d6, Acro 2d6, Combat 3d6, Stealth 2d6, Percep 5d6+2, Focus 3d6
+Move List
+Level Up Move List
+1 Astonish - Ghost
+1 Trick - Psychic
+1 Confuse Ray - Ghost
+4 Scary Face - Normal
+6 Trick-or-Treat - Ghost
+11 Worry Seed - Grass
+16 Razor Leaf - Grass
+20 Leech Seed - Grass
+23 Trick-or-Treat - Ghost
+26 Bullet Seed - Grass
+30 Shadow Sneak - Ghost
+36 Shadow Ball - Ghost
+40 Trick-or-Treat - Ghost
+42 Pain Split - Normal
+48 Seed Bomb - Grass
+57 Phantom Force - Ghost
+63 Trick-or-Treat - Ghost
+70 Shadow Ball - Ghost
+75 Explosion - Normal
+TM/HM Move List
+06 Toxic, 10 Hidden Power, 11 Sunny Day, 15 Hyper Beam, 16 Light Screen, 17 Protect, 20 Safeguard, 21 Frustration, 22 Solar Beam, 27 Return, 29 Psychic, 30 Shadow Ball, 32 Double Team, 35 Flamethrower, 36 Sludge Bomb, 38 Fire Blast, 42 Facade, 43 Flame charge, 44 Rest, 45 Attract, 46 Thief, 48 Round, 53 Energy Ball, 57 Charge Beam, 59 Incinerate, 61 Will-o-Wisp, 64 Explosion, 68 Giga Impact, 70 Flash, 74 Gyro Ball, 80 Rock Slide, 85 Dream Eater, 86 Grass Knot, 87 Swagger, 88 Sleep Talk, 90 Substitute, 92 Trick Room, 94 Rock Smash, 96 Nature Power, 97 Dark Pulse, 100 Confide
+Tutor Move List
+Explosion (N), Foul Play, Giga Drain, Magic Coat, Pain Split, Phantom Force (N), Role Play, Seed Bomb, Skill Swap, Spite, Synthesis, Trick, Worry Seed
+711.2
+711.3
+GOURGEIST Super Size
+Base Stats:
+HP: 9
+Attack: 10
+Defense: 12
+Special Attack: 6
+Special Defense: 8
+Speed: 5
+Basic Information
+Type : Ghost / Grass
+Basic Ability 1: Regenerator
+Basic Ability 2: Frisk
+Adv Ability 1: Insomnia
+Adv Ability 2: Pumpkingrab
+High Ability: Flash Fire
+Evolution:
+1 - Pumpkaboo
+2 - Gourgeist Minimum 25
+Size Information
+Height : 2’ 04’’ to 5’ 07” / 0.7m (S) to 1.7m (L)
+Weight : 20.9 lbs. to 86 lbs / 9.5 kg (1) to 39 kg (3)
+Breeding Information
+Gender Ratio : 50% M / 50% F
+Egg Group : Amorphous
+Diet : Nullivore
+Habitat : Forest, Grassland
+Capability List
+Overland 3, Swim 3, Levitate 6, Jump 2/2, Power 3, Naturewalk (Grassland, Forest), Phasing, Invisibility, Dead Silent
+Skill List
+Athl 4d6, Acro 2d6, Combat 3d6, Stealth 2d6, Percep 5d6+2, Focus 3d6
+Move List
+Level Up Move List
+1 Astonish - Ghost
+1 Trick - Psychic
+1 Confuse Ray - Ghost
+4 Scary Face - Normal
+6 Trick-or-Treat - Ghost
+11 Worry Seed - Grass
+16 Razor Leaf - Grass
+20 Leech Seed - Grass
+23 Trick-or-Treat - Ghost
+26 Bullet Seed - Grass
+30 Shadow Sneak - Ghost
+36 Shadow Ball - Ghost
+40 Trick-or-Treat - Ghost
+42 Pain Split - Normal
+48 Seed Bomb - Grass
+57 Phantom Force - Ghost
+63 Trick-or-Treat - Ghost
+70 Shadow Ball - Ghost
+75 Explosion - Normal
+TM/HM Move List
+06 Toxic, 10 Hidden Power, 11 Sunny Day, 15 Hyper Beam, 16 Light Screen, 17 Protect, 20 Safeguard, 21 Frustration, 22 Solar Beam, 27 Return, 29 Psychic, 30 Shadow Ball, 32 Double Team, 35 Flamethrower, 36 Sludge Bomb, 38 Fire Blast, 42 Facade, 43 Flame charge, 44 Rest, 45 Attract, 46 Thief, 48 Round, 53 Energy Ball, 57 Charge Beam, 59 Incinerate, 61 Will-o-Wisp, 64 Explosion, 68 Giga Impact, 70 Flash, 74 Gyro Ball, 80 Rock Slide, 85 Dream Eater, 86 Grass Knot, 87 Swagger, 88 Sleep Talk, 90 Substitute, 92 Trick Room, 94 Rock Smash, 96 Nature Power, 97 Dark Pulse, 100 Confide
+Tutor Move List
+Explosion (N), Foul Play, Giga Drain, Magic Coat, Pain Split, Phantom Force (N), Role Play, Seed Bomb, Skill Swap, Spite, Synthesis, Trick, Worry Seed
+711.3
