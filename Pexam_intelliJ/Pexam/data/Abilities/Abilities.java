@@ -188,7 +188,8 @@ public class Abilities{
     }
 
     public String toString(){
-        return "Ability: " + this.name_ + " | " + this.frequency_ + " | " + action_ + " | " + target_ + " | " + trigger_ + " | " + effect_ + " | "+ this.bonus_ +" |";
+        return this.name_;
+        //return "Ability: " + this.name_ + " | " + this.frequency_ + " | " + action_ + " | " + target_ + " | " + trigger_ + " | " + effect_ + " | "+ this.bonus_ +" |";
     }
 
 }
