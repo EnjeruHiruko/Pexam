@@ -29,6 +29,7 @@ public class Dex {
         this.abilityList_ = new ArrayList<>();
         this.pokeDex_ = new ArrayList<>();
         createDex(worldpath, in, false);
+        updateDex();
     }
 
     public void createDex(String worldpath , String param, boolean print){
@@ -297,6 +298,6 @@ public class Dex {
         }
     }
 
-
+ //todo copy all egg lists from first evolution to later stages
 
 }

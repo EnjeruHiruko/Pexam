@@ -21,7 +21,7 @@ public class Cute{
         this.standardWorld = "ver105_5";
         this.database_ = new Dex(standardWorld, "All");
         this.pokemon_ = new ArrayList<PokemonBETA>();
-        updateDex();
+        //updateDex();
     }
 
     public Cute(String path){
@@ -33,7 +33,7 @@ public class Cute{
             System.out.println("there is no such World saved");
         }
         this.pokemon_ = new ArrayList<PokemonBETA>();
-        updateDex();
+        //updateDex();
     }
 
     public Species searchPokeDexString(String in){
