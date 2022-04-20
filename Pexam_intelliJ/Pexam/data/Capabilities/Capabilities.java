@@ -1,5 +1,4 @@
 package Pexam.data.Capabilities;
-import java.util.List;
 
 public class Capabilities{
 
@@ -46,37 +45,8 @@ public class Capabilities{
                 pivot.append((temp[c].trim()));
             }
         }
-        System.out.println(pivot.toString());
+        //System.out.println(pivot.toString());
         this.name_ = pivot.toString();
-
-        //todo check if everything works
-    }
-
-    public Capabilities(String input, List<Capabilities> cList){
-        String[] temp = input.split("#");
-        int tooDeep;
-        if(temp.length == 1){
-            if(cList.contains(temp[0])){
-                tooDeep = cList.indexOf(temp[0]);
-                this.name_ = temp[0];
-                this.description_ = cList.get(tooDeep).getDescription();
-                this.value_ = 1;
-            }else {
-                this.name_ = temp[0];
-            }
-        }else if(temp.length == 2){
-            if(cList.contains(temp[0])){
-                tooDeep = cList.indexOf(temp[0]);
-                this.name_ = temp[0];
-                this.description_ = cList.get(tooDeep).getDescription();
-            }else {
-                this.name_ = temp[0];
-
-            }
-            this.value_ = Integer.valueOf(temp[1]);
-        }
-
-        //todo check if everything works
     }
 
     //Getter block

@@ -3,9 +3,19 @@ package Pexam;
 import Pexam.cute.Cute;
 import Pexam.data.Combatant.Pokemon.Nature;
 import Pexam.data.Combatant.Pokemon.PokemonBETA;
+import javafx.application.Application;
+import javafx.stage.Stage;
 
-public class Main{
+public class Main extends Application {
+
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+
+    }
+
     public static void main(String[] args){
+        //launch(args);
+
         Cute run = new Cute();
         //System.out.println(run.searchPokeDexIndex(0));
         //run.controlPrint();
@@ -18,6 +28,7 @@ public class Main{
         test.PokePrinter();
 
     }
+
 
 
 }

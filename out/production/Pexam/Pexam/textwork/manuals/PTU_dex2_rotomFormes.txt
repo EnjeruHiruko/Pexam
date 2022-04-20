@@ -1,0 +1,265 @@
+479.1
+ROTOM Heat Form
+Base Stats:
+HP: 5
+Attack: 7
+Defense: 11
+Special Attack: 11
+Special Defense: 11
+Speed: 9
+Basic Information
+Type : Electric / Fire
+Basic Ability 1: Poltergeist
+Adv Ability 1: Static
+Adv Ability 2: Motor Drive
+Adv Ability 3: Volt Absorb
+High Ability: Sequence
+Evolution:
+1 - Rotom
+Size Information
+Height : 1’ 0” / 1.0m (Medium)
+Weight : 75 lbs. / 30kg (3)
+Breeding Information
+Gender Ratio : No Gender
+Egg Group : Indeterminate
+Average Hatch Rate: 10 Days
+Diet : Ergovore
+Habitat : Urban
+Capability List
+Overland 2, Levitate 4, Jump 1/2, Power 3,
+Glow, Invisibility, Phasing, Wired, Zapper, Firestarter
+Skill List
+Athl 4d6, Acro 2d6, Combat 3d6, Stealth 2d6, Percep 2d6+2, Focus 2d6, Edu: Tech 4d6+4
+Move List
+Level Up Move List
+Evo Overheat - Fire
+1 Astonish - Ghost
+1 Confuse Ray - Ghost
+1 Thunder Wave - Electric
+1 Thunder Shock - Electric
+8 Uproar - Normal
+15 Double Team - Normal
+22 Shock Wave - Electric
+29 Ominous Wind - Ghost
+36 Substitute - Normal
+43 Electro Ball - Electric
+50 Hex - Ghost
+57 Charge - Electric
+64 Discharge - Electric
+TM/HM Move List
+06 Toxic, 10 Hidden Power, 11 Sunny Day, 16 Light Screen, 17 Protect, 18 Rain Dance, 21 Frustration, 24 Thunderbolt, 25 Thunder, 27 Return, 30 Shadow Ball, 32 Double Team, 33 Reflect, 42 Facade, 44 Rest, 46 Thief, 48 Round, 57 Charge Beam, 61 Will-O-Wisp, 70 Flash, 72 Volt Switch, 73 Thunder Wave, 77 Psych Up, 85 Dream Eater, 87 Swagger, 88 Sleep Talk, 90 Substitute, 97 Dark Pulse
+Tutor Move List
+Charge (N), Dark Pulse, Discharge (N), Electroweb, Mud-Slap, Ominous Wind, Pain Split, Signal Beam, Sleep Talk, Snatch, Snore, Spite, Sucker Punch, Swift, Telekinesis, Trick (N), Uproar
+479.1
+479.2
+ROTOM Wash Form
+Base Stats:
+HP: 5
+Attack: 7
+Defense: 11
+Special Attack: 11
+Special Defense: 11
+Speed: 9
+Basic Information
+Type : Electric / Water
+Basic Ability 1: Poltergeist
+Adv Ability 1: Static
+Adv Ability 2: Motor Drive
+Adv Ability 3: Volt Absorb
+High Ability: Sequence
+Evolution:
+1 - Rotom
+Size Information
+Height : 1’ 0” / 1.0m (Medium)
+Weight : 75 lbs. / 30kg (3)
+Breeding Information
+Gender Ratio : No Gender
+Egg Group : Indeterminate
+Average Hatch Rate: 10 Days
+Diet : Ergovore
+Habitat : Urban
+Capability List
+Overland 1, Levitate 4, Swim 6, Jump 1/1, Power 3,
+Glow, Invisibility, Phasing, Wired, Zapper, Fountain
+Skill List
+Athl 4d6, Acro 2d6, Combat 3d6, Stealth 1d6, Percep 2d6+2, Focus 2d6, Edu: Tech 4d6+4
+Move List
+Level Up Move List
+Evo Hydro Pump - Water
+1 Astonish - Ghost
+1 Confuse Ray - Ghost
+1 Thunder Wave - Electric
+1 Thunder Shock - Electric
+8 Uproar - Normal
+15 Double Team - Normal
+22 Shock Wave - Electric
+29 Ominous Wind - Ghost
+36 Substitute - Normal
+43 Electro Ball - Electric
+50 Hex - Ghost
+57 Charge - Electric
+64 Discharge - Electric
+TM/HM Move List
+06 Toxic, 10 Hidden Power, 11 Sunny Day, 16 Light Screen, 17 Protect, 18 Rain Dance, 21 Frustration, 24 Thunderbolt, 25 Thunder, 27 Return, 30 Shadow Ball, 32 Double Team, 33 Reflect, 42 Facade, 44 Rest, 46 Thief, 48 Round, 57 Charge Beam, 61 Will-O-Wisp, 70 Flash, 72 Volt Switch, 73 Thunder Wave, 77 Psych Up, 85 Dream Eater, 87 Swagger, 88 Sleep Talk, 90 Substitute, 97 Dark Pulse
+Tutor Move List
+Charge (N), Dark Pulse, Discharge (N), Electroweb, Mud-Slap, Ominous Wind, Pain Split, Signal Beam, Sleep Talk, Snatch, Snore, Spite, Sucker Punch, Swift, Telekinesis, Trick (N), Uproar
+479.2
+479.3
+ROTOM Frost Form
+Base Stats:
+HP: 5
+Attack: 7
+Defense: 11
+Special Attack: 11
+Special Defense: 11
+Speed: 9
+Basic Information
+Type : Electric / Ice
+Basic Ability 1: Poltergeist
+Adv Ability 1: Static
+Adv Ability 2: Motor Drive
+Adv Ability 3: Volt Absorb
+High Ability: Sequence
+Evolution:
+1 - Rotom
+Size Information
+Height : 1’ 0” / 1.0m (Medium)
+Weight : 75 lbs. / 30kg (3)
+Breeding Information
+Gender Ratio : No Gender
+Egg Group : Indeterminate
+Average Hatch Rate: 10 Days
+Diet : Ergovore
+Habitat : Urban
+Capability List
+Overland 2, Levitate 4, Jump 1/1, Power 3,
+Glow, Invisibility, Phasing, Wired, Zapper, Freezer, Naturewalk (Tundra)
+Skill List
+Athl 4d6, Acro 2d6, Combat 3d6, Stealth 1d6, Percep 2d6+2, Focus 2d6, Edu: Tech 4d6+4
+Move List
+Level Up Move List
+Evo Blizzard - Ice
+1 Astonish - Ghost
+1 Confuse Ray - Ghost
+1 Thunder Wave - Electric
+1 Thunder Shock - Electric
+8 Uproar - Normal
+15 Double Team - Normal
+22 Shock Wave - Electric
+29 Ominous Wind - Ghost
+36 Substitute - Normal
+43 Electro Ball - Electric
+50 Hex - Ghost
+57 Charge - Electric
+64 Discharge - Electric
+TM/HM Move List
+06 Toxic, 10 Hidden Power, 11 Sunny Day, 16 Light Screen, 17 Protect, 18 Rain Dance, 21 Frustration, 24 Thunderbolt, 25 Thunder, 27 Return, 30 Shadow Ball, 32 Double Team, 33 Reflect, 42 Facade, 44 Rest, 46 Thief, 48 Round, 57 Charge Beam, 61 Will-O-Wisp, 70 Flash, 72 Volt Switch, 73 Thunder Wave, 77 Psych Up, 85 Dream Eater, 87 Swagger, 88 Sleep Talk, 90 Substitute, 97 Dark Pulse
+Tutor Move List
+Charge (N), Dark Pulse, Discharge (N), Electroweb, Mud-Slap, Ominous Wind, Pain Split, Signal Beam, Sleep Talk, Snatch, Snore, Spite, Sucker Punch, Swift, Telekinesis, Trick (N), Uproar
+479.3
+479.4
+ROTOM Fan Form
+Base Stats:
+HP: 5
+Attack: 7
+Defense: 11
+Special Attack: 11
+Special Defense: 11
+Speed: 9
+Basic Information
+Type : Electric / Flying
+Basic Ability 1: Poltergeist
+Adv Ability 1: Static
+Adv Ability 2: Motor Drive
+Adv Ability 3: Volt Absorb
+High Ability: Sequence
+Evolution:
+1 - Rotom
+Size Information
+Height : 1’ 0” / 1.0m (Medium)
+Weight : 75 lbs. / 30kg (3)
+Breeding Information
+Gender Ratio : No Gender
+Egg Group : Indeterminate
+Average Hatch Rate: 10 Days
+Diet : Ergovore
+Habitat : Urban
+Capability List
+Overland 2, Levitate 4, Sky 6, Jump 1/1, Power 2,
+Glow, Invisibility, Phasing, Wired, Zapper, Guster
+Skill List
+Athl 2d6, Acro 5d6, Combat 3d6, Stealth 3d6-1, Percep 2d6+2, Focus 2d6, Edu: Tech 4d6+4
+Move List
+Level Up Move List
+Evo Air Slash - Flying
+1 Astonish - Ghost
+1 Confuse Ray - Ghost
+1 Thunder Wave - Electric
+1 Thunder Shock - Electric
+8 Uproar - Normal
+15 Double Team - Normal
+22 Shock Wave - Electric
+29 Ominous Wind - Ghost
+36 Substitute - Normal
+43 Electro Ball - Electric
+50 Hex - Ghost
+57 Charge - Electric
+64 Discharge - Electric
+TM/HM Move List
+06 Toxic, 10 Hidden Power, 11 Sunny Day, 16 Light Screen, 17 Protect, 18 Rain Dance, 21 Frustration, 24 Thunderbolt, 25 Thunder, 27 Return, 30 Shadow Ball, 32 Double Team, 33 Reflect, 42 Facade, 44 Rest, 46 Thief, 48 Round, 57 Charge Beam, 61 Will-O-Wisp, 70 Flash, 72 Volt Switch, 73 Thunder Wave, 77 Psych Up, 85 Dream Eater, 87 Swagger, 88 Sleep Talk, 90 Substitute, 97 Dark Pulse
+Tutor Move List
+Charge (N), Dark Pulse, Discharge (N), Electroweb, Mud-Slap, Ominous Wind, Pain Split, Signal Beam, Sleep Talk, Snatch, Snore, Spite, Sucker Punch, Swift, Telekinesis, Trick (N), Uproar
+479.4
+479.0
+ROTOM Mow Form
+Base Stats:
+HP: 5
+Attack: 7
+Defense: 11
+Special Attack: 11
+Special Defense: 11
+Speed: 9
+Basic Information
+Type : Electric / Grass
+Basic Ability 1: Poltergeist
+Adv Ability 1: Static
+Adv Ability 2: Motor Drive
+Adv Ability 3: Volt Absorb
+High Ability: Sequence
+Evolution:
+1 - Rotom
+Size Information
+Height : 1’ 0” / 1.0m (Medium)
+Weight : 75 lbs. / 30kg (3)
+Breeding Information
+Gender Ratio : No Gender
+Egg Group : Indeterminate
+Average Hatch Rate: 10 Days
+Diet : Ergovore
+Habitat : Urban
+Capability List
+Overland 7, Levitate 4, Jump 1/1, Power 2,
+Glow, Invisibility, Phasing, Wired, Zapper, Naturewalk (Grassland, Forest)
+Skill List
+Athl 4d6, Acro 3d6, Combat 3d6, Stealth 1d6+2, Percep 2d6+2, Focus 2d6, Edu: Tech 4d6+4
+Move List
+Level Up Move List
+Evo Leaf Storm - Grass
+1 Astonish - Ghost
+1 Confuse Ray - Ghost
+1 Thunder Wave - Electric
+1 Thunder Shock - Electric
+8 Uproar - Normal
+15 Double Team - Normal
+22 Shock Wave - Electric
+29 Ominous Wind - Ghost
+36 Substitute - Normal
+43 Electro Ball - Electric
+50 Hex - Ghost
+57 Charge - Electric
+64 Discharge - Electric
+TM/HM Move List
+06 Toxic, 10 Hidden Power, 11 Sunny Day, 16 Light Screen, 17 Protect, 18 Rain Dance, 21 Frustration, 24 Thunderbolt, 25 Thunder, 27 Return, 30 Shadow Ball, 32 Double Team, 33 Reflect, 42 Facade, 44 Rest, 46 Thief, 48 Round, 57 Charge Beam, 61 Will-O-Wisp, 70 Flash, 72 Volt Switch, 73 Thunder Wave, 77 Psych Up, 85 Dream Eater, 87 Swagger, 88 Sleep Talk, 90 Substitute, 97 Dark Pulse
+Tutor Move List
+Charge (N), Dark Pulse, Discharge (N), Electroweb, Mud-Slap, Ominous Wind, Pain Split, Signal Beam, Sleep Talk, Snatch, Snore, Spite, Sucker Punch, Swift, Telekinesis, Trick (N), Uproar
+479.0
