@@ -61,7 +61,8 @@ public class TitleScreen {
         btn_exit.setStyle("-fx-font: " + button_font_size + " arial; -fx-background-color: white; -fx-text-fill: "+ bg_hex +"; -fx-border-color:" + bg_hex+ ";");
 
         //Events
-        btn_exit.setOnAction(event -> System.exit(1));
+        btn_exit.setOnAction(e -> System.exit(1));
+        btn_start.setOnAction(e -> UserInterface.getMainStage().setScene(UserInterface.getPc_()));
 
         menu_left.getChildren().addAll(btn_start, btn_settings,btn_Rules,btn_about, btn_exit);
         layout.setLeft(menu_left);
