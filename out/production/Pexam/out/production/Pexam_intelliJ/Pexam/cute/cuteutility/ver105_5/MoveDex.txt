@@ -1,5 +1,5 @@
-HOMELESS 
-Attack Order
+HOMELESS
+ Attack Order
  Bug
  EOT
  2
@@ -138,6 +138,7 @@ HOMELESS
  3: 1d6+5 / 9
  Physical
  6, 1 Target, Five Strike
+ None
  Cool
  Reliable
 HOMELESS
@@ -208,6 +209,7 @@ HOMELESS
  Bug
  Scene x2
  None
+ None
  Status
  5, 1 Target
  Spider Web cannot miss. The target is Stuck and Trapped. If the user is freed of the Stuck condition, they are freed of Trapped as well.
@@ -230,6 +232,7 @@ HOMELESS
  Bug
  EOT
  None
+ None
  Status
  6, Hazard
  Set 8 square meters of Sticky Web hazards within your range, all 8 meters must be adjacent with at least one other space of Sticky Web. Sticky Web causes Terrain to become Slow Terrain, and a foe that runs into the hazard has its Speed lowered by one stage, and they become Slowed until the end of their next turn. Flying-Type Pokémon and Pokémon and Trainers with Levitate are not affected by Sticky Web. Bug-type Pokémon may move over Sticky Web harmlessly, destroying the Hazards as they do so.
@@ -241,6 +244,7 @@ HOMELESS
  Bug
  At-Will
  3
+ None
  Status
  Cone 2
  Targets have their Speed CS lowered by -1. If this lowers their Speed CS to -6, or if their Speed CS was already at -6, the target is instead Stuck.
@@ -262,6 +266,7 @@ HOMELESS
  Tail Glow
  Bug
  Scene
+ None
  None
  Status
  Self
@@ -299,6 +304,7 @@ HOMELESS
  8: 2d8+10 / 19
  Physical
  Melee, 1 Target, Dash
+ None
  Beauty
  Exhausting Act
 HOMELESS
@@ -318,7 +324,6 @@ HOMELESS
  Dark
  EOT
  None
- 4: 2dyikes
  Physical
  Melee, 1 Target
  The user and up to two allies adjacent to the target may each make a Struggle Attack against the target. These Struggle Attacks hit for Dark-Type Damage instead of their usual Type. Beat Up may trigger Pack Hunt only once, no matter the number of attacks.
@@ -343,6 +348,7 @@ HOMELESS
  6: 2d6+8 / 15
  Physical
  Burst 1
+ None
  Tough
  Steady Performance
 HOMELESS
@@ -434,7 +440,7 @@ HOMELESS
  Dark
  Scene x2
  2
- None
+ X: See Effect
  Physical
  6, 1 Target, Fling
  The user throws a held item, determining the effect of Fling.
@@ -739,6 +745,7 @@ HOMELESS
  8: 2d8+10 / 19
  Physical
  Melee, 1 Target
+ None
  Cool
  Exhausting Act
 HOMELESS
@@ -759,6 +766,7 @@ HOMELESS
  9: 2d10+10 / 21
  Physical
  Melee, 1 Target or Line 3
+ None
  Cool
  Big Show
 HOMELESS
@@ -769,6 +777,7 @@ HOMELESS
  9: 2d10+10 / 21
  Special
  8, 1 Target, Aura
+ None
  Smart
  Incentives
 HOMELESS
@@ -776,7 +785,7 @@ HOMELESS
  Dragon
  At-Will
  2
-: Special
+ None
  Special
  4, 1 Target
  If it hits, Dragon Rage causes the target to lose 15 Hit Points. Dragon Rage is Special and interacts with other moves and effects as such (Special Evasion may be applied to avoid it, Mirror Coat can reflect it, etc.).
@@ -812,6 +821,7 @@ HOMELESS
  5: 1d8+8 / 13
  Physical
  Melee, 1 Target, Double Strike
+ None
  Tough
  Reliable
 HOMELESS
@@ -907,6 +917,7 @@ HOMELESS
  Electric
  EOT
  2
+ None
  Status
  6, 1 Target
  The target’s Special Attack is lowered 2 Combat Stages.
@@ -981,6 +992,7 @@ HOMELESS
  Magnet Rise
  Electric
  Daily x2
+ None
  None
  Status
  Self, Swift Action
@@ -1150,6 +1162,7 @@ HOMELESS
  9: 2d10+10 / 21
  Physical
  Melee, 1 Target, Dash, Recoil 1/4
+ None
  Tough
  Steady Performance
 HOMELESS
@@ -1222,6 +1235,7 @@ HOMELESS
  8: 2d8+10 / 19
  Special
  Cone 2
+ None
  Cute
  Exhausting Act
 HOMELESS
@@ -1264,6 +1278,7 @@ HOMELESS
  4: 1d8+6 / 11
  Special
  6, 1 Target
+ None
  Cute
  Steady Performance
 HOMELESS
@@ -1304,10 +1319,7 @@ HOMELESS
  None
  Status
  Self, Set-Up
-Set-Up 
- The user may not shift this round. The user may create as many squares of Rough Terrain as it wants within a Burst 3 as plants burst through the ground, regardless of the surface material.
-Resolution 
- The user raises its Special Attack, Special Defense, and Speed by 2 Combat Stages each.
+ Setup:The user may not shift this round. The user may create as many squares of Rough Terrain as it wants within a Burst 3 as plants burst through the ground, regardless of the surface material.->The user raises its Special Attack, Special Defense, and Speed by 2 Combat Stages each.
  Beauty
  Catching Up
 HOMELESS
@@ -1318,6 +1330,7 @@ HOMELESS
  14: 4d10+15 / 40
  Special
  8, Ranged Blast 3, Smite, Recoil 1/2
+ None
  Beauty
  Seen Nothing Yet
 HOMELESS
@@ -1390,6 +1403,7 @@ HOMELESS
  2: 1d6+3 / 7
  Physical
  Melee, 1 Target, Five Strike
+ None
  Tough
  Reliable
 HOMELESS
@@ -1485,6 +1499,7 @@ HOMELESS
  3: 1d6+5 / 9
  Physical
  Melee, 1 Target, Double Strike
+ None
  Cool
  Reliable
 HOMELESS
@@ -1613,7 +1628,7 @@ HOMELESS
  Fighting
  EOT
  2
- None
+: See Effect
  Physical
  Melee, 1 Target, Weight Class
  Low Kick’s 
@@ -1639,6 +1654,7 @@ HOMELESS
  4: 1d8+6 / 11
  Physical
  Melee, 1 Target, Priority
+ None
  Cool
  Saving Grace
 HOMELESS
@@ -1799,7 +1815,7 @@ HOMELESS
  Fighting
  At-Will
  3
- None
+ X: See Effect
  Physical
  Melee, 1 Target
  Make three attacks with Triple Kick. If you hit once, Triple Kick has a DB of 1. If you hit two times, Triple Kick has a DB of 3. If you hit three times, Triple Kick has a DB of 6.
@@ -1813,6 +1829,7 @@ HOMELESS
  4: 1d8+6 / 11
  Special
  4, 1 Target, Priority, Aura
+ None
  Smart
  Saving Grace
 HOMELESS
@@ -1846,6 +1863,7 @@ HOMELESS
  15: 4d10+20 / 45
  Special
  Close Blast 3, Smite, Exhaust
+ None
  Beauty
  Seen Nothing Yet
 HOMELESS
@@ -2344,6 +2362,7 @@ HOMELESS
  8: 2d8+10 / 19
  Physical
  Melee, 1 Target, Dash
+ None
  Cool
  Steady Performance
 HOMELESS
@@ -2364,10 +2383,7 @@ HOMELESS
  8: 2d8+10 / 19
  Physical
  Melee, 1 Target, Dash, Set-Up
-Set-Up 
- The user is moved up 25 meters into the air.
-Resolution 
- The user may shift twice while in the air, using their overland or sky speed, and then comes down next to a legal target, and attacks with Fly.
+ The user is moved up 25 meters into the air.->The user may shift twice while in the air, using their overland or sky speed, and then comes down next to a legal target, and attacks with Fly.
  Smart
  Special Attention
  Grants Sky Speed +3
@@ -2379,8 +2395,7 @@ HOMELESS
  4: 1d8+6 / 11
  Special
  4, 1 Target
- If the target is airborne as a result of Fly or Sky Drop, Gust can hit them, ignoring Range, and has a 
- of 8 (2d8+10 / 19) instead.
+ If the target is airborne as a result of Fly or Sky Drop, Gust can hit them, ignoring Range, and has a of 8 (2d8+10 / 19) instead.
  Smart
  Steady Performance
  Grants Guster
@@ -2424,6 +2439,7 @@ HOMELESS
  4: 1d8+6 / 11
  Physical
  Melee, 1 Target
+ None
  Cool
  Steady Performance
 HOMELESS
@@ -2455,10 +2471,7 @@ HOMELESS
  14: 4d10+15 / 40
  Physical
  Melee, Pass, Set-Up, Full Action
-Set-Up 
- The user is moved up 25 meters into the air.
-Resolution 
- The user may shift until they are next to a legal target in the encounter. They may then shift again, and pass through legal targets, to attack with Sky Attack. Sky Attack Flinches a target on 17-20 during Accuracy Check.
+ The user is moved up 25 meters into the air.->The user may shift until they are next to a legal target in the encounter. They may then shift again, and pass through legal targets, to attack with Sky Attack. Sky Attack Flinches a target on 17-20 during Accuracy Check.
  Cool
  Special Attention
 HOMELESS
@@ -2469,10 +2482,7 @@ HOMELESS
  6: 2d6+8 / 15
  Physical
  Melee, 1 Target, Set-Up
-Set-Up 
- Make Sky Drop’s Accuracy Check. If the user hits, the user and target are moved 25 meters into the air. The target forfeits their next turn and cannot Shift or take actions until Sky Drop is resolved.
-Resolution 
- Shift while in the air, and lower both the user and the target heights back to the ground. Then apply Sky Drop’s damage. If the target has a Sky or Levitate Speed, Sky Drop fails to deal damage. If the user is Fainted after the Set-Up but before the Resolution, the target falls to the ground and takes damage as if Sky Drop had a 
+ Make Sky Drop’s Accuracy Check. If the user hits, the user and target are moved 25 meters into the air. The target forfeits their next turn and cannot Shift or take actions until Sky Drop is resolved.->Shift while in the air, and lower both the user and the target heights back to the ground. Then apply Sky Drop’s damage. If the target has a Sky or Levitate Speed, Sky Drop fails to deal damage. If the user is Fainted after the Set-Up but before the Resolution, the target falls to the ground and takes damage as if Sky Drop had a 
  of 3 (1d6+5/8) unless they have a Sky or Levitate Speed, in which case they take no damage.
  Smart
  Special Attention
@@ -2480,6 +2490,7 @@ HOMELESS
  Tailwind
  Flying
  Scene
+ None
  None
  Status
  Field
@@ -2495,6 +2506,7 @@ HOMELESS
  6: 2d6+8 / 15
  Physical
  Melee, 1 Target
+ None
  Cool
  Steady Performance
 HOMELESS
@@ -2621,10 +2633,7 @@ HOMELESS
  9: 2d10+10 / 21
  Physical
  Melee, 1 Target, Set-Up
-Set-Up 
- The user is removed from the field, and their turn ends.
-Resolution 
- Phantom Force’s user appears adjacent to any legal target on the field, ignoring Movement Capabilities, and then uses Phantom Force’s attack. Phantom Force cannot be avoided by Moves with the Shield Keyword, the Dodge Ability, or similar effects, and Intercepts may not be attempted in response.
+ The user is removed from the field, and their turn ends.->Phantom Force’s user appears adjacent to any legal target on the field, ignoring Movement Capabilities, and then uses Phantom Force’s attack. Phantom Force cannot be avoided by Moves with the Shield Keyword, the Dodge Ability, or similar effects, and Intercepts may not be attempted in response.
  Smart
  Seen Nothing Yet
 HOMELESS
@@ -2668,10 +2677,7 @@ HOMELESS
  12: 3d12+10 / 30
  Physical
  Melee, 1 Target, Set-Up
-Set-Up 
- The user is removed from the field, and their turn ends.
-Resolution 
- Shadow Force’s user appears adjacent to any legal Target, ignoring Movement Capabilities, and then uses Shadow Force’s attack. Shadow Force cannot be avoided by Moves with the Shield Keyword, the Dodge Ability, or similar effects, and Intercepts may not be attempted in response.
+ The user is removed from the field, and their turn ends.->Shadow Force’s user appears adjacent to any legal Target, ignoring Movement Capabilities, and then uses Shadow Force’s attack. Shadow Force cannot be avoided by Moves with the Shield Keyword, the Dodge Ability, or similar effects, and Intercepts may not be attempted in response.
  Smart
  Seen Nothing Yet
 HOMELESS
@@ -2693,6 +2699,7 @@ HOMELESS
  4: 1d8+6 / 11
  Physical
  Melee, 1 Target, Priority
+ None
  Smart
  Saving Grace
 HOMELESS
@@ -2766,6 +2773,7 @@ HOMELESS
  3: 1d6+5 / 9
  Physical
  6, 1 Target, Five Strike
+ None
  Cool
  Reliable
 HOMELESS
@@ -2817,6 +2825,7 @@ HOMELESS
  15: 4d10+20 / 45
  Special
  3, 5 Targets, Smite, Exhaust
+ None
  Cool
  Seen Nothing Yet
 HOMELESS
@@ -2835,7 +2844,7 @@ HOMELESS
  Grass
  EOT
  2
- None
+: See Effect
  Special
  5, 1 Target, Weight Class
  Grass Knot’s 
@@ -2935,6 +2944,7 @@ HOMELESS
  4: 1d8+6 / 11
  Physical
  6, 1 Target
+ None
  Beauty
  Steady Performance
 HOMELESS
@@ -2988,6 +2998,7 @@ HOMELESS
  9: 2d10+10 / 21
  Physical
  Burst 1
+ None
  Beauty
  Big Show
 HOMELESS
@@ -3031,6 +3042,7 @@ HOMELESS
  8: 2d8+10 / 19
  Physical
  8, 1 Target
+ None
  Smart
  Steady Performance
 HOMELESS
@@ -3062,9 +3074,7 @@ HOMELESS
  12: 3d12+10 / 30
  Special
  Line 6, Set Up
-Set-Up 
- If the weather is not Sunny, the user’s turn ends. If the weather is Sunny, immediately proceed to the Resolution Effect instead and this Move loses the Set-Up keyword.
- The user attacks with Solar Beam. If the weather is Rainy, Sandstorming, or Hailing, Solar Beam’s 
+ If the weather is not Sunny, the user’s turn ends. If the weather is Sunny, immediately proceed to the Resolution Effect instead and this Move loses the Set-Up keyword. The user attacks with Solar Beam. If the weather is Rainy, Sandstorming, or Hailing, Solar Beam’s 
  is lowered to 6 (2d6+8 / 15).
  Cool
  Special Attention
@@ -3076,9 +3086,7 @@ HOMELESS
  13: 4d10+10 / 35
  Physical
  Melee, 1 Target, Set Up
-Set-Up 
- If the weather is not Sunny, the user gains +1 CS in Attack and Special Defense, and the user’s turn ends. If the weather is Sunny, immediately proceed to the Resolution Effect instead and this Move loses the Set-Up keyword.
- The user attacks with Solar Blade. If the weather is Rainy, Sandstorming, or Hailing, Solar Blade’s 
+ If the weather is not Sunny, the user gains +1 CS in Attack and Special Defense, and the user’s turn ends. If the weather is Sunny, immediately proceed to the Resolution Effect instead and this Move loses the Set-Up keyword. The user attacks with Solar Blade. If the weather is Rainy, Sandstorming, or Hailing, Solar Blade’s 
  is lowered to 6 (2d6+8 / 15).
  Cool
  Special Attention
@@ -3162,6 +3170,7 @@ HOMELESS
  12: 3d12+10 / 30
  Physical
  Melee, 1 Target, Dash, Recoil 1/3
+ None
  Tough
  Desperation
 HOMELESS
@@ -3193,6 +3202,7 @@ HOMELESS
  3: 1d6+5 / 9
  Physical
  Melee, 1 Target, Five Strike
+ None
  Tough
  Reliable
 HOMELESS
@@ -3203,6 +3213,7 @@ HOMELESS
  5: 1d8+8 / 13
  Physical
  6, 1 Target, Double Strike
+ None
  Tough
  Reliable
 HOMELESS
@@ -3224,10 +3235,7 @@ HOMELESS
  8: 2d8+10 / 19
  Physical
  Burst 1, Set-Up, Full Action, Groundsource
-Set-Up 
- The user shifts 25 meters underground and their turn ends.
-Resolution 
- The user may shift horizontally using their burrow or overland speed, and then shifts 25 meters straight up. Upon reaching the surface, the user attacks with Dig, creating a Burst 1.
+ The user shifts 25 meters underground and their turn ends.->The user may shift horizontally using their burrow or overland speed, and then shifts 25 meters straight up. Upon reaching the surface, the user attacks with Dig, creating a Burst 1.
  Smart
  Special Attention
  Grants Burrow +3
@@ -3270,6 +3278,7 @@ HOMELESS
  Ground
  Daily
  None
+ None
  Status
  5, 1 Target, Execute, Groundsource
  Roll 1d100. This roll may not be modified in any way. If you roll X or lower, the target Faints. X is equal to 30 + The User’s Level - The Target’s Level.
@@ -3306,8 +3315,7 @@ HOMELESS
  None
  Physical
  Burst 2, Groundsource
- When you use Magnitude, roll 1d6. Magnitude’s 
- is equal to 5+X, where X is the value of the d6. Magnitude can hit targets that are underground, including those using the Move Dig.
+ When you use Magnitude, roll 1d6. Magnitude’s is equal to 5+X, where X is the value of the d6. Magnitude can hit targets that are underground, including those using the Move Dig.
  Tough
  Desperation
  Grants Groundshaper
@@ -3362,6 +3370,7 @@ HOMELESS
  12: 3d12+10 / 30
  Physical
  Burst 1, Smite
+ None
  Cool
  Desperation
 HOMELESS
@@ -3465,10 +3474,10 @@ HOMELESS
  Ice
  Scene
  None
+ None
  Status
  Blessing
- Blessing – Any user affected by Aurora Veil may activate it when receiving Damage to resist the Damage one step. Aurora Veil may be activated 2 times, and then disappears.
- Aurora Veil can only be used when the user is in Hailing Weather. The Blessings persist even after Hailing Weather has ended, however.
+ Blessing – Any user affected by Aurora Veil may activate it when receiving Damage to resist the Damage one step. Aurora Veil may be activated 2 times, and then disappears. Aurora Veil can only be used when the user is in Hailing Weather. The Blessings persist even after Hailing Weather has ended, however.
  Beauty
  Excitement
 HOMELESS
@@ -3513,10 +3522,7 @@ HOMELESS
  14: 4d10+15 / 40
  Physical
  10, 1 Target, Set-Up, Full Action
-Set-Up 
- The user may Shift, then ends their turn.
-Resolution 
- The user attacks with Freeze Shock. Freeze Shock Paralyzes on 15+.
+ The user may Shift, then ends their turn.->The user attacks with Freeze Shock. Freeze Shock Paralyzes on 15+.
  Beauty
  Seen Nothing Yet
 HOMELESS
@@ -3593,10 +3599,7 @@ HOMELESS
  14: 4d10+15 / 40
  Physical
  10, 1 Target, Set-Up, Full Action
-Set-Up 
- The user may Shift, then ends their turn.
-Resolution 
- The user attacks with Ice Burn. Ice Burn Burns on 15+.
+ The user may Shift, then ends their turn.->The user attacks with Ice Burn. Ice Burn Burns on 15+.
  Beauty
  Seen Nothing Yet
 HOMELESS
@@ -3640,6 +3643,7 @@ HOMELESS
  4: 1d8+6 / 11
  Physical
  4, 1 Target, Priority
+ None
  Beauty
  Saving Grace
 HOMELESS
@@ -3661,6 +3665,7 @@ HOMELESS
  3: 1d6+5 / 9
  Physical
  6, 1 Target, Five Strike
+ None
  Beauty
  Reliable
 HOMELESS
@@ -3700,6 +3705,7 @@ HOMELESS
  Sheer Cold
  Ice
  Daily
+ None
  None
  Status
  4, 1 Target, Execute
@@ -3755,6 +3761,7 @@ HOMELESS
  2: 1d6+3 / 7
  Physical
  6, 1 Target, Five Strike
+ None
  Tough
  Reliable
 HOMELESS
@@ -3800,10 +3807,11 @@ HOMELESS
 HOMELESS
  Bind
  Normal
+ At-Will
  None
  None
  Status
- self
+ Self
  The user gains a +1 Bonus to Accuracy Rolls made to initiate Grapple Maneuvers, and +2 to Skill Checks made to initiate Grapple Maneuvers or gain Dominance. Whenever the user gains Dominance in a Grapple, the target of the Grapple loses a Tick of Hit Points.
  Tough
  Safe Option
@@ -3836,12 +3844,14 @@ HOMELESS
  14: 4d10+15 / 40
  Special
  Burst 1, Sonic
+ None
  Cool
  Seen Nothing Yet
 HOMELESS
  Camouflage
  Normal
  EOT
+ None
  None
  Status
  Self
@@ -3878,6 +3888,7 @@ HOMELESS
  2: 1d6+3 / 7
  Physical
  Melee, 1 Target, Five Strike
+ None
  Tough
  Reliable
 HOMELESS
@@ -4015,6 +4026,7 @@ HOMELESS
  12: 3d12+10 / 30
  Physical
  Melee, 1 Target, Dash, Recoil 1/3
+ None
  Tough
  Big Show
 HOMELESS
@@ -4025,6 +4037,7 @@ HOMELESS
  4: 1d8+6 / 11
  Physical
  Melee, 1 Target, Double Strike
+ None
  Smart
  Reliable
 HOMELESS
@@ -4035,6 +4048,7 @@ HOMELESS
  2: 1d6+3 / 7
  Physical
  Melee, 1 Target, Five Strike
+ None
  Tough
  Reliable
 HOMELESS
@@ -4068,6 +4082,7 @@ HOMELESS
  10: 3d8+10 / 24
  Physical
  5, Blast 2
+ None
  Tough
  Steady Performance
 HOMELESS
@@ -4085,7 +4100,7 @@ HOMELESS
  Normal
  Scene
  2
- None
+: See Effect
  Physical
  Melee, 1 Target, Dash
  The target loses a Tick of Hit Points for each Injury the user has.
@@ -4130,6 +4145,7 @@ HOMELESS
  8: 2d8+10 / 19
  Physical
  Melee, 1 Target, Dash, Priority
+ None
  Cool
  Saving Grace
 HOMELESS
@@ -4193,6 +4209,7 @@ HOMELESS
  Normal
  EOT
  2
+ None
  Status
  Cone 2
  The Accuracy of all Legal Targets is lowered by -1.
@@ -4234,10 +4251,11 @@ HOMELESS
  Normal
  EOT
  2
- None
+: See Effect
  Physical
  Melee, 1 Target
- Frustration’s Damage-Base is equal to 6 plus two times the number of times this Pokémon has been hit since the end of this Pokémon’s last turn (to a maximum of DB 12).
+ Frustration’s 
+ is equal to 6 plus two times the number of times this Pokémon has been hit since the end of this Pokémon’s last turn (to a maximum of DB 12).
  Cute
  Desperation
 HOMELESS
@@ -4248,6 +4266,7 @@ HOMELESS
  2: 1d6+3 / 7
  Physical
  Melee, 1 Target, Five Strike
+ None
  Cool
  Reliable
 HOMELESS
@@ -4258,6 +4277,7 @@ HOMELESS
  3: 1d6+5 / 9
  Physical
  Melee, 1 Target, Five Strike
+ None
  Tough
  Reliable
 HOMELESS
@@ -4268,6 +4288,7 @@ HOMELESS
  15: 4d10+20 / 45
  Physical
  Melee, 1 Target, Dash, Exhaust, Smite
+ None
  Beauty
  Seen Nothing Yet
 HOMELESS
@@ -4294,6 +4315,7 @@ HOMELESS
  Growth
  Normal
  EOT
+ None
  None
  Status
  Self
@@ -4392,6 +4414,7 @@ HOMELESS
  7: 2d6+10 / 17
  Physical
  Melee, 1 Target, Dash
+ None
  Cool
  Steady Performance
 HOMELESS
@@ -4422,6 +4445,7 @@ HOMELESS
  15: 4d10+20 / 45
  Special
  10, 1 Target, Exhaust, Smite
+ None
  Cool
  Seen Nothing Yet
 HOMELESS
@@ -4557,6 +4581,7 @@ HOMELESS
  8: 2d8+10 / 19
  Physical
  Melee, 1 Target
+ None
  Tough
  Desperation
 HOMELESS
@@ -4604,6 +4629,7 @@ HOMELESS
  Normal
  Scene
  None
+ None
  Status
  Self
  The user gains +4 Evasion, and user’s size is lowered to Small for the remainder of the encounter.
@@ -4636,7 +4662,7 @@ HOMELESS
  Normal
  Scene
  2
-None 
+ None
  Physical
  6, 1 Target, Berry
  Refer to the Move Keywords Berry list. Natural Gift deals damage according to the Berry list and Natural Gift’s Type is also defined there. The Berry’s Digestion Buff is nullified and is not used.
@@ -4667,6 +4693,7 @@ HOMELESS
  Odor Sleuth
  Normal
  Scene x2
+ None
  None
  Status
  Self, Swift Action
@@ -4723,6 +4750,7 @@ HOMELESS
  4: 1d8+6 / 11
  Physical
  Melee, 1 Target
+ None
  Tough
  Steady Performance
 HOMELESS
@@ -4730,7 +4758,7 @@ HOMELESS
  Normal
  EOT
  3
- None
+: See Effect
  Physical
  4, 1 Target
  Roll 1d6; Present has a 
@@ -4765,6 +4793,7 @@ HOMELESS
  4: 1d8+6 / 11
  Physical
  Melee, 1 Target, Priority
+ None
  Cool
  Saving Grace
 HOMELESS
@@ -4797,10 +4826,7 @@ HOMELESS
  8: 2d8+10 / 19
  Special
  10, 3 Targets, Set-Up
-Set-Up 
- The user may not shift this round. The user whips up a whirlwind around themselves, granting +2 Evasion until the end of their next turn, and destroying any Smokescreen or Hazards on any squares they are standing on and in all squares adjacent to them.
-Resolution 
- The user attacks with Razor Wind. Razor Wind is a Critical Hit on 18+.
+ The user may not shift this round. The user whips up a whirlwind around themselves, granting +2 Evasion until the end of their next turn, and destroying any Smokescreen or Hazards on any squares they are standing on and in all squares adjacent to them.->The user attacks with Razor Wind. Razor Wind is a Critical Hit on 18+.
  Cool
  Special Attention
 HOMELESS
@@ -4871,7 +4897,7 @@ HOMELESS
  Normal
  EOT
  2
- None
+: See Effect
  Physical
  Melee, 1 Target
  Return’s 
@@ -4915,7 +4941,7 @@ HOMELESS
  Normal
  EOT
  2
- None
+ X: See Effect
  Special
  Burst 1, Sonic
  Round’s 
@@ -4950,6 +4976,7 @@ HOMELESS
  4: 1d8+6 / 11
  Physical
  Melee, Pass
+ None
  Tough
  Steady Performance
 HOMELESS
@@ -5042,10 +5069,7 @@ HOMELESS
  13: 4d10+10 / 35
  Physical
  Melee, 1 Target, Dash, Push, Set-Up
-Set-Up 
- The use gains +1 Defense CS.
-Resolution 
- The user may attack with Skull Bash. The target is pushed 3 meters.
+ The use gains +1 Defense CS.->The user may attack with Skull Bash. The target is pushed 3 meters.
  Tough
  Special Attention
 HOMELESS
@@ -5152,6 +5176,7 @@ HOMELESS
  3: 1d6+5 / 9
  Physical
  6, 1 Target, Five Strike
+ None
  Cool
  Reliable
 HOMELESS
@@ -5159,7 +5184,7 @@ HOMELESS
  Normal
  Scene
  2
- None 
+ X: See Effect
  Special
  4, 1 Target
  For each Stockpiled Count the user has, Spit Up’s 
@@ -5170,6 +5195,7 @@ HOMELESS
  Splash
  Normal
  At-Will
+ None
  None
  Status
  Self, Shift Action
@@ -5182,6 +5208,7 @@ HOMELESS
  Normal
  Daily
  None
+ None
  Status
  6, 1 Target, Priority
  Until the end of the user’s next turn, the target is Blinded and Vulnerable.
@@ -5192,6 +5219,7 @@ HOMELESS
  Stockpile
  Normal
  EOT
+ None
  None
  Status
  Self
@@ -5277,6 +5305,7 @@ HOMELESS
  Normal
  Scene
  2
+ None
  Status
  Burst 2, Friendly
  Targets hit by Sweet Scent gain a -2 Penalty to Evasion. (Total Evasion may not be lowered to a negative value. )
@@ -5323,6 +5352,7 @@ HOMELESS
  3: 1d6+5 / 9
  Physical
  Melee, 1 Target, Five Strike
+ None
  Cute
  Reliable
 HOMELESS
@@ -5450,6 +5480,7 @@ HOMELESS
  6: 2d6+8 / 15
  Physical
  Melee, 1 Target
+ None
  Tough
  Steady Performance
 HOMELESS
@@ -5497,6 +5528,7 @@ HOMELESS
 HOMELESS
  Wrap
  Normal
+ At-Will
  None
  None
  Status
@@ -5544,10 +5576,7 @@ HOMELESS
  None
  Status
  Self, Set-Up
-Set-Up 
- The user becomes Liquefied. While Liquefied, the user is Slowed and cannot take Standard Actions except to Resolve the effect of Acid Armor, and the user’s Movement is never obstructed by rough or slow terrain, and they can shift even through the smallest openings. Furthermore, while liquefied, the user is completely immune to all Physical damage, and becomes completely invisible if fully submerged in any liquid. The user does not need to resolve Acid Armor on their next turn; it persists until the end of the scene or until the user resolves it.
-Resolution 
- The user gains +1 Defense Combat Stage, and then stops being liquified.
+ The user becomes Liquefied. While Liquefied, the user is Slowed and cannot take Standard Actions except to Resolve the effect of Acid Armor, and the user’s Movement is never obstructed by rough or slow terrain, and they can shift even through the smallest openings. Furthermore, while liquefied, the user is completely immune to all Physical damage, and becomes completely invisible if fully submerged in any liquid. The user does not need to resolve Acid Armor on their next turn; it persists until the end of the scene or until the user resolves it.->The user gains +1 Defense Combat Stage, and then stops being liquified.
  Tough
  Get Ready
 HOMELESS
@@ -5778,6 +5807,7 @@ HOMELESS
  Poison
  Scene x2
  2
+ None
  Status
  6, 1 Target
  The target is Poisoned and has their Speed lowered by 1 Combat Stage. If the target is already Poisoned, they instead lose a Tick of Hit Points and has their Speed lowered by 2 Combat Stages.
@@ -6183,6 +6213,7 @@ HOMELESS
  16: 5d10+20 / 50
  Special
  Line 8, Smite, Exhaust
+ None
  Cool
  Exhausting Act
 HOMELESS
@@ -6372,6 +6403,7 @@ HOMELESS
  Psychic
  Scene x2
  None
+ None
  Status
  4, 1 Target
  The target becomes Lifted. While Lifted, they gain the Levitate Ability, are Slowed, and lose all Movement Capabilities except for the Levitate 4 granted by Levitate (reduced to 2 by the Slow condition). While Lifted, the user may not apply any Evasion bonuses to determine whether they are hit by Moves or not. The Lifted target may use a Shift Action to roll 1d20; on a result of 16+, they stop being Lifted.
@@ -6382,6 +6414,7 @@ HOMELESS
  Teleport
  Psychic
  Scene
+ None
  None
  Status
  Self, Interrupt
@@ -6438,6 +6471,7 @@ HOMELESS
  4: 1d8+6 / 1
  Physical
  Melee, 1 Target, Priority
+ None
  Tough
  Saving Grace
 HOMELESS
@@ -6481,6 +6515,7 @@ HOMELESS
  8: 2d8+10 / 19
  Special
  6, 1 Target
+ None
  Beauty
  Steady Performance
 HOMELESS
@@ -6491,6 +6526,7 @@ HOMELESS
  3: 1d6+5 / 9
  Physical
  6, 1 Target, Five Strike
+ None
  Tough
  Reliable
  Grants Materializer
@@ -6523,6 +6559,7 @@ HOMELESS
  5: 1d8+8 / 13
  Physical
  6, 1 Target
+ None
  Tough
  Steady Performance
 HOMELESS
@@ -6586,6 +6623,7 @@ HOMELESS
  Rock
  Scene
  None
+ None
  Status
  6, Hazard
  Set 4 square meters of Stealth Rock hazards within 6 meters. If a foe moves within 2 meters of a space occupied by Rocks, move at most one Rock to the offender, then destroy the Rock. When that happens, the Stealth Rock causes a foe to lose a Tick of Hit Points. Stealth Rock is considered to be dealing damage; Apply Weakness and Resistance. Do not apply stats. A Pokémon who has been hit by a Stealth Rock Hazard cannot get hit by another in the same encounter until it is returned to a Poké Ball and then sent back out.
@@ -6642,6 +6680,7 @@ HOMELESS
  4: 1d8+6 / 11
  Physical
  Melee, 1 Target, Priority
+ None
  Smart
  Saving Grace
 HOMELESS
@@ -6674,12 +6713,14 @@ HOMELESS
  5: 1d8+8 / 13
  Physical
  Melee, 1 Target, Double Strike
+ None
  Cool
  Reliable
 HOMELESS
  Gear Up
  Steel
  Scene x2
+ None
  None
  Status
  Burst 4
@@ -6767,7 +6808,7 @@ HOMELESS
  Steel
  Scene
  None
- None
+: See Effect
  Physical
  Burst 1
  Metal Burst causes all targets in the burst to lose Hit Points equal to the total amount of direct Damage the user has taken since the beginning of this Round. Metal Burst cannot miss.
@@ -6867,6 +6908,7 @@ HOMELESS
  4: 1d8+6 / 11
  Physical
  Melee, 1 Target, Priority
+ None
  Beauty
  Saving Grace
 HOMELESS
@@ -6887,6 +6929,7 @@ HOMELESS
  9: 2d10+10 / 21
  Physical
  Melee, Pass
+ None
  Cute
  Steady Performance
 HOMELESS
@@ -6897,9 +6940,7 @@ HOMELESS
  7: 2d6+10 / 17
  Special
  6, 1 Target
- If the target’s Hit Points are under 50%, Brine’s 
- is increased to 
- 13 (4d10+10 / 35).
+ If the target’s Hit Points are under 50%, Brine’s is increased to 13 (4d10+10 / 35).
  Smart
  Incentives
 HOMELESS
@@ -6927,6 +6968,7 @@ HOMELESS
 HOMELESS
  Clamp
  Water
+ At-Will
  None
  None
  Status
@@ -6953,10 +6995,7 @@ HOMELESS
  8: 3d6+10 / 21
  Physical
  Burst 1, Set-Up, Full Action
-Set-Up 
- The user moves underwater and their turn ends. The user must be in water at least 10 meters deep to use Dive. While underwater, the user may not be targeted by Moves.
-Resolution 
- The user may shift horizontally using their Swim speed, and then may shift straight up until reaching a target. The user then attacks with Dive, creating a Burst 1.
+ The user moves underwater and their turn ends. The user must be in water at least 10 meters deep to use Dive. While underwater, the user may not be targeted by Moves.->The user may shift horizontally using their Swim speed, and then may shift straight up until reaching a target. The user then attacks with Dive, creating a Burst 1.
  Beauty
  Special Attention
  Grants Swim +3
@@ -6968,6 +7007,7 @@ HOMELESS
  15: 4d10+20 / 45
  Special
  Line 9, Smite, Exhaust
+ None
  Beauty
  Seen Nothing Yet
 HOMELESS
@@ -7022,6 +7062,7 @@ HOMELESS
  12: 3d12+10 / 30
  Special
  Close Blast 3, Smite
+ None
  Beauty
  Desperation
 HOMELESS
@@ -7140,12 +7181,14 @@ HOMELESS
  2: 1d6+3 / 7
  Special
  6, 1 Target, Five Strike, Priority
+ None
  Cool
  Reliable
 HOMELESS
  Water Sport
  Water
  EOT
+ None
  None
  Status
  Burst 2, Coat
@@ -7164,4 +7207,787 @@ HOMELESS
  For each 10% of HP the user is missing, Water Spout’s 
  is reduced by 1. Water Spout creates a 1 meter burst, but also affects an area 10 meters tall straight up.
  Beauty
- Seen Nothing YetHOMELESS
+ Seen Nothing Yet
+HOMELESS
+ Skitter Smack
+ Bug
+ EOT
+ 2
+ 7: 2d6+10 / 17
+ Physical
+ Melee, 1 Target, Dash, Full Action
+ The user Shifts up to its Overland Capability, ignoring Attacks of Opportunity, before attacking with Skitter Smack. On a hit, the target’s Special Attack is lowered 1 CS.
+ Smart
+ Reliable
+HOMELESS
+ False Surrender
+ Dark
+ EOT
+ None
+ 8: 2d6+8 / 19
+ Physical
+ Melee, 1 Target
+ False Surrender cannot miss.
+ Smart
+ Reliable
+HOMELESS
+ Fiery Wrath
+ Dark
+ EOT
+ 2
+ 9: 2d10+10 / 21
+ Special
+ 6, 1 Target
+ Fiery Wrath Flinches the target on a 17+. Once per Scene, Fiery Wrath may instead be used as a Fire-Type Move.
+ Tough
+ Inversed Appeal
+HOMELESS
+ Jaw Lock
+ Dark
+ Scene x2
+ 2
+ 8: 2d6+8 / 19
+ Physical
+ Melee, 1 Target
+ You may perform a Grapple Maneuver against the target as a Free Action.
+ Tough
+ Sabotage
+HOMELESS
+ Lash Out
+ Dark
+ EOT
+ 2
+ 8: 2d6+8 / 19
+ Physical
+ Melee, 1 Target
+ If the user has lost CS from a source other than itself since the end of its last turn, Lash Out is instead DB 15 (4d10 + 20 / 45). Any given foe may be the target of this increased damage only once per Scene.
+ Smart
+ Reliable
+HOMELESS
+ Obstruct
+ Dark
+ Scene
+ None
+ Status
+ Self, Interrupt, Shield, Trigger
+ If the user is hit by a Move, the user may use Obstruct. The user is instead not hit by the Move. You do not take any damage nor are you affected by any of the Move’s effects. In addition, if the triggering attack was Melee ranged, the attacker’s Defense is lowered by 2 Combat Stages.
+ Smart
+ Inversed Appeal
+HOMELESS
+ Wicked Blow
+ Dark
+ EOT
+ 2
+ 8: 2d6+8 / 19
+ Physical
+ Melee, 1 Target, Push
+ If Wicked Blow hits, it is a Critical Hit. The target is Pushed 6 meters minus their Weight Class. On a roll of 15+, the target is also Tripped.
+ Tough
+ Steady Performance
+HOMELESS
+ Breaking Swipe
+ Dragon
+ EOT
+ 2
+ 6: 2d6+8 / 15
+ Physical
+ Close Blast 2
+ The target’s Attack is lowered 1 CS.
+ Tough
+ Desperation
+HOMELESS
+ Clangorous Soul
+ Dragon
+ Scene
+ None
+ None
+ Status
+ Self
+ The user loses 1/3rd of their Max Hit Points and has each of its stats raised by +1 Combat Stage.
+ Cool
+ Seen Nothing Yet
+ This Move is not in the ‘Dex. It is learned by Kommo-o at level 68.
+HOMELESS
+ Dragon Darts
+ Dragon
+ EOT
+ 2
+ 5: 1d8+8 / 13
+ Physical
+ 6, 1 Target, Double Strike; or 6, 2 Targets
+ None
+ Smart
+ Double Time
+HOMELESS
+ Dragon Energy
+ Dragon
+ Daily x2
+ 2
+ 15: 4d10+20 / 45
+ Special
+ Cone 3 or Line 8
+ For each 10% of HP the user is missing, Dragon Energy’s 
+ is reduced by 1.
+ Cool
+ Seen Nothing Yet
+HOMELESS
+ Dynamax Cannon
+ Dragon
+ Scene x2
+ 2
+ 10: 3d8+10 / 24
+ Special
+ 6, 1 Target
+ The DB of Dynamax Cannon increases by +2 for each positive CS the target has, to a maximum of DB 20.
+ Cool
+ Unsettling
+HOMELESS
+ Eternabeam
+ Dragon
+ Scene
+ 4
+ 16: 5d10+20 / 50
+ Special
+ Line 6, Smite, Exhaust
+ None
+ Cool
+ Seen Nothing Yet
+HOMELESS
+ Scale Shot
+ Dragon
+ EOT
+ 4
+ 3: 1d6+5 / 9
+ Physical
+ 6, 1 Target, Five Strike
+ The user’s Speed is raised 1 CS, and the user’s Defense is lowered 1 CS.
+ Tough
+ Desperation
+HOMELESS
+ Aura Wheel
+ Electric
+ Scene x2
+ 2
+ 11: 3d10+10 / 27
+ Physical
+ Melee, 1 Target
+ The user’s Speed is increased 1 CS.
+ Cool
+ Special Attention
+ If the user is in Hangry Mode, Aura Wheel is Dark-Typed.
+HOMELESS
+ Bolt Beak
+ Electric
+ Scene x2
+ 2
+ 9: 2d10+10 / 21
+ Physical
+ Melee, 1 Target
+ Against targets with a lower initiative that have not yet acted this round, Bolt Beak deals +10 damage.
+ Cool
+ Catching Up
+HOMELESS
+ Magnetic Flux
+ Electric
+ Scene x2
+ None
+ None
+ Status
+ Burst 4
+ Choose +1 or -1. All targets that are Electric-Type or have the Magnetic Capability receive that many Defense and Special Defense Combat Stages.
+ Smart
+ Incentives
+ Grants Magnetic
+HOMELESS
+ Overdrive
+ Electric
+ EOT
+ 2
+ 8: 2d8+10 / 19
+ Special
+ Cone 2, Sonic
+ None
+ Cool
+ Attention Grabber
+HOMELESS
+ Rising Voltage
+ Electric
+ Scene x2
+ 2
+ 7: 2d6+10 / 17
+ Special
+ Burst 2, Groundsource, Spirit Surge
+ After Rising Voltage is resolved, you may create Electric Terrain in a Blast 7, centered on the user, that lasts for 5 turns. Any creatures in those spaces are affected as if by the Field Move Electric Terrain, rather than any other Field Move. This Effect may trigger only once per Scene.
+ Cool
+ Attention Grabber
+HOMELESS
+ Thunder Cage
+ Electric
+ Daily x2
+ 4
+ 8: 2d8+10 / 19
+ Special
+ 8, Ranged Blast 2, Spirit Surge
+ The targets are trapped in a Vortex. The DC to escape the Vortex is increased by 3.
+ Smart
+ Sabotage
+HOMELESS
+ Decorate
+ Fairy
+ Scene
+ None
+ Status
+ Melee, 1 Target
+ The target gains +2 CS in both Attack and Special Attack.
+ Beauty
+ Reflective Appeal
+HOMELESS
+ Misty Explosion
+ Fairy
+ Daily
+ 2
+ 10: 3d8+10 / 24
+ Special
+ Burst 3, Friendly, Smite
+ The user’s Hit Points are set to -50% of their full Hit Point value. This Hit Point loss cannot be prevented or reduced in any way. After Misty Explosion is resolved, create Misty Terrain in a Blast 7, centered on the user, that lasts for 5 turns. Any creatures in those spaces are affected as if by the Field Move Misty Terrain, rather than any other Field Move.
+ Cute
+ Sabotage
+HOMELESS
+ Spirit Break
+ Fairy
+ EOT
+ 2
+ 8: 2d8+10 / 19
+ Physical
+ Melee, 1 Target
+ The target’s Special Attack stat is lowered 1 CS.
+ Tough
+ Sabotage
+HOMELESS
+ Strange Steam
+ Fairy
+ Scene x2
+ 3
+ 9: 2d10+10 / 21
+ Special
+ Burst 1
+ The target is confused on 17+.
+ Beauty
+ Good Show
+HOMELESS
+ Body Press
+ Fighting
+ Scene x2
+ 2
+ 8: 2d8+10 / 19
+ Physical
+ Melee, 1 Target
+ The user’s Defense Stat is added to the damage roll instead of the Attack Stat.
+ Tough
+ Gamble
+HOMELESS
+ Coaching
+ Fighting
+ EOT
+ None
+ Status
+ Burst 1
+ The user and any allies in the Burst have their Attack and Defense raised by 1 CS.
+ Tough
+ Get Ready
+HOMELESS
+ Meteor Assault
+ Fighting
+ Daily x2
+ 2
+ 15: 4d10+20 / 45
+ Physical
+ Burst 1, Smite, Exhaust
+ None
+ Tough
+ Exhausting Act
+HOMELESS
+ No Retreat
+ Fighting
+ Scene
+ None
+ Status
+ Self
+ The user gains +1 CS in each stat. In addition, the user may not be recalled or switched out until the end of the Scene, and counts as Slowed for the purposes of any movement that would end further away from the nearest enemy than the user started.
+ Tough
+ Get Ready
+HOMELESS
+ Octolock
+ Fighting
+ Scene
+ 2
+ Status
+ Melee, 1 Target
+ The user initiates a Grapple Maneuver with the target, which automatically hits. If successful, until the user no longer has Dominance in the grapple, the target is Trapped and loses 1 CS in Defense and Special Defense at the end of each of their turns.
+ Tough
+ Sabotage
+HOMELESS
+ Thunderous Kick
+ Fighting
+ EOT
+ 2
+ 9: 2d10+10 / 21
+ Physical
+ Melee, 1 Target
+ All legal targets hit lose 1 Defense Combat Stage. Once per Scene, Thunderous Kick may instead be used as an Electric-Type Move.
+ Tough
+ Good Show
+HOMELESS
+ Burning Jealousy
+ Fire
+ EOT
+ 2
+ 7: 2d6+10 / 17
+ Special
+ Burst 1, Spirit Surge
+ After Burning Jealousy has resolved, the user may choose to Burn foes within 5m that have had any CS raised since the beginning of that foe’s last turn. This Effect may trigger only once per Scene.
+ Smart
+ Sabotage
+HOMELESS
+ Pyro Ball
+ Fire
+ Scene x2
+ 4
+ 12: 3d12+10 / 30
+ Physical
+ 6, 1 Target, Smite
+ The target is Burned on 19+.
+ Cool
+ Attention Grabber
+HOMELESS
+ Dual Wingbeat
+ Flying
+ EOT
+ 2
+ 4: 1d8+6 / 11
+ Physical
+ Melee, 1 Target, Double Strike
+ None
+ Cool
+ Reliable
+HOMELESS
+ Astral Barrage
+ Ghost
+ Daily
+ 2
+ 12: 3d12+10 / 30
+ Special
+ 8, Ranged Blast 2, Smite, Friendly
+ Legal targets hit by Astral Barrage are Slowed for one full round.
+ Smart
+ Unsettling
+HOMELESS
+ Poltergeist
+ Ghost
+ Scene
+ 4
+ 11: 2d6+10 / 17
+ Physical
+ 8, Ranged Blast 3, Smite
+ If a target is holding a Held Item or Main or Off-Hand item, they must either drop it immediately or lose a Tick of Hit Points. This may only cause a target to lose at most one Tick of Hit Points, no matter how many items they were holding. On each of the target’s subsequent turns, if it is still holding the item(s) in question it loses a Tick of Hit Points.
+ Smart
+ Unsettling
+HOMELESS
+ Apple Acid
+ Grass
+ EOT
+ 2
+ 8: 2d8+10 / 19
+ Special
+ Cone 2
+ The target’s Special Defense is lowered by 1 CS.
+ Smart
+ Unsettling
+HOMELESS
+ Branch Poke
+ Grass
+ At-Will
+ 2
+ 4: 1d8+6 / 11
+ Physical
+ 2, 1 Target
+ None
+ Tough
+ Steady Performance
+HOMELESS
+ Drum Beating
+ Grass
+ EOT
+ 2
+ 8: 2d8+10 / 19
+ Physical
+ 4, 1 Target
+ The target’s Speed is lowered by 1 CS.
+ Smart
+ Big Show
+HOMELESS
+ Grassy Glide
+ Grass
+ EOT
+ 2
+ 7: 2d6+10 / 17
+ Physical
+ Melee, Pass, Spirit Surge
+ If the user is on Grassy Terrain, Grassy Glide may be used with Priority. After Grassy Glide has been resolved, the user may choose to create Grassy Terrain in the spaces Passed over (including those it started and ended in), that lasts for 5 turns. Any creatures in those spaces are affected as if by the Field Move Grassy Terrain, rather than any other Field Move.
+ Smart
+ Unsettling
+HOMELESS
+ Grav Apple
+ Grass
+ EOT
+ 2
+ 8: 2d8+10 / 19
+ Physical
+ 6, 1 Target
+ The target’s Defense is lowered by 1 CS.
+ Smart
+ Excitement
+HOMELESS
+ Jungle Healing
+ Grass
+ Daily x2
+ None
+ Status
+ Burst 1
+ The user and any allies in the burst regain Hit Points equal to 1/4 of their Maximum Hit Point Value, and are cured of any Persistent or Volatile Status Conditions.
+ Smart
+ Reflective Appeal
+HOMELESS
+ Snap Trap
+ Grass
+ Scene x2
+ 2
+ 4: 1d8+6 / 11
+ Physical
+ Melee, 1 Target
+ The target is trapped in a Vortex. The DC to escape the Vortex is increased by 3.
+ Smart
+ Sabotage
+HOMELESS
+ Scorching Sands
+ Ground
+ Scene x2
+ 2
+ 7: 2d6+10 / 17
+ Special
+ 5, 1 Target
+ Scorching Sands Burns the target on 15+.
+ Smart
+ Steady Performance
+HOMELESS
+ Glacial Lance
+ Ice
+ Daily
+ 2
+ 13: 4d10+10 / 35
+ Physical
+ Line 8, Smite
+ Legal targets hit by Glacial Lance are Stuck and Trapped until the end of their next turn.
+ Smart
+ Special Attention
+HOMELESS
+ Triple Axel
+ Ice
+ EOT
+ 4
+ 6: 2d6+8 / 15
+ Physical
+ Melee, 1 Target
+ After attacking with Triple Axel, hit or miss, the user may Disengage 2m and attack a different target with Triple Axel. This effect may be repeated a second time, targeting a creature that has not been targeted by either prior attack. Before making each attack roll, the user can elect to give up triggering all remaining additional shifts and attacks. Triple Axel gains +1 Accuracy and +1 DB for each attack that is given up. Triple Axel always benefits from the Technician Ability.
+ Cool
+ Special Attention
+HOMELESS
+ Court Change
+ Normal
+ Daily
+ None
+ Status
+ Field
+ All Blessings and Hazards swap which side that they belong to.
+ Smart
+ Sabotage
+HOMELESS
+ Howl
+ Normal
+ EOT
+ None
+ Status
+ Burst 1
+ The user and all allies in the Burst have their Attack CS raised by 1.
+ Cool
+ Get Ready
+HOMELESS
+ Multi-Attack
+ Normal
+ Scene x2
+ 2
+ 12: 3d12+10 / 30
+ Physical
+ Melee, 1 Target
+ Multi-Attack is the same Type as the Memory Disc, Plate, or Drive Item held.
+ Cool
+ Reflective Appeal
+HOMELESS
+ Rapid Spin
+ Normal
+ At-Will
+ 2
+ 5: 1d8+8 / 13
+ Physical
+ Melee, 1 Target, Spirit Surge
+ Rapid Spin destroys all Hazards within 5 meters, removes Leech Seeds, and removes the user’s Trapped or Stuck status. If Rapid Spin hits, the user’s speed raises 1 CS.
+ Cool
+ Exhausting Act
+HOMELESS
+ Stuff Cheeks
+ Normal
+ Scene
+ None
+ Status
+ Self
+ The user immediately consumes one of its Food Buffs, regardless of any conditions that need to be met, gaining its benefit if applicable. If a Buff is consumed, the user’s Defense CS is raised by 2.
+ Cute
+ Get Ready
+HOMELESS
+ Teatime
+ Normal
+ Scene
+ None
+ Status
+ Field, Social
+ All participants in the battle may choose to immediately consume one of their Food Buffs, regardless of if the conditions to do so are met.
+ Cute
+ Safe Option
+HOMELESS
+ Terrain Pulse
+ Normal
+ EOT
+ 2
+ 5: 3d12+10 / 30
+ Special
+ Close Blast 3
+ If the user is under the effects of a Terrain, Terrain Pulse has a 
+ of 10 (3d8+10 / 24). In addition, Terrain Pulse becomes the Type that corresponds with the Move that creates that Terrain. (For example, if in Misty Terrain, it would become Fairy Type.) If the user is under the effects of multiple Terrains, choose one to affect this Move.
+ Cool
+ Reflective Appeal
+HOMELESS
+ Corrosive Gas
+ Poison
+ EOT
+ 2
+ Status
+ Burst 1
+ Targets hit have their current Held Item(s) unable to be used for the remainder of the Scene. In addition, Steel-Type targets hit lose their immunity to Poison until they Faint or Take A Breather; Poison instead counts as neutral against Steel.
+ Smart
+ Sabotage
+HOMELESS
+ Shell Side Arm
+ Poison
+ EOT
+ 2
+ 9: 2d10+10 / 21
+ Special
+ 6, 1 Target
+ This attack uses the highest of the user’s Attack or Special Attack Stat, though this does not change the Class of the Move. In addition, if the target’s Defense is lower than its Special Defense, this attack targets Defense, becoming a Physical Move. The target is poisoned on a 17+.
+ Smart
+ Seen Nothing Yet
+HOMELESS
+ Eerie Spell
+ Psychic
+ EOT
+ 2
+ 8: 2d8+10 / 19
+ Special
+ 6, 1 Target
+ The user may choose to Disable the target’s last Move used. This effect may only be activated once per Scene.
+ Smart
+ Sabotage
+HOMELESS
+ Expanding Force
+ Psychic
+ EOT
+ 2
+ 8: 2d8+10 / 19
+ Special
+ Burst 1, Spirit Surge
+ After Expanding Force is resolved, you may create Psychic Terrain in a Blast 7, centered on the user, that lasts for 5 turns. Any creatures in those spaces are affected as if by the Field Move Psychic Terrain, rather than any other Field Move. This Effect may trigger only once per Scene.
+ Smart
+ Sabotage
+HOMELESS
+ Freezing Glare
+ Psychic
+ EOT
+ 2
+ 9: 2d10+10 / 21
+ Special
+ 6, 1 Target
+ Freezing Glare Freezes the target on a 19+. Once per Scene, Freezing Glare may instead be used as an Ice-Type Move.
+ Beauty
+ Unsettling
+HOMELESS
+ Magic Powder
+ Psychic
+ Daily
+ 2
+ Status
+ 5, 1 Target
+ The target gains the Psychic Type in addition to its other Types for 5 turns.
+ Smart
+ Safe Option
+HOMELESS
+ Meteor Beam
+ Rock
+ Scene x2
+ 4
+ 12: 3d12+10 / 30
+ Special
+ Cone 3, Set-Up
+ Setup: The user’s Special Attack is raised by +1 Combat Stage. ->The user attacks with Meteor Beam.
+ Tough
+ Special Attention
+HOMELESS
+ Tar Shot
+ Rock
+ Scene
+ 2
+ Status
+ Cone 2
+ The target gains a Coat that is automatically expended upon being hit with a Fire Type attack in order to make them one step more vulnerable to that attack. In addition, the target’s Speed is lowered by 1 CS.
+ Tough
+ Sabotage
+HOMELESS
+ Behemoth Bash
+ Steel
+ Scene x2
+ 2
+ 10: 3d8+10 / 24
+ Physical
+ Melee, 1 Target
+ The DB of Behemoth Bash increases by +2 for each positive CS the target has, to a maximum of DB 20.
+ Tough
+ Steady Performance
+HOMELESS
+ Behemoth Blade
+ Steel
+ Scene x2
+ 2
+ 10: 3d8+10 / 24
+ Physical
+ Melee, 1 Target
+ The DB of Behemoth Blade increases by +2 for each positive CS the target has, to a maximum of DB 20.
+ Cool
+ Good Show
+HOMELESS
+ Double Iron Bash
+ Steel
+ Scene x2
+ 2
+ 6: 2d6+8 / 15
+ Physical
+ Melee, 1 Target, Double Strike
+ Double Iron Bash Flinches the targets on 15+. This move is affected by Iron Fist.
+ Tough
+ Reliable
+HOMELESS
+ Gear Up
+ Steel
+ Scene x2
+ None
+ None
+ Status
+ Burst 4
+ All targets that are Steel-Typed receive +1 Attack and Special Attack Combat Stages
+ Smart
+ Get Ready
+HOMELESS
+ Steel Beam
+ Steel
+ Daily
+ 3
+ 14: 4d10+15 / 40
+ Special
+ Cone 3, Smite
+ The user’s Hit Points are reduced by 50% of their full Hit Point value. This Hit Point loss cannot be prevented or reduced in any way.
+ Smart
+ Big Show
+HOMELESS
+ Steel Roller
+ Steel
+ Daily x2
+ 2
+ 13: 4d10+10 / 35
+ Physical
+ Melee, Pass, Dash, Smite, Spirit Surge
+ Legal targets hit by Steel Roller are Tripped on a roll of 15+. Any Hazards in spaces Passed through or adjacent to those spaces are removed (they are removed before they can affect the user). If the user moves through an area of Terrain, or a Field-range Terrain is active, those effects immediately end.
+ Tough
+ Steady Performance
+HOMELESS
+ Fishious Rend
+ Water
+ Scene x2
+ 2
+ 9: 2d10+10 / 21
+ Physical
+ Melee, 1 Target
+ Against targets with a lower initiative that have not yet acted this round, Fishious Rend deals +10 damage.
+ Cool
+ Catching Up
+HOMELESS
+ Flip Turn
+ Water
+ At-Will
+ 2
+ 6: 2d6+8 / 15
+ Physical
+ Melee, 1 Target, Dash
+ If Flip Turn successfully hits its target, the user deals damage and then immediately is returned to its Poké Ball in the same turn. A New Pokémon may immediately be sent out. Using Flip Turn lets a Trapped user be recalled.
+ Cool
+ Inversed Appeal
+HOMELESS
+ Life Dew
+ Water
+ Daily x2
+ None
+ Status
+ Burst 1, Healing
+ The user and all allies in the burst regain Hit Points equal to 1/4 of their Maximum Hit Points.
+ Beauty
+ Saving Grace
+HOMELESS
+ Snipe Shot
+ Water
+ EOT
+ 2
+ 8: 2d8+10 / 19
+ Special
+ 8, 1 Target
+ Snipe Shot is a Critical Hit on 18+. This Move may not be Intercepted, nor may any Abilities, Moves, or Features be activated to change this Move’s target. Any of those existing effects (such as Follow Me) fail.
+ Beauty
+ Reliable
+HOMELESS
+ Surging Strikes
+ Water
+ EOT
+ 2
+ 3: 1d6+5 / 9
+ Physical
+ Melee, 1 Target
+ If Surging Strikes hits, it is a Critical Hit. After attacking with Surging Strikes, hit or miss, the user may Shift 2m, ignoring Attacks of Opportunity from their target. It may then make an additional attack with this Move on a different target. This effect may be repeated a second time, the third attack targeting a creature that has not yet been targeted by either prior attack. Before making each attack roll, the user can elect to give up triggering all remaining additional shifts and attacks. Surging Strikes gains +3 DB for each attack that is given up.
+ Cool
+ Special Attention
+HOMELESS
+ Withdraw
+ Water
+ At-Will
+ None
+ Status
+ Self
+ The user becomes Withdrawn. While Withdrawn, the user becomes immune to Critical Hits and gain 15 Damage Reduction. However, while Withdrawn, the user cannot Shift, and may only use self-targeting Moves. The user may stop being Withdrawn as a Shift Action.
+ Cute
+ Sabotage
+HOMELESS

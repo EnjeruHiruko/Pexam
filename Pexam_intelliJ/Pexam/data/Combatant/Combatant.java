@@ -12,29 +12,28 @@ import Pexam.data.utility.Describtions.Skill;
 import Pexam.data.utility.Enums.Type;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Combatant {
 
     protected String name_;
 
-    protected List types_;
+    protected ArrayList<Type> types_;
 
     protected StatBlock statBlock_;
 
-    protected List<Effect> statics_;
+    protected ArrayList<Effect> statics_;
 
-    protected List<Effect> temporary_;
+    protected ArrayList<Effect> temporary_;
 
-    protected List<Moves> moves_;
+    protected ArrayList<Moves> moves_;
 
     protected Gender gender_;
 
-    protected List<Abilities> abilities_;
+    protected ArrayList<Abilities> abilities_;
 
-    protected List skills_;
+    protected ArrayList<Skill> skills_;
 
-    protected List<Capabilities> capabilities_;
+    protected ArrayList<Capabilities> capabilities_;
 
     protected String notes_;
 
@@ -42,31 +41,31 @@ public class Combatant {
 
     public Combatant(){
         this.name_ = "";
-        this.skills_ = new ArrayList<Skill>();
+        this.skills_ = new ArrayList<>();
         this.statBlock_ = new StatBlock(new int[6]);
-        this.statics_ = new ArrayList<Effect>();
-        this.temporary_ = new ArrayList<Effect>();
-        this.types_ = new ArrayList<Type>();
-        this.moves_ = new ArrayList<Moves>();
+        this.statics_ = new ArrayList<>();
+        this.temporary_ = new ArrayList<>();
+        this.types_ = new ArrayList<>();
+        this.moves_ = new ArrayList<>();
         this.gender_ = Gender.all;
-        this.abilities_ = new ArrayList<Abilities>();
-        this.capabilities_ = new ArrayList<Capabilities>();
+        this.abilities_ = new ArrayList<>();
+        this.capabilities_ = new ArrayList<>();
         this.notes_ = "";
     }
 
-    public Combatant(String name, int[] basestats, List<Type> types, List<Skill> skills, List<Capabilities> capabilities){
+    public Combatant(String name, int[] base_stats, ArrayList<Type> types, ArrayList<Skill> skills, ArrayList<Capabilities> capabilities){
         this();
         this.name_ = name;
-        this.statBlock_.update_BaseStats(basestats);
+        this.statBlock_.update_BaseStats(base_stats);
         this.types_ = types;
         this.skills_ = skills;
         this.capabilities_ = capabilities;
     }
 
-    public Damage AttackWithMove(String name, int DiceRole, boolean useAverage, boolean crit, boolean effectActivation){
+    public Damage AttackWithMove(String name, int DiceRole, boolean useAverage, boolean critical, boolean effectActivation){
         if(moves_.contains(new Moves(name))){
             Damage temp = moves_.get(moves_.indexOf(new Moves(name))).calcDamageOutput(
-                    this.statBlock_, this.types_, DiceRole, useAverage, crit);
+                    this.statBlock_, this.types_, DiceRole, useAverage, critical);
             System.out.printf("%n"+this.name_+" will Attack with "+ temp.getMoveName()+" and will deal "+temp.getValue()+" "
                     +temp.getDamageClass()+" Damage%n");
             return temp;
@@ -77,7 +76,7 @@ public class Combatant {
     }
 
     public void resolveIncomingDamage(Damage in){
-        int actualDamage = 0;
+        int actualDamage;
         double temp;
         if(in.getDamageClass() == DamageClass.PHYSICAL){
             actualDamage = in.getValue() - this.statBlock_.getCombatDefense();
@@ -136,6 +135,7 @@ public class Combatant {
     }
 
     public String toString(){
+
         String result = "";
 
         return result;

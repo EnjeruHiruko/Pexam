@@ -1,3 +1,6 @@
 /Pexam_intelliJ/
 *.class
 Pexam_intelliJ/Pexam/data/utility/Misc/GetCommand.java
+*.class
+/Pexam_intelliJ/out/production/Pexam_intelliJ/
+/Pexam_intelliJ/.idea/

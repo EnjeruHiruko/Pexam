@@ -35,14 +35,14 @@ public class PokemonBETA extends Combatant {
 
     private int usedVitamins_;
 
-    private List<Tutor> edges_;
+    private ArrayList<Tutor> edges_;
 
-    private List<Moves> bonusMoves_;
+    private ArrayList<Moves> bonusMoves_;
 
-    private List<Moves> connectionMoves_;
+    private ArrayList<Moves> connectionMoves_;
 
 
-    private List<Moves> learnable_;
+    private ArrayList<Moves> learnable_;
 
     private int lastLevelUpdated_;
 
@@ -134,9 +134,9 @@ public class PokemonBETA extends Combatant {
         this.lastLevelUpdated_ = level_;
     }
 
-    private List<Moves> moderateLevelUpList(int start, int end){
-        List<MoveForList> temp = this.species_.getMovelist();
-        List<Moves> ret = new ArrayList<Moves>();
+    private ArrayList<Moves> moderateLevelUpList(int start, int end){
+        ArrayList<MoveForList> temp = this.species_.getMovelist();
+        ArrayList<Moves> ret = new ArrayList<Moves>();
         for(int c = start; c < end; c++){
             if(temp.contains(new MovesCompare(c))){
                 ret.add(new Moves(temp.get(temp.indexOf(new MovesCompare(c))).getMove()));

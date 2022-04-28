@@ -1,18 +1,16 @@
 package Pexam.data.Combatant.Pokemon;
 
-import Pexam.data.Moves.MoveForList;
-import Pexam.data.Moves.Moves;
 import Pexam.data.Abilities.Abilities;
 import Pexam.data.Capabilities.Capabilities;
+import Pexam.data.Moves.MoveForList;
+import Pexam.data.Moves.Moves;
 import Pexam.data.utility.Describtions.MiscInfo;
 import Pexam.data.utility.Describtions.Skill;
 import Pexam.data.utility.Enums.Type;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
 import java.util.ArrayList;
-import java.lang.Integer;
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class Species {
 
@@ -20,33 +18,33 @@ public class Species {
 
     private String species_;
 
-    private List<Type> types_;
+    private ArrayList<Type> types_;
 
     private int[] baseStats_;
 
-    private List<Abilities> basicAbilities_;
+    private ArrayList<Abilities> basicAbilities_;
 
-    private List<Abilities> advAbilities_;
+    private ArrayList<Abilities> advAbilities_;
 
-    private List<Abilities> highAbility_;
+    private ArrayList<Abilities> highAbility_;
 
-    private List<Evolution> evolutions_;
+    private ArrayList<Evolution> evolutions_;
 
     private MiscInfo miscInfo_;
 
-    private List<Capabilities> capabilities_;
+    private ArrayList<Capabilities> capabilities_;
 
-    private List<Skill> skills_;
+    private ArrayList<Skill> skills_;
 
-    private List<MoveForList> moveList_;
+    private ArrayList<MoveForList> moveList_;
 
-    private List<MoveForList> tmList_;
+    private ArrayList<MoveForList> tmList_;
 
-    private List<Moves> eggList_;
+    private ArrayList<Moves> eggList_;
 
-    private List<Moves> tutorList_;
+    private ArrayList<Moves> tutorList_;
 
-    private List<Mega> MegaEvolutions_;
+    private ArrayList<Mega> MegaEvolutions_;
 
     public Species(){
         this.DexNumber_ = 0;
@@ -301,23 +299,23 @@ public class Species {
         return this.baseStats_;
     }
 
-    public List<Type> getTypes() {
+    public ArrayList<Type> getTypes() {
         return this.types_;
     }
 
-    public List<Abilities> getBasicAbilities() {
+    public ArrayList<Abilities> getBasicAbilities() {
         return this.basicAbilities_;
     }
 
-    public List<Abilities> getAdvAbilities() {
+    public ArrayList<Abilities> getAdvAbilities() {
         return this.advAbilities_;
     }
 
-    public List<Abilities> getHighability() {
+    public ArrayList<Abilities> getHighability() {
         return this.highAbility_;
     }
 
-    public List<Evolution> getEvolutions() {
+    public ArrayList<Evolution> getEvolutions() {
         return this.evolutions_;
     }
 
@@ -325,27 +323,27 @@ public class Species {
         return this.miscInfo_;
     }
 
-    public List<Capabilities> getCapabilities() {
+    public ArrayList<Capabilities> getCapabilities() {
         return this.capabilities_;
     }
 
-    public List<Skill> getSkills() {
+    public ArrayList<Skill> getSkills() {
         return this.skills_;
     }
 
-    public List<MoveForList> getMovelist() {
+    public ArrayList<MoveForList> getMovelist() {
         return this.moveList_;
     }
 
-    public List<MoveForList> getTmlist() {
+    public ArrayList<MoveForList> getTmlist() {
         return this.tmList_;
     }
 
-    public List<Moves> getEgglist() {
+    public ArrayList<Moves> getEgglist() {
         return this.eggList_;
     }
 
-    public List<Moves> getTutorlist() {
+    public ArrayList<Moves> getTutorlist() {
         return this.tutorList_;
     }
 
@@ -363,23 +361,23 @@ public class Species {
         this.baseStats_ = basestats;
     }
 
-    public void setTypes(List<Type> types) {
+    public void setTypes(ArrayList<Type> types) {
         this.types_ = types;
     }
 
-    public void setBasicAbilities(List<Abilities> basicAbilities) {
+    public void setBasicAbilities(ArrayList<Abilities> basicAbilities) {
         this.basicAbilities_ = basicAbilities;
     }
 
-    public void setAdvAbilities(List<Abilities> advAbilities) {
+    public void setAdvAbilities(ArrayList<Abilities> advAbilities) {
         this.advAbilities_ = advAbilities;
     }
 
-    public void setHighability(List<Abilities> highability) {
+    public void setHighability(ArrayList<Abilities> highability) {
         this.highAbility_ = highability;
     }
 
-    public void setEvolutions(List<Evolution> evolutions) {
+    public void setEvolutions(ArrayList<Evolution> evolutions) {
         this.evolutions_ = evolutions;
     }
 
@@ -387,27 +385,27 @@ public class Species {
         this.miscInfo_ = miscinfo;
     }
 
-    public void setCapabilities(List<Capabilities> capabilities) {
+    public void setCapabilities(ArrayList<Capabilities> capabilities) {
         this.capabilities_ = capabilities;
     }
 
-    public void setSkills(List<Skill> skills) {
+    public void setSkills(ArrayList<Skill> skills) {
         this.skills_ = skills;
     }
 
-    public void setMovelist(List<MoveForList> movelist) {
+    public void setMovelist(ArrayList<MoveForList> movelist) {
         this.moveList_ = movelist;
     }
 
-    public void setTmlist(List<MoveForList> tmlist) {
+    public void setTmlist(ArrayList<MoveForList> tmlist) {
         this.tmList_ = tmlist;
     }
 
-    public void setEgglist(List<Moves> egglist) {
+    public void setEgglist(ArrayList<Moves> egglist) {
         this.eggList_ = egglist;
     }
 
-    public void setTutorlist(List<Moves> tutorlist) {
+    public void setTutorlist(ArrayList<Moves> tutorlist) {
         this.tutorList_ = tutorlist;
     }
 
