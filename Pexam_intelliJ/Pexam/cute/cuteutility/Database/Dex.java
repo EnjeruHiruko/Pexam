@@ -6,6 +6,7 @@ import Pexam.data.Combatant.Pokemon.Species;
 import Pexam.data.Moves.Moves;
 
 import java.io.BufferedWriter;
+import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -23,6 +24,8 @@ public class Dex {
 
     private List<Species> pokeDex_;
 
+    private String worldpath_;
+
     public Dex(String worldpath , String in){
         this.config_ = new WorldConfiguration(worldpath);
         this.moveList_ = new ArrayList<>();
@@ -34,9 +37,12 @@ public class Dex {
 
     public void createDex(String worldpath , String param, boolean print){
 
+        this.worldpath_ = worldpath;
+
         if(param.equalsIgnoreCase("Moves") || param.equalsIgnoreCase("all")) {
 
-            Path file = Paths.get("Pexam/cute/cuteutility/"+worldpath+"/MoveDex.txt");
+            Path file = Paths.get("/Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/"+worldpath+"/MoveDex.txt");
+
             int counter = 1;
             try {
                 Scanner in = new Scanner(file).useDelimiter("HOMELESS");
@@ -57,7 +63,7 @@ public class Dex {
         }
 
         if(param.equalsIgnoreCase("Abilities") || param.equalsIgnoreCase("all")){
-            Path file = Paths.get("Pexam/cute/cuteutility/"+worldpath+"/AbilityDex.txt");
+            Path file = Paths.get("/Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/"+worldpath+"/AbilityDex.txt");
             try{
                 Scanner in = new Scanner(file).useDelimiter("HOMELESS");
                 while(in.hasNext()){
@@ -73,7 +79,7 @@ public class Dex {
         }
 
         if(param.equalsIgnoreCase("Pokemon") || param.equalsIgnoreCase("all")){
-            Path file = Paths.get("Pexam/cute/cuteutility/"+worldpath+"/PokeDex.txt");
+            Path file = Paths.get("/Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/"+worldpath+"/PokeDex.txt");
             try{
                 Scanner in = new Scanner(file).useDelimiter("HOMELESS");
                 while(in.hasNext()){
@@ -118,7 +124,7 @@ public class Dex {
     }
 
     public void controlPrintMoveDex(){
-        Path dispatch = Paths.get("Pexam/cute/cuteutility/ver105_5/control_print.txt");
+        Path dispatch = Paths.get("/Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/"+worldpath_+"/control_print.txt");
         String result = "";
         for(Moves moves : this.moveList_){
             result += moves.toString();

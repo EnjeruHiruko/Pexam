@@ -1,0 +1,1588 @@
+Ability: Abominable
+Static
+Effect: The user ignores the Recoil Keyword when attacking.
+Bonus: The user’s Base HP is increased by +5. Innate.
+Ability: Absorb Force
+Scene – Free Action
+Trigger: The user is damaged by a Physical Attack
+Effect: The user takes damage as if the attack was resisted one step further. Defensive.
+Ability: Accelerate
+Scene x2 – Free Action
+Effect: The user may use a damaging Move to which they add STAB as a Priority Move. If the Move hits, the user adds half their Speed Stat to the Damage Roll. If the Move already had Priority, the attack gains a +4 Bonus to Accuracy.
+Ability: Adaptability
+Static
+Effect: The user gains a +1d10 Bonus to Damage Rolls with Moves with which they apply STAB.
+Ability: Aerilate
+At-Will – Free Action
+Trigger: The user uses a Normal-Type damaging Move.
+Effect: The Move is changed to be Flying-Type
+Ability: Aftermath
+Scene – Free Action
+Trigger: The user becomes Fainted
+Effect: The user creates a Burst 1. Everything in the Burst loses three Ticks of Hit Points.
+Ability: Air Lock
+Scene – Free Action
+Effect: The weather is set to normal as long as the Pokémon with Air Lock wants it to remain that way. The user may continue to sustain this effect as a Swift Action each round.
+Ability: Ambush
+Scene – Free Action
+Effect: The user may activate this Ability to use a Move with a Damage Base of 6 (before applying STAB or other modifiers) or lower as if it had the Priority keyword. If it hits, the target is Flinched and has a -2 penalty to Accuracy Rolls for 1 full round.
+Ability: Analytic
+Static
+Effect: Whenever the user uses a damaging Move on a Pokémon or Trainer that has acted before it during Initiative this Round, that Move deals an additional +5 Damage.
+Ability: Anchored
+Static
+Effect: Dhelmise has an Anchor token on the field, which occupies one square as if it is Medium sized but is otherwise ignored for cover and targeting. Dhelmise cannot move or be moved more than 3 meters away from its Anchor, willingly or otherwise. The Anchor token itself cannot be pushed, pulled, or moved against Dhelmise's will in any way. Dhelmise may shift their Anchor Token as a Swift Action, moving it to any open space within 3 meters of itself. Innate.
+Bonus: When the user Shifts its Anchor, it may immediately afterwards originate an attack from its Anchor if it has the appropriate action available, giving that attack the following properties: the attack's range changes to "Melee, 1 Target", the attack deals +2d6 damage, and the attack's Class changes to Physical if it wasn't already.
+Ability: Anger Point
+At-Will – Free Action
+Trigger: The user receives a Critical Hit
+Effect: The user becomes Enraged and gains +6 Attack Combat Stages.
+Ability: Anticipation
+At-Will – Swift Action
+Target: Trainers or Pokémon
+Effect: The target reveals if they have any Moves that are Super-Effective against the Pokémon with Anticipation. You may not target a Pokémon or Trainer more than once per encounter with Anticipation. Anticipation only reveals whether the opponent does or does not have those moves, not the specific moves themselves.
+Ability: Aqua Bullet
+Static
+Effect: Connection - Aqua Jet. The user may use Water-Type Moves as a Full Action to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.
+Ability: Arena Trap
+Scene – Free Action
+Target: Trainers or Pokémon
+Effect: Once Arena Trap is activated, all foes within 5 meters of the user are considered Slowed and Trapped. This does not affect targets of the Flying Type, or with a Levitate, Sky, or Burrow Speed of 4 or higher. The user may end the effect as a Free Action, and the effect ends if the user is Fainted or returned to a Poké Ball.
+Ability: Aroma Veil
+Static
+Effect: The user and all adjacent Pokémon and Trainers cannot become Confused, Enraged, or Suppressed. Defensive.
+Ability: Aura Break
+Scene – Swift Action
+Target: A foe within 6m
+Effect: The foe reveals its abilities. Pick one ability; any Damage Bonuses (either Damage Base increases or Damage Roll bonuses) granted by the ability instead become Damage Penalties of the same value.
+Ability: Aura Storm
+Static
+Effect: For each injury the user has, they gain a +3 Bonus to Damage Rolls.
+Ability: Bad Dreams
+At-Will – Swift Action
+Effect: All Sleeping targets within 5 meters lose a Tick of Hit Points. If at least one target lost Hit Points this way, the user gains a tick of Temporary Hit Points.
+Ability: Battery
+Scene x2 – Swift Action
+Target: An Adjacent Ally
+Effect: The target's next Special Attack deals +2d6+4 damage. If that attack is Electric-Typed, it deals +3d6+6 more damage instead.
+Ability: Battle Armor
+Static
+Effect: The user is immune to Critical Hits; they are instead normal hits. Defensive.
+Ability: Beam Cannon
+Static
+Effect: The Effect Range and Critical Hit Range of the user’s Ranged, 1-Target Moves are increased by 3.
+Ability: Beast Boost
+At-Will – Free Action
+Trigger: The user’s Damaging Attack causes an opponent to Faint
+Effect: The user receives +1 Combat Stage in their highest non-HP stat.
+Ability: Beautiful
+Scene – Standard Action
+Effect: The user may activate Beautiful to either gain +2 Beauty Dice in a Contest, or to gain +1 Special Attack Combat Stage and cure all allies within 5 meters of the Enraged Condition.
+Ability: Berserk
+At-Will – Free Action
+Trigger: The user’s drops to half HP or below for the first time in an encounter, or becomes Enraged
+Effect: The user receives +1 Special Attack Combat Stage.
+Ability: Big Pecks
+Static
+Effect: The user cannot have its Defense Stat lowered. The user cannot have its Defense Combat Stages lowered. Defensive.
+Ability: Big Swallow
+Static
+Effect: Connection - Stockpile. Whenever the user uses Swallow or Spit Up, it may treat the Stockpile Count as if it was one higher. This Ability has no effect if the Stockpile Counter is already 3.
+Ability: Blaze
+Static
+Effect: The user gains Last Chance with Fire.
+Ability: Blessed Touch
+Daily x2 – Standard Action
+Effect: An adjacent Pokémon or Trainer gains Hit Points equal to 1/4th of its maximum Hit Points.
+Ability: Blow Away
+Static
+Effect: Connection - Whirlwind. When the user uses Whirlwind, all targets hit are pushed an additional 2 meters and lose a Tick of Hit Points.
+Ability: Blur
+Static
+Effect: Attacks and Moves targeting you that don’t require an Accuracy Check now require one, as though they had an Accuracy Check of 2. You may only apply half of your Evasion to these Attacks and Moves. Defensive.
+Ability: Bodyguard
+Scene x2 – Free Action
+Trigger: An adjacent Ally is hit by an attack
+Effect: The user and the triggering Ally switch places, and the user becomes the target of the triggering attack instead, taking damage from the attack as if resisted one step further. If switching places would not move the triggering Ally out of the area-of-effect of a Burst, Blast, Cone, or Line, this Ability does not prevent the ally from being hit. Defensive.
+Ability: Bone Lord
+At-Will – Free Action
+Trigger: You hit with Bone Club, Bonemerang, or Bone Rush
+Effect: Connection – Bonemerang. Once per Scene per Move, the following Moves may be used as if they had the following bonuses:
+» Bone Club: Bone Club’s target loses 1 Defense and Special Attack CS.
+» Bonemerang: Has a Range of Line 6 but loses the Double Strike keyword
+» Bone Rush: Bone Rush automatically ‘hits’ four times (as per the Five Strike keyword).
+Ability: Bone Wielder
+Static
+Effect: The user’s Bone Club, Bonemerang, and Bone Rush Moves treat immunity against Ground-Type Moves as neutral. The user’s Shadow Bone Moves treat immunity against Ghost-Type Moves as neutral.
+Ability: Brimstone
+Static
+Effect: Whenever the user inflicts Burn or Poison with a damaging Fire-Type or Poison-Type Attack, the target becomes both Burned and Poisoned.
+Ability: Bulletproof
+Static
+Effect: The user resists all X target ranged attacks one step further. This refers to attacks and Moves that simply hit one target or specify hitting multiple targets, such as Razor Wind hitting three targets. It has no effect on Moves that are capable of hitting multiple targets through areas of effect, such as Bursts or Cones. Defensive.
+Ability: Bully
+Scene – Free Action
+Trigger: The user hits a target for Super-Effective Damage with a Melee Move
+Effect: The target of the attack is pushed 2 Meters, becomes Tripped, and gains an Injury.
+Ability: Cave Crasher
+Static
+Effect: The user resists Ground-Type and Rock-Type attacks one step further. Defensive.
+Ability: Celebrate
+At-Will – Swift Action
+Trigger: The user hits a foe with a damaging attack
+Effect: The user may immediately Disengage as a Free Action.
+Bonus: Whenever the user Disengages for any reason, they may Shift 2 meters instead of 1.
+Ability: Chemical Romance
+Static
+Effect: Connection – Sweet Scent. Whenever the user hits a male target with Poison Gas, Smog, Sweet Scent, Toxic, or Venom Drench, that target becomes Infatuated with the user.
+Ability: Cherry Power
+Daily – Swift Action
+Effect: The user gains 15 Temporary Hit Points, and is cured of all Persistent Status Afflictions.
+Ability: Chlorophyll
+Static
+Effect: While in Sunny Weather or under 50% Max Hit Points, the user’s Initiative is doubled.
+Ability: Clay Cannons
+At-Will – Swift Action
+Effect: Until the end of the round, the user may originate any Ranged Move they use from any square within 2 meters of itself.
+Ability: Clear Body
+Static
+Effect: The user’s Combat Stages may not be lowered by the effect of foes’ Features, Abilities, or Moves. Status Afflictions may still alter their Combat Stages. Defensive.
+Ability: Cloud Nine
+Scene x3 – Swift Action
+Effect: The effects of Weather are negated for one full round. This may be triggered as a Reaction when any other Weather enters the field. Three uses may be spent as a single Swift Action on the user’s turn to end all current Weather effects.
+Ability: Cluster Mind
+Static
+Effect: The user’s Move Pool limit is increased by +2. Innate.
+Ability: Color Change
+At-Will – Free Action
+Trigger: The user is damaged by a Move
+Effect: The user’s Type changes to match the Type of the triggering Move.
+Ability: Color Theory
+Static
+Effect: Upon gaining this ability at Birth, the user rolls 1d12 to determine the color of their tail secretions. 1 = Red; 2 = Red-Orange; 3 = Orange; 4 = Yellow-Orange; 5 = Yellow; 6 = Yellow-Green; 7 = Green; 8 = Blue-Green; 9 = Blue; 10 = Blue-Violet; 11 = Violet; 12 = Red-Violet.
+Red is tied to Attack, Orange is tied to Defense, Yellow is tied to Special Attack, Green is tied to Special Defense, Blue is tied to Speed, Violet is tied to HP. Users with a “Pure” Color (Red, Orange, Yellow, etc) gain a +6 Bonus to the Base Stat tied to their color. Users with a “Mixed” Color (Red-Orange, Yellow-Orange, etc) gain a +3 Bonus to each Stat tied to the color. Innate.
+Ability: Comatose
+At-Will – Move Action
+Effect: The user falls Asleep, and regains a Tick of Hit Points.
+Bonus: The user may act normally while Asleep and ignores all other penalties from being Asleep. While Asleep, the user does not make Save Checks to wake up, and wakes up from being hit only if they want to.
+Ability: Combo Striker
+At-Will – Free Action
+Trigger: The user rolls a natural 1, 10, or 11 on an attack roll with a damaging move
+Effect: After the triggering attack is resolved, the user may use a Struggle Attack as a Free Action. Struggle Attacks made due to Combo Striker may trigger Combo Striker.
+Ability: Competitive
+Static
+Effect: Whenever the user has its Combat Stages lowered, by something other than its own Moves or Abilities, the user’s Special Attack is raised 2 Combat Stages.
+Ability: Compound Eyes
+Static
+Effect: The user gains a +3 Bonus to all Accuracy Rolls.
+Ability: Confidence
+Scene – Standard Action
+Effect: Choose a Combat Stat. All allies within 5 meters of the user gain +1 CS in the Chosen Stat.
+Ability: Contrary
+Static
+Effect: If something would raise the user’s Combat Stages, it instead lowers the user’s Combat Stages by the same amount. If something would lower the user’s Combat Stages, it instead raises the user’s Combat Stages by the same amount.
+Ability: Conqueror
+Scene – Free Action
+Trigger: The user causes a foe to Faint by using a damaging Physical or Special Attack
+Effect: The user’s Attack, Special Attack, and Speed gain +1 Combat Stage
+Ability: Copy Master
+Static
+Effect: Connection - Copycat. Whenever the user uses Copycat or Mimic, it gains +1 Combat Stage in a Stat of its choice after the Move is resolved.
+Ability: Corrosion
+Static
+Effect: The user's Poison-Type attacks are resisted one step less, and deal damage to Immune targets as if they were doubly resisted. The user may Poison and Badly Poison Steel and Poison-Type Pokémon.
+Ability: Courage
+Static
+Effect: While at or under 1/3rd of its Max Hit Point value, the user gains a +5 Damage Bonus to all Damage Rolls, and 5 Damage Reduction. Defensive.
+Ability: Cruelty
+Scene – Swift Action
+Trigger: The user hits a foe with a damaging attack
+Effect: After Damage is Resolved, the foe gains an Injury. The user is then informed of the total number of Injuries currently on the target, and may use that number to “purchase” the effects listed below.
+» 1 Injury: The target loses 2 Hit Points. May be “purchased” multiple times.
+» 1 Injury: The target is Slowed.
+» 2 Injuries: Until the end of the encounter, the target may not gain Hit Points or Temporary Hit Points from any source. This effect ends if the target is switched out or Takes a Breather.
+Ability: Crush Trap
+Scene – Free Action
+Trigger: The user successfully Grapples a target
+Effect: Connection – Wrap. When you activate this ability, the user may immediately deal damage to the target as if the user had hit with a Struggle Attack. There is no Accuracy Roll and thus this damage cannot miss, be a Critical Hit, or trigger any Effect Ranges.
+Ability: Cursed Body
+Scene – Free Action
+Trigger: The user is hit by a Damaging Move
+Effect: The Move becomes Disabled.
+Ability: Cute Charm
+Scene – Free Action
+Trigger: A foe of the opposite gender attacks the user with a Melee Attack
+Effect: The foe becomes Infatuated with the user.
+Ability: Cute Tears
+Scene – Free Action
+Trigger: The user is hit by a Damaging Move
+Effect: The attacking foe loses 2 Combat Stages in the Attack Stat used by the triggering Move.
+Ability: Damp
+Static
+Effect: Whenever anyone within 10 meters would use the Moves Self-Destruct, Explosion or Mind Blown, or activate the Aftermath Ability, those effects fail and instead do nothing.
+Bonus: The user gains a +1d10 Bonus to Damage Rolls with Water-Typed Moves.
+Ability: Dancer
+Scene x2 – Free Action
+Trigger: Someone within 10 meters uses a Status-Class Move with the Dance Keyword, or a Dancer’s Dance Move
+Effect: The user may immediately use the triggering Move as a Free Action.
+Ability: Danger Syrup
+Scene – Free Action
+Trigger: The user is hit by an attack
+Effect: Connection - Sweet Scent. When this Ability is activated the user may use Sweet Scent as a Free Action, ignoring Frequency. Whenever the user hits a foe with Sweet Scent, that foe is Blinded for 1 full round.
+Ability: Dark Art
+Static
+Effect: The user gains Last Chance with Dark.
+Ability: Dazzling
+Scene x2 – Swift Action
+Target: An Adjacent Foe
+Effect: For the rest of the Scene, the target's Initiative is lowered by 10 and it cannot use Priority Moves.
+Bonus: Interrupt Moves may not be declared in response to the user's actions.
+Ability: Deadly Poison
+Daily – Free Action
+Trigger: The user Poisons a target
+Effect: The target is Badly Poisoned instead.
+Ability: Decoy
+Scene – Full Action
+Effect: The user uses the Move “Follow Me” as if it was on their Move List, and their Evasion is raised by +2 until the end of their next turn.
+Ability: Deep Sleep
+Static
+Effect: When asleep, this Pokémon restores a Tick of Hit Points at the end of each turn.
+Ability: Defeatist
+Static
+Effect: The user gain a +2d6 Bonus to Damage Rolls while over 50% of its Maximum Hit Points. While at 50% Max Hit Points or lower, the user gains a -5 penalty to Damage Rolls and +10 Initiative.
+Ability: Defiant
+Static
+Effect: Whenever the user has its Combat Stages lowered, by something other than its own Moves or Abilities, the user’s Attack is raised 2 Combat Stages.
+Ability: Defy Death
+At-Will – Swift Action
+Effect: The user instantly removes up to three injuries, and gains a Tick of Hit Points for each injury removed this way. Defy Death may be used to cure up to three Injuries per day. Injuries removed this way do not count towards the total number of injuries that can be healed per day.
+Ability: Delayed Reaction
+Scene – Free Action
+Trigger: The user is hit by a direct damaging attack
+Effect: Halve the damage taken by the user. At the end of the user’s next turn, the user loses Hit Points equal to the other half of the damage. For example, if the user is hit for 11 damage and triggers this Ability, the user would take 5 damage upon being hit and 6 damage at the end of its next turn. Defensive.
+Ability: Desert Weather
+Static
+Effect: The user is immune to Sandstorm Damage, resists Fire-Type Moves in Sunny Weather, and gains a Tick of Temporary Hit Points at the end of each of its turns while in Rainy Weather.
+Ability: Designer
+At-Will – Extended Action
+Effect: The user is adept at crafting clothes for itself out of common leaves. When activating this ability to create a leaf suit, the user may choose two Types; the user resists the chosen Types one step further while wearing that suit. The user may only have one leaf suit at a time, and creating a new suit destroys the old one. Defensive.
+Ability: Diamond Defense
+Static
+Effect: Connection - Stealth Rock. Stealth Rock’s Frequency is Scene x2, and the user’s Stealth Rocks can be treated as dealing Rock-Type or Fairy-Type Damage, whichever is more effective.
+Ability: Dig Away
+Daily – Free Action
+Effect: Connection - Dig. When hit by a Move, this Pokémon may activate this Feature to use Dig, frequency allowing, as an interrupt to avoid the attack and shift underground immediately. This consumes a command as normal. The terrain must allow for Dig to be used.
+Ability: Dire Spore
+Static
+Effect: Connection - Spore. Whenever the user hits a target with Spore, that target is also Poisoned.
+Ability: Discipline
+Scene – Free Action
+Effect: If the user gains initiative and is Confused, Enraged, Infatuated, or Flinched, they may activate Discipline to cure themselves of any of these conditions.
+Ability: Disguise
+Daily – Free Action
+Trigger: The user is hit by a Damaging Move
+Effect: The triggering attack instead misses and has no effect. The user then gains +1 CS in a Stat of their choice. Defensive.
+Ability: Dodge
+Daily – Free Action
+Trigger: The user is hit by a Damaging Move
+Effect: The triggering attack instead misses and has no effect. Defensive.
+Ability: Download
+Scene – Swift Action
+Target: A foe within 6 meters
+Effect: The target must reveal whether its Defense or Special Defense Stats are lower. If the Defense Stat is lower, the user gains a +1 Attack CS. If the Special Defense Stat is lower, the user instead gains +1 Special Attack CS. If both are tied, the user gains +1 CS to any Stat of their choice.
+Ability: Dream Smoke
+Scene – Free Action
+Trigger: The user is hit by a Melee Attack
+Effect: The attacking foe falls Asleep.
+Ability: Dreamspinner
+Scene x3 – Swift Action
+Effect: All Sleeping Foes within 3 meters lose a Tick of Hit Points, and the user gains a Tick of Temporary Hit Points.
+Ability: Drizzle
+Scene x3 – Swift Action
+Effect: The Weather changes to be Rainy for 1 full round.
+Ability: Drought
+Scene x3 – Swift Action
+Effect: The Weather changes to be Sunny for 1 full round.
+Ability: Drown Out
+Scene x2 – Free Action
+Trigger: A foe uses a Move with the Sonic keyword
+Effect: The triggering Move fails and has no effect.
+Ability: Dry Skin
+Static
+Effect: Whenever the user is hit by a damaging Fire-Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.
+Ability: Dust Cloud
+Static
+Effect: Connection - Poison Powder. The user may use Moves with the Powder Keyword as if they had a Range of “Burst 1”.
+Ability: Early Bird
+Static
+Effect: The user gains a bonus to Initiative equal to half its Speed, and a +3 Bonus on Save Checks against Sleep.
+Ability: Effect Spore
+Scene – Free Action
+Trigger: The user is hit by a Melee Attack
+Effect: Roll 1d6. On a result of 1 or 2, the attacker is Poisoned. On a result of 3 or 4, the attacker is Paralyzed. On a result of 5 or 6, the attacker falls Asleep.
+Ability: Eggscellence
+Static
+Effect: Connection – Barrage. The user receives STAB when using Barrage and Egg Bomb. If Normal Typed, these Moves deal Damage as if one step more effective on 16+.
+Ability: Electric Surge
+Scene x3 – Swift Action
+Effect: The Field becomes Electrified, as if affected by the Move Electric Terrain, for one full round.
+Ability: Electrodash
+Scene x2 – Swift Action
+Effect: The user may make a Sprint Action as a Free Action.
+Bonus: The user may free itself from the Stuck condition as a Shift Action. The user does not provoke Attacks of Opportunity when Sprinting.
+Ability: Emergency Exit
+Scene – Free Action
+Effect: When the user’s Hit Points drop below half their maximum, their trainer may immediately recall the user and send out another Pokémon as a Free Action. If the user hasn’t taken their turn yet, their replacement may act this round. Defensive.
+Bonus: The user is immune to being Trapped.
+Ability: Empower
+Scene – Swift Action
+Effect: The user may use a self-targeting Status-Class Move as a Free Action.
+Ability: Enduring Rage
+Static
+Effect: The user may not make rolls to cure themselves from the Enraged condition. However, while Enraged, the user gains 5 Damage Reduction.
+Ability: Enfeebling Lips
+Static
+Effect: Connection - Lovely Kiss. Whenever the user uses the Move Lovely Kiss, they may choose a Stat. If the Move successfully hits, the Pokémon or Trainer being targeted loses 2 Combat Stages in that Stat.
+Ability: Exploit
+Static
+Effect: Whenever you deal Super-Effective Damage to a target, that target treats your Damage Roll as it were increased by +5.
+Ability: Fabulous Trim
+Static
+Effect: Furfrou’s Ability depends on its current hairstyle. A Furfrou’s hairstyle can be changed as an Extended Action at an appropriate hair parlor.
+Star Trim: Celebrate
+Diamond Trim: Defiant
+Heart Trim: Cute Tears
+Pharaoh Trim: Sand Veil
+Kabuki Trim: Inner Focus
+La Reine Trim: Intimidate
+Matron Trim: Friend Guard
+Dandy Trim: Moxie
+Debutante Trim: Confidence
+Ability: Fade Away
+Scene – Standard Action, Interrupt
+Effect: The user becomes Invisible until the beginning of their next turn, and may immediately Shift. This Ability may be activated as an Interrupt when hit by a Physical attack; the user may declare the use of Fade Away to avoid all damage and/or effects of the move. Defensive.
+Ability: Fiery Crash
+Static
+Effect: Whenever the user uses a Move with the Dash keyword, they may either increase that Move’s Damage Base by +2, or change the Move to be Fire-Type if it was not already. All Moves with the Dash keyword performed as Fire-Typed burn their target on 19+, or increase the effect range by +2 if they could already inflict Burn.
+Ability: Filter
+Static
+Effect: The user gains +5 Damage Reduction against Super Effective damage. Defensive.
+Ability: Flame Body
+Scene – Free Action
+Trigger: The user is hit with a Melee Attack
+Effect: The attacking foe becomes Burned.
+Ability: Flame Tongue
+Scene – Free Action
+Trigger: The user hits a foe with Lick
+Effect: Connection – Lick. The foe hit with Lick gains an Injury and becomes Burned.
+Ability: Flare Boost
+Scene – Swift Action
+Effect: The user gains +3 Attack and Special Attack Combat Stages. Flare Boost may only be used while Burned.
+Ability: Flash Fire
+Static
+Effect: The user is immune to the damage and effects of Fire-Type attacks. If the user is hit by a Fire-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.
+Ability: Flower Gift
+Scene – Swift Action
+Effect: Flower Gift may only be used if the Weather is Sunny or if the user is under 50% Hit Points. When activated, the user may pick two Stats, gaining +2 Combat Stages in each Stat. All targets within 2 meters also gain +1 Combat Stage in each of the chosen Stats.
+Ability: Flower Power
+Static
+Effect: The user may perform damaging Grass Type Moves as if they were their choice of either Physical or Special.
+Ability: Flower Veil
+Static
+Effect: Grass-Type Pokémon within 5 meters cannot have their Combat Stages lowered.
+Ability: Fluffy
+Static
+Effect: The user resists damaging Melee attacks one step further, but resists Fire-Type attacks one step less. Defensive.
+Ability: Fluffy Charge
+Static
+Effect: Connection – Charge. Whenever the user uses Charge, they gain +1 CS to Defense.
+Ability: Flutter
+At-Will – Shift Action
+Effect: The user gains +3 Evasion until the end of their next turn, and cannot be Flanked.
+Ability: Flying Fly Trap
+Static
+Effect: The Pokémon takes no damage from Ground Type Moves and Bug Type Moves. Defensive.
+Ability: Focus
+Static
+Effect: The user gains Last Chance with Fighting.
+Ability: Forecast
+Static
+Effect: The user’s Type changes depending on the weather. It changes to Fire Type if it is Sunny, Ice Type if it is Hailing, Water Type if it is Rainy, and Rock Type if there is a Sandstorm. It returns to Normal Type if it is in normal weather or foggy weather. If there are multiple Weather Effects on the field, choose one type for the user to be that corresponds with an existing Weather Effect.
+Ability: Forest Lord
+Scene x2 – Shift Action
+Effect: This turn, the user may originate a Grass or Ghost-Typed Move from any fully grown tree within 10 meters. Moves performed this way gain a +2 Bonus on their Accuracy Roll.
+Ability: Forewarn
+Scene – Free Action
+Target: A Trainer or Pokémon
+Effect: The Move with the highest Damage Dice Roll known by the targeted foe is revealed. If there is a tie, all tied Moves are revealed. The Moves revealed gain a -2 Penalty during Accuracy Checks when used by the target for the rest of the encounter.
+Ability: Fox Fire
+Scene – Standard Action
+Effect: Connection - Ember. The user creates 3 Fire Wisps. Whenever the user is targeted by a foe within 6 meters, they may spend a Fire Wisp as to use the Move Ember against that foe as a Free Action after the triggering Move is resolved.
+Ability: Freezing Point
+Static
+Effect: The user gains Last Chance with Ice.
+Ability: Friend Guard
+Scene – Free Action
+Trigger: An adjacent Ally takes damage
+Effect: The damage is resisted one step further. Defensive.
+Ability: Frighten
+Scene – Swift Action
+Target: Pokémon or Trainer within 5 meters
+Effect: Lower the target’s Speed 2 Combat Stages.
+Ability: Frisk
+Static
+Effect: The user gains a +2 Bonus to all Accuracy Rolls against adjacent targets.
+Ability: Frostbite
+Static
+Effect: The user’s damaging Ice-Type attacks cause the target to become Slowed on 18+, and the Effect Range for Freeze on these Moves is increased by +1. If the Move does not cause Freezing, it now causes Freezing on a roll of 20.
+Ability: Fur Coat
+Static
+Effect: The user resists all Physical Attacks one step further. Defensive.
+Ability: Full Guard
+Scene – Swift Action
+Trigger: You take damage while having Temporary Hit Points
+Effect: You resist the triggering Damage one step further.
+Bonus: Whenever you take Super-Effective Damage and you have no Temporary Hit Points, you gain a tick of Temporary Hit Points. Defensive.
+Ability: Full Metal Body
+Static
+Effect: The user’s Combat Stages may not be lowered by the effect of foes’ Features, Abilities, or Moves. Status Afflictions may still alter their Combat Stages.
+Ability: Gale Wings
+Static
+Effect: Connection – Quick Attack. The user may use Quick Attack as a Flying-Type Move.
+Ability: Galvanize
+At-Will – Free Action
+Trigger: The user uses a Normal-Type damaging Move
+Effect: The Move is changed to be Electric-Type.
+Ability: Gentle Vibe
+Scene – Standard Action
+Effect: The user creates a burst 2. Everything in the burst, including the user, have their Combat Stages reset, and are cured of any Volatile Status ailments.
+Ability: Giver
+Scene x2 – Swift Action
+Effect: Connection - Present. After rolling to determine Present’s Damage Base, you may choose to ignore the roll and act as if you had rolled a 1 or a 5.
+Bonus: The user may know any number of TM and Tutor Moves, instead of a maximum of three. Innate.
+Ability: Glisten
+Static
+Effect: The user is immune to Fairy-Type attacks. Defensive.
+Bonus: If the user is hit by a damaging Fairy-Type attack, they receive +1 Defense or Special Defense Combat Stages.
+Ability: Gluttony
+Static
+Effect: The user may have up to three Food Buffs at once, use up to three Food Buffs per Scene, and may eat two refreshments per half hour.
+Ability: Gooey
+At-Will – Free Action
+Trigger: The user is hit by a Melee Attack
+Effect: The triggering attacker has their Speed lowered by 1 Combat Stage.
+Ability: Gore
+Scene x2 – Swift Action
+Trigger: The user uses Horn Attack
+Effect: Connection - Horn Attack. Horn Attack gains the Double Strike keyword, and pushes its target 2 meters.
+Ability: Grass Pelt
+Scene – Swift Action
+Effect: The user gains two ticks worth of Temporary Hit Points
+Bonus: When standing on any grassy or leafy terrain that is either Slow or Rough Terrain, the user gains +5 Damage Reduction. Defensive.
+Ability: Grassy Surge
+Scene x3 – Swift Action
+Effect: The Field becomes Grassy, as if affected by the Move Grassy Terrain, for one full round.
+Ability: Guts
+Static
+Effect: While suffering from Burn, Poison, Paralysis, Freezing, or while Asleep, the user’s Attack is raised 2 Combat Stages. If suffering from none of these conditions, the user loses any Combat Stages gained this way.
+Ability: Handyman
+Static
+Effect: The user may hold two Held Items at once. Whenever an Ability or Move affects the user’s Held Items, you may choose which one is affected.
+Ability: Harvest
+At-Will – Free Action
+Effect: Whenever the user trades in a Digestion Buff from a Berry, flip a coin. On heads, the user gains all the benefits of the Digestion Buff, but the Buff is not used up. On tails, the Buff is consumed normally. While in Sunny Weather, the Buff is never consumed. The user may trade in a Digestion Buff up to once per turn during an encounter, but only until they flip “Tails”.
+Ability: Haunt
+Static
+Effect: The user gains Last Chance with Ghost.
+Ability: Hay Fever
+At-Will – Swift Action
+Trigger: The user uses a Status Move; or the user ends their turn while Asleep.
+Effect: The user creates a Burst 2 or Close Blast 3 of allergenic pollen. All Trainers and Pokémon in the burst that are not Bug, Grass, or Poison Typed lose a Tick of Hit Points. This Ability cannot be activated in Rainy Weather, Sandstorms, or if it is Hailing.
+Ability: Healer
+Scene – Free Action
+Target: An Adjacent Pokémon or Trainer
+Effect: The target is cured of all Status conditions.
+Ability: Heat Mirage
+At-Will – Free Action
+Trigger: The user uses a Fire-Type Move
+Effect: The user’s Evasion is increased by +3 until the beginning of their next turn.
+Ability: Heatproof
+Static
+Effect: The user resists Fire Type moves one step further. Defensive.
+Bonus: The user does not lose Hit Points from the Burn Condition.
+Ability: Heavy Metal
+Static
+Effect: The user’s Weight Class is increased by +2 (to a maximum of 6, or 7 if it is already 6). Their Defense Base Stat is increased by +2, but their Speed Base Stat is decreased by 2. Innate.
+Ability: Heliovolt
+At-Will – Swift Action
+Trigger: The user uses an Electric-Type Move
+Effect: For 1 full round, the user gains +1 Evasion and is considered to be in Sunny Weather.
+Ability: Helper
+Static
+Effect: Connection - Helping Hand. Whenever the user uses a Move that targets a single Ally, that Ally gains a +1 Bonus to Accuracy and Skill Checks until the end of the user’s next turn.
+Ability: Honey Paws
+Static
+Effect: The user may consume Honey to gain a Food Buff as if they had consumed Leftovers. This Food Buff does not count against their normal limit.
+Ability: Honey Thief
+Static
+Effect: Connection - Bug Bite. If the user uses Bug Bite to steal the effects of a Digestion Buff, they gain a Tick of Temporary Hit Points.
+Ability: Horde Break
+At-Will – Free Action
+Trigger: The user changes from School Form to Solo Form
+Effect: The user is cured of all Status Conditions.
+Ability: Huge Power
+Static
+Effect: The user’s Base Attack Stat is increased by +5, and by +1 more for every 10 Levels the user has. Innate.
+Ability: Hustle
+Static
+Effect: The user receives a -2 penalty to all Accuracy Rolls and gains a +10 Bonus to All Damage Rolls.
+Ability: Hydration
+Scene – Swift Action
+Effect: The user is cured of one Status Affliction. Hydration’s Frequency is ignored if used during Rainy Weather.
+Ability: Hyper Cutter
+Static
+Effect: The user’s Attack Stat may not be lowered, and its Attack Combat Stages may not be lowered. Defensive.
+Ability: Hypnotic
+Static
+Effect: Connection - Hypnosis. When used by the user, Hypnosis cannot miss.
+Ability: Ice Body
+Daily x5 – Swift Action
+Effect: The user gains a Tick of Hit Points. Ice Body may only be used while the user is under 50% Hit Points or in Hailing Weather.
+Bonus: The user is immune to Hit Point loss from Hail.
+Ability: Ice Shield
+Scene – Standard Action, Interrupt
+Effect: The user places up to 3 segments of Ice Wall; each segment must be continuous with another segment, and at least one must be adjacent to the user. These Ice Walls count as Blocking Terrain and last until the end of the encounter or until they are destroyed. Each Ice Wall segment is 2 meters tall, 1 meter wide, and 2 centimeters thick. Each segment has 10 Hit Points, 5 Damage Reduction, and takes damage as if it was Ice-Type.
+Ability: Illuminate
+Static
+Effect: Attacks that target the user have a -2 Accuracy Penalty against the user. Does not affect attackers with the Blindsense Capability. Defensive.
+Ability: Illusion
+Special
+Effect: As a Standard Action, the user may mark an object, Pokémon, or Trainer, that takes up the same space on the battlefield as the user. The user may have a number of targets marked equal to their Focus Rank; to mark a new target, an old mark must be forfeited. Once per round as a Free Action, the user may use illusory powers to make itself look exactly like a marked target. This may be done as the user is being released from a Poké Ball. This change is aesthetic and does not affect typing or Moves. The illusion allows the user to vaguely mimic sounds made by its marked target, but it is not capable of intelligible speech. Whenever the user is hit by a damaging Move, the Illusion is destroyed. The user may also dismiss the Illusion as a Free Action.
+Ability: Immunity
+Static
+Effect: The user cannot be Poisoned or Badly Poisoned. Defensive.
+Ability: Imposter
+Scene – Free Action
+Effect: If the user is not Transformed, they may trigger Imposter to use Transform as a Free Action Interrupt. Innate.
+Ability: Infiltrator
+Static
+Effect: The user gains a +2 Bonus to Stealth Checks, does not trigger Hazards, Blessings cannot be activated in response to its actions, and the user may bypass the effects of the move Substitute.
+Ability: Innards Out
+Scene x2 – Free Action
+Trigger: The user is hit by a Damaging Attack
+Effect: The user resists the triggering attack one step further. After the attack is resolved, a foe within 2 meters loses Hit Points equal to twice the amount of Hit Points lost by the user from the triggering attack, even if the triggering attack caused the user to Faint.
+Ability: Inner Focus
+Static
+Effect: The user cannot be Suppressed or Flinched, and their Initiative cannot be unwillingly lowered by any effects. Defensive.
+Ability: Insomnia
+Static
+Effect: The user is immune to the Sleep condition, and cannot use the move Rest. Defensive.
+Ability: Interference
+Scene – Swift Action
+Effect: The accuracy of all foes within 3 meters is reduced by -2 for 1 full round.
+Ability: Intimidate
+At-Will – Swift Action
+Target: Pokémon or Trainer within 5 meters
+Effect: Lower the target’s Attack 1 Combat Stage. You may target a specific foe only once per Scene with Intimidate.
+Ability: Iron Barbs
+At-Will – Free Action
+Trigger: The user is hit by a damaging Melee Attack
+Effect: The attacker loses Hit Points equal to a Tick of Hit Points.
+Ability: Iron Fist
+Static
+Effect: The user increases the Damage Base of the following Moves by +2; Bullet Punch, Comet Punch, Dizzy Punch, Drain Punch, Dynamic Punch, Fire Punch, Meteor Mash, Shadow Punch, Ice Punch, Mach Punch, Mega Punch, Sky Uppercut, Thunder Punch, Focus Punch, Hammer Arm, and Power-Up Punch.
+Ability: Juicy Energy
+Daily – Free Action
+Trigger: The user trades in a Berry Juice Food Buff
+Effect: Instead of gaining 30 Hit Points, the user gains Hit Points equal to their Level.
+Ability: Justified
+At-Will – Free Action
+Trigger: The user is hit by a damaging Dark Type Move or an Attack of Opportunity
+Effect: The user may raise its Attack by +1 Combat Stage.
+Bonus: The user always gains a +4 bonus to Skill Checks made to Intercept.
+Ability: Kampfgeist
+Scene – Free Action
+Trigger: The user takes Bug, Dark, or Rock-Type Damage
+Effect: The triggering damage is resisted one step further.
+Bonus: The user gains STAB on Fighting-Type Moves.
+Ability: Keen Eye
+Static
+Effect: The user’s Accuracy cannot be lowered, their attacks cannot have Accuracy Penalties (such as from Illuminate), the user is immune to the Blind condition (but not Total Blindness), and the user ignores any Evasion not directly derived from Stats (such as from the Sand Veil Ability, or from moves like Minimize).
+Ability: Klutz
+Static
+Effect: The Pokémon ignores the effects of all held Items in its possession. The user may drop Held Items At-Will as a Free Action during their turn, even if they have Status Afflictions that prevent them from taking actions.
+Ability: Lancer
+Static
+Effect: During their turn, if the user Shifts at least 3 meters, they gain a +3 Bonus to Critical Hit Range until the beginning of their next turn. If they do not Shift or Disengage at all, they gain +5 Damage Reduction until the beginning of their next turn.
+Ability: Landslide
+Static
+Effect: The user gains Last Chance with Ground.
+Ability: Last Chance
+Static
+Effect: The user gains Last Chance with Normal.
+Ability: Leaf Guard
+Scene – Swift Action
+Effect: The user is cured of one Status Affliction. Leaf Guard’s Frequency is ignored if used during Sunny Weather.
+Ability: Leafy Cloak
+Static
+Effect: Whenever the user activates Designer, they choose two of Chlorophyll, Leaf Guard, or Overcoat. Until the user activates Designer again, they gain the chosen Abilities.
+Ability: Leek Mastery
+Static
+Effect: Connection - Acrobatics. If the user is holding a Rare Leek, they may still use Acrobatics as if they were not holding an item. The user cannot be disarmed of their Stick, nor can be it be forcefully removed by Trick, Switcheroo, Thief, or any other Moves or effects unless the user wishes it.
+Ability: Levitate
+Static
+Effect: The Pokémon is immune to the damage and effects of Ground Type Moves, and gains a Levitate Speed of 4, or has existing Levitate Speeds increased by +2. Defensive.
+Ability: Life Force
+Daily x5 – Swift Action
+Effect: The user gains a Tick of Hit Points
+Ability: Light Metal
+Static
+Effect: The user’s Weight Class is decreased by 2. Their Speed Base Stat is increased by +2, but their Defense Base Stat is decreased by 2. Innate.
+Ability: Lightning Kicks
+Scene – Swift Action
+Effect: The user may activate this Ability to use any Move with “Kick” in the name as a Priority Move, and gain a +4 Bonus to the attack’s Accuracy Roll.
+Ability: Lightning Rod
+Scene – Free Action
+Trigger: A ranged Electric Type Move is used within 10 Meters of the user.
+Effect: The Move is turned into a 1-Target Move and is re-directed at the user without fail, and cannot miss. This negates Lock-On or Mind Reader. The user’s Special Attack is then raised by +1 Combat Stage
+Bonus: The user is immune to the damage and effects of Electric Type attacks. Defensive.
+Ability: Limber
+Static
+Effect: The user is immune to Paralysis. Defensive.
+Ability: Liquid Ooze
+Static
+Effect: This user resists Poison-Type Damage one step further. Additionally, when this user is damaged by Absorb, Drain Punch, Giga Drain, Horn Leech, Leech Life, or Mega Drain, that Move gains Recoil ½ and the Move’s user does not gain any HP. If the user is hit by Leech Seed, the user does not lose Hit Points from Leech Seed; instead Leech Seed’s user loses Hit Points equal to this user’s Tick Value. Defensive.
+Ability: Liquid Voice
+At-Will – Free Action
+Trigger: The user uses a Move with the Sonic keyword
+Effect: The triggering move loses the Sonic keyword, but gains the Friendly keyword and becomes Water Typed. If the Move was a Status Class Move, you may treat it as a Special Move with DB1. This ability may not be used with Perish Song.
+Ability: Long Reach
+Static
+Effect: The user may use damaging attacks as if they had a range of "4, 1 Target" instead of their usual range.
+Ability: Lullaby
+Scene – Free Action
+Effect: Connection - Sing. Whenever the user uses the Move “Sing”, they may activate this Feature. The user then picks a Pokémon or Trainer being targeted by Sing; Sing automatically hits that target.
+Ability: Lunchbox
+Scene – Free Action
+Trigger: The user trades in a Food Buff
+Effect: The user gains a Tick of Temporary Hit Points. These Temporary Hit Points stack with any Temporary Hit Points granted by the triggering Food Buff.
+Ability: Mach Speed
+Static
+Effect: The user gains Last Chance with Flying.
+Ability: Magic Bounce
+Scene – Free Action
+Trigger: The user is hit by a Status Move
+Effect: The user may reflect the Move back to the attacker. This Ability may be used to change the placement and affiliation of any Hazards being set within 10 meters of the user as well. Defensive.
+Ability: Magic Guard
+Static
+Effect: The user is immune to damage and Hit Point loss from Hazards, Weather, Status Afflictions, Vortexes, Recoil, Hay Fever, Iron Barbs, Rough Skin, and Leech Seed. Defensive.
+Ability: Magician
+Scene – Free Action
+Trigger: The user hits a foe with a damaging Single Target attack
+Effect: The user takes the target’s Held Item. This Ability may not be triggered if the user is already holding a Held Item.
+Ability: Magma Armor
+Static
+Effect: Whenever a foe hits you with a Melee Attack or ends their turn grappling you, they lose a tick of Hit Points. Foes immune to Burn do not suffer this effect.
+Bonus: The user cannot be Frozen. Defensive.
+Ability: Magnet Pull
+Scene x3 – Swift Action
+Target: A Steel-Type Pokémon within 6 meters
+Effect: Pick Two Effects:
+- The target is pushed or pulled X meters directly away or towards the user. X is up to 6 meters minus the target’s Weight Class.
+- Until the end of the user’s next turn, the target may not move more than 6 meters away from the user.
+- Until the end of the user’s next turn, the target may not move closer than 3 meters to the user.
+Ability: Marvel Scale
+Static
+Effect: When Asleep, Paralyzed, Burned, Frozen or Poisoned, Marvel Scale raises the user’s Defense by +2 Combat Stages. The Combat Stages return to normal if the user is cured of their status affliction.
+Ability: Mega Launcher
+Static
+Effect: The user increases the Damage Base of Aura Sphere, Dark Pulse, Dragon Pulse, and Water Pulse by +3.
+Ability: Memory Wipe
+Scene – Special
+Target: A foe within 10 meters
+Effect: If used as a Swift Action, the last Move used by the target becomes Disabled. If used as a Standard Action, the target is Flinched and Paralyzed. If used as an Extended Action that takes about 1 minute, it can erase up to 10 minutes that have occurred within the last 30 minutes from the target’s memory.
+Ability: Merciless
+Static
+Effect: If the user hits a poisoned target with a damaging attack, it automatically becomes a Critical Hit.
+Ability: Migraine
+Scene x2 – Free Action
+Trigger: The user hits with Confusion while at 50% Hit Points or less
+Effect: Connection - Confusion. Confusion automatically gives its target the Confusion Affliction and is a Critical Hit.
+Ability: Mimitree
+Static
+Effect: Connection - Mimic. Whenever the user uses a Move copied by Mimic, they may choose to replace that Move with Mimic once more. When used this way, the user ignores Mimic’s Frequency.
+Ability: Mind Mold
+Static
+Effect: The user gains Last Chance with Psychic.
+Ability: Mini-Noses
+Daily – Standard Action
+Effect: The user detaches up to three Mini-Noses from themselves and places them adjacent to them on the battlefield. These Mini-Noses have HP equal to the user’s level but otherwise uses their user’s stats. Each Mini-Nose has a Levitate Speed of 4. The user may Shift them each round on their turn, and they may originate any Ranged Move from one of the Mini-Noses instead of themselves if they choose. If a Mini-Nose is reduced to 0 HP, it is destroyed and takes a full 24 hours to regrow, one at a time. If the user has less than three grown Mini-Noses, then this ability can only place as many on the field as are available. All Mini-Noses deactivate, but are not destroyed, if the user is Fainted. Mini-Noses cannot be made to Shift more than 5 meters away from the user; if they are forced farther away, they will automatically Shift toward the user on the user’s turn.
+Ability: Minus
+Scene – Free Action
+Target: An Ally with Plus within 10 Meters
+Effect: The target’s Special Attack is raised by +2 Combat Stages.
+Ability: Miracle Mile
+Static
+Effect: The user gains Last Chance with Fairy.
+Ability: Misty Surge
+Scene x3 – Swift Action
+Effect: The Field becomes Misty, as if affected by the Move Misty Terrain, for one full round.
+Ability: Mojo
+Static
+Effect: Normal Types are not immune to the user’s Ghost-Type Moves.
+Ability: Mold Breaker
+Static
+Effect: The user ignores the effect of enemies’ Defensive Abilities.
+Ability: Moody
+Static
+Effect: At the end of the user’s turn, roll 1d6 to determine a Stat to be raised by +2 Combat Stages, then roll 1d6 to determine a Stat to be lowered by 1 Combat Stage. 1 is Attack, 2 is Defense, 3 is Special Attack, 4 is Special Defense, 5 is Speed, and 6 is Accuracy.
+Ability: Motor Drive
+Static
+Effect: The user is immune to the damage and effects of Electric Type attacks. Whenever an Electric Type attack hits the Pokémon, raise their Speed by +1 Combat Stage. Defensive.
+Ability: Mountain Peak
+Static
+Effect: The user gains Last Chance with Rock.
+Ability: Moxie
+Static
+Effect: Whenever the user’s Move causes a target to faint, it may raise its Attack Combat Stage by +1. You may only trigger Moxie once per Move, even if the Move causes multiple targets to faint.
+Ability: Mud Dweller
+Static
+Effect: The user resists Ground-Type and Water-Type attacks one step further. Defensive.
+Ability: Mud Shield
+Scene – Swift Action
+Effect: The user gains two ticks worth of Temporary Hit Points.
+Bonus: When standing on any muddy or dirty terrain that is either Slow or Rough Terrain, the user gains +5 Damage Reduction. Defensive.
+Ability: Multiscale
+Static
+Effect: While at full Hit Points, all damage taken is resisted one step further. Defensive.
+Ability: Multitype
+At-Will – Free Action
+Effect: The user changes its Elemental Type to any of the Elemental Types. Innate.
+Ability: Mummy
+At-Will – Free Action
+Trigger: The user is hit by a Melee Attack
+Effect: Randomly disable one of the target’s Abilities for the rest of the Scene or until they are switched out.
+Ability: Natural Cure
+Scene – Free Action
+Effect: Whenever the user is returned to its Poké Ball or Takes A Breather, it may activate Natural Cure to cure itself of all Persistent Status Afflictions.
+Ability: Needles
+Static
+Effect: Connection – Needle Arm. Whenever the user hits a target with a Physical Melee attack, that target loses a Tick of Hit Points.
+Ability: Neuroforce
+Static
+Effect: Whenever you deal Super-Effective Damage to a target, that target treats your Damage Roll as it were increased by +10.
+Ability: Nimble Strikes
+Static
+Effect: The user adds half their Speed Stat to the Damage Rolls of their physical Normal-Type Moves.
+Ability: No Guard
+Static
+Effect: The user gains a +3 bonus to all Attack Rolls; however all foes gain a +3 Bonus on Attack Rolls against the user.
+Ability: Normalize
+Static
+Effect: The user’s attacks cannot deal Super-Effective or Resisted Damage; they instead resolve as if dealing Neutral Damage. The user also takes neutral damage from all attacks to which they are not immune. This does not affect Immunities.
+Ability: Oblivious
+Static
+Effect: The user is immune to the Enraged and Infatuated conditions. Defensive.
+Ability: Odious Spray
+Static
+Effect: Connection - Poison Gas. The user may use Poison Gas as if it had a Range “8, 1 Target”, an AC of 2, and Flinched its target when it hit.
+Ability: Omen
+Scene – Swift Action
+Effect: Choose a Pokémon or Trainer within 5 meters. The target’s Accuracy is lowered by 2.
+Ability: Overcharge
+Static
+Effect: The user gains Last Chance with Electric.
+Ability: Overcoat
+Static
+Effect: The user is immune to Moves with the Powder Keyword, and does not take damage from any Weather that would normally cause it to take damage. Defensive.
+Ability: Overgrow
+Static
+Effect: The user gains Last Chance with Grass.
+Ability: Own Tempo
+Static
+Effect: The user is immune to Confusion. Defensive.
+Ability: Pack Hunt
+At-Will – Free Action
+Trigger: An adjacent foe is damaged by an ally’s Melee Attack
+Effect: The user may make a Physical Attack with an AC of 5 against the triggering foe. If the attack hits, the foe loses a Tick of Hit Points. Pack Hunt may not be triggered if the Pokémon is unable to act that round (including being uncommanded).
+Ability: Parental Bond
+Static
+Effect: Only Kangaskhan with the Baby Template can be Mega Evolved and gain this Ability. While they have this Ability, the Baby gains 10 Damage Reduction, and will leave its mother’s pouch and may be commanded to take action in battle. Both the Baby Kangaskhan with this Ability and its Mother may take their turn when the Mother takes its turn; the Baby will not willingly walk farther than 10 meters from its mother however. If the Baby Kangaskhan with this Ability is Fainted, its mother will become Enraged, and gain 5 Damage Reduction and +5 to Damage Rolls for the remainder of the Scene. Innate.
+Ability: Parry
+Scene – Free Action
+Trigger: The user is hit by a Melee Attack
+Effect: The attack instead misses. Defensive.
+Ability: Perception
+Static
+Effect: The user gains +1 Evasion. Whenever an Ally uses a damaging area-of-effect attack that would hit you, you may Disengage as a Free Action before the attack resolves.
+Ability: Permafrost
+Static
+Effect: The user is immune to damage and Hit Point loss from Hazards, Weather, Status Afflictions, Vortexes, Recoil, Hay Fever, Iron Barbs, Rough Skin, and Leech Seed. Defensive.
+Ability: Pickpocket
+Scene – Free Action
+Trigger: The user is hit by an opponent with a Melee Move
+Effect: If the opponent has a Held Item and the user does not, the user takes the Held Item the opponent is holding.
+Ability: Pickup
+Daily – Extended Action
+Effect: You may use Pickup as an Extended Action that requires at least 5 minutes. Roll 1d20, consult the Pickup keyword to figure out what you find!
+Ability: Pixilate
+At-Will – Free Action
+Trigger: The user uses a Normal-Type damaging Move.
+Effect: The Move is changed to be Fairy-Type.
+Ability: Plus
+Scene – Free Action
+Target: An Ally with Minus within 10 Meters
+Effect: The target’s Special Attack is raised by +2 Combat Stages.
+Ability: Poison Heal
+Daily – Free Action
+Trigger: The user becomes Poisoned
+Effect: For the rest of the encounter, while Poisoned or Badly Poisoned, the user gains a Tick of Hit Points at the beginning of each turn instead of losing any Hit Points from Poison. At the end of the encounter, the user is cured of the Poison Status. Additionally, the user does not have any Combat Stages lowered from being Poisoned.
+Ability: Poison Point
+Scene – Free Action
+Trigger: The user is hit by a Melee Move
+Effect: The attacking foe is Poisoned.
+Ability: Poison Touch
+Static
+Effect: The Pokémon’s Moves which deal damage Poison Legal Targets on 19+. If a move already has a chance of Poisoning foes, Poison Touch increases the effect range by +2.
+Ability: Poltergeist
+Static
+Effect: Rotom gains an Ability depending on what Forme it has taken. If Rotom is level 40 or higher, it also may use a Move based on its Forme as if it that Move was on their Move List. The GM may come up with additional Formes. Innate.
+Ability Move
+Standard Rotom: Levitate None
+Heat Rotom: Flash Fire Overheat
+Wash Rotom: Water Absorb Hydro Pump
+Frost Rotom: Winter’s Kiss Blizzard
+Fan Rotom: Windveiled Hurricane
+Mow Rotom: Sap Sipper Leaf Storm
+Ability: Polycephaly
+Static
+Effect: The user may make Struggle Attacks as a Swift Action. Struggle Attacks made this way are resisted one step further than they normally would be.
+Ability: Power Construct
+Daily – Swift Action
+Special: The user can only use Power Construct while below 50% HP
+Effect: If the user is in 10% Forme, place a Blast 4 with the user in one of the center 4 squares. Any other creatures within the Blast are then pushed to the nearest unoccupied space outside of the Blast. The user then changes to Complete Forme until the end of the Scene, increasing its space to fill the Blast if it was placed, and gains Temporary Hit Points equal to half of the maximum hit points that Complete Forme would have. If the user would not be able to fit in the space around it at the end of this Ability, this Ability may not be used. Innate.
+Special: The user still uses the HP total and HP Maximum of the Forme that it was in (10% or 50% Forme) before entering Complete Forme. Both Formes must still follow BSR.
+Ability: Power of Alchemy
+Scene – Free Action
+Target: A Trainer or Pokémon within 10 meters
+Effect: The user learns the Abilities of the target and gains one of them for the remainder of the encounter, or until it is Fainted.
+Ability: Prankster
+Static
+Effect: The user may use Status Moves taken as a Standard Action as Priority (Advanced).
+Ability: Pressure
+Static
+Effect: The Pokémon’s damaging Moves Suppress Legal Targets on 18+.
+Ability: Pride
+Static
+Effect: While suffering from Burn, Poison, Paralysis, Freezing, or while Asleep, the user’s Special Attack is raised 2 Combat Stages. If suffering from none of these conditions, the user loses any Combat Stages gained this way.
+Ability: Prime Fury
+Scene – Swift Action
+Effect: The user becomes Enraged, and gains +1 Combat Stage in each of Attack and Special Attack.
+Ability: Prism Armor
+Static
+Effect: The user gains +5 Damage Reduction against Super Effective-Damage.
+Ability: Probability Control
+Scene – Free Action
+Target: Any roll made by yourself or an ally
+Effect: The user may reroll any roll, or have any ally reroll any roll that has been made. This leaves discoverable Psychic residue.
+Ability: Protean
+At-Will – Swift Action
+Trigger: The user uses a Move.
+Effect: The user’s Type changes to match the Type of the triggering Move. This Ability resolves before the Move is resolved (And thus you may apply STAB, and trigger other Features and Abilities appropriately).
+Ability: Psychic Surge
+Scene x3 – Swift Action
+Effect: The Field becomes Weird, as if affected by the Move Psychic Terrain, for one full round.
+Ability: Pumpkingrab
+Scene – Standard Action
+Effect: The user automatically Grapples an adjacent foe and gains dominance.
+Ability: Pure Blooded
+Static
+Effect: The user gains Last Chance with Dragon.
+Ability: Pure Power
+Static
+Effect: The user’s Base Attack Stat is increased by +5, and by +1 more for every 10 Levels the user has. Innate.
+Ability: Queenly Majesty
+Scene x2 – Free Action
+Target: An Adjacent Foe
+Trigger: An adjacent foe uses a Priority Move or an Interrupt action
+Effect: Connection – Stomp. The user may attack the triggering foe with Stomp as a Free Action Interrupt.
+Bonus: The user cannot be targeted by Interrupt Moves and Interrupts may not be declared in response to the user's actions.
+Ability: Quick Cloak
+At-Will – Standard Action
+Effect: Burmy quickly builds a cloak out of nearby materials; using leaves and twigs will give it a Grass Plant Cloak, using sand and rocks will give it a Ground Sandy Cloak, and using trash or scrap will give it a Steel Trash Cloak. While in a Cloak, Burmy gains the Type associated with the Cloak as a secondary Typing, which will become permanent upon evolution into Wormadam. Burmy must have a Cloak to evolve into Wormadam, and can only evolve into the Wormadam corresponding to the Cloak. Cloaks are destroyed if Burmy is hit for Super-Effective Damage, or if Burmy makes a new Cloak. Innate.
+Ability: Quick Curl
+Scene – Free Action
+Effect: Connection - Defense Curl. The user may activate this Ability to use Defense Curl as an Standard Action Interrupt and gain +10 Damage Reduction for 1 full round.
+Ability: Quick Feet
+Static
+Effect: When Poisoned, Burned, Paralyzed, Frozen or put to Sleep, the user’s Speed is raised 2 Combat Stages. The user’s Initiative is not halved by Paralysis. If the user is healed all Status Conditions, their Speed is lowered appropriately.
+Ability: Radiant Beam
+Static
+Effect: The user may use damaging Grass-Type attacks as if they had a range of "Line 4" instead of their usual range.
+Ability: Ragelope
+Static
+Effect: The user’s Physical Attacks gain the following Effect Range: On 18+, the user becomes Enraged and gains +1 Speed CS. If the user is already Enraged, they gain +1 Attack CS instead.
+Ability: Rain Dish
+Daily x5 – Swift Action
+Effect: The user gains a Tick of Hit Points. Rain Dish may only be used while the user is under 50% Hit Points or in Rainy Weather.
+Ability: Rally
+Scene – Swift Action
+Effect: The user and all allies within 10 meters may immediately Disengage 1 Meter as a free Action. Rally does not work on sleeping, paralyzed, stuck, fainted, or otherwise incapacitated allies.
+Ability: Rattled
+At-Will – Free Action
+Trigger: The user is hit by a Bug, Dark, or Ghost Type Move
+Effect: The user’s Speed is raised by +1 Combat Stage, and may immediately Disengage as a Free Action.
+Ability: Razor Edge
+Static
+Effect: Connection - Poison Tail. The user’s Critical Hit Range on all Moves is increased by +2; any Moves with “Tail” in their name have their Critical Hit Range increased by +3 instead.
+Ability: Receiver
+Special – Free Action
+Effect: Each effect below may be used once per scene when triggered:
+» When an ally faints, the user selects one of their Abilities. The user gains that Ability until the end of the encounter.
+» When the user faints, they may grant use of one of their Basic Abilities to an ally on the field for the rest of the encounter.
+Ability: Reckless
+Static
+Effect: Increases the Damage Base of Moves with the Exhaust, Recoil, or Reckless Keywords by +3.
+Ability: Refreshing Veil
+Scene – Free Action
+Effect: Connection – Aqua Ring. Whenever the user activates Aqua Ring, they may activate this Feature to cure themselves of all Persistent Status Effects.
+Ability: Refrigerate
+At-Will – Free Action
+Trigger: The user uses a Normal-Type damaging Move.
+Effect: The Move is changed to be Ice-Type.
+Ability: Regal Challenge
+Scene – Swift Action
+Target: A foe within 5 meters
+Effect: Ask the target if they will show deference or defiance. If they choose Deference, the target loses their next Shift action and loses 3 CS in the Stat of the user’s choice. If they choose Defiance, the user gains a +10 Bonus to all Damage Rolls for the rest of the Scene.
+Ability: Regenerator
+Daily x2 – Free Action
+Trigger: The user is recalled into a Poké Ball, or Takes a Breather
+Effect: The user gains Hit Points equal to 1/3rd of its maximum Hit Points. Regenerator may be activated only once per Scene.
+Ability: Revelation
+Scene x2 – Free Action
+Trigger: Someone within 10 meters uses a Damaging Move with the Dance Keyword
+Effect: The user may immediately use the triggering Move as a Standard Action interrupt.
+Bonus: Whenever the user uses a Move with the Dance Keyword, or a Dancer’s Dance Move, they gain +2 to Accuracy Rolls until the end of their next turn.
+Ability: Rivalry
+Static
+Effect: Whenever the user deals direct damage to a target of the same gender, increase the Damage dealt by +5
+Ability: RKS System
+Scene – Free Action
+Effect: If the user is hit by a damaging attack, they may calculate damage as if they were Normal-Type instead. If they were already Normal-Type, they instead resist the damage one step further. Defensive.
+Bonus: The user’s Type changes to match the Type of their held Memory Disc. Innate.
+Ability: Rock Head
+Static
+Effect: The user ignores the Recoil keyword when attacking. If the user moves at least 4 meters in a straight line towards a foe before attacking that foe with a physical attack, they may add a +2d6 Bonus to the Damage Roll against that foe.
+Ability: Rocket
+Scene – Free Action
+Trigger: A Round begins
+Effect: The user may take their turn at the top of the round. Priority, Interrupt, or Reaction Moves or Abilities cannot be declared in response to the user’s turn.
+Bonus: The user’s Sky capability is increased by +2.
+Ability: Root Down
+At-Will – Shift Action
+Effect: Connection - Ingrain. While the user has the Ingrain Coat, they may activate this Ability to gain 5 Damage Reduction.
+Ability: Rough Skin
+At-Will – Free Action
+Trigger: The user is hit by a damaging Melee Attack
+Effect: The attacker loses Hit Points equal to a Tick of Hit Points.
+Ability: Run Away
+Static
+Effect: The user does not provoke Attacks of Opportunity by Shifting. The user cannot be Trapped.
+Ability: Sacred Bell
+Static
+Effect: The user resists Dark and Ghost-Type Damage one step further. Defensive.
+Ability: Sand Force
+Static
+Effect: While on sandy terrain or in Sandstorms, the user’s Ground, Rock, and Steel-Typed damaging moves deal +5 Damage.
+Bonus: The user is immune to Hit Point loss from Sandstorms.
+Ability: Sand Rush
+Static
+Effect: While in a Sandstorm or under 50% Max Hit Points, the user’s Initiative is doubled.
+Bonus: The user is immune to Hit Point loss from Sandstorms.
+Ability: Sand Stream
+Scene x3 – Swift Action
+Effect: The Weather changes to a Sandstorm for 1 full round. Bonus: The user is immune to Hit Point loss from Sandstorms.
+Ability: Sand Veil
+Static
+Effect: The user gains +1 Evasion. This is increased to +2 Evasion while in a Sandstorm or on sandy terrain. While in a Sandstorm, the user and adjacent allies do not lose Hit Points due to the Sandstorm.
+Ability: Sap Sipper
+Static
+Effect: The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.
+Ability: Schooling
+Daily – Free Action
+Effect: Place a Blast 4 with the user in one of the center 4 squares. Any other creatures within the Blast are then pushed to the nearest unoccupied space outside of the Blast. The user then changes to Schooling Forme, centered on its current location, and gains Temporary Hit Points equal to half of its own maximum Hit Points. The user cannot gain Temporary Hit Points from other sources while in Schooling Forme. When the user is below half Maximum HP and has no Temporary Hit Points left, they change back into Solo Forme. If the user would not be able to fit in the space around it at the end of this Ability, this Ability may not be used. Innate.
+Bonus: The user has two sets of base stats; Solo and Schooling. The HP of both forms must be the same. Innate.
+Ability: Scrappy
+Static
+Effect: Ghost Types are not immune to the user’s Normal and Fighting-Type Moves.
+Ability: Seasonal
+Static
+Effect: The user gains an Ability based on the season.
+» Spring: Run Away » Summer: Grass Pelt
+» Autumn: Rivalry » Winter: Thick Fat
+Ability: Sequence
+At-Will – Free Action
+Trigger: The user uses an Electric Attack
+Effect: For every Electric-Type Pokémon adjacent to the user, the triggering Attack deals an additional +3 Damage.
+Ability: Serene Grace
+Static
+Effect: The user’s Effect Range is increased by +2.
+Ability: Serpent’s Mark
+Static
+Effect: Arbok’s Advanced and High Abilities depend on the Arbok’s hood pattern. To determine its pattern, roll 1d6 upon evolution or upon generation. If an Arbok is bred, it will have the same pattern as its parent. If both parents are Arboks with different patterns, flip a coin to decide which pattern is inherited. Innate. (Note that the gained Abilities are not Innate.)
+Pattern Name - Adv Ability / High Ability
+1) Attack Pattern - Strong Jaw / Guts
+2) Crush Pattern - Crush Trap / Frisk
+3) Fear Pattern - Unnerve / Regal Challenge
+4) Life Pattern - Regenerator / Defy Death
+5) Speed Pattern - Run Away / Speed Boost
+6) Stealth Pattern - Infiltrator / Ambush
+Ability: Shackle
+Scene – Swift Action
+Effect: Shackle creates a Burst 3. All foes in the burst have their movement capabilities halved until the end of their next turn
+Ability: Shadow Shield
+Static
+Effect: While at full Hit Points, the user resists all damage one step further.
+Ability: Shadow Tag
+Scene – Free Action
+Target: An adjacent Trainer or Pokémon
+Effect: The target’s shadow becomes pinned to the target’s current spot for 5 turns. During this time, the target is Slowed and Trapped, and cannot move more than 5 meters from the spot their shadow is pinned to; even being Pushed and other forced movement effects cannot force the target to Move more than 5 meters from that spot.
+Ability: Shed Skin
+Scene – Swift Action
+Effect: The user is cured of one of Paralysis, Freezing, Burns, Poison, or Sleep.
+Ability: Sheer Force
+Static
+Effect: Moves with an Effect Range gain a +10 Bonus to Damage, but Effect Ranges can never be triggered.
+Ability: Shell Armor
+Static
+Effect: The user is immune to Critical Hits; they are instead normal hits. Defensive.
+Ability: Shell Cannon
+Scene – Free Action
+Effect: When Blastoise uses Aqua Jet, Dive, Flash Cannon, Hydro Cannon, Hydro Pump, Tackle, Waterfall, Water Gun, and Water Spout they may activate this Ability to gain +2 to their Accuracy Roll and deals +4 Bonus Damage with Damage Rolls. When using Aqua Jet, Dive, Tackle, or Waterfall, Blastoise must shift in a straight line to their target to activate this Ability, but their Overland and Swim Speeds are increased by +2 when doing so.
+Ability: Shell Shield
+Scene – Free Action
+Effect: Connection - Withdraw. The user may activate this Ability to use Withdraw as a Standard Action Interrupt and gain +10 Damage Reduction for 1 full round.
+Ability: Shield Dust
+Static
+Effect: The user ignores the secondary effects that trigger during Accuracy Roll of damaging Moves that target the user. For example, Flamethrower can never inflict the Burn Condition. Defensive.
+Ability: Shields Down
+Static
+Effect: The user has two sets of base stats; Meteor and Core. The HP of both forms must be the same. When the user is in Meteor Forme and is reduced to half Maximum HP or lower, it changes to Core Forme. The user returns to Meteor Forme while outside of combat if above half Maximum HP. Innate.
+Ability: Silk Threads
+Static
+Effect: Connection - String Shot. Whenever the user uses String Shot, all targets hit become Slowed and Vulnerable for 1 full round.
+Ability: Simple
+Static
+Effect: When the Pokémon’s Combat Stages are altered, double the amount of Combat Stages they are raised or lowered.
+Ability: Skill Link
+Scene – Free Action
+Trigger: The user hits with a Move with the Five Strike keyword
+Effect: The Triggering Move automatically hits 5 Times.
+Ability: Slow Start
+Static
+Effect: For 3 rounds after joining an encounter, the user’s Speed and Attack Stats are halved and they have 10 Damage Reduction.
+Ability: Slush Rush
+Static
+Effect: While in Hailing Weather or under half maximum Hit Points, the user’s Initiative is doubled.
+Ability: Sniper
+Static
+Effect: When the user gets a Critical Hit, the attack deals +3d10 additional damage.
+Ability: Snow Cloak
+Static
+Effect: The user gains +1 Evasion. This is increased to +2 Evasion while in Hail or on snowy terrain. While in Hail, the user and adjacent allies do not lose Hit Points due to the Hail.
+Ability: Snow Warning
+Scene x3 – Swift Action
+Effect: The Weather changes to Hail for 1 full round.
+Bonus: The user is immune to Hit Point loss from Hail.
+Ability: Snuggle
+Scene – Standard Action
+Target: An adjacent creature
+Effect: The user and the target each gain two ticks of Temporary Hit Points.
+Ability: Solar Power
+Scene x2 – Swift Action
+Trigger: The user rolls damage
+Effect: The user loses a Tick of Hit Points, and gains a bonus to the triggering damage roll equal to 5 + their Tick Value. Solar Power may be activated ignoring Frequency while in Sunny Weather.
+Ability: Solid Rock
+Static
+Effect: The user gains +5 Damage Reduction against Super Effective damage. Defensive.
+Ability: Sol Veil
+Static
+Effect: The user gains +1 Evasion. This is increased to +2 Evasion while in Sunny Weather or on grassy terrain. While in Sunny Weather, the user gains +5 Damage Reduction.
+Ability: Sonic Courtship
+Scene – Free Action
+Trigger: The user uses Attract
+Effect: Connection - Attract. The user may use Attract as if it had a range of “Burst 3, Sonic, Friendly”.
+Ability: Soothing Tone
+Static
+Effect: Connection - Heal Bell. Whenever the user uses a Move that targets allies, those allies gain temporary Hit Points equal to the user’s Special Attack. This may affect a specific ally only once per Scene.
+Ability: Sorcery
+Static
+Effect: The user’s Base Special Attack Stat is increased by +5, and by +1 more for every 10 Levels the user has. Innate.
+Ability: Soul Heart
+Scene x2 – Free Action
+Trigger: A combatant in the encounter Faints
+Effect: The user receives +2 Special Attack Combat Stages and gains a tick of Temporary Hit Points.
+Ability: Soulstealer
+Scene – Free Action
+Trigger: The user’s attack causes a foe to Faint
+Effect: The user removes one Injury from themselves and gains Hit Points equal to 25% of their Max Hit Points. If the triggering attack killed its target, the user instead removes all Injuries and recovers Hit Points equal to 50% of the user’s Max Hit Points.
+Ability: Sound Lance
+Scene x2 – Swift Action
+Trigger: The user uses Supersonic
+Effect: Connection – Supersonic. The target of Supersonic loses Hit Points equal to the user’s Special Attack. This occurs even if Supersonic misses.
+Ability: Soundproof
+Static
+Effect: The Pokémon is immune to Moves with the Sonic Keyword. Defensive.
+Ability: Speed Boost
+Static
+Effect: The Pokémon’s Speed is raised 1 Combat Stage at the end of each of its turns. Speed Boost has no effect while out of combat.
+Ability: Spike Shot
+Static
+Effect: The user may use Moves with a Range of “Melee, 1-Target” as if they had a Range of “6, 1-Target” instead.
+Ability: Spinning Dance
+At-Will – Free Action
+Trigger: The user is targeted by an attack, but is missed
+Effect: If not Fainted, Paralyzed, or Asleep, the user gains +1 Evasion and may immediately Shift 1 meter.
+Ability: Spiteful Intervention
+Static
+Effect: Connection – Spite. The user may use Spite in response to an attack hitting an ally, in addition to hitting themselves.
+Ability: Spray Down
+Scene x2 – Free Action
+Trigger: The user hits an airborne target with a ranged 1-target attack
+Effect: The triggering attack’s target is knocked down to ground level, and loses all Sky or Levitate Speeds for 3 turns. During this time, they may be hit by Ground-Type Moves even if normally immune.
+Ability: Sprint
+Scene – Swift Action
+Trigger: The user uses the Sprint Action during Combat
+Effect: The user gains +2 Speed Combat Stages.
+Bonus: The user’s Overland Speed is increased by +2.
+Ability: Stakeout
+Static
+Effect: The user gains a +2d6+4 bonus on damage rolls against foes that were released from a Pokéball or entered the encounter since the user's last turn.
+Ability: Stall
+Static
+Effect: In a round’s queue, a Pokémon with Stall is always last. If a Pokémon goes to the end of the queue, the Pokémon with Stall is still the last to move. The user’s actions taken on their Initiative Count (not Priority or Interrupt) cannot be Interrupted.
+Ability: Stamina
+At-Will – Free Action
+Trigger: The user is hit by a Damaging Attack
+Effect: The user receives +1 Defense Combat Stage. Defensive.
+Ability: Stance Change
+Static
+Effect: Aegislash has two Stances: Shield Stance and Sword Stance. Its default Stance is Shield Stance. Whenever Aegislash uses a damaging attack, it switches to Sword Stance and swaps its Attack Stat with its Defense and its Special Attack Stat with its Special Defense, without changing Combat Stages. Whenever Aegislash uses King’s Shield, Protect, a Status Move that raises Defense Combat Stages, or a Blessing, it switches to Shield Stance and swaps its offensive and defensive Stats back to their original arrangement. Aegislash may also change its Stance as a Full Action. Innate.
+Ability: Starlight
+Daily – Extended Action
+Effect: The user may activate Starlight while exposed to moonlight or starlight to become Luminous until expended. As a Swift Action, the user may expend the Luminous condition to gain +2 Special Defense CS and +2 Evasion for the rest of the Scene. You may not expend the Radiant condition more than once in a single day.
+Ability: Starswirl
+Scene – Free Action
+Effect: Connection – Rapid Spin. The user may activate this Ability to use Rapid Spin as a Swift Action.
+Ability: Static
+Scene – Free Action
+Trigger: The user is hit by a Melee Attack
+Effect: The attacking foe becomes Paralyzed.
+Ability: Steadfast
+At-Will – Free Action
+Trigger: The user is hit by a Flinch effect
+Effect: The user’s Speed is raised by +1 Combat Stage.
+Bonus: The user’s Initiative is increased by +5.
+Ability: Steelworker
+Scene – Free Action
+Trigger: The user takes damage while adjacent to its Anchor
+Effect: The user calculates damage as if it was only Steel-Typed.
+Bonus: The user gains STAB on Steel-Type Moves that originate from its Anchor. Innate.
+Ability: Stench
+Static
+Effect: The Pokémon’s Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user Flinches a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.
+Ability: Sticky Smoke
+Scene – Free Action
+Trigger: The user uses Smokescreen
+Effect: Connection - Smokescreen. The Smoke created becomes Sticky. All targets that begin or end their turn in Sticky Smoke have their Accuracy lowered by -1. This penalty may occur multiple times, but only once per turn. This stacks with the usual penalties from Smokescreen.
+Ability: Storm Drain
+Scene – Free Action
+Trigger: A ranged Water Type Move is used within 10 Meters of the user.
+Effect: The Move is turned into a 1-Target Move and is re-directed at the user without fail, and cannot miss. This negates Lock-On or Mind Reader. The user’s Special Attack is then raised by +1 Combat Stage
+Bonus: The user is immune to the damage and effects of Water Type attacks. Defensive.
+Ability: Strange Tempo
+At-Will – Special
+Effect: While Confused, the user may choose either to:
+» As a Free Action, not to roll for Confusion, instead acting normally.
+» As a Standard Action, cure themselves of Confusion and gain +2 Combat Stages to the Stat of their choice.
+Ability: Strong Jaw
+Static
+Effect: The user has the Damage Base of the following Moves increased by +2; Bite, Bug Bite, Crunch, Fire Fang, Ice Fang, Thunder Fang, Poison Fang, and Hyper Fang.
+Ability: Sturdy
+Static
+Effect: The user is immune to Moves with the Execute Keyword. If a single source of Damage or Hit Point Loss would cause the user to lose more than X Hit Points, the damage or Hit Point loss is instead reduced to X. X is equal to 50% of their Max Hit Points. Defensive.
+Ability: Suction Cups
+At-Will – Shift Action
+Effect: The user gains +5 Damage Reduction for 1 full round.
+Bonus: The user is immune to Push effects. Defensive.
+Ability: Sumo Stance
+At-Will – Shift Action
+Trigger: The user hits a foe with a Melee Attack
+Effect: The triggering foe is Pushed 1 meter away from the user and the user is immune to Push Effects for 1 full round.
+Bonus: The user’s Weight Class is increased by +1. Innate.
+Ability: Sun Blanket
+Daily x5 – Swift Action
+Effect: The user gains a Tick of Hit Points. Sun Blanket may only be used while the user is under 50% Hit Points or in Sunny Weather.
+Ability: Sunglow
+Daily – Extended Action
+Effect: The user may activate Sunglow while exposed to sunlight to become Radiant until expended. As a Swift Action, the user may expend the Radiant condition to gain +2 Attack CS and +2 Accuracy for the rest of the Scene. You may not expend the Radiant condition more than once in a single day.
+Ability: Super Luck
+Static
+Effect: The Pokémon’s Moves are Critical Hits on 18-20. If a Move already has an extended Critical Hit range, Super Luck extends that range by 2.
+Ability: Surge Surfer
+Static
+Effect: On Electric Terrain, or while under half maximum Hit Points, the user’s Initiative is doubled. The user always counts as touching the ground for the purposes of Electric Terrain.
+Ability: Swarm
+Static
+Effect: The user gains Last Chance with Bug
+Ability: Sway
+Scene – Standard Action, Interrupt
+Trigger: The user is hit by a damaging Melee attack
+Effect: The triggering attack misses the user and hits the foe that made the attack instead. That foe may then be pushed to any empty square adjacent to the user.
+Ability: Sweet Veil
+Static
+Effect: The user and allies within 3 meters are immune to Sleep. Defensive.
+Ability: Swift Swim
+Static
+Effect: While in Rainy Weather or under 50% Max Hit Points, the user’s Initiative is doubled.
+Ability: Symbiosis
+Scene – Swift Action
+Target: An Adjacent Ally
+Effect: The user choses a Held Item they are holding. If the target is willing, they also gain the effects of the chosen item for the rest of the Scene. Items that are activated at a frequency may be activated independently by the user and the target.
+Ability: Synchronize
+Scene – Free Action
+Trigger: The user is Paralyzed, Frozen, Burned, Poisoned, or put to Sleep
+Effect: The foe which caused the Status Condition is given the same Status they inflicted.
+Ability: Tangled Feet
+Static
+Effect: While Confused or Slowed, the user gains +3 Evasion. The user is immune to the Vulnerable Condition.
+Ability: Tangling Hair
+At-Will – Free Action
+Trigger: The user is hit by a Melee Attack
+Effect: The attacker receives -1 Speed Combat Stage and is Slowed until the end of its next turn.
+Ability: Targeting System
+Scene – Free Action
+Effect: Connection – Lock-On. The user may activate this Ability to use Lock-On as a Swift Action.
+Ability: Teamwork
+Static
+Effect: While you are adjacent to an opponent, allies using Melee attacks against that opponent receive a +2 bonus to Accuracy Checks.
+Ability: Technician
+Static
+Effect: Moves with a Damage Base of 6 or lower have their Damage Base increased by +2. This bonus always applies to Moves with the Double Strike or Fivestrike Keywords.
+Ability: Telepathy
+Static
+Effect: The user gains +1 Evasion. Whenever an Ally uses a damaging area-of-effect attack that would hit you, you may Disengage as a Free Action before the attack resolves.
+Ability: Teravolt
+Static
+Effect: The user’s Electric-Type Attacks ignore the effect of enemies’ Defensive Abilities, and if they would be resisted they deal neutral damage instead.
+Ability: Thermosensitive
+Static
+Effect: While Sunny, the user’s Attack and Special Attack are raised by +2 combat stages each. While Hailing, the user’s movement capabilities are reduced by half.
+Ability: Thick Fat
+Static
+Effect: The user resists Fire-Type and Ice-Type attacks one step further. Defensive.
+Ability: Thrust
+Static
+Effect: All moves used by this Pokémon which consult the Attack stat now have the Push keyword. The default push for moves is 1 meter. If a move already has the Push Keyword, that move may push 1 additional meter.
+Ability: Tingle
+At-Will – Free Action
+Trigger: The user hits an adjacent target foe with a 1-Target attack
+Effect: The target loses a Tick of Hit Points and takes a -5 penalty to Damage Rolls for 1 full round.
+Ability: Tinted Lens
+Static
+Effect: The user’s Resisted Moves are instead Neutral. The user’s Doubly Resisted Moves are instead Resisted. The user’s Triply Resisted Moves are instead Double Resisted.
+Ability: Tochukaso
+Static
+Effect: The user resists Bug-Type and Poison-Type attacks one step further. Defensive.
+Ability: Tolerance
+Static
+Effect: Any Types resisted by the user are resisted one step further. Defensive.
+Ability: Tonguelash
+Scene x2 – Free Action
+Trigger: The user hits a target with Lick
+Effect: Connection – Lick. Lick automatically Paralyzes and Flinches its target.
+Bonus: The user may use Lick as if it was Normal-Typed.
+Ability: Torrent
+Static
+Effect: The user gains Last Chance with Water.
+Ability: Tough Claws
+Static
+Effect: The user increases the Damage Base of all Melee Moves by +2.
+Ability: Toxic Boost
+Scene – Swift Action
+Effect: The user gains +3 Attack and Special Attack Combat Stages. Toxic Boost may only be used while Poisoned or Badly Poisoned.
+Special: If the user has the Immunity Ability, they can still become Poisoned and Badly Poisoned but do not lose Hit Points from these conditions.
+Ability: Trace
+Scene – Free Action
+Target: A Trainer or Pokémon within 10 meters
+Effect: The user learns the Abilities of the target and gains one of them for the remainder of the encounter, or until it is Fainted.
+Ability: Transporter
+Daily x3 – Free Action
+Trigger: You teleport
+Choose One Effect: Connection – Teleport. You activate Teleporter as if your Teleporter value were three times its normal value; or you may take one willing adjacent Pokémon or Trainer along with you as you teleport so long as you are touching them when you activate Transporter. You may expend two uses of Transporter at once to choose both effects.
+Ability: Triage
+Static
+Effect: The user’s moves with the Healing keyword may be used as Priority moves.
+Ability: Trinity
+Static
+Effect: Connection - Tri Attack. You may use Tri Attack as if it had a range of “Melee, 3 Targets”. Make a different attack roll for each target. If Tri-Attack’s effect range is activated, do not roll for the effect; the first target can only be Frozen, the second can only be Burned, and the third can only be Paralyzed. Additionally, you may use Tri-Attack as a Physical Attack if you wish.
+Ability: Truant
+Static
+Effect: At the beginning of each of its turns, the user must roll 1d20. On a roll of 7 or lower, the target refuses to act; they heal a Tick of Hit Points, and do not get a Shift Action that turn. Turns in which the user refuses to act count towards actions used up by Interrupts or the Exhausted Condition, and the user may make Rolls to cure themselves from Status Effects with a +3 Bonus that turn.
+Ability: Turboblaze
+Static
+Effect: The user’s Fire-Type Attacks ignore the effect of enemies’ Defensive Abilities, and if they would be resisted they deal neutral damage instead.
+Ability: Type Aura (X)
+Static
+Effect: The user and all allies within 3 meters gain a +5 Bonus to Damage Rolls with Moves matching X, where X is a Type.
+Ability: Type Strategist
+Static
+Effect: Whenever the user uses a Move of the Type associated with Type Strategist, they gain +5 Damage Reduction for one full round. If they are under 1/3rd of their Maximum Hit Points, they instead gain +10 Damage Reduction. Defensive.
+Ability: Ugly
+Static
+Effect: The Pokémon’s Moves Flinch Targets on a roll of 19+. If a move already has a chance of Flinching foes, the Effect Range is increased by +2 instead. During the Introduction Stage of a Contest using this Pokémon, any 6s that are rolled instead count as 1s.
+Ability: Unaware
+Static
+Effect: When the Pokémon is attacking or being attacked, the foe must make all damage calculations as if their Combat Stages were at their default state.
+Ability: Unbreakable
+Static
+Effect: The user gains Last Chance with Steel.
+Ability: Unburden
+Static
+Effect: The default state of the user’s Speed is +2 Combat Stages. While holding a Held Item, the user’s Speed is lowered by 2 Combat Stages.
+Ability: Unnerve
+At-Will – Swift Action
+Target: A foe within 6 meters
+Effect: The target cannot gain positive Combat Stages or trade in Digestion Buffs for 1 full round.
+Ability: Vanguard
+Static
+Effect: The user gains a +5 Bonus to all Damage Rolls against targets with an initiative lower than itself that have not yet acted that round (having Ante’d up your Action via an Interrupt or similar on a previous round does not count as having acted that round).
+Ability: Venom
+Static
+Effect: The user gains Last Chance with Poison.
+Ability: Vicious
+Scene – Special
+Trigger: The user uses Hone Claws
+Effect: Connection – Hone Claws. When this Ability is activated, choose one effect
+» The user gains another Standard Action this round
+» The user increase their Critical Hit Range on all attacks by +2 for the remainder of the encounter.
+Ability: Victory Star
+Static
+Effect: Any allied Pokémon in the encounter gain a +2 Bonus to Accuracy Rolls.
+Ability: Vigor
+Daily – Free Action
+Trigger: The user uses Endure
+Effect: Connection – Endure. When this Ability is activated, after being set to 1 Hit Point, the user gains a Tick of Hit Points. Furthermore, if the Move that triggered Endure gave the user an Injury from Massive Damage, the user does not gain that Injury. Defensive.
+Ability: Vital Spirit
+Static
+Effect: The user is immune to the Sleep condition, and cannot use the move Rest. Defensive.
+Ability: Volt Absorb
+Static
+Effect: The user is immune to the damage and effects of Electric-Type attacks, and whenever they are hit with an Electric Type attack, they gain a Tick of Temporary Hit Points. Defensive.
+Ability: Voodoo Doll
+Static
+Trigger: The user uses the Move Curse as a Ghost Type
+Effect: Connection - Curse. Choose an additional target within 8 meters of the user to become Cursed.
+Ability: Wallmaster
+Static
+Effect: Connection – Barrier. Whenever the user uses Barrier, they may choose to either gain +2 Defense Combat Stages, or place 2 additional segments of Barrier.
+Ability: Wash Away
+Daily – Free Action
+Trigger: The user hits with a Water Type Move
+Effect: Before the Move “hits”, all Combat Stages on targets hit by the Move are reset to their default (usually 0), and all coats on the targets, except ones placed by Water Sport, are destroyed.
+Ability: Water Absorb
+Static
+Effect: The user is immune to the damage and effects of Water-Type attacks, and whenever they are hit with a Water-Type attack, they gain a Tick of Temporary Hit Points. Defensive.
+Ability: Water Bubble
+Static
+Effect: The user resists Fire-Type attacks one step further, is immune to being Burned, and may always act as though in Rainy Weather. Defensive.
+Bonus: The user may attack with Water-Type Moves as if they had a range of “Melee, 1 target”. If they do, that Move's Class is changed to Physical and it deals +1d6+2 damage.
+Ability: Water Compaction
+At-Will – Free Action
+Trigger: The user is hit by a Water Type Move
+Effect: The user receives +2 Defense Combat Stages. Defensive.
+Ability: Water Veil
+Static
+Effect: The user is immune to Burns. Defensive.
+Ability: Weak Armor
+At-Will – Free Action
+Trigger: The user takes Physical damage.
+Effect: The user may lower its Defense by 1 Combat Stage, and gain +1 Speed Combat Stage. This is done after the triggering damage is resolved.
+Ability: Weaponize
+Scene – Free Action
+Trigger: While being wielded as a Living Weapon and being actively Commanded as a Pokémon, the user’s wielder is hit by an attack that does not also target the user.
+Effect: The user becomes the target of the attack instead.
+Ability: Weeble
+At-Will – Standard Action
+Trigger: The user is hit by a damaging attack
+Effect: The user may make an AC4 Physical Attack against an adjacent target. If the attack hits, the target loses Hit Points equal to 1/3rd of the damage taken by the user from the attack that triggered Weeble. Innate.
+Ability: Weird Power
+Static
+Effect: If the user’s Attack is higher than its Special Attack, the user may add its Attack Stat to its Special Damage Rolls. If their Special Attack is higher, they user may add its Special Attack Stat to its Physical Damage Rolls. This does not stack with Mixed Power.
+Ability: Whirlwind Kicks
+Static
+Effect: Connection – Triple Kick. When the user uses the Moves “Rapid Spin” or “Triple Kick”, they have a range of “Burst 1”.
+Ability: White Flame
+Static
+Effect: The user may not make rolls to cure themselves from the Enraged condition. However, while Enraged, the user gains a +5 Bonus to all Damage Rolls.
+Ability: White Smoke
+Static
+Effect: The user’s Combat Stages, Evasion, or Accuracy may not be lowered except by the user’s own Moves and effects. Defensive.
+Ability: Wily
+Static
+Effect: The user's X-target Status Class Moves may target an additional target within range.
+Ability: Windveiled
+Static
+Effect: The user is immune to the damage and effects of Flying-Type attacks. If the user is hit by a Flying-Type attack, the user gains +1 Speed CS. Defensive.
+Ability: Winter’s Kiss
+Static
+Effect: The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user gains a Tick of Temporary Hit Points. Defensive.
+Ability: Wishmaster
+Static
+Effect: Connection – Wish. Whenever the user uses Wish, the user may pick one of the following effects:
+» The target is healed instantly instead of the following round
+» The target gains +2 CS to the Stat of their choice upon being healed
+» The target is cured of any Status Affliction.
+Ability: Wistful Melody
+Scene – Free Action
+Effect: Connection – Sing. Whenever the user uses Sing, they may activate to his Ability to cause targets that are targeted by Sing have their Attack and Special Attack lowered by -2 CS each, whether Sing successfully hits that target or not. This Ability does not affect targets with the Soundproof Ability.
+Ability: Wobble
+Scene – Free Action
+Trigger: The user is hit by a damaging attack
+Effect: The user may use either Counter or Mirror Coat as a Reaction, ignoring Frequency. Innate.
+Ability: Wonder Guard
+Static
+Effect: Only damaging attacks that are Super-Effective affect the Pokémon with Wonder Guard; all other damaging attacks cannot hit the user or deal damage. Wonder Guard loses its effect if the user has no weaknesses. Defensive. Innate.
+Special: Unlike other Innate Abilities, Wonder Guard may be disabled.
+Ability: Wonder Skin
+Static
+Effect: The user gains +6 Evasion against Status Moves. Defensive.
+Ability: Zen Mode
+Scene – Swift Action
+Effect: The user changes into Zen Mode forme for the rest of the Scene, and may use the Moves “Flamethrower” and “Psychic” as if they were on its Move List. Innate.
+Ability: Ball Fetch
+Scene – Free Action, Reaction
+Trigger: A Pokémon is Released onto the battlefield
+Effect: The user may move up to their speed as a Free Action. They must end this movement closer to the triggering Pokémon.
+Ability: Chilling Neigh
+At-Will – Free Action
+Trigger: The user causes a foe to Faint with a damaging attack
+Effect: The user’s Attack is raised by 1 Combat Stage. In addition, all foes within 3m of the user take a -2 penalty to evasion for one full round.
+Ability: Cotton Down
+Scene – Free Action, Reaction
+Trigger: The user is hit by an attack
+Effect: All Pokémon in a Burst 1 around the user have their speed lowered by 1 CS, and are Slowed for one full round.
+Ability: Curious Medicine
+Scene – Swift Action
+Effect: All allies within 2m of the user have their CS reset to their default values.
+Special: The user may instead trigger this as a Free Action Reaction when entering the field.
+Ability: Dauntless Shield
+Static
+Effect: The user’s default Defense Combat Stages are increased by +1.
+Ability: Dragon’s Maw
+Scene x2 – Free Action
+Trigger: The user hits with a damaging Dragon-Type Move
+Effect: One target hit by the attack becomes one stage more vulnerable to the attack (applied after all other modifiers). Immune targets are treated as initially double-resistant for the purposes of this Ability, and may be damaged normally.
+Ability: Flavorful Aroma
+At-Will – Free Action
+Trigger: The user uses Aromatic Mist
+Effect: Connection – Aromatic Mist. All allies affected by Aromatic Mist gain +1 to Accuracy Rolls and +5 to Damage Rolls for one full round.
+Ability: Gorilla Tactics
+Scene – Swift Action
+Trigger: The user uses a Move
+Effect: The user gains a +10 bonus to damage rolls until the end of the Scene, including on the triggering Move. However, until the end of the Scene, they may only use Moves that they have already used in this Scene before triggering this Ability (the triggering Move is included in those usable).
+Ability: Grim Neigh
+At-Will – Free Action
+Trigger: The user causes a foe to Faint with a damaging attack
+Effect: The user’s Special Attack is raised by 1 Combat Stage. In addition, all foes within 3m of the user take a -2 penalty to Accuracy for one full round.
+Ability: Gulp Missile
+Scene x2 – Free Action
+Trigger: The user uses Stockpile, Surf, or Dive
+Effect: Connection – Stockpile. The next time the user is damaged, it rolls an AC 4 Physical Attack against the attacker, even if the user Faints. On a hit, the target loses 2 ticks of HP. In addition, if the hit roll was successful, on an even roll the target is Paralyzed; on an odd roll, the target instead loses 1 Defense CS.
+Ability: Hunger Switch
+Static
+Effect: At the beginning of each of the user’s turns, the user must choose whether it’s in Full Belly Mode or Hangry Mode until the beginning of its next turn. In Full Belly Mode, it gains a +2 bonus to Accuracy. In Hangry Mode, it gains a +5 Bonus to Damage Rolls.
+Ability: Ice Face
+Static
+Effect: The user begins the battle with two ticks of temporary hit points. As a Standard Action in Hail, they may gain two ticks of temporary hit points. The user is immune to damage from Hail. While the user has Temporary Hit Points from this Feature, it is in Ice Face form, otherwise it is in Noice Face form.
+Ability: Ice Scales
+Static
+Effect: The user resists Special Moves one step further. Defensive.
+Ability: Intrepid Sword
+Static
+Effect: The user’s default Attack Combat Stages are increased by +1.
+Ability: Mimicry
+Scene – Free Action
+Effect: The user changes their Type to match the field. Pick one type from the following table. If two or more rows are relevant (such as because of Weather), pick one. Your GM may provide additional options should they choose (for instance, an Ethereal Forest may provide Psychic and Fairy options.)
+Note: This table may be used for Camouflage, too.
+Ability: Mirror Armor
+At-Will – Free Action, Reaction
+Trigger: A foe’s Move or Ability directly lowers the user’s CS (including Effect Ranges, but not including things like Status)
+Effect: The user’s CS are instead not lowered, and the triggering foe’s CS in the affected stats are instead lowered the same amount the user’s would have been.
+Ability: Missile Launch
+Scene x2 – Standard Action
+Effect: Connection – Dragon Darts. The user places two Dreepy Tokens within 6m. The user may move all Dreepy Tokens it controls 4m as a Swift Action. A Dreepy Token can freely enter other creatures’ squares as part of this movement, which destroys the token, and causes the creature to suffer an AC2 DB 5 Physical Dragon-Type attack as if from the user of Missile Launch. Dreepy Tokens may be targeted. They have the same evasions as the user, and any damage destroys them (including from Smite damage).
+Ability: Neutralizing Gas
+Static
+Effect: Abilities may not be Triggered in a burst 1 around the user, and Defensive abilities do not function in that area (the user is unaffected by this). If the user uses Poison Gas, Smog, Clear Smog, or Strange Steam, targets hit by those Moves may not trigger Abilities or benefit from Defensive abilities for one full round.
+Ability: Pastel Veil
+Static
+Effect: The user and allies within 3 meters cannot be Poisoned or Badly Poisoned. Defensive.
+Ability: Perish Body
+Daily – Standard Action, Reaction
+Trigger: The user is hit with a Melee attack
+Effect: The triggering creature and the user each receive a Perish Count of 3. At the beginning of each of the target’s turns, their Perish count is lowered by 1. Once a Perish Count reaches 0, set the Pokémon’s Hit Points to 0. A Perish Count disappears if a target returns to their Poké Ball, Takes a Breather, or is knocked out. Perish Body never causes Massive Damage. Defensive.
+Ability: Power Spot
+Static
+Effect: Allies within 2m of the user gain a +5 bonus to damage rolls.
+Ability: Propeller Tail
+Scene – Swift Action
+Effect: The user may make a Sprint Maneuver as a Free Action.
+Bonus: The user may not be Intercepted, nor may any Abilities, Moves, or Features be activated to change the user’s target. Any of those existing effects (such as Follow Me) fail.
+Ability: Punk Rock
+Static
+Effect: The user gains +2 DB to moves that have the Sonic keyword.
+Bonus: The user resists moves with the Sonic keyword one step further. Defensive.
+Ability: Quick Draw
+Scene – Free Action, Interrupt
+Trigger: A foe uses a Move, and the user has not acted this round
+Effect: The user immediately uses a Move on the triggering foe as a Standard Action Interrupt (this Move must still obey Frequency and Range). If this Move hits, the foe also gains a -2 penalty to their attack roll for the triggering attack, unless the foe cannot Flinch.
+Bonus: The user cannot be Flinched. Defensive.
+Ability: Ripen
+Static
+Effect: Any numeric benefits of Berry Food Buffs the user trades in are doubled. (Oran Berries restore 10 HP, Liechi increases Attack by +2 CS, Jaboca causes ¼ Hit Point loss, Occa Weakens a Move 2 stages, etc.). This does not increase the number of statuses cured, Scene Moves restored, stats lowered by suppressants, or allow triggering at double the usual HP one must be at.
+Ability: Sand Spit
+Scene – Free Action, Reaction
+Trigger: The user is damaged by an attack from a foe within 2m
+Effect: Connection – Sand Attack. The user attacks the triggering foe with Sand Attack as a Free Action.
+Ability: Screen Cleaner
+Daily – Standard Action
+Effect: All Blessings on the field, both ally and enemy, are removed.
+Bonus: The user is immune to non-Blocking Hazards, and destroys them when moving over them. Blocking Hazards are treated instead as Slow Terrain for the purposes of movement only (the user may still not target through them), and are destroyed if moved through.
+Ability: Splendorous Rider
+Scene x2 – Swift Action
+Effect: The user may pick a Move from their Mount’s known Moves that they do not already know. For the rest of the user’s Turn, they may use that Move as though it was one of their own Moves. Note that this does not remove any frequency limitations – a Daily Move that the Mount knows may not be used more than once.
+This Ability may not be copied or transferred.
+Ability: Stalwart
+Scene – Free Action, Reaction
+Trigger: The user receives Massive Damage
+Effect: The user’s Attack, Special Attack, Defense, and Special Defense all increase by 1 CS.
+Bonus: The user may not be Intercepted, nor may any Abilities, Moves, or Features be activated to change the user’s target. Any of those existing effects (such as Follow Me) fail.
+Ability: Steam Engine
+Scene x2 – Swift Action, Reaction
+Trigger: The user is hit by a damaging Fire-Type or Water-Type Move, or begins their turn in Rainy Weather
+Effect: Connection – Smokescreen. The user may use Smokescreen as a Free Action, ignoring frequency, centered on the user.
+Ability: Transistor
+Scene x2 – Free Action
+Trigger: The user hits with a damaging Electric-Type Move
+Effect: One target hit by the attack becomes one stage more vulnerable to the attack (applied after all other modifiers). Immune targets are treated as initially double-resistant for the purposes of this Ability, and may be damaged normally.
+Ability: Unseen Fist
+Static
+Effect: Reactions, Interrupts, and Blessings may not be activated in response to the user’s Melee Attacks.
+Ability: Wandering Spirit
+Scene – Free Action, Reaction
+Trigger: The user is hit by a Melee attack
+Effect: The user exchanges Wandering Spirit with a random Ability of the opposing Pokémon, as per the Move Skill Swap.
+Ability: Zen Snowed
+Scene – Swift Action
+Effect: The user changes into Zen Mode forme for the rest of the Scene, and may use the Moves “Ice Punch” and “Fire Punch” as if they were on its Move List.

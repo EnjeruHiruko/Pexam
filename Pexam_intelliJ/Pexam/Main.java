@@ -4,11 +4,18 @@ import Pexam.cute.Cute;
 import Pexam.data.Combatant.Pokemon.Nature;
 import Pexam.data.Combatant.Pokemon.PokemonBETA;
 
+import java.io.File;
+
 public class Main {
     public static void main(String[] args){
+        /*
+        File test1 = new File("/Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/105_5/PokeDex.txt");
+        System.out.println(test1.exists());
+        */
         Cute run = new Cute();
         //System.out.println(run.searchPokeDexIndex(0));
         //run.controlPrint();
+
         PokemonBETA test = new PokemonBETA("subject0", run.searchPokeDexString("Dialga"));
         test.LevelGain(100);
 

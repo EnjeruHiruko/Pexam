@@ -18,7 +18,7 @@ public class Cute{
 
 
     public Cute(){
-        this.standardWorld = "ver105_5";
+        this.standardWorld = "105_5";
         this.database_ = new Dex(standardWorld, "All");
         this.pokemon_ = new ArrayList<PokemonBETA>();
         //updateDex();
