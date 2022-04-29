@@ -304,6 +304,18 @@ public class Dex {
         }
     }
 
+    //UI requests
+
+    public ArrayList<Species> getpPreview(){
+        ArrayList<Species> temp = new ArrayList<Species>(pokeDex_);
+        return temp;
+    }
+
+    public ArrayList<Moves> getmPreview(){
+        ArrayList<Moves> temp = new ArrayList<>(moveList_);
+        return temp;
+    }
+
  //todo copy all egg lists from first evolution to later stages
 
 }

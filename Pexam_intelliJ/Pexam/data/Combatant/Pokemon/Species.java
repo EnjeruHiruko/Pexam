@@ -287,7 +287,7 @@ public class Species {
 
     //Getter block
 
-    public int getDexnumber() {
+    public int getDexNumber() {
         return this.DexNumber_;
     }
 
@@ -490,11 +490,15 @@ public class Species {
                 '}';
     }
 
-    public String showcase(){
-        String temp = "No°" + this.DexNumber_ +"\t|"+ this.species_ + "\t| " + types_.get(0);
-        if(this.types_.size() > 1) {
-            temp +="/" + types_.get(1);
+    public String showcase(){ //todo make it right
+        if(getDexNumber() != 0) {
+            String temp = "No°" + this.DexNumber_ + "\t|" + this.species_ + "\t| " + types_.get(0);
+            if (this.types_.size() > 1) {
+                temp += "/" + types_.get(1);
+            }
+            return temp;
+        }else{
+            return "";
         }
-        return temp;
     }
 }

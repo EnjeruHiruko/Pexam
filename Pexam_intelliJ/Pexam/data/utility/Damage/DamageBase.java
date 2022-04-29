@@ -1,7 +1,7 @@
 package Pexam.data.utility.Damage;
 
 public enum DamageBase {
-    NON(new int[]{0,0,0}, new int[]{0,0,0}, "NonDb"),
+    NON(new int[]{0,0,0}, new int[]{0,0,0}, "   "),
     DB1(new int[]{1,6,1}, new int[]{2,5,7}, "DB1"),
     DB2(new int[]{1,6,3}, new int[]{4,7,9}, "DB2"),
     DB3(new int[]{1,6,5}, new int[]{6,9,11}, "Db3"),

@@ -4,6 +4,7 @@ package Pexam.cute;
 import Pexam.cute.cuteutility.Database.Dex;
 import Pexam.data.Combatant.Pokemon.PokemonBETA;
 import Pexam.data.Combatant.Pokemon.Species;
+import Pexam.data.Moves.Moves;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -65,6 +66,14 @@ public class Cute{
     }
 
     // methods for UI
+
+    public ArrayList<Species> getPokemonPreview(){
+        return database_.getpPreview();
+    }
+
+    public ArrayList<Moves> getMovesPreview(){
+        return database_.getmPreview();
+    }
 
     public void createTrainerPokemon(String in){
         Species temp = searchPokeDexString(in);
