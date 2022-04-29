@@ -63,7 +63,7 @@ public class WorldConfiguration {
     public WorldConfiguration(String worldpath){
         this.version_ = worldpath;
         //this.other_ = new ArrayList<values>();
-        Path source = Paths.get("/Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/"+worldpath+"/config.txt" );
+        Path source = Paths.get("../Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/"+worldpath+"/config.txt" );
         try(Scanner in = new Scanner(source) ){
             while (in.hasNext()){
                 String pivot = in.nextLine().trim();

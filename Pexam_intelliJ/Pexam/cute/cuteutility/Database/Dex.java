@@ -41,7 +41,7 @@ public class Dex {
 
         if(param.equalsIgnoreCase("Moves") || param.equalsIgnoreCase("all")) {
 
-            Path file = Paths.get("/Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/"+worldpath+"/MoveDex.txt");
+            Path file = Paths.get("../Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/"+worldpath+"/MoveDex.txt");
 
             int counter = 1;
             try {
@@ -63,7 +63,7 @@ public class Dex {
         }
 
         if(param.equalsIgnoreCase("Abilities") || param.equalsIgnoreCase("all")){
-            Path file = Paths.get("/Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/"+worldpath+"/AbilityDex.txt");
+            Path file = Paths.get("../Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/"+worldpath+"/AbilityDex.txt");
             try{
                 Scanner in = new Scanner(file).useDelimiter("HOMELESS");
                 while(in.hasNext()){
@@ -79,7 +79,7 @@ public class Dex {
         }
 
         if(param.equalsIgnoreCase("Pokemon") || param.equalsIgnoreCase("all")){
-            Path file = Paths.get("/Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/"+worldpath+"/PokeDex.txt");
+            Path file = Paths.get("../Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/"+worldpath+"/PokeDex.txt");
             try{
                 Scanner in = new Scanner(file).useDelimiter("HOMELESS");
                 while(in.hasNext()){
