@@ -44,9 +44,11 @@ public class P_Creator extends GridPane{
         GridPane.setConstraints(lbl_Held_Item, 0,5);
         GridPane.setConstraints(lbl_Loyalty, 0,6);
 
+        //Stats
+        p_creator_StatBlock stats = new p_creator_StatBlock();
+        GridPane.setConstraints(stats, 2,1);
 
-
-        this.getChildren().addAll(lbl_Name,lbl_Species,lbl_Type,lbl_level,lbl_EXP,lbl_Held_Item,lbl_Loyalty);
+        this.getChildren().addAll(lbl_Name,lbl_Species,lbl_Type,lbl_level,lbl_EXP,lbl_Held_Item,lbl_Loyalty, stats);
 
 
 

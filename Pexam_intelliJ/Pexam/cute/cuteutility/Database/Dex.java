@@ -124,7 +124,7 @@ public class Dex {
     }
 
     public void controlPrintMoveDex(){
-        Path dispatch = Paths.get("/Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/"+worldpath_+"/control_print.txt");
+        Path dispatch = Paths.get("../Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/"+worldpath_+"/control_print.txt");
         String result = "";
         for(Moves moves : this.moveList_){
             result += moves.toString();

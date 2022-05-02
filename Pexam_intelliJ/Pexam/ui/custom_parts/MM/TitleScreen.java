@@ -23,12 +23,12 @@ public class TitleScreen {
         layout.setPadding(new Insets(10,10,10,10));
 
         //left side menu
-        int button_width = 240;
+        int button_width = 300;
         int button_height = 60;
         int button_font_size = 40;
         VBox menu_left = new VBox();
         //menu_left.setMaxSize(240,1080);
-        menu_left.setMinSize(240,1000);
+        menu_left.setMinSize(300,1013);
         menu_left.setAlignment(Pos.BOTTOM_CENTER);
         menu_left.setStyle("-fx-background-color: white");
 
@@ -36,10 +36,11 @@ public class TitleScreen {
         VBox left_lower = new VBox();
         left_lower.setMaxSize(button_width, 300);
         VBox left_upper = new VBox();
-        left_upper.setMinSize(button_width, 620);
+        left_upper.setMinSize(button_width, 550);
 
         // Buttons
-        Button btn_start = new MM_Button("Start");
+        Button btn_lGame = new MM_Button("Load Game");
+        Button btn_nGame = new MM_Button("New Game");
         Button btn_settings = new MM_Button("Settings");
         Button btn_about = new MM_Button("About Us");
         Button btn_Rules = new MM_Button("Rules");
@@ -47,9 +48,9 @@ public class TitleScreen {
 
         //Events
         btn_exit.setOnAction(e -> System.exit(1));
-        btn_start.setOnAction(e -> UserInterface.change_scene(1));
+        btn_lGame.setOnAction(e -> UserInterface.change_scene(1));
 
-        left_lower.getChildren().addAll(btn_start, btn_settings,btn_Rules,btn_about, btn_exit);
+        left_lower.getChildren().addAll(btn_lGame, btn_nGame, btn_settings,btn_Rules,btn_about, btn_exit);
         menu_left.getChildren().addAll(left_upper, left_lower);
         layout.setLeft(menu_left);
 

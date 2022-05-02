@@ -59,8 +59,10 @@ public class md_DexView {
 
         // Moves Effect
         TableColumn<Moves, String> effectColumn = new TableColumn<>("Effect");
-        effectColumn.setMinWidth(300);
+        effectColumn.setMinWidth(500);
         effectColumn.setCellValueFactory(new PropertyValueFactory<>("Effect"));
+
+        int size = 1240;
 
         table = new TableView<>();
         table.setItems(getView());

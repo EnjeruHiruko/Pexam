@@ -4,6 +4,7 @@ package Pexam.cute;
 import Pexam.cute.cuteutility.Database.Dex;
 import Pexam.data.Combatant.Pokemon.PokemonBETA;
 import Pexam.data.Combatant.Pokemon.Species;
+import Pexam.data.Combatant.Trainer.Trainer;
 import Pexam.data.Moves.Moves;
 
 import java.util.ArrayList;
@@ -15,25 +16,32 @@ public class Cute{
 
     private Dex database_;
 
-    private List<PokemonBETA> pokemon_;
+    private boolean dex_is_changed_;
+
+
+    private ArrayList<Trainer> all_trainer_;
+
+    private Trainer selected_trainer_;
+
 
 
     public Cute(){
         this.standardWorld = "105_5";
         this.database_ = new Dex(standardWorld, "All");
-        this.pokemon_ = new ArrayList<PokemonBETA>();
+        this.all_trainer_ = new ArrayList<>();
+        this.selected_trainer_ = new Trainer();
+        this.dex_is_changed_ = false;
         //updateDex();
     }
 
     public Cute(String path){
-        this.standardWorld = "ver105_5";
+        this();
         try {
             this.database_ = new Dex(path, "All");
         }catch(Exception e){
             e.printStackTrace();
             System.out.println("there is no such World saved");
         }
-        this.pokemon_ = new ArrayList<PokemonBETA>();
         //updateDex();
     }
 
@@ -75,9 +83,22 @@ public class Cute{
         return database_.getmPreview();
     }
 
-    public void createTrainerPokemon(String in){
-        Species temp = searchPokeDexString(in);
-        pokemon_.add(new PokemonBETA(temp.getSpecies(), temp));
+    public void new_Trainer(String name){
+        this.all_trainer_.add(new Trainer(name));
+        change_selected_Trainer(name);
     }
+
+    public ArrayList<Trainer> getAll_trainer(){
+        return this.all_trainer_;
+    }
+    public Trainer getSelected_trainer(){
+        return selected_trainer_;
+    }
+
+    public void change_selected_Trainer(String in){//todo check if input trainer does exist
+        this.selected_trainer_ = all_trainer_.get(all_trainer_.indexOf(new Trainer(in)));
+    }
+
+
 
 }

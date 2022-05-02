@@ -130,6 +130,10 @@ public class Combatant {
 
     }
 
+    public String getName(){
+        return this.name_;
+    }
+
     public void learnMove(Moves in){
         this.moves_.add(in);
     }

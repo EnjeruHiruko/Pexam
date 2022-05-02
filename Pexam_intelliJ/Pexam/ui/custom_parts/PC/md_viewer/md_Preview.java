@@ -19,7 +19,7 @@ public class md_Preview extends GridPane {
 
         out_ = new Label();
         out_.setWrapText(true);
-        out_.setMaxSize(400, 600);
+        out_.setMaxSize(340, 600);
         if(current_.getType() == Type.TYPELESS){
             out_.setStyle("-fx-text-fill: white;");
         }else {
