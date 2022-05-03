@@ -1,6 +1,8 @@
 package Pexam.data.Combatant.Pokemon;
 
+import Pexam.cute.cuteutility.Database.Dex;
 import Pexam.data.Combatant.Combatant;
+import Pexam.data.Combatant.Trainer.Trainer;
 import Pexam.data.Items.Items;
 import Pexam.data.Moves.MoveForList;
 import Pexam.data.Moves.Moves;
@@ -8,6 +10,7 @@ import Pexam.data.Moves.MovesCompare;
 import Pexam.data.utility.Describtions.Tutor;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 
@@ -78,6 +81,15 @@ public class PokemonBETA extends Combatant {
         this.bonusMoves_ = new ArrayList<Moves>();
         this.connectionMoves_ = new ArrayList<Moves>();
         this.learnable_ = new ArrayList<Moves>();
+    }
+
+    public PokemonBETA(String in){
+        this();
+        this.name_ = in;
+    }
+
+    public PokemonBETA(String in, Dex database){
+
     }
 
     // non contructor Methods
@@ -434,6 +446,26 @@ public class PokemonBETA extends Combatant {
 
     public void moveInfo(String in){
         System.out.println(super.moves_.get(super.moves_.indexOf(new Moves(in))).toPrint());
+    }
+    /*
+    -t "Nickname" "Species" "Gender" "Level" "EXP" "Abilities as Array" "Nature" "Stat-Point distribution as Array" "Used Vitamins as Int" "Bonus-Stats from Vitamins as Array" "Used TutorPoints as Int" "Bought PokeEdges as Array" "Selected Moves as Array"
+    */
+    public String toSave(){
+        String s = " ";
+        return "" + this.name_ +s +this.species_.getSpecies() +s+ this.gender_ +s+ this.level_ +s+ this.exp_ +s+ this.abilities_.toString() +s+ this.nature_ +s+ Arrays.toString(this.statBlock_.getUsed_SkillPoints()) +s+ this.usedVitamins_ +s+ Arrays.toString(this.statBlock_.getUsed_VitaminPoints()) +s+ this.uTTp_ +s+ this.edges_.toString() +s+ this.moves_.toString() +"\n";
+    }
+
+    @Override
+    public boolean equals(Object other){
+        if(other instanceof PokemonBETA){
+            if(this.name_.equals(((PokemonBETA) other).getName())){
+                return true;
+            }
+        }
+        if(other instanceof String){
+            return this.name_.equals((String) other);
+        }
+        return false;
     }
 
     @Override

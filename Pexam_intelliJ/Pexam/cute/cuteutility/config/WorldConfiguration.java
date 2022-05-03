@@ -10,6 +10,8 @@ public class WorldConfiguration {
 
     //Pokemon Config
 
+    private int p_max_level_;
+
     private int p_base_stat_mod_;
 
     private int p_base_sp_;
@@ -22,7 +24,15 @@ public class WorldConfiguration {
 
     private int p_base_ttp_;
 
+    private int p_max_vitamins_;
+
     private int p_ttp_levelup_mod_;
+
+    private int p_ttp_levelup_interval_;
+
+    private int[] p_ability_gatelevel_;
+
+
 
     //Trainer Config
 
@@ -39,6 +49,10 @@ public class WorldConfiguration {
     private int t_base_spe_;
 
     private int t_base_sp_;
+
+    private int t_max_classes_;
+
+    private int t_max_level_;
 
     //Combat Config
 

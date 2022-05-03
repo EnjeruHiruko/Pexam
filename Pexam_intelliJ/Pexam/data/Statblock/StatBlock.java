@@ -597,6 +597,14 @@ public class StatBlock {
         return calcCombatStatsBETA();
     }
 
+    public int[] getUsed_SkillPoints(){
+        return new int[]{this.KP_.getSkillPoints(),this.AT_.getSkillPoints(),this.DEF_.getSkillPoints(),this.sAT_.getSkillPoints(),this.sDEF_.getSkillPoints(),this.SPE_.getSkillPoints()};
+    }
+
+    public int[] getUsed_VitaminPoints(){
+        return new int[]{this.KP_.getVitPoints(),this.AT_.getVitPoints(),this.DEF_.getVitPoints(),this.sAT_.getVitPoints(),this.sDEF_.getVitPoints(),this.SPE_.getVitPoints()};
+    }
+
     public int[] getEvasions(){
         int[] temp = new int[3];
         temp[0] = this.phEV_;

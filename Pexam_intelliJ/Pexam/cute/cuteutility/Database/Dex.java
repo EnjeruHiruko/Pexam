@@ -127,7 +127,7 @@ public class Dex {
         Path dispatch = Paths.get("../Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/"+worldpath_+"/control_print.txt");
         String result = "";
         for(Moves moves : this.moveList_){
-            result += moves.toString();
+            result += moves.toPrint();
             result += "\n";
         }
 
@@ -316,6 +316,10 @@ public class Dex {
         return temp;
     }
 
- //todo copy all egg lists from first evolution to later stages
+    public void save_Database(String path){
+        //todo create a Printer that Prints everything into the files in our given format but at a different location
+    }
+
+    // todo copy all egg lists from first evolution to later stages
 
 }

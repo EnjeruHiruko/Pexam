@@ -169,6 +169,10 @@ public class Stats {
         return this.skillPoints_;
     }
 
+    public int getVitPoints(){
+        return this.vitamins_;
+    }
+
     // redo
 
     public void redoBase(int value){

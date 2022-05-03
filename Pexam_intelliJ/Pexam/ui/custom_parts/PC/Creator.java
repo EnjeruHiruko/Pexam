@@ -5,7 +5,6 @@ import Pexam.data.Combatant.Trainer.Trainer;
 import Pexam.ui.UserInterface;
 import Pexam.ui.custom_parts.MM.parts.MM_Button;
 import Pexam.ui.custom_parts.PC.md_viewer.md_Viewer;
-import Pexam.ui.custom_parts.PC.p_creator.P_Creator;
 import Pexam.ui.custom_parts.PC.parts.prompt_window;
 import Pexam.ui.custom_parts.PC.pd_viewer.Pd_Viewer;
 import Pexam.ui.custom_parts.PC.team_viewer.t_viewer;
@@ -57,7 +56,7 @@ public class Creator {
         //upper VBox todo replace edit-button with trainer-combobox
         Label c_lbl_trainer = new Label("Trainer:");
         c_lbl_trainer.setMinSize(300,60);
-        c_lbl_trainer.setAlignment(Pos.CENTER);
+        c_lbl_trainer.setAlignment(Pos.CENTER_LEFT);
         c_lbl_trainer.setStyle("-fx-font: " + button_font_size + " arial; -fx-background-color: white; -fx-text-fill: "+ bg_hex +"; -fx-border-color: gray;");
 
         ChoiceBox<String> cb_trainer_select = new ChoiceBox<>();
@@ -67,7 +66,7 @@ public class Creator {
         for(Trainer temp: test_.getAll_trainer()){
             cb_trainer_select.getItems().add(temp.getName());
         }
-        cb_trainer_select.getItems().add("New..");
+        cb_trainer_select.getItems().addAll("New..       ", "   ");
         //cb_trainer_select.setPromptText("Choose");
         //Button btn_NEW = new MM_Button("Editor");
 
@@ -97,11 +96,15 @@ public class Creator {
         c_m.setStyle("-fx-background-color: white");
         c_m.setPadding(new Insets(10,10,10,0));
         c_m.setMaxSize(1620,1020);
-        GridPane center_menu = new P_Creator();
+        GridPane center_menu = new GridPane();
+        center_menu.setStyle("-fx-background-color: #121212");
         c_m.getChildren().add(center_menu);
 
-        //Events
-        btn_return.setOnAction(e -> UserInterface.change_scene(0));
+        //Events from sidebar
+        btn_return.setOnAction(e -> {
+            //test_.save_World(); todo confirmation to save the current state before leaving
+            UserInterface.change_scene(0);
+        });
         btn_Pokemon.setOnAction(e -> {
             if(!(layout.getCenter() instanceof Pd_Viewer)){
                 layout.setCenter(new Pd_Viewer());
@@ -112,10 +115,8 @@ public class Creator {
                 layout.setCenter(new md_Viewer());
             }
         });
-
-
         cb_trainer_select.setOnAction(e -> {
-            if(cb_trainer_select.getValue().equals("New..")){
+            if(cb_trainer_select.getValue().equals("New..       ")){
                 String val = prompt_window.display("Name your Trainer", "What is your name?");
                 if(val != null){
                     test_.new_Trainer(val);
@@ -123,11 +124,19 @@ public class Creator {
                     cb_trainer_select.setValue(val);
                     layout.setCenter(new t_viewer());
                 }//todo resetting the choiceBox
-            }else{ //todo saving changed values if another trainer was edited
+            } else if (cb_trainer_select.getValue().equals("   ")) {
+
+                layout.setCenter(center_menu);
+            } else{ //todo saving changed values if another trainer was edited
                 test_.change_selected_Trainer(cb_trainer_select.getValue());
                 layout.setCenter(new t_viewer());
             }
         });
+
+        //Events from Team-Selection
+
+
+
 
         /*
         btn_NEW.setOnAction(e -> {

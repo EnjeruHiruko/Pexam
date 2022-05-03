@@ -2,6 +2,7 @@ package Pexam.ui;
 
 import Pexam.ui.custom_parts.MM.TitleScreen;
 import Pexam.ui.custom_parts.PC.Creator;
+import Pexam.ui.custom_parts.PC.team_viewer.PokemonEditor;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -14,6 +15,8 @@ public class UserInterface extends Application { //todo this will be eventually 
     private static Scene mm_;
 
     private static Scene pc_;
+
+    private static Scene pv_;
 
     public static void main(String[] args){
         launch(args);
@@ -38,6 +41,7 @@ public class UserInterface extends Application { //todo this will be eventually 
         mainStage_ = primaryStage;
         mm_ = new TitleScreen().getScene();
         pc_ = new Creator().getScene();
+        pv_ = new PokemonEditor().getScene();
 
         mainStage_.setScene(mm_);
         mainStage_.show();

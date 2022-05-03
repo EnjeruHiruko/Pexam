@@ -8,10 +8,39 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Rectangle;
 
 public class t_viewer extends HBox {
+
+    private t_viewer_row r1_;
+
+    private t_viewer_row r2_;
+
+    private t_viewer_row r3_;
+
+    private t_viewer_row r4_;
+
+    private t_viewer_row r5_;
+
+    private t_viewer_row r6_;
+
+    private Button btn_box_;
+
+    private Button btn_sheet_;
+
+    private Button btn_train_;
+
     public t_viewer(){
         super();
+
+        //spacer left menu to Selection
+        Rectangle spacer1 = new Rectangle(100,800);
+        spacer1.setFill(Color.web("#121212"));
+
+        //spacer between both menu parts
+        Rectangle spacer2 = new Rectangle(200, 800);
+        spacer2.setFill(Color.web("#121212"));
 
         //leftside
         VBox left_side = new VBox();
@@ -21,43 +50,42 @@ public class t_viewer extends HBox {
 
         Label lbl_team = new Label("Team - ");
         lbl_team.setStyle("-fx-font: 40 arial; -fx-text-fill: white;");
-        Button btn_train = new Button("Train");
+        btn_train_ = new Button("Train");
 
-        t_viewer_row r1 = new t_viewer_row(1);
-        t_viewer_row r2 = new t_viewer_row(2);
-        t_viewer_row r3 = new t_viewer_row(3);
-        t_viewer_row r4 = new t_viewer_row(4);
-        t_viewer_row r5 = new t_viewer_row(5);
-        t_viewer_row r6 = new t_viewer_row(6);
+        r1_ = new t_viewer_row(1);
+        r2_ = new t_viewer_row(2);
+        r3_ = new t_viewer_row(3);
+        r4_ = new t_viewer_row(4);
+        r5_ = new t_viewer_row(5);
+        r6_ = new t_viewer_row(6);
 
         for(int c = 0; c < Creator.getTest().getSelected_trainer().getTeam().size(); c++){
             switch (c+1){
-                case 1: r1.setPokemon(Creator.getTest().getSelected_trainer().getTeam().get(c).getName());break;
-                case 2: r2.setPokemon(Creator.getTest().getSelected_trainer().getTeam().get(c).getName());break;
-                case 3: r3.setPokemon(Creator.getTest().getSelected_trainer().getTeam().get(c).getName());break;
-                case 4: r4.setPokemon(Creator.getTest().getSelected_trainer().getTeam().get(c).getName());break;
-                case 5: r5.setPokemon(Creator.getTest().getSelected_trainer().getTeam().get(c).getName());break;
-                case 6: r6.setPokemon(Creator.getTest().getSelected_trainer().getTeam().get(c).getName());break;
+                case 1: r1_.setPokemon(Creator.getTest().getSelected_trainer().getTeam().get(c).getName());break;
+                case 2: r2_.setPokemon(Creator.getTest().getSelected_trainer().getTeam().get(c).getName());break;
+                case 3: r3_.setPokemon(Creator.getTest().getSelected_trainer().getTeam().get(c).getName());break;
+                case 4: r4_.setPokemon(Creator.getTest().getSelected_trainer().getTeam().get(c).getName());break;
+                case 5: r5_.setPokemon(Creator.getTest().getSelected_trainer().getTeam().get(c).getName());break;
+                case 6: r6_.setPokemon(Creator.getTest().getSelected_trainer().getTeam().get(c).getName());break;
             }
         }
 
-        left_side.getChildren().addAll(lbl_trainer,lbl_team,r1,r2,r3,r4,r5,r6);
-
+        left_side.getChildren().addAll(lbl_trainer,lbl_team,r1_,r2_,r3_,r4_,r5_,r6_);
 
         //right side
-        Button btn_box = new Button("Box");
-        btn_box.setMinSize(100,60);
+        this.btn_box_ = new Button("Box");
+        btn_box_.setMinSize(100,60);
 
         VBox vb_spacer = new VBox();
         vb_spacer.setMinSize(100,120);
 
-        Button btn_sheet = new Button("Sheet");
-        btn_sheet.setMinSize(100,60);
+        btn_sheet_ = new Button("Sheet");
+        btn_sheet_.setMinSize(100,60);
 
         VBox right_side = new VBox();
-        right_side.getChildren().addAll(btn_box,vb_spacer, btn_sheet);
+        right_side.getChildren().addAll(btn_box_,vb_spacer, btn_sheet_);
 
-        this.getChildren().addAll(left_side,right_side);
+        this.getChildren().addAll(spacer1, left_side, spacer2 ,right_side);
     }
 
 }

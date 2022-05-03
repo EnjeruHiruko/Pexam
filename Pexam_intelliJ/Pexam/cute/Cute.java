@@ -7,12 +7,17 @@ import Pexam.data.Combatant.Pokemon.Species;
 import Pexam.data.Combatant.Trainer.Trainer;
 import Pexam.data.Moves.Moves;
 
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Scanner;
 
 public class Cute{
 
     private final String standardWorld;
+
+    private String currentWorld_;
 
     private Dex database_;
 
@@ -23,10 +28,13 @@ public class Cute{
 
     private Trainer selected_trainer_;
 
+    private PokemonBETA selected_Pokemon_;
+
 
 
     public Cute(){
         this.standardWorld = "105_5";
+        this.currentWorld_ = "105_5";
         this.database_ = new Dex(standardWorld, "All");
         this.all_trainer_ = new ArrayList<>();
         this.selected_trainer_ = new Trainer();
@@ -36,6 +44,7 @@ public class Cute{
 
     public Cute(String path){
         this();
+        this.currentWorld_ =path;
         try {
             this.database_ = new Dex(path, "All");
         }catch(Exception e){
@@ -43,6 +52,38 @@ public class Cute{
             System.out.println("there is no such World saved");
         }
         //updateDex();
+    }
+
+    private void load_Trainer(String path){
+        Path file = Paths.get("../Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/"+path+"/teams.txt");
+        try{
+            Scanner in = new Scanner(file).useDelimiter("HOMELESS");
+            while(in.hasNext()){
+                all_trainer_.add(new Trainer(in.next(), this.database_));
+            }
+            in.close();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public void save_World(){
+        if(this.dex_is_changed_){
+            if(this.currentWorld_.contentEquals(this.standardWorld)){
+
+            }
+        }else{
+
+        }
+    }
+
+    private void new_World(String in){
+        try {
+            Files.createDirectories(Paths.get("../Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/" + in));
+
+        }catch(Exception e){
+            e.printStackTrace();
+        }
     }
 
     public Species searchPokeDexString(String in){
@@ -91,6 +132,7 @@ public class Cute{
     public ArrayList<Trainer> getAll_trainer(){
         return this.all_trainer_;
     }
+
     public Trainer getSelected_trainer(){
         return selected_trainer_;
     }
@@ -99,6 +141,13 @@ public class Cute{
         this.selected_trainer_ = all_trainer_.get(all_trainer_.indexOf(new Trainer(in)));
     }
 
+    public void change_selected_Pokemon_fromTeam(String in){
+        this.selected_Pokemon_ = selected_trainer_.getTeam().get(selected_trainer_.getTeam().indexOf(new PokemonBETA(in)));
+    }
 
+    public void change_selected_Pokemon_fromBox(String in){
+        this.selected_Pokemon_ = selected_trainer_.getBox().get(selected_trainer_.getBox().indexOf(new PokemonBETA(in)));
+
+    }
 
 }

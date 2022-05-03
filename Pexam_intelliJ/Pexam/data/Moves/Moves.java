@@ -280,7 +280,7 @@ public class Moves{
         if(this.type_ == Type.TYPELESS){
             return "Move: " + name_ + "";
         }else {
-            return "Move: " + name_ + " | " + type_ + " | " + frequency_ + " | " + AC_ + " | " + DB_ + " | " + damageClass_ + " | " + Range_  + " | " + Effect_ + " |";
+            return "Move: | " + name_ + " | " + type_ + " | " + frequency_ + " | " + AC_ + " | " + DB_ + " | " + damageClass_ + " | " + Range_  + " | " + Effect_ + " | ";
 
         }
     }
