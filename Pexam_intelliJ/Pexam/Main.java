@@ -2,9 +2,7 @@ package Pexam;
 
 import Pexam.cute.Cute;
 import Pexam.data.Combatant.Pokemon.Nature;
-import Pexam.data.Combatant.Pokemon.PokemonBETA;
-
-import java.io.File;
+import Pexam.data.Combatant.Pokemon.Pokemon;
 
 public class Main {
     public static void main(String[] args){
@@ -16,7 +14,7 @@ public class Main {
         //System.out.println(run.searchPokeDexIndex(0));
         //run.controlPrint();
 
-        PokemonBETA test = new PokemonBETA("subject0", run.searchPokeDexString("Dialga"));
+        Pokemon test = new Pokemon("subject0", run.searchPokeDexString("Dialga"));
         test.LevelGain(100);
 
         test.learnMove_Levelup("Roar of Time", 0);

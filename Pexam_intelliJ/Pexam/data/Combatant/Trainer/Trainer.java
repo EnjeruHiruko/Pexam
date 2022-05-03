@@ -1,11 +1,9 @@
 package Pexam.data.Combatant.Trainer;
 
 import Pexam.cute.cuteutility.Database.Dex;
-import Pexam.data.Capabilities.Capabilities;
 import Pexam.data.Combatant.Combatant;
-import Pexam.data.Combatant.Pokemon.PokemonBETA;
+import Pexam.data.Combatant.Pokemon.Pokemon;
 import Pexam.data.Combatant.Pokemon.Species;
-import Pexam.data.utility.Describtions.Skill;
 import Pexam.data.utility.Enums.Type;
 
 import java.util.ArrayList;
@@ -18,9 +16,9 @@ public class Trainer extends Combatant {
 
     private int exp_;
 
-    private ArrayList<PokemonBETA> team_;
+    private ArrayList<Pokemon> team_;
 
-    private ArrayList<PokemonBETA> box_;
+    private ArrayList<Pokemon> box_;
 
     public Trainer(){
         super();
@@ -79,11 +77,11 @@ public class Trainer extends Combatant {
         value[0] = "_tr " + this.getName() + s +  this.level_ + s + this.exp_ + s + this.gender_ + s + Arrays.toString(this.statBlock_.getUsed_SkillPoints()) + s;
         value[0] += this.skills_.toString() + s + this.abilities_.toString() + s + this.moves_.toString() + s + this.capabilities_.toString() + "\n";
 
-        for(PokemonBETA temp: this.team_){
+        for(Pokemon temp: this.team_){
             value[1] += temp.toSave();
         }
 
-        for(PokemonBETA temp: this.box_){
+        for(Pokemon temp: this.box_){
             value[2] += temp.toSave();
         }
 
@@ -91,18 +89,18 @@ public class Trainer extends Combatant {
     }
 
     public void addPokemon_toTeam(String name, Species species){
-        team_.add(new PokemonBETA(name, species));
+        team_.add(new Pokemon(name, species));
     }
 
-    public ArrayList<PokemonBETA> getTeam(){
+    public ArrayList<Pokemon> getTeam(){
         return this.team_;
     }
 
     public void addPokemon_toBox(String name, Species species){
-        box_.add(new PokemonBETA(name, species));
+        box_.add(new Pokemon(name, species));
     }
 
-    public ArrayList<PokemonBETA> getBox(){
+    public ArrayList<Pokemon> getBox(){
         return this.box_;
     }
 

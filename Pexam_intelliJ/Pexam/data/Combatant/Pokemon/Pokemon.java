@@ -1,156 +1,101 @@
 package Pexam.data.Combatant.Pokemon;
 
-import Pexam.data.Abilities.Abilities;
-import Pexam.data.Capabilities.Capabilities;
-import Pexam.data.Effects.Effect;
+import Pexam.cute.cuteutility.Database.Dex;
+import Pexam.data.Combatant.Combatant;
 import Pexam.data.Items.Items;
 import Pexam.data.Moves.MoveForList;
 import Pexam.data.Moves.Moves;
 import Pexam.data.Moves.MovesCompare;
-import Pexam.data.Statblock.StatBlock;
-import Pexam.data.utility.Damage.Damage;
-import Pexam.data.utility.Damage.DamageClass;
-import Pexam.data.utility.Describtions.Gender;
-import Pexam.data.utility.Describtions.Skill;
 import Pexam.data.utility.Describtions.Tutor;
-import Pexam.data.utility.Enums.Type;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
-public class Pokemon {
 
-    private String nickname_; //done
+/**
+ * Replacement Class of Pokemon
+ * Inherits Combatant-Class for better differentiation between Units
+ */
+public class Pokemon extends Combatant {
 
-    private Species species_; //done
+    private Species species_;
 
-    private int level_; //done
+    private int level_;
 
-    private int exp_; //done
+    private int exp_;
 
-    private Items heldItem_; //done
+    private Items helditem_;
 
-    private int loyalty_; //done
+    private int loyalty_;
 
-    private Gender gender_; //done
+    private Nature nature_;
 
-    private Nature nature_; //done
+    private int mTTp_;
 
-    private List<Abilities> abilities_; // done
+    private int uTTp_;
 
-    private List<Capabilities> capabilities_; //done
+    private int usedVitamins_;
 
-    private List<Skill> skills_; // done
+    private ArrayList<Tutor> edges_;
 
-    // StatBlock
+    private ArrayList<Moves> bonusMoves_;
 
-    private StatBlock statBlock_; //done
+    private ArrayList<Moves> connectionMoves_;
 
-    //
 
-    private int injuries_; // now in statblock
+    private ArrayList<Moves> learnable_;
 
-    private int mTTp_; //done
+    private int lastLevelUpdated_;
 
-    private int uTTp_; //done
 
-    private int usedVitamins_; //done
-
-    private List<Tutor> edges_; //done
-
-    private List<Moves> base6_; //done
-
-    private List<Moves> bonus3_; //done
-
-    private List<Moves> connections_; //done
-
-    private String notes_; // done
-
-    // memory
-
-    private List<Moves> learnable_; //done
-
-    private int lastLevelUpdated_; //done
-
-    private List<Effect> statics_;
-
-    private List<Effect> temporary_;
-
-    //Constructor and creation block
+    // Methods
 
     public Pokemon(){
-        this.nickname_ = "";
+        super();
         this.species_ = new Species();
         this.level_ = 1;
         this.exp_ = 0;
-        this.heldItem_ = new Items();
-        this.loyalty_ = 2;
-        this.gender_ = Gender.all;
+        this.loyalty_ = 1;
         this.nature_ = Nature.NON;
-        this.abilities_ = new ArrayList<Abilities>();
-        this.capabilities_ = new ArrayList<Capabilities>();
-        this.skills_ = new ArrayList<Skill>();
-        this.statBlock_ = new StatBlock(true, false, false, false,1 , new boolean[6], new int[6], new int[6], new int[6], new int[6], new int[6]);
-        this.injuries_ = 0;
-        this.mTTp_ = 0;
-        this.uTTp_ = 0;
-        this.usedVitamins_ = 0;
-        this.edges_ = null;
-        this.base6_ = new ArrayList<Moves>();
-        this.bonus3_ = new ArrayList<Moves>();
-        this.connections_ = new ArrayList<Moves>();
-        this.notes_ = "";
-    }
-
-
-    public Pokemon(Species species){
-        this.nickname_ = "";
-        this.species_ = species;
-        this.level_ = 1;
-        this.exp_ = 0;
-        this.heldItem_ = new Items();
-        this.loyalty_ = 2;
-        this.gender_ = Gender.all;
-        this.nature_ = Nature.NON;
-        this.abilities_ = new ArrayList<Abilities>();
-        this.capabilities_ = new ArrayList<Capabilities>();
-        this.skills_ = species.getSkills();
-        this.statBlock_ = new StatBlock(true, false, false, false, 1, new boolean[6], species.getBasestats(), new int[6], new int[6], new int[6], new int[6]);
-        this.injuries_ = 0;
         this.mTTp_ = 0;
         this.uTTp_ = 0;
         this.usedVitamins_ = 0;
         this.edges_ = new ArrayList<Tutor>();
-        this.base6_ = new ArrayList<Moves>();
-        this.bonus3_ = new ArrayList<Moves>();
-        this.connections_ = new ArrayList<Moves>();
-        this.notes_ = "";
+        this.bonusMoves_ = new ArrayList<Moves>();
+        this.connectionMoves_ = new ArrayList<>();
         this.learnable_ = new ArrayList<Moves>();
     }
 
-    // update block
+    public Pokemon(String in, Species species){
+        super(in, species.getBasestats(), species.getTypes(), species.getSkills(), species.getCapabilities());
 
-    public void update_StatsBlock(){
-        this.statBlock_.update();
+        this.species_ = species;
+        this.level_ = 1;
+        this.exp_ = 0;
+        this.loyalty_ = 1;
+        this.nature_ = Nature.NON;
+
+        this.edges_ = new ArrayList<Tutor>();
+        this.bonusMoves_ = new ArrayList<Moves>();
+        this.connectionMoves_ = new ArrayList<Moves>();
+        this.learnable_ = new ArrayList<Moves>();
     }
 
-    public void update_Stats(int index, int value){
-        this.statBlock_.addSkillPoint(index, value);
+    public Pokemon(String in){
+        this();
+        this.name_ = in;
     }
 
-    public void update_Nature(Nature newnature){
-        this.nature_ = newnature;
-        statBlock_.update_Nature(newnature.getNaturemod());
+    public Pokemon(String in, Dex database){
+
     }
 
-    //Customize Block
+    // non contructor Methods
 
-    public void name_change(String newname){
-        this.nickname_ = newname;
-    }
-
-    public void genderBender(Gender newgender){
-        this.gender_ = newgender;
+    public void update_Nature(Nature in){
+        this.nature_ = in;
+        super.statBlock_.update_Nature(in.getNaturemod());
     }
 
     public void LevelGain(int amount){
@@ -161,115 +106,6 @@ public class Pokemon {
         statBlock_.update_level(this.level_);
         updateTutorPoints();
         learnableMoves();
-    }
-
-    public void learnMove(String name, int slot, int list){
-        if(!moveAlreadyLearned(name)) {
-            if (onLearnableList(name) || list == 1) {
-                System.out.println("levelup");
-                if (MoveSlotOpen()) {
-                    this.base6_.add(learnable_.get(learnable_.indexOf(new Moves(name))));
-                    this.learnable_.remove(new Moves(name));
-                } else if (!MoveSlotOpen()) {
-                    this.base6_.set(slot, this.learnable_.get(this.learnable_.indexOf(new Moves(name))));
-                    this.learnable_.remove(new Moves(name));
-                }
-
-            } else if (onTmList(name) || list == 2) {
-                System.out.println("tm");
-                if(!moveAlreadyLearned(name)) {
-                    if (MoveSlotOpen()) {
-                        if (TmSlotOpen()) {
-                            if (remainingTutorPoints() > 0) {
-                                this.bonus3_.add(this.species_.getTmlist().get(this.species_.getTmlist().indexOf(new MoveForList(name))).getMove());
-                                uTTp_ += 1;
-
-                            } else {
-                                System.out.println("Couldn't learn Move, not enough TutorPoints remaining");
-                            }
-                        }else if (!TmSlotOpen()) {
-                            this.bonus3_.set(slot, this.species_.getTmlist().get(this.species_.getTmlist().indexOf(new MoveForList(name))).getMove());
-                        }
-                    } else {
-                        if (TmSlotOpen()) {
-                            if (remainingTutorPoints() > 0) {
-                                this.bonus3_.add(this.species_.getTmlist().get(this.species_.getTmlist().indexOf(new MoveForList(0, new Moves(name)))).getMove());
-                                uTTp_ += 1;
-                                this.base6_.remove(slot);
-                            } else {
-                                System.out.println("Couldn't learn Move, not enough TutorPoints remaining");
-                            }
-                        }else if (!TmSlotOpen()) {
-                            this.bonus3_.set(slot, this.species_.getTmlist().get(this.species_.getTmlist().indexOf(new MoveForList(0, new Moves(name)))).getMove());
-                        }
-                    }
-                }
-                naturalMove();
-            } else if (onEggList(name) || list == 3) {
-                System.out.println("Egg");
-                if(!moveAlreadyLearned(name)) {
-                    if (MoveSlotOpen()) {
-                        if (TmSlotOpen()) {
-                            if (remainingTutorPoints() > 1) {
-                                this.bonus3_.add(this.species_.getEgglist().get(this.species_.getEgglist().indexOf(new Moves(name))));
-                                uTTp_ += 2;
-
-                            } else {
-                                System.out.println("Couldn't learn Move, not enough TutorPoints remaining");
-                            }
-                        }else if (!TmSlotOpen()) {
-                            this.bonus3_.set(slot, this.species_.getEgglist().get(this.species_.getEgglist().indexOf(new Moves(name))));
-                        }
-                    } else {
-                        if (TmSlotOpen()) {
-                            if (remainingTutorPoints() > 1) {
-                                this.bonus3_.add(this.species_.getEgglist().get(this.species_.getEgglist().indexOf(new Moves(name))));
-                                uTTp_ += 2;
-                                this.base6_.remove(slot);
-                            } else {
-                                System.out.println("Couldn't learn Move, not enough TutorPoints remaining");
-                            }
-                        }else if (!TmSlotOpen()) {
-                            this.bonus3_.set(slot, this.species_.getEgglist().get(this.species_.getEgglist().indexOf(new Moves(name))));
-                        }
-                    }
-                }
-                naturalMove();
-            } else if (onTutorList(name) || list == 4) {
-                System.out.println("tutor");
-                if(!moveAlreadyLearned(name)) {
-                    if (MoveSlotOpen()) {
-                        if (TmSlotOpen()) {
-                            if (remainingTutorPoints() > 1) {
-                                this.bonus3_.add(this.species_.getTutorlist().get(this.species_.getTutorlist().indexOf(new Moves(name))));
-                                uTTp_ += 2;
-                            } else {
-                                System.out.println("Couldn't learn Move, not enough TutorPoints remaining");
-                            }
-                        }else if (!TmSlotOpen()) {
-                            this.bonus3_.set(slot, this.species_.getTutorlist().get(this.species_.getTutorlist().indexOf(new Moves(name))));
-                        }
-                    } else {
-                        if (TmSlotOpen()) {
-                            if (remainingTutorPoints() > 1) {
-                                this.bonus3_.add(this.species_.getTutorlist().get(this.species_.getTutorlist().indexOf(new Moves(name))));
-                                uTTp_ += 2;
-                                this.base6_.remove(slot);
-                            } else {
-                                System.out.println("Couldn't learn Move, not enough TutorPoints remaining");
-                            }
-                        }else if (!TmSlotOpen()) {
-                            this.bonus3_.set(slot, this.species_.getTutorlist().get(this.species_.getTutorlist().indexOf(new Moves(name))));
-                            uTTp_ += 2;
-                        }
-                    }
-                }
-                naturalMove();
-            } else {
-                System.out.println("Move not learnable");
-                // we always expect perfect input anyway
-            }
-        }
     }
 
     private boolean onLearnableList(String name){
@@ -309,12 +145,12 @@ public class Pokemon {
         this.lastLevelUpdated_ = level_;
     }
 
-    private List<Moves> moderateLevelUpList(int start, int end){
-        List<MoveForList> temp = this.species_.getMovelist();
-        List<Moves> ret = new ArrayList<Moves>();
+    private ArrayList<Moves> moderateLevelUpList(int start, int end){
+        ArrayList<MoveForList> temp = this.species_.getMovelist();
+        ArrayList<Moves> ret = new ArrayList<Moves>();
         for(int c = start; c < end; c++){
             if(temp.contains(new MovesCompare(c))){
-                ret.add(temp.get(temp.indexOf(new MovesCompare(c))).getMove());
+                ret.add(new Moves(temp.get(temp.indexOf(new MovesCompare(c))).getMove()));
             }
         }
         return ret;
@@ -323,11 +159,11 @@ public class Pokemon {
     private void naturalMove(){
         List<Moves> temp = moderateLevelUpList(0, this.level_);
 
-        for(int c = 0; c < bonus3_.size(); c++){
-            if(temp.contains(bonus3_.get(c))){
-                if(!this.base6_.contains(bonus3_.get(c))){
-                    this.base6_.add(bonus3_.get(c));
-                    this.bonus3_.remove(c);
+        for(int c = 0; c < bonusMoves_.size(); c++){
+            if(temp.contains(bonusMoves_.get(c))){
+                if(!super.moves_.contains(bonusMoves_.get(c))){
+                    super.moves_.add(bonusMoves_.get(c));
+                    this.bonusMoves_.remove(c);
                 }
             }
         }
@@ -335,7 +171,7 @@ public class Pokemon {
 
     private boolean MoveSlotOpen(){
         int maxmoves = 6; // todo max moves could be editable variable for campaign settings
-        if(base6_.size() + bonus3_.size() < maxmoves){
+        if(super.moves_.size() + this.bonusMoves_.size() < maxmoves){
             return true;
         }else{
             return false;
@@ -344,7 +180,7 @@ public class Pokemon {
 
     private boolean TmSlotOpen(){
         int maxtmmoves = 3;
-        if(bonus3_.size() < maxtmmoves){
+        if(bonusMoves_.size() <= maxtmmoves){
             return true;
         }else{
             return false;
@@ -353,7 +189,7 @@ public class Pokemon {
 
     private boolean naturalMoveOpen(){
         int maxmoves = 6;
-        if(base6_.size() < maxmoves){
+        if(super.moves_.size() < maxmoves){
             return true;
         }else{
             return false;
@@ -372,105 +208,322 @@ public class Pokemon {
     }
 
     private boolean moveAlreadyLearned(String name){
-        if(base6_.contains(new Moves(name)) || bonus3_.contains(new Moves(name))){
+        if(super.moves_.contains(new Moves(name)) || bonusMoves_.contains(new Moves(name))){
             return true;
         }else{
             return false;
         }
     }
 
-    // Combat-Calculation --- might get it's own class since Trainer would use this as well
+    public void learnMove_Levelup(String name, int slot){
+        if(!moveAlreadyLearned(name)) {
+            if (onLearnableList(name)) {
+                //System.out.println("levelup");
+                if (MoveSlotOpen()) {
+                    super.moves_.add(learnable_.get(learnable_.indexOf(new Moves(name))));
+                    this.learnable_.remove(new Moves(name));
+                } else if (!MoveSlotOpen()) {
+                    super.moves_.set(slot, this.learnable_.get(this.learnable_.indexOf(new Moves(name))));
+                    this.learnable_.remove(new Moves(name));
+                }
 
-    public Damage AttackWithMove(String name, int DiceRole, boolean useAverage, boolean crit, boolean effectActivation){
-        if(base6_.contains(new Moves(name))){
-            Damage temp = base6_.get(base6_.indexOf(new Moves(name))).calcDamageOutput(this.statBlock_, this.species_.getTypes(), DiceRole, useAverage, crit);
-            System.out.printf("%n"+this.nickname_+" will Attack with "+ temp.getMoveName()+" and will deal "+temp.getValue()+" "+temp.getDamageClass()+" Damage%n");
-            return temp;
-        }else if(bonus3_.contains(new Moves(name))){
-            Damage temp = bonus3_.get(bonus3_.indexOf(new Moves(name))).calcDamageOutput(this.statBlock_, this.species_.getTypes(), DiceRole, useAverage, crit);
-            System.out.printf("%n"+this.nickname_+" will Attack with "+ temp.getMoveName()+" and will deal "+temp.getValue()+" "+temp.getDamageClass()+" Damage%n");
-            return temp;
-        }else{
-            System.out.printf("%n"+this.nickname_ + " will Attack with nothing%n" );
-            return new Damage();
-        }
-    }
-
-    public void resolveIncomingDamage(Damage in){
-        int actualDamage = 0;
-        double temp;
-        if(in.getDamageClass() == DamageClass.PHYSICAL){
-            actualDamage = in.getValue() - this.statBlock_.getCombatDefense();
-            temp = actualDamage * TypeDamageMod(in.getType());
-            System.out.println(TypeDamageMod(in.getType()));
-            actualDamage = (int) temp;
-            System.out.printf("%n"+this.nickname_ + " took after a Defense of " + this.statBlock_.getCombatDefense()  + " and an Type mod from " + in.getType() + " of " + TypeDamageMod(in.getType()) + ", "+ actualDamage + " "+ in.getDamageClass() + "-Damage");
-            this.statBlock_.update_Damage(actualDamage);
-        }else if(in.getDamageClass() == DamageClass.SPECIAL){
-            actualDamage = in.getValue() - this.statBlock_.getCombatSpecialDefense();
-            temp = actualDamage * TypeDamageMod(in.getType());
-            actualDamage = (int) temp;
-            System.out.printf("%n"+this.nickname_ + " took after a Special-Defense of " + this.statBlock_.getCombatSpecialDefense()  + " and an Type mod from " + in.getType() + " of " + TypeDamageMod(in.getType()) + ", "+ actualDamage + " "+ in.getDamageClass() + "-Damage");
-            this.statBlock_.update_Damage(actualDamage);
-        }else if(in.getDamageClass() == DamageClass.STATUS){
-            System.out.println("StatusMove kekW");
-        }
-    }
-
-    private double TypeDamageMod(Type in){
-        /*
-        int value = 0;
-        for(int c = 0; c<this.species_.getTypes().size(); c++){
-            if(in.getRelation()[this.species_.getTypes().get(c).getRank()] == -1){
-                value = -1;
-                break;
-            }else {
-                value += in.getRelation()[this.species_.getTypes().get(c).getRank()];
             }
         }
-        switch (value){
-            case -1: return 0;
-            case 0 : return 1;
-            case 1 : return 1.5;
-            case 2 : return 2;
-            case 3 : return 3;
-            case 9 : return 0.5;
-            case 10 : return 1;
-            case 18 : return 0.25;
-            case 19 : return 0.5;
-            case 27 : return 0.125;
-        }
-        */
-        return 1;
     }
 
-    //misc block
+    public void learnMove_TM(String name, int slot){
+        //todo make this less scuffed
+        if(!moveAlreadyLearned(name)){
+            if(MoveSlotOpen()){
+                if(TmSlotOpen()){
+                    if(remainingTutorPoints() > 0){
+                        this.bonusMoves_.add(this.species_.getTmlist().get(this.species_.getTmlist().indexOf(new MoveForList(name))).getMove());
+                        uTTp_ += 1;
+                    }else{
+                        System.out.println("Couldn't learn Move, not enough TutorPoints remaining");
+                    }
+                }else if (!TmSlotOpen()) {
+                    this.bonusMoves_.set(slot, this.species_.getTmlist().get(this.species_.getTmlist().indexOf(new MoveForList(name))).getMove());
+                }
+            } else {
+                if (TmSlotOpen()) {
+                    if (remainingTutorPoints() > 0) {
+                        this.bonusMoves_.add(this.species_.getTmlist().get(this.species_.getTmlist().indexOf(new MoveForList(0, new Moves(name)))).getMove());
+                        uTTp_ += 1;
+                        super.moves_.remove(slot);
+                    } else {
+                        System.out.println("Couldn't learn Move, not enough TutorPoints remaining");
+                    }
+                }else if (!TmSlotOpen()) {
+                    this.bonusMoves_.set(slot, this.species_.getTmlist().get(this.species_.getTmlist().indexOf(new MoveForList(0, new Moves(name)))).getMove());
+                }
+            }
+        naturalMove();
+        }
+    }
+
+    public void learnMove_Tutor(String name, int slot){
+        if(!moveAlreadyLearned(name)){
+            if (onTutorList(name)) {
+                //System.out.println("tutor");
+                if(!moveAlreadyLearned(name)) {
+                    if (MoveSlotOpen()) {
+                        if (TmSlotOpen()) {
+                            if (remainingTutorPoints() > 1) {
+                                this.bonusMoves_.add(this.species_.getTutorlist().get(this.species_.getTutorlist().indexOf(new Moves(name))));
+                                uTTp_ += 2;
+                            } else {
+                                System.out.println("Couldn't learn Move, not enough TutorPoints remaining");
+                            }
+                        }else if (!TmSlotOpen()) {
+                            this.bonusMoves_.set(slot, this.species_.getTutorlist().get(this.species_.getTutorlist().indexOf(new Moves(name))));
+                        }
+                    } else {
+                        if (TmSlotOpen()) {
+                            if (remainingTutorPoints() > 1) {
+                                this.bonusMoves_.add(this.species_.getTutorlist().get(this.species_.getTutorlist().indexOf(new Moves(name))));
+                                uTTp_ += 2;
+                                super.moves_.remove(slot);
+                            } else {
+                                System.out.println("Couldn't learn Move, not enough TutorPoints remaining");
+                            }
+                        }else if (!TmSlotOpen()) {
+                            this.bonusMoves_.set(slot, this.species_.getTutorlist().get(this.species_.getTutorlist().indexOf(new Moves(name))));
+                            uTTp_ += 2;
+                        }
+                    }
+                }
+                naturalMove();
+            }
+        }
+    }
+
+    public void learnMove_Egg(String name, int slot){
+        if(!moveAlreadyLearned(name)) {
+            if (onEggList(name)) {
+                //System.out.println("Egg");
+                if (!moveAlreadyLearned(name)) {
+                    if (MoveSlotOpen()) {
+                        if (TmSlotOpen()) {
+                            if (remainingTutorPoints() > 1) {
+                                this.bonusMoves_.add(this.species_.getEgglist().get(this.species_.getEgglist().indexOf(new Moves(name))));
+                                uTTp_ += 2;
+
+                            } else {
+                                System.out.println("Couldn't learn Move, not enough TutorPoints remaining");
+                            }
+                        } else if (!TmSlotOpen()) {
+                            this.bonusMoves_.set(slot, this.species_.getEgglist().get(this.species_.getEgglist().indexOf(new Moves(name))));
+                        }
+                    } else {
+                        if (TmSlotOpen()) {
+                            if (remainingTutorPoints() > 1) {
+                                this.bonusMoves_.add(this.species_.getEgglist().get(this.species_.getEgglist().indexOf(new Moves(name))));
+                                uTTp_ += 2;
+                                super.moves_.remove(slot);
+                            } else {
+                                System.out.println("Couldn't learn Move, not enough TutorPoints remaining");
+                            }
+                        } else if (!TmSlotOpen()) {
+                            this.bonusMoves_.set(slot, this.species_.getEgglist().get(this.species_.getEgglist().indexOf(new Moves(name))));
+                        }
+                    }
+                }
+                naturalMove();
+            }
+        }
+    }
+
+    public void learnMove(String name, int slot, int list){
+        if(!moveAlreadyLearned(name)) {
+            if (onLearnableList(name) || list == 1) {
+                System.out.println("levelup");
+                if (MoveSlotOpen()) {
+                    super.moves_.add(learnable_.get(learnable_.indexOf(new Moves(name))));
+                    this.learnable_.remove(new Moves(name));
+                } else if (!MoveSlotOpen()) {
+                    super.moves_.set(slot, this.learnable_.get(this.learnable_.indexOf(new Moves(name))));
+                    this.learnable_.remove(new Moves(name));
+                }
+
+            } else if (onTmList(name) || list == 2) {
+                System.out.println("tm");
+                if(!moveAlreadyLearned(name)) {
+                    if (MoveSlotOpen()) {
+                        if (TmSlotOpen()) {
+                            if (remainingTutorPoints() > 0) {
+                                this.bonusMoves_.add(this.species_.getTmlist().get(this.species_.getTmlist().indexOf(new MoveForList(name))).getMove());
+                                uTTp_ += 1;
+
+                            } else {
+                                System.out.println("Couldn't learn Move, not enough TutorPoints remaining");
+                            }
+                        }else if (!TmSlotOpen()) {
+                            this.bonusMoves_.set(slot, this.species_.getTmlist().get(this.species_.getTmlist().indexOf(new MoveForList(name))).getMove());
+                        }
+                    } else {
+                        if (TmSlotOpen()) {
+                            if (remainingTutorPoints() > 0) {
+                                this.bonusMoves_.add(this.species_.getTmlist().get(this.species_.getTmlist().indexOf(new MoveForList(0, new Moves(name)))).getMove());
+                                uTTp_ += 1;
+                                super.moves_.remove(slot);
+                            } else {
+                                System.out.println("Couldn't learn Move, not enough TutorPoints remaining");
+                            }
+                        }else if (!TmSlotOpen()) {
+                            this.bonusMoves_.set(slot, this.species_.getTmlist().get(this.species_.getTmlist().indexOf(new MoveForList(0, new Moves(name)))).getMove());
+                        }
+                    }
+                }
+                naturalMove();
+            } else if (onEggList(name) || list == 3) {
+                System.out.println("Egg");
+                if(!moveAlreadyLearned(name)) {
+                    if (MoveSlotOpen()) {
+                        if (TmSlotOpen()) {
+                            if (remainingTutorPoints() > 1) {
+                                this.bonusMoves_.add(this.species_.getEgglist().get(this.species_.getEgglist().indexOf(new Moves(name))));
+                                uTTp_ += 2;
+
+                            } else {
+                                System.out.println("Couldn't learn Move, not enough TutorPoints remaining");
+                            }
+                        }else if (!TmSlotOpen()) {
+                            this.bonusMoves_.set(slot, this.species_.getEgglist().get(this.species_.getEgglist().indexOf(new Moves(name))));
+                        }
+                    } else {
+                        if (TmSlotOpen()) {
+                            if (remainingTutorPoints() > 1) {
+                                this.bonusMoves_.add(this.species_.getEgglist().get(this.species_.getEgglist().indexOf(new Moves(name))));
+                                uTTp_ += 2;
+                                super.moves_.remove(slot);
+                            } else {
+                                System.out.println("Couldn't learn Move, not enough TutorPoints remaining");
+                            }
+                        }else if (!TmSlotOpen()) {
+                            this.bonusMoves_.set(slot, this.species_.getEgglist().get(this.species_.getEgglist().indexOf(new Moves(name))));
+                        }
+                    }
+                }
+                naturalMove();
+            } else if (onTutorList(name) || list == 4) {
+                System.out.println("tutor");
+                if(!moveAlreadyLearned(name)) {
+                    if (MoveSlotOpen()) {
+                        if (TmSlotOpen()) {
+                            if (remainingTutorPoints() > 1) {
+                                this.bonusMoves_.add(this.species_.getTutorlist().get(this.species_.getTutorlist().indexOf(new Moves(name))));
+                                uTTp_ += 2;
+                            } else {
+                                System.out.println("Couldn't learn Move, not enough TutorPoints remaining");
+                            }
+                        }else if (!TmSlotOpen()) {
+                            this.bonusMoves_.set(slot, this.species_.getTutorlist().get(this.species_.getTutorlist().indexOf(new Moves(name))));
+                        }
+                    } else {
+                        if (TmSlotOpen()) {
+                            if (remainingTutorPoints() > 1) {
+                                this.bonusMoves_.add(this.species_.getTutorlist().get(this.species_.getTutorlist().indexOf(new Moves(name))));
+                                uTTp_ += 2;
+                                super.moves_.remove(slot);
+                            } else {
+                                System.out.println("Couldn't learn Move, not enough TutorPoints remaining");
+                            }
+                        }else if (!TmSlotOpen()) {
+                            this.bonusMoves_.set(slot, this.species_.getTutorlist().get(this.species_.getTutorlist().indexOf(new Moves(name))));
+                            uTTp_ += 2;
+                        }
+                    }
+                }
+                naturalMove();
+            } else {
+                System.out.println("Move not learnable");
+                // we always expect perfect input anyway
+            }
+        }
+    }
+
+    public void moveInfo(String in){
+        System.out.println(super.moves_.get(super.moves_.indexOf(new Moves(in))).toPrint());
+    }
+    /*
+    -t "Nickname" "Species" "Gender" "Level" "EXP" "Abilities as Array" "Nature" "Stat-Point distribution as Array" "Used Vitamins as Int" "Bonus-Stats from Vitamins as Array" "Used TutorPoints as Int" "Bought PokeEdges as Array" "Selected Moves as Array"
+    */
+    public String toSave(){
+        String s = " ";
+        return "" + this.name_ +s +this.species_.getSpecies() +s+ this.gender_ +s+ this.level_ +s+ this.exp_ +s+ this.abilities_.toString() +s+ this.nature_ +s+ Arrays.toString(this.statBlock_.getUsed_SkillPoints()) +s+ this.usedVitamins_ +s+ Arrays.toString(this.statBlock_.getUsed_VitaminPoints()) +s+ this.uTTp_ +s+ this.edges_.toString() +s+ this.moves_.toString() +"\n";
+    }
+
+    @Override
+    public boolean equals(Object other){
+        if(other instanceof Pokemon){
+            if(this.name_.equals(((Pokemon) other).getName())){
+                return true;
+            }
+        }
+        if(other instanceof String){
+            return this.name_.equals((String) other);
+        }
+        return false;
+    }
+
     @Override
     public String toString() {
-        return "Pokemon{" +
-                "nickname_='" + nickname_ + '\'' +
+        return "PokemonBETA{" +
+                "name_='" + name_ + '\'' +
+                ", types_=" + types_ +
+                ", statBlock_=" + statBlock_ +
+                ", statics_=" + statics_ +
+                ", temporary_=" + temporary_ +
+                ", moves_=" + moves_ +
+                ", gender_=" + gender_ +
+                ", abilities_=" + abilities_ +
+                ", skills_=" + skills_ +
+                ", capabilities_=" + capabilities_ +
+                ", notes_='" + notes_ + '\'' +
                 ", species_=" + species_ +
                 ", level_=" + level_ +
                 ", exp_=" + exp_ +
-                ", heldItem_=" + heldItem_ +
+                ", helditem_=" + helditem_ +
                 ", loyalty_=" + loyalty_ +
-                ", gender_=" + gender_ +
                 ", nature_=" + nature_ +
-                ", abilities_=" + abilities_ +
-                ", capabilities_=" + capabilities_ +
-                ", skills_=" + skills_ +
-                ", statBlock_=" + statBlock_ +
-                ", injuries_=" + injuries_ +
                 ", mTTp_=" + mTTp_ +
                 ", uTTp_=" + uTTp_ +
                 ", usedVitamins_=" + usedVitamins_ +
                 ", edges_=" + edges_ +
-                ", base6_=" + base6_ +
-                ", bonus3_=" + bonus3_ +
-                ", connections_=" + connections_ +
-                ", notes_='" + notes_ + '\'' +
+                ", bonusMoves_=" + bonusMoves_ +
+                ", connectionMoves_=" + connectionMoves_ +
                 ", learnable_=" + learnable_ +
                 ", lastLevelUpdated_=" + lastLevelUpdated_ +
                 '}';
+    }
+
+    public void PokePrinter(){
+        System.out.println("PokemonBETA");
+        System.out.println("name_='" + name_);
+        System.out.println("species_=" + species_);
+        System.out.println("types_=" + types_ );
+        System.out.println("level_=" + level_);
+        System.out.println("exp_=" + exp_);
+        System.out.println("statBlock_=" + statBlock_);
+        System.out.println("statics_=" + statics_ );
+        System.out.println("temporary_=" + temporary_);
+        System.out.println("moves_=" + moves_);
+        System.out.println("gender_=" + gender_);
+        System.out.println("abilities_=" + abilities_);
+        System.out.println("skills_=" + skills_);
+        System.out.println("capabilities_=" + capabilities_);
+        System.out.println("notes_='" + notes_);
+        System.out.println("helditem_=" + helditem_);
+        System.out.println("loyalty_=" + loyalty_);
+        System.out.println("nature_=" + nature_);
+        System.out.println("mTTp_=" + mTTp_);
+        System.out.println("uTTp_=" + uTTp_);
+        System.out.println("usedVitamins_=" + usedVitamins_);
+        System.out.println("edges_=" + edges_);
+        System.out.println("bonusMoves_=" + bonusMoves_);
+        System.out.println("connectionMoves_=" + connectionMoves_);
+        System.out.println("learnable_=" + learnable_);
+        System.out.println("lastLevelUpdated_=" + lastLevelUpdated_);
     }
 }

@@ -2,7 +2,7 @@ package Pexam.cute;
 
 
 import Pexam.cute.cuteutility.Database.Dex;
-import Pexam.data.Combatant.Pokemon.PokemonBETA;
+import Pexam.data.Combatant.Pokemon.Pokemon;
 import Pexam.data.Combatant.Pokemon.Species;
 import Pexam.data.Combatant.Trainer.Trainer;
 import Pexam.data.Moves.Moves;
@@ -28,7 +28,7 @@ public class Cute{
 
     private Trainer selected_trainer_;
 
-    private PokemonBETA selected_Pokemon_;
+    private Pokemon selected_Pokemon_;
 
 
 
@@ -142,11 +142,11 @@ public class Cute{
     }
 
     public void change_selected_Pokemon_fromTeam(String in){
-        this.selected_Pokemon_ = selected_trainer_.getTeam().get(selected_trainer_.getTeam().indexOf(new PokemonBETA(in)));
+        this.selected_Pokemon_ = selected_trainer_.getTeam().get(selected_trainer_.getTeam().indexOf(new Pokemon(in)));
     }
 
     public void change_selected_Pokemon_fromBox(String in){
-        this.selected_Pokemon_ = selected_trainer_.getBox().get(selected_trainer_.getBox().indexOf(new PokemonBETA(in)));
+        this.selected_Pokemon_ = selected_trainer_.getBox().get(selected_trainer_.getBox().indexOf(new Pokemon(in)));
 
     }
 
