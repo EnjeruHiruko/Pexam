@@ -21,9 +21,9 @@ public class Combatant {
 
     protected StatBlock statBlock_;
 
-    protected ArrayList<Effect> statics_;
+    protected ArrayList<Effect> perm_present_;
 
-    protected ArrayList<Effect> temporary_;
+    protected ArrayList<Effect> temp_present_;
 
     protected ArrayList<Moves> moves_;
 
@@ -43,8 +43,8 @@ public class Combatant {
         this.name_ = "";
         this.skills_ = new ArrayList<>();
         this.statBlock_ = new StatBlock(new int[6]);
-        this.statics_ = new ArrayList<>();
-        this.temporary_ = new ArrayList<>();
+        this.perm_present_ = new ArrayList<>();
+        this.temp_present_ = new ArrayList<>();
         this.types_ = new ArrayList<>();
         this.moves_ = new ArrayList<>();
         this.gender_ = Gender.all;
@@ -143,6 +143,10 @@ public class Combatant {
         String result = "";
 
         return result;
+    }
+
+    public void eval_Effects(){
+
     }
 
 
