@@ -1,5 +1,6 @@
 package Pexam.ui.custom_parts.MM;
 
+import Pexam.Main;
 import Pexam.ui.UserInterface;
 import Pexam.ui.custom_parts.MM.parts.MM_Button;
 import javafx.geometry.Insets;
@@ -48,7 +49,7 @@ public class TitleScreen {
 
         //Events
         btn_exit.setOnAction(e -> System.exit(1));
-        btn_lGame.setOnAction(e -> UserInterface.change_scene(1));
+        btn_lGame.setOnAction(e -> Main.change_scene(1));
 
         left_lower.getChildren().addAll(btn_lGame, btn_nGame, btn_settings,btn_Rules,btn_about, btn_exit);
         menu_left.getChildren().addAll(left_upper, left_lower);

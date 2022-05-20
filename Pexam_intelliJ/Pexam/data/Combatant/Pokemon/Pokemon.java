@@ -473,8 +473,8 @@ public class Pokemon extends Combatant {
                 "name_='" + name_ + '\'' +
                 ", types_=" + types_ +
                 ", statBlock_=" + statBlock_ +
-                ", statics_=" + statics_ +
-                ", temporary_=" + temporary_ +
+                ", statics_=" + perm_present_ +
+                ", temporary_=" + temp_present_ +
                 ", moves_=" + moves_ +
                 ", gender_=" + gender_ +
                 ", abilities_=" + abilities_ +
@@ -506,8 +506,8 @@ public class Pokemon extends Combatant {
         System.out.println("level_=" + level_);
         System.out.println("exp_=" + exp_);
         System.out.println("statBlock_=" + statBlock_);
-        System.out.println("statics_=" + statics_ );
-        System.out.println("temporary_=" + temporary_);
+        System.out.println("statics_=" + perm_present_ );
+        System.out.println("temporary_=" + temp_present_);
         System.out.println("moves_=" + moves_);
         System.out.println("gender_=" + gender_);
         System.out.println("abilities_=" + abilities_);

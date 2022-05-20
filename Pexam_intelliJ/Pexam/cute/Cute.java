@@ -44,9 +44,9 @@ public class Cute{
 
     public Cute(String path){
         this();
-        this.currentWorld_ =path;
+        this.currentWorld_ =path.trim();
         try {
-            this.database_ = new Dex(path, "All");
+            this.database_ = new Dex(currentWorld_, "All");
         }catch(Exception e){
             e.printStackTrace();
             System.out.println("there is no such World saved");
@@ -65,6 +65,10 @@ public class Cute{
         }catch (Exception e){
             e.printStackTrace();
         }
+    }
+
+    private void load_trainer_fromWorld(){
+        load_Trainer(currentWorld_);
     }
 
     public void save_World(){

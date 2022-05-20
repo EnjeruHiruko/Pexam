@@ -6,7 +6,6 @@ import Pexam.data.Combatant.Pokemon.Species;
 import Pexam.data.Moves.Moves;
 
 import java.io.BufferedWriter;
-import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -24,20 +23,20 @@ public class Dex {
 
     private List<Species> pokeDex_;
 
-    private String worldpath_;
+    private String world_path_;
 
-    public Dex(String worldpath , String in){
-        this.config_ = new WorldConfiguration(worldpath);
+    public Dex(String world_path , String in){
+        this.config_ = new WorldConfiguration(world_path);
         this.moveList_ = new ArrayList<>();
         this.abilityList_ = new ArrayList<>();
         this.pokeDex_ = new ArrayList<>();
-        createDex(worldpath, in, false);
+        createDex(world_path, in, false);
         updateDex();
     }
 
     public void createDex(String worldpath , String param, boolean print){
 
-        this.worldpath_ = worldpath;
+        this.world_path_ = worldpath;
 
         if(param.equalsIgnoreCase("Moves") || param.equalsIgnoreCase("all")) {
 
@@ -124,7 +123,7 @@ public class Dex {
     }
 
     public void controlPrintMoveDex(){
-        Path dispatch = Paths.get("../Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/"+worldpath_+"/control_print.txt");
+        Path dispatch = Paths.get("../Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/"+ world_path_ +"/control_print.txt");
         String result = "";
         for(Moves moves : this.moveList_){
             result += moves.toPrint();

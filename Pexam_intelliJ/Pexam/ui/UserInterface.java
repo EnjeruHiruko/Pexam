@@ -1,50 +1,77 @@
 package Pexam.ui;
 
-import Pexam.ui.custom_parts.MM.TitleScreen;
-import Pexam.ui.custom_parts.PC.Creator;
-import Pexam.ui.custom_parts.PC.team_viewer.PokemonEditor;
-import javafx.application.Application;
+import Pexam.cute.Cute;
+import Pexam.ui.Scenes.MainMenu.Scene_MainMenu;
+import Pexam.ui.Scenes.Teams.Scene_Teams;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.io.File;
+import java.io.FilenameFilter;
+import java.util.ArrayList;
+import java.util.Arrays;
+
 // testing of javafx for better usage later on
-public class UserInterface extends Application { //todo this will be eventually moved to the main method
+public class UserInterface extends Stage{
 
-    private static Stage mainStage_;
+    private static Scene_MainMenu mainMenu;
 
-    private static Scene mm_;
+    private static Scene_Teams teams;
 
-    private static Scene pc_;
+    private static ArrayList<String> world_paths;
 
-    private static Scene pv_;
+    private static Cute backend;
 
-    public static void main(String[] args){
-        launch(args);
+    public UserInterface(){
+        super();
+        mainMenu = new Scene_MainMenu();
+        teams = new Scene_Teams();
+        this.setTitle("Pexam WIP");
+        this.setScene(mainMenu.getScene());
+        createPaths();
+        this.setActions();
+
     }
 
-    public static void change_scene(int value){
+    public void change_scene(int value, double width, double height){
         switch (value){
-            case 0: mainStage_.setScene(mm_);break;
-            case 1: mainStage_.setScene(pc_);break;
+            case 0: this.setScene(mainMenu.getScene());break;
+            case 1: this.setScene(teams.getScene());break;
+        }
+    }
+    public Cute backendAccess(){
+        return backend;
+    }
+
+    private void createPaths(){
+        try {
+            File temp = new File("../Pexam/Pexam_intelliJ/Pexam/cute/cuteutility/versions/");
+            String[] directories = temp.list(new FilenameFilter() {
+                @Override
+                public boolean accept(File dir, String name) {
+                    return new File(dir,name).isDirectory();
+                }
+            });
+            assert directories != null;
+            world_paths = new ArrayList<>(Arrays.asList(directories));
+
+        }catch (Exception e){
+            e.printStackTrace();
         }
     }
 
-    @Override
-    public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("Pexam WIP");
-        primaryStage.setMaxWidth(1920);
-        primaryStage.setMaxHeight(1080);
-        primaryStage.setMinWidth(1920);
-        primaryStage.setMinHeight(1080);
-
-        // initialize Scenes
-        mainStage_ = primaryStage;
-        mm_ = new TitleScreen().getScene();
-        pc_ = new Creator().getScene();
-        pv_ = new PokemonEditor().getScene();
-
-        mainStage_.setScene(mm_);
-        mainStage_.show();
-
+    public ArrayList<String> getPaths(){
+        return world_paths;
     }
+
+    private void setActions(){
+        mainMenu.getLeft_menu().getBtn_lg().setOnAction(e -> change_scene(1,mainMenu.getScene().getWidth(),mainMenu.getScene().getHeight()));
+        teams.getL_menu().getBtn_return().setOnAction(event -> change_scene(0,teams.getScene().getWidth(),teams.getScene().getHeight()));
+    }
+
+    private void resizeStage(double width, double height){
+        this.setWidth(width);
+        this.setHeight(height);
+    }
+
 }

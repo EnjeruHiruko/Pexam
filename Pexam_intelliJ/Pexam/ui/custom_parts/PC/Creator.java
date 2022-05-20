@@ -1,21 +1,28 @@
 package Pexam.ui.custom_parts.PC;
 
+import Pexam.Main;
 import Pexam.cute.Cute;
 import Pexam.data.Combatant.Trainer.Trainer;
 import Pexam.ui.UserInterface;
 import Pexam.ui.custom_parts.MM.parts.MM_Button;
 import Pexam.ui.custom_parts.PC.md_viewer.md_Viewer;
 import Pexam.ui.custom_parts.PC.parts.prompt_window;
+import Pexam.ui.custom_parts.PC.parts.window_stackpane_background;
 import Pexam.ui.custom_parts.PC.pd_viewer.Pd_Viewer;
+import Pexam.ui.custom_parts.PC.pd_viewer.pd_Prieview;
 import Pexam.ui.custom_parts.PC.team_viewer.t_viewer;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.GridPane;
-import javafx.scene.layout.VBox;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.layout.*;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Rectangle;
+
+import java.awt.*;
 
 public class Creator {
 
@@ -92,27 +99,26 @@ public class Creator {
 
 
         // center menu
-        BorderPane c_m = new BorderPane();
-        c_m.setStyle("-fx-background-color: white");
-        c_m.setPadding(new Insets(10,10,10,0));
-        c_m.setMaxSize(1620,1020);
-        GridPane center_menu = new GridPane();
-        center_menu.setStyle("-fx-background-color: #121212");
-        c_m.getChildren().add(center_menu);
+        StackPane middle = new window_stackpane_background(new TilePane());
+        StackPane md_view = new window_stackpane_background(new md_Viewer());
+        StackPane t_view = new window_stackpane_background(new t_viewer());
+        StackPane pd_view = new window_stackpane_background(new Pd_Viewer());
+
+
 
         //Events from sidebar
         btn_return.setOnAction(e -> {
             //test_.save_World(); todo confirmation to save the current state before leaving
-            UserInterface.change_scene(0);
+            Main.change_scene(0);
         });
         btn_Pokemon.setOnAction(e -> {
             if(!(layout.getCenter() instanceof Pd_Viewer)){
-                layout.setCenter(new Pd_Viewer());
+                layout.setCenter(pd_view);
             }
         });
         btn_Moves.setOnAction(e -> {
             if(!(layout.getCenter() instanceof md_Viewer)) {
-                layout.setCenter(new md_Viewer());
+                layout.setCenter(md_view);
             }
         });
         cb_trainer_select.setOnAction(e -> {
@@ -122,14 +128,25 @@ public class Creator {
                     test_.new_Trainer(val);
                     cb_trainer_select.getItems().add(val);
                     cb_trainer_select.setValue(val);
-                    layout.setCenter(new t_viewer());
+                    layout.setCenter(t_view);
                 }//todo resetting the choiceBox
             } else if (cb_trainer_select.getValue().equals("   ")) {
 
-                layout.setCenter(center_menu);
+                layout.setCenter(middle);
             } else{ //todo saving changed values if another trainer was edited
                 test_.change_selected_Trainer(cb_trainer_select.getValue());
-                layout.setCenter(new t_viewer());
+                layout.setCenter(t_view);
+            }
+        });
+        c_lbl_trainer.setOnMouseClicked(e -> {
+            if (cb_trainer_select.getValue() != null) {
+                if(!cb_trainer_select.getValue().equals("   ")) {
+                    layout.setCenter(t_view);
+                }else{
+                    layout.setCenter(middle);
+                }
+            }else{
+                layout.setCenter(middle);
             }
         });
 
@@ -150,7 +167,7 @@ public class Creator {
 
 
 
-
+        layout.setCenter(middle);
         Group root = new Group(layout);
 
         this.scene = new Scene(root);
